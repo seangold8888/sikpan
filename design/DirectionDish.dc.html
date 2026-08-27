@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@700;900&family=IBM+Plex+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap">
+  <style>
+    body { margin: 0; font-family: "IBM Plex Sans KR", "Malgun Gothic", sans-serif; }
+    a { color: #1B4DD8; } a:hover { color: #143AA6; }
+  </style>
+</helmet>
+<div style="width: 1080px; background: #E8E9EC; color: #191C21; padding: 26px 30px 34px; box-sizing: border-box; display: flex; flex-direction: column; gap: 18px">
+
+  <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #191C21; padding-bottom: 12px">
+    <div style="font-family: 'Gothic A1', sans-serif; font-weight: 900; font-size: 26px">오늘 뭐 먹지 <span style="font-size: 14px; font-weight: 700; color: #5B626D">— 메뉴가 먼저, 식당은 다음</span></div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; color: #1B4DD8">8/27 목 · 메인 52가지</div>
+  </div>
+
+  <div style="display: flex; gap: 8px">
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #191C21; color: #E8E9EC; border-radius: 4px; padding: 7px 14px">전체 52</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 4px; padding: 7px 14px">치킨</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 4px; padding: 7px 14px">돼지</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 4px; padding: 7px 14px">소</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 4px; padding: 7px 14px">해물</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 4px; padding: 7px 14px">면·양식</div>
+    <div style="font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 12px; background: #FBE9E6; border: 1px solid #C82A19; color: #C82A19; border-radius: 4px; padding: 7px 14px">매운 것</div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px">
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="jjimdak.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">안동찜닭</div>
+        <div style="font-size: 12px; color: #5B626D">더소울푸드 · 우림라이온스밸리 B</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">외 3메인 · 10찬</div>
+      </div>
+    </div>
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="jeyuk.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">고추장제육볶음 <span style="font-family: 'JetBrains Mono', monospace; font-size: 9.5px; font-weight: 700; color: #C82A19; background: #FBE9E6; border-radius: 3px; padding: 2px 5px; vertical-align: 2px">매움</span></div>
+        <div style="font-size: 12px; color: #5B626D">쿡플러스 · 대륭포스트 5차</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">7,500원 · 9찬</div>
+      </div>
+    </div>
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="yangnyeom-chicken.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">간장치킨</div>
+        <div style="font-size: 12px; color: #5B626D">그래도 집밥 · 옆 건물</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">7,500원 · 7찬</div>
+      </div>
+    </div>
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="bulgogi.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">직화바싹불고기</div>
+        <div style="font-size: 12px; color: #5B626D">다시봄 · 가산어반워크 2층</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">외 2메인 · 11찬</div>
+      </div>
+    </div>
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="donkatsu.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">고구마치즈등심돈까스</div>
+        <div style="font-size: 12px; color: #5B626D">라온푸드 · 가산비즈니스센터</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">외 3메인 · 11찬</div>
+      </div>
+    </div>
+    <div style="background: #FDFDFD; border: 1px solid #C9CDD4; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column">
+      <img src="curry.jpg" style="width: 100%; height: 130px; object-fit: cover" alt="">
+      <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <div style="font-weight: 700; font-size: 15.5px">가정식카레라이스</div>
+        <div style="font-size: 12px; color: #5B626D">씽씽푸드 · 대륭테크노 22차</div>
+        <div style="font-family: 'JetBrains Mono', monospace; font-size: 11.5px; color: #1B4DD8; font-weight: 700">외 1메인 · 10찬</div>
+      </div>
+    </div>
+    <div style="background: #F2F3F5; border: 1px dashed #C9CDD4; border-radius: 10px; display: flex; align-items: center; justify-content: center; min-height: 196px">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #8B929C; text-align: center">+ 46가지<br>계속</div>
+    </div>
+    <div style="background: #F2F3F5; border: 1px dashed #C9CDD4; border-radius: 10px; display: flex; align-items: center; justify-content: center; min-height: 196px">
+      <div style="font-size: 12px; color: #8B929C; text-align: center; padding: 0 16px">사진 없는 메뉴는<br>텍스트 카드로</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

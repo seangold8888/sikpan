@@ -10,10 +10,10 @@
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
 :root{
-  --ground:#E8E9EC; --tray:#FDFDFD; --tray-edge:#C9CDD4; --tray-inset:#F2F3F5;
+  --ground:#E8E9EC; --tray:#FDFDFD; --tray-edge:#C9CDD4; --tray-inset:#F2F3F5; --row-alt:#F7F8FA;
   --ink:#191C21; --ink-2:#5B626D; --ink-3:#8B929C;
   --accent:#1B4DD8; --accent-wash:#E7EDFD;
   --heat:#C82A19; --heat-wash:#FBE9E6;
@@ -22,7 +22,7 @@
   --shadow:0 1px 0 #FFF inset, 0 1px 2px rgba(16,20,28,.07), 0 8px 20px -12px rgba(16,20,28,.30);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31; --row-alt:#20242A;
   --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
   --accent:#7BA0FF; --accent-wash:#1E2A45;
   --heat:#FF8A72; --heat-wash:#3A211B;
@@ -31,7 +31,7 @@
   --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
 }}
 :root[data-theme="dark"]{
-  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31; --row-alt:#20242A;
   --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
   --accent:#7BA0FF; --accent-wash:#1E2A45;
   --heat:#FF8A72; --heat-wash:#3A211B;
@@ -43,86 +43,104 @@
 body{margin:0;background:var(--ground);color:var(--ink);
   font-family:"IBM Plex Sans KR","Apple SD Gothic Neo",system-ui,sans-serif;line-height:1.5;
   padding:0 16px 72px}
-.wrap{max-width:1240px;margin:0 auto}
+.wrap{max-width:1180px;margin:0 auto}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
 
-header{padding:36px 0 22px;border-bottom:2px solid var(--ink)}
+header{padding:34px 0 18px;border-bottom:2px solid var(--ink)}
 .topline{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
 h1{margin:0;font-family:"Gothic A1","Archivo",sans-serif;font-weight:900;
-  font-size:clamp(28px,4.6vw,42px);letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
+  font-size:clamp(26px,4.4vw,38px);letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
 h1 .en{display:block;font-family:"Archivo",sans-serif;font-weight:700;font-size:.42em;
-  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:8px}
-.stamp{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.1em;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:7px}
+.stamp{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.08em;
   color:var(--accent);border:1.5px solid var(--accent);border-radius:3px;padding:5px 9px;white-space:nowrap}
-.deck{margin:16px 0 0;color:var(--ink-2);font-size:15px;max-width:62ch}
-.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:16px 0 24px;
-  border-bottom:1px solid var(--rule);margin-bottom:26px}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:14px 0 20px}
 .seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:4px;overflow:hidden}
 .seg button{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12.5px;letter-spacing:.08em;
   background:transparent;color:var(--ink);border:0;padding:8px 14px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
 .seg button+button{border-left:1.5px solid var(--ink)}
-input[type=search]{flex:1;min-width:190px;background:var(--tray);border:1.5px solid var(--tray-edge);
+input[type=search]{flex:1;min-width:180px;background:var(--tray);border:1.5px solid var(--tray-edge);
   border-radius:4px;padding:9px 12px;color:var(--ink);font:inherit;font-size:14px}
 input[type=search]::placeholder{color:var(--ink-3)}
 .count{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
-button:focus-visible,input:focus-visible,.shot:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
-.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
-  background:var(--rule);border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-bottom:26px}
-.num{background:var(--tray);padding:12px 14px}
-.num .v{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:19px;letter-spacing:-.02em}
-.num .v small{font-size:11px;font-weight:500;color:var(--ink-3)}
-.num .k{font-size:11px;color:var(--ink-2);margin-top:2px;line-height:1.35}
-.statline{display:flex;gap:5px;flex-wrap:wrap}
-.statline span{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.03em;
-  color:var(--ink-2);background:var(--tray-inset);border:1px solid var(--rule);border-radius:3px;padding:2px 6px}
-.statline span.per{color:var(--accent);border-color:var(--accent)}
 .banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
-  padding:12px 16px;margin-bottom:20px;font-size:14px;color:var(--warn)}
-details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
-  padding:14px 18px;margin-bottom:26px}
-details.primer summary{cursor:pointer;font-weight:700;font-size:14.5px;color:var(--accent)}
-details.primer p{margin:12px 0 0;font-size:14px;color:var(--ink-2);max-width:70ch}
+  padding:12px 16px;margin-bottom:18px;font-size:14px;color:var(--warn)}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
-.tray{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
-  padding:20px;display:flex;flex-direction:column;gap:14px}
-.tray.stale{opacity:.66}
-.hd{display:flex;flex-direction:column;gap:7px}
-.nm{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.nm h2{margin:0;font-family:"Gothic A1",sans-serif;font-weight:900;font-size:19.5px;letter-spacing:-.01em}
-.nm .sec{display:block;font-family:"Archivo",sans-serif;font-weight:500;font-size:12.5px;
-  letter-spacing:.02em;color:var(--ink-3);margin-top:3px}
-.won{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;color:var(--ink);white-space:nowrap}
-.won small{display:block;font-size:10px;color:var(--ink-3);font-weight:500;text-align:right;letter-spacing:.04em}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:14px}
+.hcard{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
+  padding:16px 18px;display:flex;flex-direction:column;gap:9px;border-top:4px solid var(--accent)}
+.hcard.heat{border-top-color:var(--heat)}
+.hcard.pick{border-top-color:var(--pick)}
+.hcard .hlbl{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--accent)}
+.hcard.heat .hlbl{color:var(--heat)}
+.hcard.pick .hlbl{color:var(--pick)}
+.hcard .hbody{display:flex;align-items:center;gap:13px}
+.hcard img{width:68px;height:68px;border-radius:8px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0}
+.hcard .hname{font-family:"Gothic A1",sans-serif;font-weight:900;font-size:18px;line-height:1.15}
+.hcard .hnum{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;color:var(--accent);margin-top:2px}
+.hcard.heat .hnum{color:var(--heat)}
+.hcard.pick .hnum{color:var(--pick)}
+.hcard .hsub{font-size:12.5px;color:var(--ink-2)}
+.statline{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em;
+  margin-bottom:18px;display:flex;gap:14px;flex-wrap:wrap}
+.statline b{color:var(--ink-2);font-weight:700}
+
+.list{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);overflow:hidden}
+.lhead{display:flex;align-items:center;gap:12px;padding:11px 18px;border-bottom:1.5px solid var(--ink);background:var(--tray-inset)}
+.lhead .t{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--ink-2)}
+.lhead .h{margin-left:auto;font-size:12px;color:var(--ink-3)}
+details.lrow{border-bottom:1px dashed var(--rule)}
+details.lrow:last-child{border-bottom:none}
+details.lrow:nth-child(even){background:var(--row-alt)}
+details.lrow.dim summary{opacity:.6}
+summary.lsum{display:flex;align-items:center;gap:13px;padding:12px 18px;cursor:pointer;list-style:none}
+summary.lsum::-webkit-details-marker{display:none}
+summary.lsum:hover{background:var(--accent-wash)}
+.lidx{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12px;color:var(--ink-3);width:18px;flex-shrink:0}
+.lwho{width:172px;flex-shrink:0;display:flex;flex-direction:column}
+.lwho .n{font-weight:700;font-size:14.5px;line-height:1.25}
+.lwho .b{font-size:11px;color:var(--ink-3)}
+.lpic{width:42px;height:42px;border-radius:6px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0;background:var(--tray-inset)}
+.lmain{flex:1;min-width:0;display:flex;flex-direction:column}
+.lmain .m{font-weight:700;font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lmain .s{font-size:11.5px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lnum{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-2);width:104px;text-align:right;flex-shrink:0}
+.lwon{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:13.5px;width:52px;text-align:right;flex-shrink:0}
+.ltag{font-family:"JetBrains Mono",monospace;font-size:9.5px;font-weight:700;letter-spacing:.05em;
+  border-radius:3px;padding:2px 5px;white-space:nowrap}
+.ltag.pick{background:var(--pick-wash);color:var(--pick)}
+.ltag.warn{background:var(--warn-wash);color:var(--warn)}
+.ltag.stale{background:var(--tray-inset);color:var(--ink-3)}
+
+.ldetail{padding:4px 18px 18px 49px;display:flex;flex-direction:column;gap:13px}
 .where{font-size:13px;color:var(--ink-2)}
 .where a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
 .where a:hover{text-decoration:underline}
-.tags{display:flex;gap:6px;flex-wrap:wrap}
-.tag{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.07em;
-  padding:3px 7px;border-radius:3px;text-transform:uppercase}
-.tag.pick{background:var(--pick-wash);color:var(--pick)}
-.tag.stale{background:var(--tray-inset);color:var(--ink-3)}
-.tag.offdate{background:var(--warn-wash);color:var(--warn)}
-.mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--rule)}
-.mains .row{display:flex;align-items:center;gap:10px;padding:8px 0}
-.dpic{width:52px;height:52px;flex-shrink:0;border-radius:6px;object-fit:cover;
-  border:1px solid var(--tray-edge);background:var(--tray-inset)}
-.mains .row+.row{border-top:1px dotted var(--rule)}
-.mains .dish{font-weight:600;font-size:15.5px;letter-spacing:-.005em}
-.mains .sec2{font-size:12.5px;color:var(--ink-2)}
-.hot{font-size:10px;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--heat);
-  background:var(--heat-wash);border-radius:3px;padding:2px 5px;letter-spacing:.05em;white-space:nowrap}
-.sides{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px}
-.sides li{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:3px;padding:3px 8px}
 .lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink)}
+.mains .row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dotted var(--rule)}
+.dpic{width:48px;height:48px;flex-shrink:0;border-radius:6px;object-fit:cover;
+  border:1px solid var(--tray-edge);background:var(--tray-inset)}
+.mains .dish{font-weight:700;font-size:14.5px}
+.mains .sec2{font-size:12px;color:var(--ink-2)}
+.hot{font-size:10px;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--heat);
+  background:var(--heat-wash);border-radius:3px;padding:2px 5px;letter-spacing:.05em;white-space:nowrap;margin-left:auto}
+.sides{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px}
+.sides li{font-size:12px;color:var(--ink-2);background:var(--tray-inset);border-radius:3px;padding:3px 8px}
 .note{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:5px;padding:9px 11px}
-.shot{margin-top:auto;display:block;width:100%;border:0;padding:0;background:none;cursor:zoom-in;border-radius:6px}
-.shot img{width:100%;display:block;border-radius:6px;border:1px solid var(--tray-edge);filter:saturate(.94)}
-.shot .cap{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--ink-3);
-  text-transform:uppercase;margin-top:6px;text-align:left;display:block}
+.shotbtn{display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:11px;
+  font-weight:700;letter-spacing:.06em;color:var(--accent);background:none;border:1.5px solid var(--accent);
+  border-radius:4px;padding:6px 12px;cursor:pointer;align-self:flex-start}
+.shotbtn:hover{background:var(--accent-wash)}
+
+details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
+  padding:13px 17px;margin-top:22px}
+details.primer summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--accent)}
+details.primer p{margin:11px 0 0;font-size:13.5px;color:var(--ink-2);max-width:70ch}
 
 dialog{border:0;padding:0;background:transparent;max-width:min(94vw,760px);max-height:92vh}
 dialog::backdrop{background:rgba(10,12,16,.86)}
@@ -131,10 +149,15 @@ dialog .close{position:sticky;top:0;margin-left:auto;display:block;background:va
   border:0;border-radius:4px;padding:7px 12px;font-family:"JetBrains Mono",monospace;font-size:12px;
   font-weight:700;cursor:pointer;margin-bottom:8px}
 
-footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px;
-  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
-footer a{color:var(--ink-2)}
-@media (prefers-reduced-motion:no-preference){.tray{transition:box-shadow .16s ease}}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:720px){
+  .lwho{width:118px}
+  .lnum{display:none}
+  .lmain .s{display:none}
+  .ldetail{padding-left:18px}
+}
 </style>
 </head>
 <body>
@@ -144,7 +167,6 @@ footer a{color:var(--ink-2)}
     <h1>가산 런치보드<span class="en">Gasan Lunch Board</span></h1>
     <div class="stamp mono" id="stamp"></div>
   </div>
-  <p class="deck" id="deck"></p>
 </header>
 
 <div class="bar">
@@ -157,15 +179,14 @@ footer a{color:var(--ink-2)}
 </div>
 
 <div id="banner"></div>
-
-<div class="nums" id="nums"></div>
+<div class="hero" id="hero"></div>
+<div class="statline" id="statline"></div>
+<div class="list" id="list"></div>
 
 <details class="primer">
   <summary id="primerSum"></summary>
   <div id="primerBody"></div>
 </details>
-
-<div class="grid" id="grid"></div>
 
 <footer>
   <span id="photoNote" style="flex-basis:100%"></span>
@@ -179,27 +200,22 @@ footer a{color:var(--ink-2)}
 <script>
 const DATA = __PAYLOAD__;
 let lang = "ko";
+const open = new Set();
 
 const T = {
   ko:{
     search:"메뉴·식당·건물 검색 (예: 치킨, 제육, 대륭)",
     count:n=>`${n}곳`,
-    mains:"오늘의 메인",
-    sides:"함께 나오는 것",
-    shot:"원본 메뉴판 보기",
-    directions:"길찾기",
-    won:"원", ticket:"식권",
-    pick:n=>`추천 ${n}위`,
-    stale:"오늘 메뉴 미게시",
-    noMenu:"메뉴 자동 수집 안 됨",
+    heroValue:"오늘의 가성비", heroMains:"오늘의 메인 부자", heroPick:"대표님 추천 1위",
+    perItem:w=>`${w.toLocaleString()}원/품목`, dishes:n=>`${n}찬`, mainsN:n=>`메인 ${n}가지`,
+    statPlaces:n=>`오늘 ${n}곳 게시`, statAvg:v=>`평균 ${v}찬`, statOverlap:o=>`겹치는 메뉴 ${o.map(x=>x.ko).join("·")}`,
+    listTitle:"전체 목록", listHint:"행을 누르면 전체 메뉴",
+    mains:"오늘의 메인", sides:"함께 나오는 것", shot:"원본 메뉴판 보기", directions:"길찾기",
+    etc:n=>` 외 ${n}`, spicy:"매움",
+    pick:n=>`추천 ${n}위`, stale:"메뉴 미게시", noMenu:"자동 수집 안 됨",
     noItems:"오늘 메뉴가 아직 올라오지 않았습니다.",
-    nums:{places:"오늘 메뉴 게시",avg:"평균 반찬 가짓수",best:"품목당 단가 최저",mains:"메인 최다",overlap:"오늘 겹치는 메뉴"},
-    statChips:s=>[`${s.count}품목`,`메인 ${s.mains}`,s.proteinCount?`단백질 ${s.proteins.join("·")}`:null,
-      s.wonPerItem?`${s.wonPerItem.toLocaleString()}원/품목`:null,s.freeExtra?"셀프코너":null],
     offdate:d=>`${d} 메뉴판`,
     offdateNote:d=>`이 식당이 올린 메뉴판은 <b>${d}</b> 기준입니다. 오늘 메뉴는 다를 수 있습니다.`,
-    spicy:"매움",
-    deck:"서울 가산디지털단지 구내식당의 오늘 메뉴. 대부분 <b>7,500원</b>이고, 그 건물에 근무하지 않아도 누구나 들어가 먹을 수 있습니다.",
     oldWarn:d=>`게시된 메뉴가 <b>${d}</b> 기준입니다. 오늘 메뉴는 아직 올라오지 않았습니다.`,
     primerSum:"한국 구내식당, 처음이라면",
     primer:[
@@ -208,30 +224,24 @@ const T = {
       "점심은 보통 <b>11:10~14:00</b>, 12시부터 1시가 가장 붐빕니다. 다 먹은 식판은 반납대에 직접 갖다 놓습니다.",
       "매운맛 표시는 메뉴 이름에서 자동으로 추정한 참고 표시입니다. 알레르기나 종교적 식이 제한이 있다면 반드시 현장에서 확인하세요."
     ],
-    foot1:"메뉴는 각 식당이 카카오톡 채널에 올린 게시물 기준 · 재료 수급에 따라 변경될 수 있습니다",
     photoNote:"요리 옆 작은 사진은 그 요리가 일반적으로 어떤 모습인지 보여주는 참고 사진(Wikimedia Commons)입니다. 실제 배식과 다를 수 있습니다.",
+    foot1:"메뉴는 각 식당이 카카오톡 채널에 올린 게시물 기준 · 재료 수급에 따라 변경될 수 있습니다",
     foot2:d=>`마지막 갱신 ${d}`
   },
   en:{
     search:"Search dishes, cafeterias or buildings",
     count:n=>`${n} places`,
-    mains:"Today's mains",
-    sides:"Served alongside",
-    shot:"View the original board",
-    directions:"Walking route",
-    won:"KRW", ticket:"ticket",
-    pick:n=>`Local pick #${n}`,
-    stale:"Board not posted today",
-    noMenu:"Menu not collected",
+    heroValue:"Best value today", heroMains:"Most mains today", heroPick:"Local pick #1",
+    perItem:w=>`₩${w.toLocaleString()}/item`, dishes:n=>`${n} items`, mainsN:n=>`${n} main dishes`,
+    statPlaces:n=>`${n} menus posted today`, statAvg:v=>`avg ${v} dishes`, statOverlap:o=>`served at multiple places: ${o.map(x=>x.ko).join(", ")}`,
+    listTitle:"All cafeterias", listHint:"Tap a row for the full menu",
+    mains:"Today's mains", sides:"Served alongside", shot:"View the original board", directions:"Walking route",
+    etc:n=>` +${n} more`, spicy:"SPICY",
+    pick:n=>`Local pick #${n}`, stale:"No board today", noMenu:"Not auto-collected",
     noItems:"Today's menu has not been posted yet.",
-    nums:{places:"menus posted today",avg:"avg. dishes per tray",best:"lowest cost per dish",mains:"most main dishes",overlap:"served at multiple places"},
-    statChips:s=>[`${s.count} items`,`${s.mains} main${s.mains === 1 ? "" : "s"}`,s.proteinCount?`protein x${s.proteinCount}`:null,
-      s.wonPerItem?`₩${s.wonPerItem.toLocaleString()}/item`:null,s.freeExtra?"self-serve corner":null],
     offdate:d=>`Board dated ${d}`,
     offdateNote:d=>`The board this cafeteria posted is dated <b>${d}</b>, not today. What is actually served may differ.`,
-    spicy:"SPICY",
-    deck:"Today's menus from the office cafeterias of Seoul's Gasan Digital Complex. Most cost <b>7,500 won</b> (about US$5.50), and anyone can walk in — you don't need to work in the building.",
-    oldWarn:d=>`The board on display is dated <b>${d}</b>. Today's menu is not up yet.`,
+    oldWarn:d=>`The boards on display are dated <b>${d}</b>. Today's menus are not up yet.`,
     primerSum:"First time in a Korean office cafeteria?",
     primer:[
       "Most cafeterias in the Gasan Digital Complex are <b>open to anyone</b>. You do not need to work in the building to walk in and eat.",
@@ -239,113 +249,151 @@ const T = {
       "Lunch runs roughly <b>11:10–14:00</b>, busiest from noon to 1pm. When you finish, you carry your own tray to the return counter.",
       "The spicy marks are guessed from dish names and are a rough guide only. If you have allergies or religious dietary restrictions, always confirm on site."
     ],
-    foot1:"Menus as posted by each cafeteria to its KakaoTalk channel · subject to change with ingredient supply",
     photoNote:"The small photos are reference images from Wikimedia Commons showing what each dish typically looks like — not the actual serving.",
+    foot1:"Menus as posted by each cafeteria to its KakaoTalk channel · subject to change with ingredient supply",
     foot2:d=>`Last updated ${d}`
   }
 };
 
-const grid = document.getElementById("grid");
 const lb = document.getElementById("lb"), lbImg = document.getElementById("lbImg");
 document.getElementById("lbClose").onclick = () => lb.close();
 lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nm = (r) => lang === "ko" ? r.ko : (r.en || r.ko);
+const firstDishImg = r => {
+  for (const i of r.items) if (i.main && i.dish && DATA.dishImages[i.dish]) return DATA.dishImages[i.dish].thumb;
+  for (const i of r.items) if (i.dish && DATA.dishImages[i.dish]) return DATA.dishImages[i.dish].thumb;
+  return null;
+};
+const shortAddr = a => a ? a.replace(/^서울(특별시)?\s*금천구\s*/, "").replace(/^(디지털로|가산디지털\d로|벚꽃로|서부샛길)\S*\s*/, "").replace(/^[\d-]+\s*/, "") : "";
+
+function heroHtml(){
+  const t = T[lang], N = DATA.todayNumbers || {};
+  const by = k => DATA.restaurants.find(r => r.ko === k);
+  const cards = [];
+  if (N.bestPerItem){
+    const r = by(N.bestPerItem.ko), img = r && firstDishImg(r);
+    cards.push(`<div class="hcard"><div class="hlbl">${esc(t.heroValue)}</div><div class="hbody">
+      ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+      <div><div class="hname">${esc(lang === "ko" ? N.bestPerItem.ko : (N.bestPerItem.en || N.bestPerItem.ko))}</div>
+      <div class="hnum">${esc(t.perItem(N.bestPerItem.won))}${r && r.stats ? ` · ${esc(t.dishes(r.stats.count))}` : ""}</div></div></div></div>`);
+  }
+  if (N.mostMains){
+    const r = by(N.mostMains.ko), img = r && firstDishImg(r);
+    const names = r ? r.items.filter(i => i.main).slice(0, 3).map(i => lang === "ko" ? i.ko : i.en).join(" · ") : "";
+    cards.push(`<div class="hcard heat"><div class="hlbl">${esc(t.heroMains)}</div><div class="hbody">
+      ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+      <div><div class="hname">${esc(lang === "ko" ? N.mostMains.ko : (N.mostMains.en || N.mostMains.ko))}</div>
+      <div class="hnum">${esc(t.mainsN(N.mostMains.n))}</div></div></div>
+      ${names ? `<div class="hsub">${esc(names)}</div>` : ""}</div>`);
+  }
+  const p1 = DATA.restaurants.find(r => r.pick === 1);
+  if (p1){
+    const tip = lang === "ko" ? p1.tipKo : p1.tipEn;
+    cards.push(`<div class="hcard pick"><div class="hlbl">${esc(t.heroPick)}</div><div class="hbody">
+      <div><div class="hname">${esc(nm(p1))}</div>
+      <div class="hnum">${p1.price ? p1.price.toLocaleString() + (lang === "ko" ? "원" : " KRW") : ""}</div></div></div>
+      ${tip ? `<div class="hsub">${esc(tip)}</div>` : ""}</div>`);
+  }
+  return cards.join("");
+}
+
+function rowHtml(r, idx){
+  const t = T[lang];
+  const mains = r.items.filter(i => i.main), sidesArr = r.items.filter(i => !i.main);
+  const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
+  const tags = [];
+  if (r.pick) tags.push(`<span class="ltag pick">${esc(t.pick(r.pick))}</span>`);
+  if (boardDate) tags.push(`<span class="ltag warn">${esc(t.offdate(boardDate))}</span>`);
+  if (!r.items.length) tags.push(`<span class="ltag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
+
+  const thumb = firstDishImg(r);
+  const mainNames = mains.slice(0, 2).map(i => lang === "ko" ? i.ko : i.en).join(" · ")
+    + (mains.length > 2 ? t.etc(mains.length - 2) : "");
+  const sideNames = sidesArr.slice(0, 3).map(i => lang === "ko" ? i.ko : i.en).join(" · ")
+    + (sidesArr.length > 3 ? t.etc(sidesArr.length - 3) : "");
+  const addr = lang === "ko" ? r.address : (r.addressEn || r.address);
+  const tip = lang === "ko" ? r.tipKo : r.tipEn;
+  const hours = lang === "ko" ? r.hoursKo : r.hoursEn;
+
+  const detail = `
+    <div class="ldetail">
+      ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
+      ${addr ? `<div class="where">📍 ${esc(addr)}${r.directions ? ` · <a href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}${hours ? ` · <span class="mono" style="font-size:12px">${esc(hours)}</span>` : ""}</div>` : ""}
+      ${!r.items.length && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
+      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => {
+        const di = i.dish && DATA.dishImages[i.dish];
+        return `<div class="row">${di ? `<img class="dpic" src="${esc(di.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer"
+          onerror="this.remove()" title="${esc((di.author ? di.author + " · " : "") + di.license + " · Wikimedia Commons")}">` : ""}
+          <div><div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
+          <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div></div>
+          ${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`;
+      }).join("")}</div></div>` : ""}
+      ${sidesArr.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sidesArr.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
+      ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
+      ${r.img ? `<button class="shotbtn" data-id="${esc(r.id)}">${esc(t.shot)}</button>` : ""}
+    </div>`;
+
+  return `<details class="lrow${r.items.length ? "" : " dim"}" data-id="${esc(r.id)}"${open.has(r.id) ? " open" : ""}>
+    <summary class="lsum">
+      <span class="lidx">${idx}</span>
+      <span class="lwho"><span class="n">${esc(nm(r))}</span><span class="b">${esc(shortAddr(r.address) || (lang === "ko" ? r.en || "" : r.ko))}</span></span>
+      ${thumb ? `<img class="lpic" src="${esc(thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : `<span class="lpic"></span>`}
+      <span class="lmain"><span class="m">${esc(mainNames || (r.manual ? "—" : ""))}</span><span class="s">${esc(sideNames)}</span></span>
+      ${tags.join("")}
+      <span class="lnum">${r.stats ? esc(t.dishes(r.stats.count)) + (r.stats.wonPerItem ? " · " + esc(t.perItem(r.stats.wonPerItem)) : "") : ""}</span>
+      <span class="lwon">${r.price ? r.price.toLocaleString() : ""}</span>
+    </summary>
+    ${detail}
+  </details>`;
+}
 
 function render(){
   const t = T[lang];
   document.documentElement.lang = lang;
   document.getElementById("stamp").textContent = lang === "ko" ? DATA.dateKo : DATA.dateEn;
-  document.getElementById("deck").innerHTML = t.deck;
   document.getElementById("q").placeholder = t.search;
   document.getElementById("primerSum").textContent = t.primerSum;
   document.getElementById("primerBody").innerHTML = t.primer.map(p => `<p>${p}</p>`).join("");
-  document.getElementById("foot1").textContent = t.foot1;
   document.getElementById("photoNote").textContent = t.photoNote;
+  document.getElementById("foot1").textContent = t.foot1;
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
   document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
   document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
-
-  const N = DATA.todayNumbers || {};
-  const numCells = [];
-  if (N.places) numCells.push([N.places, t.nums.places]);
-  if (N.avgItems) numCells.push([N.avgItems, t.nums.avg]);
-  if (N.bestPerItem) numCells.push([`₩${N.bestPerItem.won.toLocaleString()}`,
-    `${t.nums.best} — ${lang === "ko" ? N.bestPerItem.ko : (N.bestPerItem.en || N.bestPerItem.ko)}`]);
-  if (N.mostMains) numCells.push([N.mostMains.n, `${t.nums.mains} — ${lang === "ko" ? N.mostMains.ko : (N.mostMains.en || N.mostMains.ko)}`]);
-  if (N.overlap && N.overlap.length) numCells.push([`${N.overlap[0].n}×`,
-    `${t.nums.overlap} — ${N.overlap.map(o => o.ko).join(", ")}`]);
-  document.getElementById("nums").innerHTML = numCells
-    .map(([v, k]) => `<div class="num"><div class="v">${v}</div><div class="k">${esc(k)}</div></div>`).join("");
-
   document.getElementById("banner").innerHTML = DATA.sourceIsOld
     ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
 
   const term = document.getElementById("q").value.trim().toLowerCase();
-  grid.innerHTML = "";
-  let shown = 0;
+  document.getElementById("hero").innerHTML = term ? "" : heroHtml();
 
-  for (const r of DATA.restaurants){
+  const N = DATA.todayNumbers || {};
+  const stats = [];
+  if (N.places) stats.push(`<b>${esc(t.statPlaces(N.places))}</b>`);
+  if (N.avgItems) stats.push(esc(t.statAvg(N.avgItems)));
+  if (N.overlap && N.overlap.length) stats.push(esc(t.statOverlap(N.overlap)));
+  document.getElementById("statline").innerHTML = term ? "" : stats.join('<span style="color:var(--rule)">|</span>');
+
+  let shown = 0, rows = "";
+  DATA.restaurants.forEach(r => {
     const hay = [r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ").toLowerCase();
-    if (term && !hay.includes(term)) continue;
+    if (term && !hay.includes(term)) return;
     shown++;
-
-    const name = lang === "ko" ? r.ko : (r.en || r.ko);
-    const sec  = lang === "ko" ? [r.en, r.gloss].filter(Boolean).join(" ") : r.ko;
-    const addr = lang === "ko" ? r.address : (r.addressEn || r.address);
-    const tip  = lang === "ko" ? r.tipKo : r.tipEn;
-    const hours = lang === "ko" ? r.hoursKo : r.hoursEn;
-    const mains = r.items.filter(i => i.main);
-    const sides = r.items.filter(i => !i.main);
-    const stale = !r.items.length;
-
-    const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
-
-    const tags = [];
-    if (r.pick) tags.push(`<span class="tag pick">${esc(t.pick(r.pick))}</span>`);
-    if (stale) tags.push(`<span class="tag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
-    if (boardDate) tags.push(`<span class="tag offdate">${esc(t.offdate(boardDate))}</span>`);
-
-    const card = document.createElement("article");
-    card.className = "tray" + (stale ? " stale" : "");
-    card.innerHTML = `
-      <div class="hd">
-        <div class="nm">
-          <h2>${esc(name)}<span class="sec">${esc(sec)}</span></h2>
-          ${r.price ? `<span class="won">${r.price.toLocaleString()}<small>${esc(r.price === 8000 ? t.ticket : t.won)}</small></span>` : ""}
-        </div>
-        ${addr ? `<div class="where">${esc(addr)}${r.directions ? ` · <a href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}</div>` : ""}
-        ${hours ? `<div class="where mono" style="font-size:12px">${esc(hours)}</div>` : ""}
-        ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
-      </div>
-      ${r.stats ? `<div class="statline">${t.statChips(r.stats).filter(Boolean).map(c => `<span${c.includes("/") ? ' class="per"' : ""}>${esc(c)}</span>`).join("")}</div>` : ""}
-      ${stale && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
-      ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
-      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => {
-        const di = i.dish && DATA.dishImages[i.dish];
-        return `
-        <div class="row">${di ? `<img class="dpic" src="${esc(di.thumb)}" alt="" loading="lazy"
-          referrerpolicy="no-referrer" onerror="this.remove()"
-          title="${esc((di.author ? di.author + " · " : "") + di.license + " · Wikimedia Commons")}">` : ""}<div style="flex:1">
-          <div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
-          <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div>
-        </div>${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`;
-      }).join("")}</div></div>` : ""}
-      ${sides.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sides.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
-      ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
-      ${r.img ? `<button class="shot" data-id="${esc(r.id)}">
-        <img src="${esc(r.img)}" alt="${esc(name)} menu board" loading="lazy"
-             referrerpolicy="no-referrer" onerror="this.closest('.shot').remove()">
-        <span class="cap">${esc(t.shot)}</span></button>` : ""}`;
-    grid.appendChild(card);
-  }
+    rows += rowHtml(r, shown);
+  });
   document.getElementById("count").textContent = t.count(shown);
+  document.getElementById("list").innerHTML =
+    `<div class="lhead"><span class="t">${esc(t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
 
-  grid.querySelectorAll(".shot").forEach(b => {
-    b.onclick = () => {
+  document.querySelectorAll("details.lrow").forEach(d => {
+    d.addEventListener("toggle", () => { d.open ? open.add(d.dataset.id) : open.delete(d.dataset.id); });
+  });
+  document.querySelectorAll(".shotbtn").forEach(b => {
+    b.onclick = (e) => {
+      e.preventDefault();
       const r = DATA.restaurants.find(x => x.id === b.dataset.id);
       lbImg.src = r.img;
-      lbImg.alt = (lang === "ko" ? r.ko : r.en) + " menu board";
+      lbImg.alt = nm(r) + " menu board";
       lb.showModal();
     };
   });

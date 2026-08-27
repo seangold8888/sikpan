@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1240, "h": 1000, "title": "결정 보드 (추천)" },
+    { "file": "DirectionTable.dc.html", "x": 1360, "y": 0, "w": 1080, "h": 620, "title": "시세표" },
+    { "file": "DirectionDish.dc.html", "x": 1360, "y": 780, "w": 1080, "h": 800, "title": "메뉴 우선" }
+  ],
+  "annotations": [
+    { "id": "direction-note", "x": 0, "y": -170, "w": 460, "text": "리디자인 3방향 — 같은 데이터, 다른 스캔 전략\n① 결정 보드: 위에서 답 3개 먼저, 아래 전체 행 목록\n② 시세표: 회계사 감성 압축 표, 숫자 비교 최강\n③ 메뉴 우선: 식당 아닌 요리 단위, 사진이 주인공\n마음에 드는 쪽 알려주면 그 방향으로 실제 사이트 개편" }
+  ],
+  "launch": { "view": "canvas" }
+}
