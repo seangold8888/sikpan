@@ -11,6 +11,9 @@ import pathlib
 import re
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import menu_stats
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 KST = datetime.timezone(datetime.timedelta(hours=9))
 
@@ -132,6 +135,8 @@ def main():
             "tipEn": p.get("tipEn"),
             "notes": ocr.get("notes") if not items else None,
             "items": items,
+            "stats": menu_stats.summarize(items, p.get("price") or ocr.get("price"),
+                                          ocr.get("notes")) if items else None,
         })
 
     for e in extras:
@@ -145,6 +150,27 @@ def main():
             "notes": None, "manual": True, "items": [],
         })
 
+    # 오늘 하루를 요약하는 숫자들. 값을 모르는 곳은 빼고 계산하고, 몇 곳 기준인지 함께 적는다.
+    menus = [r for r in out if r["items"]]
+    priced = [r for r in menus if r.get("price")]
+    rare = menu_stats.rarity([r["items"] for r in menus])
+    # 밥·김치·샐러드처럼 어디나 있는 것이 겹치는 건 정보가 아니다. 요리가 겹칠 때만 보여준다.
+    STAPLE = ("밥", "김치", "샐러드", "깍두기", "음료", "숭늉", "차")
+    overlap = [{"ko": k, "n": n} for k, n in rare.most_common(10)
+               if n >= 2 and not any(w in k for w in STAPLE)][:3]
+    best_per_item = min(priced, key=lambda r: r["stats"]["wonPerItem"]) if priced else None
+    most_mains = max(menus, key=lambda r: r["stats"]["mains"]) if menus else None
+    today_numbers = {
+        "places": len(menus),
+        "avgItems": round(sum(r["stats"]["count"] for r in menus) / len(menus), 1) if menus else None,
+        "pricedPlaces": len(priced),
+        "bestPerItem": {"ko": best_per_item["ko"], "en": best_per_item.get("en"),
+                        "won": best_per_item["stats"]["wonPerItem"]} if best_per_item else None,
+        "mostMains": {"ko": most_mains["ko"], "en": most_mains.get("en"),
+                      "n": most_mains["stats"]["mains"]} if most_mains else None,
+        "overlap": overlap,
+    }
+
     # 추천이 붙은 곳을 앞에, 그다음 오늘 메뉴가 제대로 올라온 곳, 그다음 나머지.
     out.sort(key=lambda r: (r.get("pick") or 99, not r["items"], bool(r.get("boardDate")), r["ko"]))
 
@@ -155,6 +181,7 @@ def main():
         "sourceDate": src.get("sourceDate"),
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),
+        "todayNumbers": today_numbers,
         "restaurants": out,
     }
 

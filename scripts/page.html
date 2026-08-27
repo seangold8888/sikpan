@@ -68,6 +68,16 @@ input[type=search]::placeholder{color:var(--ink-3)}
 .count{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
 button:focus-visible,input:focus-visible,.shot:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:8px;overflow:hidden;margin-bottom:26px}
+.num{background:var(--tray);padding:12px 14px}
+.num .v{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:19px;letter-spacing:-.02em}
+.num .v small{font-size:11px;font-weight:500;color:var(--ink-3)}
+.num .k{font-size:11px;color:var(--ink-2);margin-top:2px;line-height:1.35}
+.statline{display:flex;gap:5px;flex-wrap:wrap}
+.statline span{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.03em;
+  color:var(--ink-2);background:var(--tray-inset);border:1px solid var(--rule);border-radius:3px;padding:2px 6px}
+.statline span.per{color:var(--accent);border-color:var(--accent)}
 .banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
   padding:12px 16px;margin-bottom:20px;font-size:14px;color:var(--warn)}
 details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
@@ -146,6 +156,8 @@ footer a{color:var(--ink-2)}
 
 <div id="banner"></div>
 
+<div class="nums" id="nums"></div>
+
 <details class="primer">
   <summary id="primerSum"></summary>
   <div id="primerBody"></div>
@@ -178,6 +190,9 @@ const T = {
     stale:"오늘 메뉴 미게시",
     noMenu:"메뉴 자동 수집 안 됨",
     noItems:"오늘 메뉴가 아직 올라오지 않았습니다.",
+    nums:{places:"오늘 메뉴 게시",avg:"평균 반찬 가짓수",best:"품목당 단가 최저",mains:"메인 최다",overlap:"오늘 겹치는 메뉴"},
+    statChips:s=>[`${s.count}품목`,`메인 ${s.mains}`,s.proteinCount?`단백질 ${s.proteins.join("·")}`:null,
+      s.wonPerItem?`${s.wonPerItem.toLocaleString()}원/품목`:null,s.freeExtra?"셀프코너":null],
     offdate:d=>`${d} 메뉴판`,
     offdateNote:d=>`이 식당이 올린 메뉴판은 <b>${d}</b> 기준입니다. 오늘 메뉴는 다를 수 있습니다.`,
     spicy:"매움",
@@ -205,6 +220,9 @@ const T = {
     stale:"Board not posted today",
     noMenu:"Menu not collected",
     noItems:"Today's menu has not been posted yet.",
+    nums:{places:"menus posted today",avg:"avg. dishes per tray",best:"lowest cost per dish",mains:"most main dishes",overlap:"served at multiple places"},
+    statChips:s=>[`${s.count} items`,`${s.mains} main${s.mains === 1 ? "" : "s"}`,s.proteinCount?`protein x${s.proteinCount}`:null,
+      s.wonPerItem?`₩${s.wonPerItem.toLocaleString()}/item`:null,s.freeExtra?"self-serve corner":null],
     offdate:d=>`Board dated ${d}`,
     offdateNote:d=>`The board this cafeteria posted is dated <b>${d}</b>, not today. What is actually served may differ.`,
     spicy:"SPICY",
@@ -241,6 +259,18 @@ function render(){
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
   document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
   document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
+
+  const N = DATA.todayNumbers || {};
+  const numCells = [];
+  if (N.places) numCells.push([N.places, t.nums.places]);
+  if (N.avgItems) numCells.push([N.avgItems, t.nums.avg]);
+  if (N.bestPerItem) numCells.push([`₩${N.bestPerItem.won.toLocaleString()}`,
+    `${t.nums.best} — ${lang === "ko" ? N.bestPerItem.ko : (N.bestPerItem.en || N.bestPerItem.ko)}`]);
+  if (N.mostMains) numCells.push([N.mostMains.n, `${t.nums.mains} — ${lang === "ko" ? N.mostMains.ko : (N.mostMains.en || N.mostMains.ko)}`]);
+  if (N.overlap && N.overlap.length) numCells.push([`${N.overlap[0].n}×`,
+    `${t.nums.overlap} — ${N.overlap.map(o => o.ko).join(", ")}`]);
+  document.getElementById("nums").innerHTML = numCells
+    .map(([v, k]) => `<div class="num"><div class="v">${v}</div><div class="k">${esc(k)}</div></div>`).join("");
 
   document.getElementById("banner").innerHTML = DATA.sourceIsOld
     ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
@@ -282,6 +312,7 @@ function render(){
         ${hours ? `<div class="where mono" style="font-size:12px">${esc(hours)}</div>` : ""}
         ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
       </div>
+      ${r.stats ? `<div class="statline">${t.statChips(r.stats).filter(Boolean).map(c => `<span${c.includes("/") ? ' class="per"' : ""}>${esc(c)}</span>`).join("")}</div>` : ""}
       ${stale && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
       ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
       ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => `

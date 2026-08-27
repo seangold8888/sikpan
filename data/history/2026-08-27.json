@@ -1,0 +1,1300 @@
+{
+ "date": "2026-08-27",
+ "restaurants": [
+  {
+   "id": "7d927ea8",
+   "ko": "그래도 집밥",
+   "price": 7500,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "간장치킨",
+     "en": "Soy-glazed chicken (Ganjang-chicken)",
+     "main": true
+    },
+    {
+     "ko": "김치콩나물국",
+     "en": "Kimchi bean sprout soup",
+     "main": false
+    },
+    {
+     "ko": "한식잡채",
+     "en": "Japchae (glass noodle stir-fry)",
+     "main": false
+    },
+    {
+     "ko": "가지구이 & 양념장",
+     "en": "Grilled eggplant with seasoning sauce",
+     "main": false
+    },
+    {
+     "ko": "계절나물",
+     "en": "Seasonal namul (seasoned greens)",
+     "main": false
+    },
+    {
+     "ko": "국내산 배추김치",
+     "en": "Domestic napa cabbage kimchi",
+     "main": false
+    },
+    {
+     "ko": "샐러드 · 과일 · 음료",
+     "en": "Salad, fruit, drinks",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 7,
+    "mains": 1,
+    "proteins": [
+     "닭",
+     "해물"
+    ],
+    "proteinCount": 2,
+    "freeExtra": false,
+    "wonPerItem": 1071
+   }
+  },
+  {
+   "id": "5e54a17a",
+   "ko": "다시봄",
+   "price": null,
+   "dateShown": "8월27일 목요일",
+   "items": [
+    {
+     "ko": "직화바싹불고기",
+     "en": "Charcoal-grilled crispy bulgogi",
+     "main": true
+    },
+    {
+     "ko": "뿌링클닭다리살치킨",
+     "en": "Cheese-powder fried chicken thigh",
+     "main": true
+    },
+    {
+     "ko": "순대철판볶음",
+     "en": "Griddled sundae (blood sausage) stir-fry",
+     "main": true
+    },
+    {
+     "ko": "수제치즈김치전",
+     "en": "House cheese kimchi pancake",
+     "main": false
+    },
+    {
+     "ko": "오이송송무침",
+     "en": "Diced cucumber salad",
+     "main": false
+    },
+    {
+     "ko": "싱싱샐러드",
+     "en": "Fresh garden salad",
+     "main": false
+    },
+    {
+     "ko": "깍두기",
+     "en": "Kkakdugi (diced radish kimchi)",
+     "main": false
+    },
+    {
+     "ko": "얼갈이된장국",
+     "en": "Young cabbage doenjang soup",
+     "main": false
+    },
+    {
+     "ko": "상추쌈*쌈장",
+     "en": "Lettuce wraps with ssamjang",
+     "main": false
+    },
+    {
+     "ko": "바나나",
+     "en": "Banana",
+     "main": false
+    },
+    {
+     "ko": "탄산음료*셀프라면",
+     "en": "Soda and self-serve ramyeon",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 11,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "돼지",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "a79716e1",
+   "ko": "대성푸드빌",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "삼겹살 버섯 구이",
+     "en": "Grilled pork belly with mushrooms",
+     "main": true
+    },
+    {
+     "ko": "함박 스테이크 & 소스",
+     "en": "Hamburg steak with sauce",
+     "main": true
+    },
+    {
+     "ko": "소시지 돈육 김치찌개",
+     "en": "Sausage and pork kimchi stew",
+     "main": false
+    },
+    {
+     "ko": "웨지감자 튀김",
+     "en": "Potato wedges",
+     "main": false
+    },
+    {
+     "ko": "도토리묵 냉국",
+     "en": "Chilled acorn jelly soup",
+     "main": false
+    },
+    {
+     "ko": "진미채 무말랭이 무침",
+     "en": "Seasoned dried squid with dried radish",
+     "main": false
+    },
+    {
+     "ko": "미역줄기 볶음",
+     "en": "Stir-fried seaweed stems",
+     "main": false
+    },
+    {
+     "ko": "콩나물 무침",
+     "en": "Seasoned bean sprouts",
+     "main": false
+    },
+    {
+     "ko": "잡곡밥 / 햅쌀밥",
+     "en": "Multigrain rice / new-harvest white rice",
+     "main": false
+    },
+    {
+     "ko": "백김치",
+     "en": "Baek-kimchi (non-spicy)",
+     "main": false
+    },
+    {
+     "ko": "양배추 야채 샐러드 · 탄산음료",
+     "en": "Cabbage salad, soda",
+     "main": false
+    },
+    {
+     "ko": "구수한 누룽지",
+     "en": "Nurungji (scorched rice tea)",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 12,
+    "mains": 2,
+    "proteins": [
+     "돼지",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": false,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "e023a81d",
+   "ko": "더소울푸드",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "안동찜닭",
+     "en": "Andong-style braised chicken (Jjimdak)",
+     "main": true
+    },
+    {
+     "ko": "고구마치즈&모짜치즈등심돈까스",
+     "en": "Sweet potato and mozzarella cheese pork cutlet",
+     "main": true
+    },
+    {
+     "ko": "머쉬룸크림파스타",
+     "en": "Mushroom cream pasta",
+     "main": true
+    },
+    {
+     "ko": "미트볼토마토에그인헬",
+     "en": "Meatball tomato eggs-in-hell",
+     "main": true
+    },
+    {
+     "ko": "소고기무국",
+     "en": "Beef and radish soup",
+     "main": false
+    },
+    {
+     "ko": "철판두부계란부침 & 볶음김치",
+     "en": "Griddled tofu and egg with stir-fried kimchi",
+     "main": false
+    },
+    {
+     "ko": "도토리묵채소무침",
+     "en": "Acorn jelly with vegetables",
+     "main": false
+    },
+    {
+     "ko": "오이스틱 & 파프리카 * 쌈장",
+     "en": "Cucumber and bell pepper sticks with ssamjang",
+     "main": false
+    },
+    {
+     "ko": "백미밥 / 잡곡밥",
+     "en": "White rice / multigrain rice",
+     "main": false
+    },
+    {
+     "ko": "가든샐러드 * 과일드레싱",
+     "en": "Garden salad with fruit dressing",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 10,
+    "mains": 4,
+    "proteins": [
+     "계란",
+     "닭",
+     "돼지",
+     "두부",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 6,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "fd1d0038",
+   "ko": "더푸드스케치",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "데리야끼소스닭볶음",
+     "en": "Teriyaki chicken stir-fry",
+     "main": true
+    },
+    {
+     "ko": "불고기고로케",
+     "en": "Bulgogi croquette",
+     "main": true
+    },
+    {
+     "ko": "토마토라구파스타",
+     "en": "Tomato ragù pasta",
+     "main": true
+    },
+    {
+     "ko": "소고기장터국밥",
+     "en": "Beef market-style gukbap",
+     "main": false
+    },
+    {
+     "ko": "오코노미야키전",
+     "en": "Okonomiyaki-style pancake",
+     "main": false
+    },
+    {
+     "ko": "계란장조림",
+     "en": "Soy-braised eggs",
+     "main": false
+    },
+    {
+     "ko": "참치감자짜글이",
+     "en": "Tuna and potato jjaguli stew",
+     "main": false
+    },
+    {
+     "ko": "브로콜리오이초회",
+     "en": "Broccoli and cucumber in vinegar dressing",
+     "main": false
+    },
+    {
+     "ko": "혼합잡곡밥",
+     "en": "Mixed multigrain rice",
+     "main": false
+    },
+    {
+     "ko": "배추겉절이",
+     "en": "Fresh napa kimchi",
+     "main": false
+    },
+    {
+     "ko": "가든샐러드 · 드레싱 · 음료",
+     "en": "Garden salad, dressing, drinks",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 11,
+    "mains": 3,
+    "proteins": [
+     "계란",
+     "닭",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": false,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "5aeba71b",
+   "ko": "라온푸드",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "갈배양념갈비찜",
+     "en": "Braised marinated short ribs (Galbi-jjim)",
+     "main": true
+    },
+    {
+     "ko": "윙봉후라이드치킨",
+     "en": "Fried chicken wings and drumettes",
+     "main": true
+    },
+    {
+     "ko": "중식마파두부",
+     "en": "Chinese-style mapo tofu",
+     "main": true
+    },
+    {
+     "ko": "셀프비빔밥",
+     "en": "Self-serve bibimbap",
+     "main": true
+    },
+    {
+     "ko": "얼큰짬뽕탕",
+     "en": "Spicy seafood jjamppong soup",
+     "main": false
+    },
+    {
+     "ko": "브로콜리노바르질리아노떡볶이",
+     "en": "Creamy broccoli tteokbokki",
+     "main": false
+    },
+    {
+     "ko": "땅콩연근조림",
+     "en": "Braised lotus root with peanuts",
+     "main": false
+    },
+    {
+     "ko": "오징어젓갈무침",
+     "en": "Seasoned salted squid",
+     "main": false
+    },
+    {
+     "ko": "국산포기김치",
+     "en": "Domestic napa kimchi",
+     "main": false
+    },
+    {
+     "ko": "샐러드 & 드레싱",
+     "en": "Salad and dressing",
+     "main": false
+    },
+    {
+     "ko": "숭늉 & 음료",
+     "en": "Sungnyung (roasted rice water) and drinks",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 11,
+    "mains": 4,
+    "proteins": [
+     "닭",
+     "두부",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "55165eba",
+   "ko": "마이푸드",
+   "price": 7500,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "간장돼지불백",
+     "en": "Soy-marinated grilled pork (Dwaeji-bulbaek)",
+     "main": true
+    },
+    {
+     "ko": "치킨새우카츠 & 케찹",
+     "en": "Chicken-shrimp katsu with ketchup",
+     "main": true
+    },
+    {
+     "ko": "해물완자전",
+     "en": "Seafood patty pancake",
+     "main": true
+    },
+    {
+     "ko": "한식잡채",
+     "en": "Japchae (glass noodle stir-fry)",
+     "main": false
+    },
+    {
+     "ko": "김치순두부찌개",
+     "en": "Kimchi soft-tofu stew",
+     "main": false
+    },
+    {
+     "ko": "건새우호박볶음",
+     "en": "Stir-fried zucchini with dried shrimp",
+     "main": false
+    },
+    {
+     "ko": "치커리겉절이",
+     "en": "Fresh chicory salad",
+     "main": false
+    },
+    {
+     "ko": "고춧잎무말랭이무침 / 포기김치",
+     "en": "Pepper-leaf and dried radish salad / napa kimchi",
+     "main": false
+    },
+    {
+     "ko": "그린샐러드 & 드레싱",
+     "en": "Green salad and dressing",
+     "main": false
+    },
+    {
+     "ko": "잡곡밥 / 백미밥",
+     "en": "Multigrain rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "바나나",
+     "en": "Banana",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 11,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "돼지",
+     "두부",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": true,
+    "wonPerItem": 682
+   }
+  },
+  {
+   "id": "stx_e4c8b703",
+   "ko": "미가stx",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "갈비양념목살구이",
+     "en": "Grilled galbi-marinated pork neck",
+     "main": true
+    },
+    {
+     "ko": "후라이드치킨 & 고추마요소스",
+     "en": "Fried chicken with spicy mayo",
+     "main": true
+    },
+    {
+     "ko": "그릴델리햄볶음",
+     "en": "Stir-fried grilled deli ham",
+     "main": true
+    },
+    {
+     "ko": "얼큰한순살감자탕",
+     "en": "Spicy boneless gamjatang (pork and potato stew)",
+     "main": false
+    },
+    {
+     "ko": "밥도둑들기름두부김치",
+     "en": "Perilla-oil tofu with kimchi",
+     "main": false
+    },
+    {
+     "ko": "한식잡채",
+     "en": "Japchae (glass noodle stir-fry)",
+     "main": false
+    },
+    {
+     "ko": "청경채초장겉절이",
+     "en": "Bok choy in vinegared chili sauce",
+     "main": false
+    },
+    {
+     "ko": "혼합잡곡밥 / 백미밥",
+     "en": "Mixed multigrain rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "백김치",
+     "en": "Baek-kimchi (non-spicy white kimchi)",
+     "main": false
+    },
+    {
+     "ko": "셀프한강라면",
+     "en": "Self-serve Han River ramyeon",
+     "main": false
+    },
+    {
+     "ko": "풋고추 / 양배추쌈 & 쌈장",
+     "en": "Green chilies / cabbage wraps and ssamjang",
+     "main": false
+    },
+    {
+     "ko": "가든샐러드 & 요거트드레싱",
+     "en": "Garden salad with yogurt dressing",
+     "main": false
+    },
+    {
+     "ko": "생과일(바나나)",
+     "en": "Fresh fruit (banana)",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 13,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "돼지",
+     "두부",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "19_63ef1327",
+   "ko": "미가푸드빌 대륭19차",
+   "price": null,
+   "dateShown": "2026년 8월28일 금요일",
+   "items": [
+    {
+     "ko": "돼지고기두루치기",
+     "en": "Spicy stir-fried pork (Duruchigi)",
+     "main": true
+    },
+    {
+     "ko": "치킨까스",
+     "en": "Chicken cutlet",
+     "main": true
+    },
+    {
+     "ko": "미트볼데리야끼볶음",
+     "en": "Teriyaki meatball stir-fry",
+     "main": true
+    },
+    {
+     "ko": "스팸감자조림",
+     "en": "Braised Spam and potato",
+     "main": true
+    },
+    {
+     "ko": "흑미밥 / 백미밥",
+     "en": "Black rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "들깨미역국",
+     "en": "Perilla seaweed soup",
+     "main": false
+    },
+    {
+     "ko": "마카로니콘샐러드",
+     "en": "Macaroni corn salad",
+     "main": false
+    },
+    {
+     "ko": "가지나물무침",
+     "en": "Seasoned eggplant namul",
+     "main": false
+    },
+    {
+     "ko": "무생채무침",
+     "en": "Spicy shredded radish salad",
+     "main": false
+    },
+    {
+     "ko": "한강라면",
+     "en": "Han River self-cook ramyeon",
+     "main": false
+    },
+    {
+     "ko": "그린샐러드 / 배추김치",
+     "en": "Green salad / napa kimchi",
+     "main": false
+    },
+    {
+     "ko": "탄산음료 / 시원한차 / 숭늉",
+     "en": "Soda / cold tea / sungnyung",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 12,
+    "mains": 4,
+    "proteins": [
+     "닭",
+     "돼지",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "8_6d16e754",
+   "ko": "미가푸드빌 에이스8차",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "직화제육볶음",
+     "en": "Flame-grilled spicy pork stir-fry",
+     "main": true
+    },
+    {
+     "ko": "수제순살치킨 (st.교촌)",
+     "en": "House boneless fried chicken, Kyochon style",
+     "main": true
+    },
+    {
+     "ko": "가정식카레라이스",
+     "en": "Home-style curry rice",
+     "main": true
+    },
+    {
+     "ko": "참치김치볶음",
+     "en": "Stir-fried tuna and kimchi",
+     "main": true
+    },
+    {
+     "ko": "콩나물냉국",
+     "en": "Chilled bean sprout soup",
+     "main": false
+    },
+    {
+     "ko": "계란두부전",
+     "en": "Egg and tofu pancake",
+     "main": false
+    },
+    {
+     "ko": "쥐어채볶음",
+     "en": "Stir-fried dried filefish strips",
+     "main": false
+    },
+    {
+     "ko": "콘샐러드",
+     "en": "Corn salad",
+     "main": false
+    },
+    {
+     "ko": "흑미밥 / 백미밥",
+     "en": "Black rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "배추김치",
+     "en": "Napa cabbage kimchi",
+     "main": false
+    },
+    {
+     "ko": "한강라면 / 그린샐러드",
+     "en": "Han River ramyeon / green salad",
+     "main": false
+    },
+    {
+     "ko": "탄산음료 / 시원한차",
+     "en": "Soda / cold tea",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 12,
+    "mains": 4,
+    "proteins": [
+     "계란",
+     "닭",
+     "돼지",
+     "두부",
+     "해물"
+    ],
+    "proteinCount": 5,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "d9380783",
+   "ko": "바른식탁",
+   "price": 8000,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "직화숙주불고기",
+     "en": "Flame-grilled bulgogi with bean sprouts",
+     "main": true
+    },
+    {
+     "ko": "치킨스틱 * 머스타드소스",
+     "en": "Chicken sticks with mustard sauce",
+     "main": true
+    },
+    {
+     "ko": "순대깻잎들깨볶음",
+     "en": "Stir-fried sundae (blood sausage) with perilla",
+     "main": true
+    },
+    {
+     "ko": "얼큰순두부찌개",
+     "en": "Spicy soft-tofu stew",
+     "main": false
+    },
+    {
+     "ko": "카스테라생크림츄러스",
+     "en": "Castella and cream churros",
+     "main": false
+    },
+    {
+     "ko": "간장고추장아찌",
+     "en": "Soy-pickled peppers",
+     "main": false
+    },
+    {
+     "ko": "부추양파겉절이",
+     "en": "Fresh chive and onion salad",
+     "main": false
+    },
+    {
+     "ko": "혼합잡곡밥 / 백미밥",
+     "en": "Mixed multigrain rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "포기김치",
+     "en": "Napa cabbage kimchi",
+     "main": false
+    },
+    {
+     "ko": "셀프한강라면 * 셀프토스트",
+     "en": "Self-serve ramyeon and toast",
+     "main": false
+    },
+    {
+     "ko": "쌈채소 * 풋고추 * 쌈장",
+     "en": "Wrap greens, chilies, ssamjang",
+     "main": false
+    },
+    {
+     "ko": "누룽지 * 탄산음료 * 매실차",
+     "en": "Nurungji, soda, plum tea",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 12,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "돼지",
+     "두부",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 5,
+    "freeExtra": true,
+    "wonPerItem": 667
+   }
+  },
+  {
+   "id": "0113b1a3",
+   "ko": "밥(온)",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "갈비맛돈목살구이",
+     "en": "Galbi-flavored grilled pork neck",
+     "main": true
+    },
+    {
+     "ko": "순살돈까스 * 데미소스",
+     "en": "Boneless pork cutlet with demi-glace",
+     "main": true
+    },
+    {
+     "ko": "해물토마토칠리스파게티",
+     "en": "Seafood tomato chili spaghetti",
+     "main": true
+    },
+    {
+     "ko": "김치콩나물국",
+     "en": "Kimchi bean sprout soup",
+     "main": false
+    },
+    {
+     "ko": "브로콜리빈샐러드",
+     "en": "Broccoli and bean salad",
+     "main": false
+    },
+    {
+     "ko": "부추양파겉절이",
+     "en": "Fresh chive and onion salad",
+     "main": false
+    },
+    {
+     "ko": "배추겉절이김치",
+     "en": "Fresh napa kimchi",
+     "main": false
+    },
+    {
+     "ko": "흰쌀밥 / 검은쌀잡곡밥",
+     "en": "White rice / black multigrain rice",
+     "main": false
+    },
+    {
+     "ko": "양배추샐러드 / 미니찐빵",
+     "en": "Cabbage salad / mini steamed bun",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 9,
+    "mains": 3,
+    "proteins": [
+     "돼지",
+     "해물"
+    ],
+    "proteinCount": 2,
+    "freeExtra": false,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "ed47092f",
+   "ko": "스타밸리푸드포유",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "닭볶음탕",
+     "en": "Spicy braised chicken (Dak-bokkeum-tang)",
+     "main": true
+    },
+    {
+     "ko": "일식소고기덮밥",
+     "en": "Japanese-style beef rice bowl",
+     "main": true
+    },
+    {
+     "ko": "타코야끼",
+     "en": "Takoyaki",
+     "main": true
+    },
+    {
+     "ko": "고기짬뽕국",
+     "en": "Spicy meat jjamppong soup",
+     "main": false
+    },
+    {
+     "ko": "견과류멸치볶음",
+     "en": "Stir-fried anchovies with nuts",
+     "main": false
+    },
+    {
+     "ko": "도토리묵김치무침",
+     "en": "Acorn jelly with kimchi",
+     "main": false
+    },
+    {
+     "ko": "야채겉절이",
+     "en": "Fresh vegetable salad",
+     "main": false
+    },
+    {
+     "ko": "흑미밥 / 백미밥",
+     "en": "Black rice / white rice",
+     "main": false
+    },
+    {
+     "ko": "가든샐러드 & 흑임자드레싱",
+     "en": "Garden salad with black sesame dressing",
+     "main": false
+    },
+    {
+     "ko": "열무김치",
+     "en": "Young radish kimchi",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 10,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": false,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "edd59332",
+   "ko": "씽씽푸드",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "궁중떡갈비소스무침",
+     "en": "Royal-court style tteok-galbi in sauce",
+     "main": true
+    },
+    {
+     "ko": "탕수육 / 소스",
+     "en": "Sweet and sour pork (Tangsuyuk)",
+     "main": true
+    },
+    {
+     "ko": "베이컨크림파스타",
+     "en": "Bacon cream pasta",
+     "main": true
+    },
+    {
+     "ko": "흑돼지김치찌게",
+     "en": "Black pork kimchi stew",
+     "main": true
+    },
+    {
+     "ko": "사과치즈사라다",
+     "en": "Apple and cheese salad",
+     "main": false
+    },
+    {
+     "ko": "시금치나물",
+     "en": "Seasoned spinach",
+     "main": false
+    },
+    {
+     "ko": "양배추 / 옥수수콘 · 건포도",
+     "en": "Cabbage / sweet corn and raisins",
+     "main": false
+    },
+    {
+     "ko": "상추쌈 / 젓갈류",
+     "en": "Lettuce wraps / salted seafood condiments",
+     "main": false
+    },
+    {
+     "ko": "즉석라면코너",
+     "en": "Instant ramyeon corner",
+     "main": false
+    },
+    {
+     "ko": "음료 / 야쿠르트",
+     "en": "Drinks / Yakult",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 10,
+    "mains": 4,
+    "proteins": [
+     "돼지",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "81444959",
+   "ko": "아이밀",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "수제뿌링클치킨 (계육: 국내산)",
+     "en": "House cheese-powder fried chicken (chicken: Korea)",
+     "main": true
+    },
+    {
+     "ko": "두부김칫국",
+     "en": "Tofu kimchi soup",
+     "main": false
+    },
+    {
+     "ko": "국물떡볶이",
+     "en": "Soupy tteokbokki",
+     "main": false
+    },
+    {
+     "ko": "단호박샐러드",
+     "en": "Sweet pumpkin salad",
+     "main": false
+    },
+    {
+     "ko": "고구마줄기볶음",
+     "en": "Stir-fried sweet potato stems",
+     "main": false
+    },
+    {
+     "ko": "양념깻잎지",
+     "en": "Seasoned pickled perilla leaves",
+     "main": false
+    },
+    {
+     "ko": "가든샐러드 & 딸기드레싱",
+     "en": "Garden salad with strawberry dressing",
+     "main": false
+    },
+    {
+     "ko": "국내산 배추겉절이",
+     "en": "Fresh napa kimchi (domestic)",
+     "main": false
+    },
+    {
+     "ko": "백미밥 / 흑미밥",
+     "en": "White rice / black rice",
+     "main": false
+    },
+    {
+     "ko": "셀프비빔밥 / 한강라면",
+     "en": "Self-serve bibimbap / Han River ramyeon",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 10,
+    "mains": 1,
+    "proteins": [
+     "닭",
+     "두부",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": true,
+    "wonPerItem": null
+   }
+  },
+  {
+   "id": "c7f1a82c",
+   "ko": "쿠킹스토리",
+   "price": 7500,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "고추장불고기",
+     "en": "Gochujang bulgogi (spicy marinated beef)",
+     "main": true
+    },
+    {
+     "ko": "수제뿌링클치킨",
+     "en": "House-made cheese-powder fried chicken",
+     "main": true
+    },
+    {
+     "ko": "닭개장",
+     "en": "Spicy shredded chicken soup (Dak-gaejang)",
+     "main": false
+    },
+    {
+     "ko": "밀떡볶이",
+     "en": "Wheat tteokbokki (spicy rice cakes)",
+     "main": false
+    },
+    {
+     "ko": "떡산적스테이크",
+     "en": "Rice cake skewer steak",
+     "main": false
+    },
+    {
+     "ko": "쥐포채조림",
+     "en": "Braised dried filefish strips",
+     "main": false
+    },
+    {
+     "ko": "청경채겉절이",
+     "en": "Fresh bok choy salad",
+     "main": false
+    },
+    {
+     "ko": "부추콩나물무침",
+     "en": "Seasoned chives and bean sprouts",
+     "main": false
+    },
+    {
+     "ko": "배추김치",
+     "en": "Napa cabbage kimchi",
+     "main": false
+    },
+    {
+     "ko": "냉막국수 · 그린샐러드",
+     "en": "Cold buckwheat noodles, green salad",
+     "main": false
+    },
+    {
+     "ko": "이가찐빵 / 탄산음료",
+     "en": "Steamed buns / soda",
+     "main": false
+    },
+    {
+     "ko": "한강라면",
+     "en": "Han River self-cook ramyeon",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 12,
+    "mains": 2,
+    "proteins": [
+     "닭",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 3,
+    "freeExtra": true,
+    "wonPerItem": 625
+   }
+  },
+  {
+   "id": "cb0176ed",
+   "ko": "쿡플러스",
+   "price": 7500,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "고추장제육볶음",
+     "en": "Spicy gochujang pork stir-fry (Jeyuk-bokkeum)",
+     "main": true
+    },
+    {
+     "ko": "치킨새우&새우감자카츠",
+     "en": "Chicken-shrimp and shrimp-potato katsu",
+     "main": true
+    },
+    {
+     "ko": "몽골리안미트볼",
+     "en": "Mongolian-style meatballs",
+     "main": true
+    },
+    {
+     "ko": "한식잡채",
+     "en": "Japchae (glass noodle stir-fry)",
+     "main": false
+    },
+    {
+     "ko": "건새우호박나물",
+     "en": "Zucchini namul with dried shrimp",
+     "main": false
+    },
+    {
+     "ko": "얼갈이열무겉절이",
+     "en": "Fresh young cabbage and radish-green kimchi",
+     "main": false
+    },
+    {
+     "ko": "양념마늘쫑알마늘지 / 깍두기",
+     "en": "Seasoned garlic scapes and pickled garlic / radish kimchi",
+     "main": false
+    },
+    {
+     "ko": "그린샐러드 & 드레싱",
+     "en": "Green salad and dressing",
+     "main": false
+    },
+    {
+     "ko": "시금치된장국",
+     "en": "Spinach doenjang soup",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 9,
+    "mains": 3,
+    "proteins": [
+     "닭",
+     "돼지",
+     "소",
+     "해물"
+    ],
+    "proteinCount": 4,
+    "freeExtra": true,
+    "wonPerItem": 833
+   }
+  },
+  {
+   "id": "a117b56a",
+   "ko": "퍼블릭가산 구내식당",
+   "price": null,
+   "dateShown": "2026년 8월 27일 목요일",
+   "items": [
+    {
+     "ko": "간장찜닭",
+     "en": "Soy-braised chicken (Jjimdak)",
+     "main": true
+    },
+    {
+     "ko": "생선까스 & 타르타르소스",
+     "en": "Fried fish cutlet with tartar sauce",
+     "main": true
+    },
+    {
+     "ko": "잔치국수",
+     "en": "Janchi-guksu (banquet noodle soup)",
+     "main": false
+    }
+   ],
+   "stats": {
+    "count": 3,
+    "mains": 2,
+    "proteins": [
+     "닭",
+     "해물"
+    ],
+    "proteinCount": 2,
+    "freeExtra": false,
+    "wonPerItem": null
+   }
+  }
+ ]
+}
