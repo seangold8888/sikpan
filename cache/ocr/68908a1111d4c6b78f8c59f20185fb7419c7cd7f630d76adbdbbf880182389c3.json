@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "갈비양념목살구이",
+   "en": "Grilled galbi-marinated pork neck",
+   "main": true
+  },
+  {
+   "ko": "후라이드치킨 & 고추마요소스",
+   "en": "Fried chicken with spicy mayo",
+   "main": true
+  },
+  {
+   "ko": "그릴델리햄볶음",
+   "en": "Stir-fried grilled deli ham",
+   "main": true
+  },
+  {
+   "ko": "얼큰한순살감자탕",
+   "en": "Spicy boneless gamjatang (pork and potato stew)",
+   "main": false
+  },
+  {
+   "ko": "밥도둑들기름두부김치",
+   "en": "Perilla-oil tofu with kimchi",
+   "main": false
+  },
+  {
+   "ko": "한식잡채",
+   "en": "Japchae (glass noodle stir-fry)",
+   "main": false
+  },
+  {
+   "ko": "청경채초장겉절이",
+   "en": "Bok choy in vinegared chili sauce",
+   "main": false
+  },
+  {
+   "ko": "혼합잡곡밥 / 백미밥",
+   "en": "Mixed multigrain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "백김치",
+   "en": "Baek-kimchi (non-spicy white kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Han River ramyeon",
+   "main": false
+  },
+  {
+   "ko": "풋고추 / 양배추쌈 & 쌈장",
+   "en": "Green chilies / cabbage wraps and ssamjang",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드 & 요거트드레싱",
+   "en": "Garden salad with yogurt dressing",
+   "main": false
+  },
+  {
+   "ko": "생과일(바나나)",
+   "en": "Fresh fruit (banana)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

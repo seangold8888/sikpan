@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "닭순살고추장볶음",
+   "en": "Boneless chicken in gochujang",
+   "main": true
+  },
+  {
+   "ko": "아쿠아돈까스",
+   "en": "\"Aqua\" pork cutlet",
+   "main": true
+  },
+  {
+   "ko": "스모크햄 * 산적계란전",
+   "en": "Smoked ham and egg skewer pancake",
+   "main": true
+  },
+  {
+   "ko": "북어무국",
+   "en": "Dried pollack and radish soup",
+   "main": false
+  },
+  {
+   "ko": "국물떡볶이 * 순대토핑",
+   "en": "Soupy tteokbokki with sundae topping",
+   "main": false
+  },
+  {
+   "ko": "아몬드멸치볶음",
+   "en": "Stir-fried anchovies with almonds",
+   "main": false
+  },
+  {
+   "ko": "숙주나물부추무침",
+   "en": "Seasoned bean sprouts and chives",
+   "main": false
+  },
+  {
+   "ko": "얼갈이겉절이",
+   "en": "Fresh young cabbage salad",
+   "main": false
+  },
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "한강라면 · 그린샐러드 · 배추김치",
+   "en": "Han River ramyeon, green salad, napa kimchi",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

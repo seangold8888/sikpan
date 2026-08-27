@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "안동찜닭",
+   "en": "Andong-style braised chicken (Jjimdak)",
+   "main": true
+  },
+  {
+   "ko": "고구마치즈&모짜치즈등심돈까스",
+   "en": "Sweet potato and mozzarella cheese pork cutlet",
+   "main": true
+  },
+  {
+   "ko": "머쉬룸크림파스타",
+   "en": "Mushroom cream pasta",
+   "main": true
+  },
+  {
+   "ko": "미트볼토마토에그인헬",
+   "en": "Meatball tomato eggs-in-hell",
+   "main": true
+  },
+  {
+   "ko": "소고기무국",
+   "en": "Beef and radish soup",
+   "main": false
+  },
+  {
+   "ko": "철판두부계란부침 & 볶음김치",
+   "en": "Griddled tofu and egg with stir-fried kimchi",
+   "main": false
+  },
+  {
+   "ko": "도토리묵채소무침",
+   "en": "Acorn jelly with vegetables",
+   "main": false
+  },
+  {
+   "ko": "오이스틱 & 파프리카 * 쌈장",
+   "en": "Cucumber and bell pepper sticks with ssamjang",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 잡곡밥",
+   "en": "White rice / multigrain rice",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드 * 과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  }
+ ],
+ "notes": "셀프코너: 라면 · 토스트 · 음료.",
+ "_model": "seeded-2026-08-27"
+}

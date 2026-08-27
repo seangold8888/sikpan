@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "닭볶음탕",
+   "en": "Spicy braised chicken (Dak-bokkeum-tang)",
+   "main": true
+  },
+  {
+   "ko": "일식소고기덮밥",
+   "en": "Japanese-style beef rice bowl",
+   "main": true
+  },
+  {
+   "ko": "타코야끼",
+   "en": "Takoyaki",
+   "main": true
+  },
+  {
+   "ko": "고기짬뽕국",
+   "en": "Spicy meat jjamppong soup",
+   "main": false
+  },
+  {
+   "ko": "견과류멸치볶음",
+   "en": "Stir-fried anchovies with nuts",
+   "main": false
+  },
+  {
+   "ko": "도토리묵김치무침",
+   "en": "Acorn jelly with kimchi",
+   "main": false
+  },
+  {
+   "ko": "야채겉절이",
+   "en": "Fresh vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드 & 흑임자드레싱",
+   "en": "Garden salad with black sesame dressing",
+   "main": false
+  },
+  {
+   "ko": "열무김치",
+   "en": "Young radish kimchi",
+   "main": false
+  }
+ ],
+ "notes": "원산지: 쌀·닭 국내산, 소고기 미국산, 해물 수입산.",
+ "_model": "seeded-2026-08-27"
+}

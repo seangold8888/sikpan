@@ -1,0 +1,54 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "고추장제육볶음",
+   "en": "Spicy gochujang pork stir-fry (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치킨새우&새우감자카츠",
+   "en": "Chicken-shrimp and shrimp-potato katsu",
+   "main": true
+  },
+  {
+   "ko": "몽골리안미트볼",
+   "en": "Mongolian-style meatballs",
+   "main": true
+  },
+  {
+   "ko": "한식잡채",
+   "en": "Japchae (glass noodle stir-fry)",
+   "main": false
+  },
+  {
+   "ko": "건새우호박나물",
+   "en": "Zucchini namul with dried shrimp",
+   "main": false
+  },
+  {
+   "ko": "얼갈이열무겉절이",
+   "en": "Fresh young cabbage and radish-green kimchi",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑알마늘지 / 깍두기",
+   "en": "Seasoned garlic scapes and pickled garlic / radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "시금치된장국",
+   "en": "Spinach doenjang soup",
+   "main": false
+  }
+ ],
+ "notes": "무료 플러스코너 운영 (복숭아아이스티 · 잼토스트 · 한강라면 · 탄산음료).",
+ "_model": "seeded-2026-08-27"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 8월28일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "돼지고기두루치기",
+   "en": "Spicy stir-fried pork (Duruchigi)",
+   "main": true
+  },
+  {
+   "ko": "치킨까스",
+   "en": "Chicken cutlet",
+   "main": true
+  },
+  {
+   "ko": "미트볼데리야끼볶음",
+   "en": "Teriyaki meatball stir-fry",
+   "main": true
+  },
+  {
+   "ko": "스팸감자조림",
+   "en": "Braised Spam and potato",
+   "main": true
+  },
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "들깨미역국",
+   "en": "Perilla seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "마카로니콘샐러드",
+   "en": "Macaroni corn salad",
+   "main": false
+  },
+  {
+   "ko": "가지나물무침",
+   "en": "Seasoned eggplant namul",
+   "main": false
+  },
+  {
+   "ko": "무생채무침",
+   "en": "Spicy shredded radish salad",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River self-cook ramyeon",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한차 / 숭늉",
+   "en": "Soda / cold tea / sungnyung",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

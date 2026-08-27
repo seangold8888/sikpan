@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "궁중떡갈비소스무침",
+   "en": "Royal-court style tteok-galbi in sauce",
+   "main": true
+  },
+  {
+   "ko": "탕수육 / 소스",
+   "en": "Sweet and sour pork (Tangsuyuk)",
+   "main": true
+  },
+  {
+   "ko": "베이컨크림파스타",
+   "en": "Bacon cream pasta",
+   "main": true
+  },
+  {
+   "ko": "흑돼지김치찌게",
+   "en": "Black pork kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "사과치즈사라다",
+   "en": "Apple and cheese salad",
+   "main": false
+  },
+  {
+   "ko": "시금치나물",
+   "en": "Seasoned spinach",
+   "main": false
+  },
+  {
+   "ko": "양배추 / 옥수수콘 · 건포도",
+   "en": "Cabbage / sweet corn and raisins",
+   "main": false
+  },
+  {
+   "ko": "상추쌈 / 젓갈류",
+   "en": "Lettuce wraps / salted seafood condiments",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramyeon corner",
+   "main": false
+  },
+  {
+   "ko": "음료 / 야쿠르트",
+   "en": "Drinks / Yakult",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

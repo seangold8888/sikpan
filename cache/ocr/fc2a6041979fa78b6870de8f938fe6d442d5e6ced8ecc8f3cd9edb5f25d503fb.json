@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "갈배양념갈비찜",
+   "en": "Braised marinated short ribs (Galbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "윙봉후라이드치킨",
+   "en": "Fried chicken wings and drumettes",
+   "main": true
+  },
+  {
+   "ko": "중식마파두부",
+   "en": "Chinese-style mapo tofu",
+   "main": true
+  },
+  {
+   "ko": "셀프비빔밥",
+   "en": "Self-serve bibimbap",
+   "main": true
+  },
+  {
+   "ko": "얼큰짬뽕탕",
+   "en": "Spicy seafood jjamppong soup",
+   "main": false
+  },
+  {
+   "ko": "브로콜리노바르질리아노떡볶이",
+   "en": "Creamy broccoli tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "땅콩연근조림",
+   "en": "Braised lotus root with peanuts",
+   "main": false
+  },
+  {
+   "ko": "오징어젓갈무침",
+   "en": "Seasoned salted squid",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Domestic napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "숭늉 & 음료",
+   "en": "Sungnyung (roasted rice water) and drinks",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

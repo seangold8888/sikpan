@@ -1,0 +1,24 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "간장찜닭",
+   "en": "Soy-braised chicken (Jjimdak)",
+   "main": true
+  },
+  {
+   "ko": "생선까스 & 타르타르소스",
+   "en": "Fried fish cutlet with tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "잔치국수",
+   "en": "Janchi-guksu (banquet noodle soup)",
+   "main": false
+  }
+ ],
+ "notes": "주간 식단표로 게시된다. 목요일분만 옮김.",
+ "_model": "seeded-2026-08-27"
+}

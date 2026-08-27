@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "직화숙주불고기",
+   "en": "Flame-grilled bulgogi with bean sprouts",
+   "main": true
+  },
+  {
+   "ko": "치킨스틱 * 머스타드소스",
+   "en": "Chicken sticks with mustard sauce",
+   "main": true
+  },
+  {
+   "ko": "순대깻잎들깨볶음",
+   "en": "Stir-fried sundae (blood sausage) with perilla",
+   "main": true
+  },
+  {
+   "ko": "얼큰순두부찌개",
+   "en": "Spicy soft-tofu stew",
+   "main": false
+  },
+  {
+   "ko": "카스테라생크림츄러스",
+   "en": "Castella and cream churros",
+   "main": false
+  },
+  {
+   "ko": "간장고추장아찌",
+   "en": "Soy-pickled peppers",
+   "main": false
+  },
+  {
+   "ko": "부추양파겉절이",
+   "en": "Fresh chive and onion salad",
+   "main": false
+  },
+  {
+   "ko": "혼합잡곡밥 / 백미밥",
+   "en": "Mixed multigrain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면 * 셀프토스트",
+   "en": "Self-serve ramyeon and toast",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 * 풋고추 * 쌈장",
+   "en": "Wrap greens, chilies, ssamjang",
+   "main": false
+  },
+  {
+   "ko": "누룽지 * 탄산음료 * 매실차",
+   "en": "Nurungji, soda, plum tea",
+   "main": false
+  }
+ ],
+ "notes": "식권 8,000원. 이 목록에서 유일하게 8천원대.",
+ "_model": "seeded-2026-08-27"
+}

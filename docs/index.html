@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가산 런치보드 — 오늘의 구내식당 메뉴</title>
+<meta name="description" content="서울 가산디지털단지 구내식당의 오늘 메뉴를 한국어와 영어로. Today's cafeteria menus in Seoul's Gasan Digital Complex, in Korean and English.">
+<meta property="og:title" content="가산 런치보드 / Gasan Lunch Board">
+<meta property="og:description" content="가산디지털단지 구내식당 오늘의 메뉴 · Today's office-cafeteria menus, with English">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  --ground:#E8E9EC; --tray:#FDFDFD; --tray-edge:#C9CDD4; --tray-inset:#F2F3F5;
+  --ink:#191C21; --ink-2:#5B626D; --ink-3:#8B929C;
+  --accent:#1B4DD8; --accent-wash:#E7EDFD;
+  --heat:#C82A19; --heat-wash:#FBE9E6;
+  --rule:#D8DBE1; --pick:#0B7A55; --pick-wash:#E3F3EC;
+  --warn:#8A5A00; --warn-wash:#FBF0DC;
+  --shadow:0 1px 0 #FFF inset, 0 1px 2px rgba(16,20,28,.07), 0 8px 20px -12px rgba(16,20,28,.30);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
+  --accent:#7BA0FF; --accent-wash:#1E2A45;
+  --heat:#FF8A72; --heat-wash:#3A211B;
+  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
+  --warn:#E8B75E; --warn-wash:#332812;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
+  --accent:#7BA0FF; --accent-wash:#1E2A45;
+  --heat:#FF8A72; --heat-wash:#3A211B;
+  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
+  --warn:#E8B75E; --warn-wash:#332812;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:"IBM Plex Sans KR","Apple SD Gothic Neo",system-ui,sans-serif;line-height:1.5;
+  padding:0 16px 72px}
+.wrap{max-width:1240px;margin:0 auto}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+header{padding:36px 0 22px;border-bottom:2px solid var(--ink)}
+.topline{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{margin:0;font-family:"Gothic A1","Archivo",sans-serif;font-weight:900;
+  font-size:clamp(28px,4.6vw,42px);letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
+h1 .en{display:block;font-family:"Archivo",sans-serif;font-weight:700;font-size:.42em;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:8px}
+.stamp{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.1em;
+  color:var(--accent);border:1.5px solid var(--accent);border-radius:3px;padding:5px 9px;white-space:nowrap}
+.deck{margin:16px 0 0;color:var(--ink-2);font-size:15px;max-width:62ch}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:16px 0 24px;
+  border-bottom:1px solid var(--rule);margin-bottom:26px}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:4px;overflow:hidden}
+.seg button{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12.5px;letter-spacing:.08em;
+  background:transparent;color:var(--ink);border:0;padding:8px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.seg button+button{border-left:1.5px solid var(--ink)}
+input[type=search]{flex:1;min-width:190px;background:var(--tray);border:1.5px solid var(--tray-edge);
+  border-radius:4px;padding:9px 12px;color:var(--ink);font:inherit;font-size:14px}
+input[type=search]::placeholder{color:var(--ink-3)}
+.count{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
+button:focus-visible,input:focus-visible,.shot:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+.banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
+  padding:12px 16px;margin-bottom:20px;font-size:14px;color:var(--warn)}
+details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
+  padding:14px 18px;margin-bottom:26px}
+details.primer summary{cursor:pointer;font-weight:700;font-size:14.5px;color:var(--accent)}
+details.primer p{margin:12px 0 0;font-size:14px;color:var(--ink-2);max-width:70ch}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
+.tray{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
+  padding:20px;display:flex;flex-direction:column;gap:14px}
+.tray.stale{opacity:.66}
+.hd{display:flex;flex-direction:column;gap:7px}
+.nm{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.nm h2{margin:0;font-family:"Gothic A1",sans-serif;font-weight:900;font-size:19.5px;letter-spacing:-.01em}
+.nm .sec{display:block;font-family:"Archivo",sans-serif;font-weight:500;font-size:12.5px;
+  letter-spacing:.02em;color:var(--ink-3);margin-top:3px}
+.won{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;color:var(--ink);white-space:nowrap}
+.won small{display:block;font-size:10px;color:var(--ink-3);font-weight:500;text-align:right;letter-spacing:.04em}
+.where{font-size:13px;color:var(--ink-2)}
+.where a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
+.where a:hover{text-decoration:underline}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  padding:3px 7px;border-radius:3px;text-transform:uppercase}
+.tag.pick{background:var(--pick-wash);color:var(--pick)}
+.tag.stale{background:var(--tray-inset);color:var(--ink-3)}
+.tag.offdate{background:var(--warn-wash);color:var(--warn)}
+.mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--rule)}
+.mains .row{display:flex;align-items:baseline;gap:9px;padding:9px 0}
+.mains .row+.row{border-top:1px dotted var(--rule)}
+.mains .dish{font-weight:600;font-size:15.5px;letter-spacing:-.005em}
+.mains .sec2{font-size:12.5px;color:var(--ink-2)}
+.hot{font-size:10px;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--heat);
+  background:var(--heat-wash);border-radius:3px;padding:2px 5px;letter-spacing:.05em;white-space:nowrap}
+.sides{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px}
+.sides li{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:3px;padding:3px 8px}
+.lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+.note{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:5px;padding:9px 11px}
+.shot{margin-top:auto;display:block;width:100%;border:0;padding:0;background:none;cursor:zoom-in;border-radius:6px}
+.shot img{width:100%;display:block;border-radius:6px;border:1px solid var(--tray-edge);filter:saturate(.94)}
+.shot .cap{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--ink-3);
+  text-transform:uppercase;margin-top:6px;text-align:left;display:block}
+
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,760px);max-height:92vh}
+dialog::backdrop{background:rgba(10,12,16,.86)}
+dialog img{width:100%;height:auto;display:block;border-radius:8px;background:#fff}
+dialog .close{position:sticky;top:0;margin-left:auto;display:block;background:var(--ink);color:var(--ground);
+  border:0;border-radius:4px;padding:7px 12px;font-family:"JetBrains Mono",monospace;font-size:12px;
+  font-weight:700;cursor:pointer;margin-bottom:8px}
+
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a{color:var(--ink-2)}
+@media (prefers-reduced-motion:no-preference){.tray{transition:box-shadow .16s ease}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="topline">
+    <h1>가산 런치보드<span class="en">Gasan Lunch Board</span></h1>
+    <div class="stamp mono" id="stamp"></div>
+  </div>
+  <p class="deck" id="deck"></p>
+</header>
+
+<div class="bar">
+  <div class="seg" role="group" aria-label="language">
+    <button id="btnKo" aria-pressed="true">한국어</button>
+    <button id="btnEn" aria-pressed="false">ENGLISH</button>
+  </div>
+  <input type="search" id="q" autocomplete="off">
+  <span class="count mono" id="count"></span>
+</div>
+
+<div id="banner"></div>
+
+<details class="primer">
+  <summary id="primerSum"></summary>
+  <div id="primerBody"></div>
+</details>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  <span id="foot1"></span>
+  <span id="foot2"></span>
+</footer>
+</div>
+
+<dialog id="lb"><button class="close" id="lbClose">ESC ✕</button><img id="lbImg" alt=""></dialog>
+
+<script>
+const DATA = {"dateKo":"2026년 8월 27일 목요일","dateEn":"Thursday, August 27, 2026","sourceDate":"2026년 08월 27일 (목)","sourceIsOld":false,"builtAt":"2026-08-27 10:03 KST","restaurants":[{"id":"chefs","ko":"쉐프의런치타임","en":"Chef's Lunch Time","gloss":null,"address":"서울 금천구 가산디지털1로 165 백상스타타워1차 지하1층","addressEn":"Baeksang Star Tower I, B1, Gasan Digital 1-ro 165, Geumcheon-gu, Seoul","directions":null,"channel":null,"img":null,"price":7500,"pick":1,"hoursKo":null,"hoursEn":null,"tipKo":"현지에서 가장 평이 좋은 곳. 카카오톡 채널이 없어 메뉴는 현장 게시판으로만 확인된다. 1층에 백상김밥이 있는 건물.","tipEn":"The best-regarded of the lot locally. It has no KakaoTalk channel, so the menu is only posted on the board at the entrance. Look for the building with Baeksang Gimbap on the ground floor.","notes":null,"manual":true,"items":[]},{"id":"7d927ea8","ko":"그래도 집밥","boardDate":null,"boardDateEn":null,"en":"Geuraedo Jipbap","gloss":"\"Still, Home Food\"","address":"서울 금천구 디지털로9길 46 이앤씨드림타워7차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdQSp,2AIqjX,%EC%9D%B4%EC%95%A4%EC%94%A8%EB%93%9C%EB%A6%BC%ED%83%80%EC%9B%8C7%EC%B0%A8,18976980,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_xgxlXKG","img":"https://k.kakaocdn.net/dn/ccFJEH/dJMcagzV3oH/98YyuBG4R21lqkkPxWm03K/img_m.jpg","price":7500,"pick":2,"hoursKo":null,"hoursEn":null,"tipKo":"1층에 명가교동짬뽕이 있는 건물. 메뉴판에 다음날 메뉴까지 함께 붙는다.","tipEn":"Look for the building with Myeongga Gyodong Jjamppong on the ground floor. Their board also posts tomorrow's menu.","notes":null,"items":[{"ko":"간장치킨","en":"Soy-glazed chicken (Ganjang-chicken)","main":true,"spicy":false},{"ko":"김치콩나물국","en":"Kimchi bean sprout soup","main":false,"spicy":false},{"ko":"한식잡채","en":"Japchae (glass noodle stir-fry)","main":false,"spicy":false},{"ko":"가지구이 & 양념장","en":"Grilled eggplant with seasoning sauce","main":false,"spicy":false},{"ko":"계절나물","en":"Seasonal namul (seasoned greens)","main":false,"spicy":false},{"ko":"국내산 배추김치","en":"Domestic napa cabbage kimchi","main":false,"spicy":false},{"ko":"샐러드 · 과일 · 음료","en":"Salad, fruit, drinks","main":false,"spicy":false}]},{"id":"c7f1a82c","ko":"쿠킹스토리","boardDate":null,"boardDateEn":null,"en":"Cooking Story","gloss":null,"address":"서울 금천구 디지털로9길 68 대륭포스트타워5차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOFI,2AIsCE,%EB%8C%80%EB%A5%AD%ED%8F%AC%EC%8A%A4%ED%8A%B8%ED%83%80%EC%9B%8C5%EC%B0%A8,18977159,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_xnBzGn","img":"https://k.kakaocdn.net/dn/b9gkem/dJMcaixORCU/1ZZcxPHpVk2ZEi6SYqPe20/img_m.jpg","price":7500,"pick":3,"hoursKo":null,"hoursEn":null,"tipKo":"반찬 가짓수가 가장 많다. 점심시간엔 자리가 좁아 합석할 수도 있다.","tipEn":"The widest spread of side dishes here, but seating is tight at peak lunch and you may share a table.","notes":null,"items":[{"ko":"고추장불고기","en":"Gochujang bulgogi (spicy marinated beef)","main":true,"spicy":true},{"ko":"수제뿌링클치킨","en":"House-made cheese-powder fried chicken","main":true,"spicy":false},{"ko":"닭개장","en":"Spicy shredded chicken soup (Dak-gaejang)","main":false,"spicy":true},{"ko":"밀떡볶이","en":"Wheat tteokbokki (spicy rice cakes)","main":false,"spicy":true},{"ko":"떡산적스테이크","en":"Rice cake skewer steak","main":false,"spicy":false},{"ko":"쥐포채조림","en":"Braised dried filefish strips","main":false,"spicy":false},{"ko":"청경채겉절이","en":"Fresh bok choy salad","main":false,"spicy":false},{"ko":"부추콩나물무침","en":"Seasoned chives and bean sprouts","main":false,"spicy":false},{"ko":"배추김치","en":"Napa cabbage kimchi","main":false,"spicy":false},{"ko":"냉막국수 · 그린샐러드","en":"Cold buckwheat noodles, green salad","main":false,"spicy":false},{"ko":"이가찐빵 / 탄산음료","en":"Steamed buns / soda","main":false,"spicy":false},{"ko":"한강라면","en":"Han River self-cook ramyeon","main":false,"spicy":false}]},{"id":"5e54a17a","ko":"다시봄","boardDate":null,"boardDateEn":null,"en":"Dashibom","gloss":null,"address":"서울 금천구 가산디지털2로 135 가산어반워크 2층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdtkV,2AIq3l,%EA%B0%80%EC%82%B0%EC%96%B4%EB%B0%98%EC%9B%8C%ED%81%AC,1823111605,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_xhNExmn","img":"https://k.kakaocdn.net/dn/ndobi/dJMcaiqXYYe/KVvzYcPJWPFlh7Kzr96oa1/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"직화바싹불고기","en":"Charcoal-grilled crispy bulgogi","main":true,"spicy":false},{"ko":"뿌링클닭다리살치킨","en":"Cheese-powder fried chicken thigh","main":true,"spicy":false},{"ko":"순대철판볶음","en":"Griddled sundae (blood sausage) stir-fry","main":true,"spicy":false},{"ko":"수제치즈김치전","en":"House cheese kimchi pancake","main":false,"spicy":false},{"ko":"오이송송무침","en":"Diced cucumber salad","main":false,"spicy":false},{"ko":"싱싱샐러드","en":"Fresh garden salad","main":false,"spicy":false},{"ko":"깍두기","en":"Kkakdugi (diced radish kimchi)","main":false,"spicy":false},{"ko":"얼갈이된장국","en":"Young cabbage doenjang soup","main":false,"spicy":false},{"ko":"상추쌈*쌈장","en":"Lettuce wraps with ssamjang","main":false,"spicy":false},{"ko":"바나나","en":"Banana","main":false,"spicy":false},{"ko":"탄산음료*셀프라면","en":"Soda and self-serve ramyeon","main":false,"spicy":false}]},{"id":"a79716e1","ko":"대성푸드빌","boardDate":null,"boardDateEn":null,"en":"Daesung Foodville","gloss":null,"address":"서울 금천구 서부샛길 606 대성디폴리스 지식산업센터 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdqxQ,2AIpVf,%EB%94%94%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%85%EC%84%BC%ED%84%B0,18979316,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_iyscG","img":"https://k.kakaocdn.net/dn/bwAyAW/dJMcablbNPU/YMPO3yq0foZEkqJeoP7Pek/img_m.jpg","price":null,"pick":null,"hoursKo":"평일 11:10~14:00 · 토 11:10~13:00","hoursEn":"Weekdays 11:10-14:00, Sat 11:10-13:00","tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"삼겹살 버섯 구이","en":"Grilled pork belly with mushrooms","main":true,"spicy":false},{"ko":"함박 스테이크 & 소스","en":"Hamburg steak with sauce","main":true,"spicy":false},{"ko":"소시지 돈육 김치찌개","en":"Sausage and pork kimchi stew","main":false,"spicy":true},{"ko":"웨지감자 튀김","en":"Potato wedges","main":false,"spicy":false},{"ko":"도토리묵 냉국","en":"Chilled acorn jelly soup","main":false,"spicy":false},{"ko":"진미채 무말랭이 무침","en":"Seasoned dried squid with dried radish","main":false,"spicy":false},{"ko":"미역줄기 볶음","en":"Stir-fried seaweed stems","main":false,"spicy":false},{"ko":"콩나물 무침","en":"Seasoned bean sprouts","main":false,"spicy":false},{"ko":"잡곡밥 / 햅쌀밥","en":"Multigrain rice / new-harvest white rice","main":false,"spicy":false},{"ko":"백김치","en":"Baek-kimchi (non-spicy)","main":false,"spicy":false},{"ko":"양배추 야채 샐러드 · 탄산음료","en":"Cabbage salad, soda","main":false,"spicy":false},{"ko":"구수한 누룽지","en":"Nurungji (scorched rice tea)","main":false,"spicy":false}]},{"id":"e023a81d","ko":"더소울푸드","boardDate":null,"boardDateEn":null,"en":"The Soul Food","gloss":null,"address":"서울 금천구 가산디지털1로 168 우림라이온스밸리 B동 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdFkC,2AIqhz,%EC%9A%B0%EB%A6%BC%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%8A%A4%EB%B0%B8%EB%A6%ACB%EB%8F%99,18981946,PLACE_POI/-/walk?c=19.00,0,0,0,dh","channel":"https://pf.kakao.com/_NHxgEn","img":"https://k.kakaocdn.net/dn/F4ym2/dJMcacLblrB/1sKovfRwWO6EOZTuhcdGgK/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"안동찜닭","en":"Andong-style braised chicken (Jjimdak)","main":true,"spicy":false},{"ko":"고구마치즈&모짜치즈등심돈까스","en":"Sweet potato and mozzarella cheese pork cutlet","main":true,"spicy":false},{"ko":"머쉬룸크림파스타","en":"Mushroom cream pasta","main":true,"spicy":false},{"ko":"미트볼토마토에그인헬","en":"Meatball tomato eggs-in-hell","main":true,"spicy":false},{"ko":"소고기무국","en":"Beef and radish soup","main":false,"spicy":false},{"ko":"철판두부계란부침 & 볶음김치","en":"Griddled tofu and egg with stir-fried kimchi","main":false,"spicy":false},{"ko":"도토리묵채소무침","en":"Acorn jelly with vegetables","main":false,"spicy":false},{"ko":"오이스틱 & 파프리카 * 쌈장","en":"Cucumber and bell pepper sticks with ssamjang","main":false,"spicy":false},{"ko":"백미밥 / 잡곡밥","en":"White rice / multigrain rice","main":false,"spicy":false},{"ko":"가든샐러드 * 과일드레싱","en":"Garden salad with fruit dressing","main":false,"spicy":false}]},{"id":"fd1d0038","ko":"더푸드스케치","boardDate":null,"boardDateEn":null,"en":"The Food Sketch","gloss":null,"address":"서울 금천구 가산디지털1로 196 에이스테크노타워10차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdByS,2AIxEJ,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B81%EB%A1%9C%20196,09545101,ADDRESS_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_nFfwj","img":"https://k.kakaocdn.net/dn/cBRWfg/dJMcaikfwvG/Km9oTwfkQTqR9uDH0mlK31/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"데리야끼소스닭볶음","en":"Teriyaki chicken stir-fry","main":true,"spicy":false},{"ko":"불고기고로케","en":"Bulgogi croquette","main":true,"spicy":false},{"ko":"토마토라구파스타","en":"Tomato ragù pasta","main":true,"spicy":false},{"ko":"소고기장터국밥","en":"Beef market-style gukbap","main":false,"spicy":false},{"ko":"오코노미야키전","en":"Okonomiyaki-style pancake","main":false,"spicy":false},{"ko":"계란장조림","en":"Soy-braised eggs","main":false,"spicy":false},{"ko":"참치감자짜글이","en":"Tuna and potato jjaguli stew","main":false,"spicy":false},{"ko":"브로콜리오이초회","en":"Broccoli and cucumber in vinegar dressing","main":false,"spicy":false},{"ko":"혼합잡곡밥","en":"Mixed multigrain rice","main":false,"spicy":false},{"ko":"배추겉절이","en":"Fresh napa kimchi","main":false,"spicy":false},{"ko":"가든샐러드 · 드레싱 · 음료","en":"Garden salad, dressing, drinks","main":false,"spicy":false}]},{"id":"5aeba71b","ko":"라온푸드","boardDate":null,"boardDateEn":null,"en":"Raon Food","gloss":null,"address":"서울 금천구 가산디지털1로 165 가산비즈니스센터 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdAKO,2AIqx9,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B81%EB%A1%9C%20165,09545101,ADDRESS_POI/-/walk?c=18.00,0,0,0,dh","channel":"https://pf.kakao.com/_Rxkrxfn","img":"https://k.kakaocdn.net/dn/b9jYYL/dJMcacjYnqV/f3xaz0rAWpTTTYx5eYsFlK/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"갈배양념갈비찜","en":"Braised marinated short ribs (Galbi-jjim)","main":true,"spicy":false},{"ko":"윙봉후라이드치킨","en":"Fried chicken wings and drumettes","main":true,"spicy":false},{"ko":"중식마파두부","en":"Chinese-style mapo tofu","main":true,"spicy":true},{"ko":"셀프비빔밥","en":"Self-serve bibimbap","main":true,"spicy":false},{"ko":"얼큰짬뽕탕","en":"Spicy seafood jjamppong soup","main":false,"spicy":true},{"ko":"브로콜리노바르질리아노떡볶이","en":"Creamy broccoli tteokbokki","main":false,"spicy":true},{"ko":"땅콩연근조림","en":"Braised lotus root with peanuts","main":false,"spicy":false},{"ko":"오징어젓갈무침","en":"Seasoned salted squid","main":false,"spicy":false},{"ko":"국산포기김치","en":"Domestic napa kimchi","main":false,"spicy":false},{"ko":"샐러드 & 드레싱","en":"Salad and dressing","main":false,"spicy":false},{"ko":"숭늉 & 음료","en":"Sungnyung (roasted rice water) and drinks","main":false,"spicy":false}]},{"id":"55165eba","ko":"마이푸드","boardDate":null,"boardDateEn":null,"en":"My Food","gloss":null,"address":"서울 금천구 벚꽃로 244 벽산 디지털 밸리 5차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdNjq,2AIh9q,%EB%B2%BD%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%B0%B8%EB%A6%AC5%EC%B0%A8,18981320,PLACE_POI/-/walk?c=16.00,0,0,0,dh","channel":"https://pf.kakao.com/_xaAvxlG","img":"https://k.kakaocdn.net/dn/bsYBKo/dJMcacqRFB2/3Kj4ZOIjhm3InixAeqoVP1/img_m.jpg","price":7500,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"간장돼지불백","en":"Soy-marinated grilled pork (Dwaeji-bulbaek)","main":true,"spicy":false},{"ko":"치킨새우카츠 & 케찹","en":"Chicken-shrimp katsu with ketchup","main":true,"spicy":false},{"ko":"해물완자전","en":"Seafood patty pancake","main":true,"spicy":false},{"ko":"한식잡채","en":"Japchae (glass noodle stir-fry)","main":false,"spicy":false},{"ko":"김치순두부찌개","en":"Kimchi soft-tofu stew","main":false,"spicy":false},{"ko":"건새우호박볶음","en":"Stir-fried zucchini with dried shrimp","main":false,"spicy":false},{"ko":"치커리겉절이","en":"Fresh chicory salad","main":false,"spicy":false},{"ko":"고춧잎무말랭이무침 / 포기김치","en":"Pepper-leaf and dried radish salad / napa kimchi","main":false,"spicy":false},{"ko":"그린샐러드 & 드레싱","en":"Green salad and dressing","main":false,"spicy":false},{"ko":"잡곡밥 / 백미밥","en":"Multigrain rice / white rice","main":false,"spicy":false},{"ko":"바나나","en":"Banana","main":false,"spicy":false}]},{"id":"stx_e4c8b703","ko":"미가stx","boardDate":null,"boardDateEn":null,"en":"Miga STX","gloss":null,"address":"서울특별시 금천구 가산디지털1로 128 STX V-TOWER 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdIof,2AIiGg,STXV%ED%83%80%EC%9B%8C,19575296,PLACE_POI/-/walk?c=16.00,0,0,0,dh","channel":"https://pf.kakao.com/_DWnxlxj","img":"https://k.kakaocdn.net/dn/zmofz/dJMcaf8MRUm/P6q0NMr1Kr6lNIxl1rteKk/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"갈비양념목살구이","en":"Grilled galbi-marinated pork neck","main":true,"spicy":false},{"ko":"후라이드치킨 & 고추마요소스","en":"Fried chicken with spicy mayo","main":true,"spicy":false},{"ko":"그릴델리햄볶음","en":"Stir-fried grilled deli ham","main":true,"spicy":false},{"ko":"얼큰한순살감자탕","en":"Spicy boneless gamjatang (pork and potato stew)","main":false,"spicy":true},{"ko":"밥도둑들기름두부김치","en":"Perilla-oil tofu with kimchi","main":false,"spicy":false},{"ko":"한식잡채","en":"Japchae (glass noodle stir-fry)","main":false,"spicy":false},{"ko":"청경채초장겉절이","en":"Bok choy in vinegared chili sauce","main":false,"spicy":false},{"ko":"혼합잡곡밥 / 백미밥","en":"Mixed multigrain rice / white rice","main":false,"spicy":false},{"ko":"백김치","en":"Baek-kimchi (non-spicy white kimchi)","main":false,"spicy":false},{"ko":"셀프한강라면","en":"Self-serve Han River ramyeon","main":false,"spicy":false},{"ko":"풋고추 / 양배추쌈 & 쌈장","en":"Green chilies / cabbage wraps and ssamjang","main":false,"spicy":false},{"ko":"가든샐러드 & 요거트드레싱","en":"Garden salad with yogurt dressing","main":false,"spicy":false},{"ko":"생과일(바나나)","en":"Fresh fruit (banana)","main":false,"spicy":false}]},{"id":"8_6d16e754","ko":"미가푸드빌 에이스8차","boardDate":null,"boardDateEn":null,"en":"Miga Foodville - Ace Tower VIII","gloss":null,"address":"서울 금천구 가산디지털1로 84 에이스하이엔드타워8차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdMDB,2AI8Tz,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EC%97%90%EC%9D%B4%EC%8A%A4%ED%95%98%EC%9D%B4%EC%97%94%EB%93%9C%ED%83%80%EC%9B%8C8%EC%B0%A8%20%EC%B0%A8%EC%A7%80%EB%B9%84%201%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%86%8C,1418802357,PLACE_POI/-/walk?c=15.00,0,0,0,dh","channel":"https://pf.kakao.com/_icxfpxj","img":"https://k.kakaocdn.net/dn/bz83bR/dJMcag7JRbe/6k30VtSx9dvFRs1lljaxEK/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"직화제육볶음","en":"Flame-grilled spicy pork stir-fry","main":true,"spicy":true},{"ko":"수제순살치킨 (st.교촌)","en":"House boneless fried chicken, Kyochon style","main":true,"spicy":false},{"ko":"가정식카레라이스","en":"Home-style curry rice","main":true,"spicy":false},{"ko":"참치김치볶음","en":"Stir-fried tuna and kimchi","main":true,"spicy":false},{"ko":"콩나물냉국","en":"Chilled bean sprout soup","main":false,"spicy":false},{"ko":"계란두부전","en":"Egg and tofu pancake","main":false,"spicy":false},{"ko":"쥐어채볶음","en":"Stir-fried dried filefish strips","main":false,"spicy":false},{"ko":"콘샐러드","en":"Corn salad","main":false,"spicy":false},{"ko":"흑미밥 / 백미밥","en":"Black rice / white rice","main":false,"spicy":false},{"ko":"배추김치","en":"Napa cabbage kimchi","main":false,"spicy":false},{"ko":"한강라면 / 그린샐러드","en":"Han River ramyeon / green salad","main":false,"spicy":false},{"ko":"탄산음료 / 시원한차","en":"Soda / cold tea","main":false,"spicy":false}]},{"id":"d9380783","ko":"바른식탁","boardDate":null,"boardDateEn":null,"en":"Bareun Siktak","gloss":"\"Right Table\"","address":"서울 금천구 가산디지털1로 131 BYC하이시티 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdDwV,2AIi3K,BYC%ED%95%98%EC%9D%B4%EC%8B%9C%ED%8B%B0,18979666,PLACE_POI/-/walk?c=16.91,0,0,0,dh","channel":"https://pf.kakao.com/_bXxkxhb","img":"https://k.kakaocdn.net/dn/c4uQeQ/dJMcagzVHWG/h1F1oHWmzC5eT0n5a5Eee1/img_m.jpg","price":8000,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":"식권 8,000원. 이 목록에서 가장 비싸다.","tipEn":"Meal ticket 8,000 won, the highest on this list.","notes":null,"items":[{"ko":"직화숙주불고기","en":"Flame-grilled bulgogi with bean sprouts","main":true,"spicy":false},{"ko":"치킨스틱 * 머스타드소스","en":"Chicken sticks with mustard sauce","main":true,"spicy":false},{"ko":"순대깻잎들깨볶음","en":"Stir-fried sundae (blood sausage) with perilla","main":true,"spicy":false},{"ko":"얼큰순두부찌개","en":"Spicy soft-tofu stew","main":false,"spicy":true},{"ko":"카스테라생크림츄러스","en":"Castella and cream churros","main":false,"spicy":false},{"ko":"간장고추장아찌","en":"Soy-pickled peppers","main":false,"spicy":true},{"ko":"부추양파겉절이","en":"Fresh chive and onion salad","main":false,"spicy":false},{"ko":"혼합잡곡밥 / 백미밥","en":"Mixed multigrain rice / white rice","main":false,"spicy":false},{"ko":"포기김치","en":"Napa cabbage kimchi","main":false,"spicy":false},{"ko":"셀프한강라면 * 셀프토스트","en":"Self-serve ramyeon and toast","main":false,"spicy":false},{"ko":"쌈채소 * 풋고추 * 쌈장","en":"Wrap greens, chilies, ssamjang","main":false,"spicy":false},{"ko":"누룽지 * 탄산음료 * 매실차","en":"Nurungji, soda, plum tea","main":false,"spicy":false}]},{"id":"0113b1a3","ko":"밥(온)","boardDate":null,"boardDateEn":null,"en":"Bab[ON] Cafeteria","gloss":null,"address":"서울 금천구 가산디지털2로 143 가산어반워크2 2층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdspP,2AIrCm,%EA%B0%80%EC%82%B0%EC%96%B4%EB%B0%98%EC%9B%8C%ED%81%AC2,1003114149,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_mYxfen","img":"https://k.kakaocdn.net/dn/plxSX/dJMcajciY4Z/12RzBkmecLx5mg6DkpsIEK/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"갈비맛돈목살구이","en":"Galbi-flavored grilled pork neck","main":true,"spicy":false},{"ko":"순살돈까스 * 데미소스","en":"Boneless pork cutlet with demi-glace","main":true,"spicy":false},{"ko":"해물토마토칠리스파게티","en":"Seafood tomato chili spaghetti","main":true,"spicy":true},{"ko":"김치콩나물국","en":"Kimchi bean sprout soup","main":false,"spicy":false},{"ko":"브로콜리빈샐러드","en":"Broccoli and bean salad","main":false,"spicy":false},{"ko":"부추양파겉절이","en":"Fresh chive and onion salad","main":false,"spicy":false},{"ko":"배추겉절이김치","en":"Fresh napa kimchi","main":false,"spicy":false},{"ko":"흰쌀밥 / 검은쌀잡곡밥","en":"White rice / black multigrain rice","main":false,"spicy":false},{"ko":"양배추샐러드 / 미니찐빵","en":"Cabbage salad / mini steamed bun","main":false,"spicy":false}]},{"id":"ed47092f","ko":"스타밸리푸드포유","boardDate":null,"boardDateEn":null,"en":"Star Valley Food 4U","gloss":null,"address":"서울 금천구 디지털로9길 99 스타밸리 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdKQV,2AIuaL,%EC%8A%A4%ED%83%80%EB%B0%B8%EB%A6%AC,18976994,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_axkixdn","img":"https://k.kakaocdn.net/dn/ihXCv/dJMcafnAE9H/ZVZQgQWgKf0i8SMjVc4Jn0/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"닭볶음탕","en":"Spicy braised chicken (Dak-bokkeum-tang)","main":true,"spicy":true},{"ko":"일식소고기덮밥","en":"Japanese-style beef rice bowl","main":true,"spicy":false},{"ko":"타코야끼","en":"Takoyaki","main":true,"spicy":false},{"ko":"고기짬뽕국","en":"Spicy meat jjamppong soup","main":false,"spicy":true},{"ko":"견과류멸치볶음","en":"Stir-fried anchovies with nuts","main":false,"spicy":false},{"ko":"도토리묵김치무침","en":"Acorn jelly with kimchi","main":false,"spicy":false},{"ko":"야채겉절이","en":"Fresh vegetable salad","main":false,"spicy":false},{"ko":"흑미밥 / 백미밥","en":"Black rice / white rice","main":false,"spicy":false},{"ko":"가든샐러드 & 흑임자드레싱","en":"Garden salad with black sesame dressing","main":false,"spicy":false},{"ko":"열무김치","en":"Young radish kimchi","main":false,"spicy":false}]},{"id":"edd59332","ko":"씽씽푸드","boardDate":null,"boardDateEn":null,"en":"Ssing Ssing Food","gloss":null,"address":"서울 금천구 가산디지털1로 146 대륭테크노타운 22차 1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdFHm,2AImfD,%EB%8C%80%EB%A5%AD%ED%85%8C%ED%81%AC%EB%85%B8%ED%83%80%EC%9A%B422%EC%B0%A8,1175928783,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_gdqxdn","img":"https://k.kakaocdn.net/dn/o2GEH/dJMcaiR6JYa/Dvb8vaQetkHZF4uERz4HB1/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"궁중떡갈비소스무침","en":"Royal-court style tteok-galbi in sauce","main":true,"spicy":false},{"ko":"탕수육 / 소스","en":"Sweet and sour pork (Tangsuyuk)","main":true,"spicy":false},{"ko":"베이컨크림파스타","en":"Bacon cream pasta","main":true,"spicy":false},{"ko":"흑돼지김치찌게","en":"Black pork kimchi stew","main":true,"spicy":true},{"ko":"사과치즈사라다","en":"Apple and cheese salad","main":false,"spicy":false},{"ko":"시금치나물","en":"Seasoned spinach","main":false,"spicy":false},{"ko":"양배추 / 옥수수콘 · 건포도","en":"Cabbage / sweet corn and raisins","main":false,"spicy":false},{"ko":"상추쌈 / 젓갈류","en":"Lettuce wraps / salted seafood condiments","main":false,"spicy":false},{"ko":"즉석라면코너","en":"Instant ramyeon corner","main":false,"spicy":false},{"ko":"음료 / 야쿠르트","en":"Drinks / Yakult","main":false,"spicy":false}]},{"id":"81444959","ko":"아이밀","boardDate":null,"boardDateEn":null,"en":"iMeal","gloss":null,"address":"서울 금천구 가산디지털2로 144 현대테라타워 가산DK 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdwpt,2AIssX,%ED%98%84%EB%8C%80%ED%85%8C%EB%9D%BC%ED%83%80%EC%9B%8C%20%EA%B0%80%EC%82%B0DK,1276717932,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_vygYn","img":"https://k.kakaocdn.net/dn/cXmA9d/dJMcah6M3YI/PgyYpJCfc4j7e9IWCI73sK/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"수제뿌링클치킨 (계육: 국내산)","en":"House cheese-powder fried chicken (chicken: Korea)","main":true,"spicy":false},{"ko":"두부김칫국","en":"Tofu kimchi soup","main":false,"spicy":false},{"ko":"국물떡볶이","en":"Soupy tteokbokki","main":false,"spicy":true},{"ko":"단호박샐러드","en":"Sweet pumpkin salad","main":false,"spicy":false},{"ko":"고구마줄기볶음","en":"Stir-fried sweet potato stems","main":false,"spicy":false},{"ko":"양념깻잎지","en":"Seasoned pickled perilla leaves","main":false,"spicy":false},{"ko":"가든샐러드 & 딸기드레싱","en":"Garden salad with strawberry dressing","main":false,"spicy":false},{"ko":"국내산 배추겉절이","en":"Fresh napa kimchi (domestic)","main":false,"spicy":false},{"ko":"백미밥 / 흑미밥","en":"White rice / black rice","main":false,"spicy":false},{"ko":"셀프비빔밥 / 한강라면","en":"Self-serve bibimbap / Han River ramyeon","main":false,"spicy":false}]},{"id":"cb0176ed","ko":"쿡플러스","boardDate":null,"boardDateEn":null,"en":"Cook Plus","gloss":null,"address":"서울 금천구 디지털로9길 68 대륭포스트타워5차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOFI,2AIsCE,%EB%8C%80%EB%A5%AD%ED%8F%AC%EC%8A%A4%ED%8A%B8%ED%83%80%EC%9B%8C5%EC%B0%A8,18977159,PLACE_POI/-/walk?c=17.00,0,0,0,dh","channel":"https://pf.kakao.com/_XBiQxj","img":"https://k.kakaocdn.net/dn/t1LIU/dJMcab6uEl0/UkFxRQpYv8mYyFgMD9Jw10/img_m.jpg","price":7500,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":"쿠킹스토리와 같은 건물 지하. 무료 플러스코너를 따로 운영한다.","tipEn":"Same basement as Cooking Story. Runs a separate free \"Plus Corner\".","notes":null,"items":[{"ko":"고추장제육볶음","en":"Spicy gochujang pork stir-fry (Jeyuk-bokkeum)","main":true,"spicy":true},{"ko":"치킨새우&새우감자카츠","en":"Chicken-shrimp and shrimp-potato katsu","main":true,"spicy":false},{"ko":"몽골리안미트볼","en":"Mongolian-style meatballs","main":true,"spicy":false},{"ko":"한식잡채","en":"Japchae (glass noodle stir-fry)","main":false,"spicy":false},{"ko":"건새우호박나물","en":"Zucchini namul with dried shrimp","main":false,"spicy":false},{"ko":"얼갈이열무겉절이","en":"Fresh young cabbage and radish-green kimchi","main":false,"spicy":false},{"ko":"양념마늘쫑알마늘지 / 깍두기","en":"Seasoned garlic scapes and pickled garlic / radish kimchi","main":false,"spicy":false},{"ko":"그린샐러드 & 드레싱","en":"Green salad and dressing","main":false,"spicy":false},{"ko":"시금치된장국","en":"Spinach doenjang soup","main":false,"spicy":false}]},{"id":"a117b56a","ko":"퍼블릭가산 구내식당","boardDate":null,"boardDateEn":null,"en":"Public Gasan Cafeteria","gloss":null,"address":"서울 금천구 디지털로 178 퍼블릭가산 c동 3층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOF3,2AIcZ4,%ED%8D%BC%EB%B8%94%EB%A6%AD%EA%B0%80%EC%82%B0C%EB%8F%99,1713072974,PLACE_POI/-/walk?c=15.00,0,0,0,dh","channel":"https://pf.kakao.com/_ECNfn","img":"https://k.kakaocdn.net/dn/TsWQC/dJMcajpKp3K/cBuH1mTukJSY8M70zZJlw1/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":"주간 식단표로 한 번에 게시된다.","tipEn":"Posted as a single weekly table rather than one board per day.","notes":null,"items":[{"ko":"간장찜닭","en":"Soy-braised chicken (Jjimdak)","main":true,"spicy":false},{"ko":"생선까스 & 타르타르소스","en":"Fried fish cutlet with tartar sauce","main":true,"spicy":false},{"ko":"잔치국수","en":"Janchi-guksu (banquet noodle soup)","main":false,"spicy":false}]},{"id":"19_63ef1327","ko":"미가푸드빌 대륭19차","boardDate":"8월 28일","boardDateEn":"Aug 28","en":"Miga Foodville - Daeryung XIX","gloss":null,"address":"서울 금천구 가산디지털2로 70 대륭테크노타운19차 지하1층","addressEn":null,"directions":"https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdEij,2AIcc2,%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EB%8C%80%EB%A5%AD%ED%85%8C%ED%81%AC%EB%85%B8%ED%83%80%EC%9A%B419%EC%B0%A8%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%86%8C,1671568566,PLACE_POI/-/walk?c=16.00,0,0,0,dh","channel":"https://pf.kakao.com/_yTbHb","img":"https://k.kakaocdn.net/dn/dG7Oyl/dJMcacdewiQ/CRnc18nmhc8iZZ1c5alBL1/img_m.jpg","price":null,"pick":null,"hoursKo":null,"hoursEn":null,"tipKo":null,"tipEn":null,"notes":null,"items":[{"ko":"돼지고기두루치기","en":"Spicy stir-fried pork (Duruchigi)","main":true,"spicy":false},{"ko":"치킨까스","en":"Chicken cutlet","main":true,"spicy":false},{"ko":"미트볼데리야끼볶음","en":"Teriyaki meatball stir-fry","main":true,"spicy":false},{"ko":"스팸감자조림","en":"Braised Spam and potato","main":true,"spicy":false},{"ko":"흑미밥 / 백미밥","en":"Black rice / white rice","main":false,"spicy":false},{"ko":"들깨미역국","en":"Perilla seaweed soup","main":false,"spicy":false},{"ko":"마카로니콘샐러드","en":"Macaroni corn salad","main":false,"spicy":false},{"ko":"가지나물무침","en":"Seasoned eggplant namul","main":false,"spicy":false},{"ko":"무생채무침","en":"Spicy shredded radish salad","main":false,"spicy":false},{"ko":"한강라면","en":"Han River self-cook ramyeon","main":false,"spicy":false},{"ko":"그린샐러드 / 배추김치","en":"Green salad / napa kimchi","main":false,"spicy":false},{"ko":"탄산음료 / 시원한차 / 숭늉","en":"Soda / cold tea / sungnyung","main":false,"spicy":false}]}]};
+let lang = "ko";
+
+const T = {
+  ko:{
+    search:"메뉴·식당·건물 검색 (예: 치킨, 제육, 대륭)",
+    count:n=>`${n}곳`,
+    mains:"오늘의 메인",
+    sides:"함께 나오는 것",
+    shot:"원본 메뉴판 보기",
+    directions:"길찾기",
+    won:"원", ticket:"식권",
+    pick:n=>`추천 ${n}위`,
+    stale:"오늘 메뉴 미게시",
+    noMenu:"메뉴 자동 수집 안 됨",
+    noItems:"오늘 메뉴가 아직 올라오지 않았습니다.",
+    offdate:d=>`${d} 메뉴판`,
+    offdateNote:d=>`이 식당이 올린 메뉴판은 <b>${d}</b> 기준입니다. 오늘 메뉴는 다를 수 있습니다.`,
+    spicy:"매움",
+    deck:"서울 가산디지털단지 구내식당의 오늘 메뉴. 대부분 <b>7,500원</b>이고, 그 건물에 근무하지 않아도 누구나 들어가 먹을 수 있습니다.",
+    oldWarn:d=>`게시된 메뉴가 <b>${d}</b> 기준입니다. 오늘 메뉴는 아직 올라오지 않았습니다.`,
+    primerSum:"한국 구내식당, 처음이라면",
+    primer:[
+      "가산디지털단지의 구내식당은 대부분 <b>개방형</b>입니다. 그 건물 직원이 아니어도 들어가 먹을 수 있습니다.",
+      "입구에서 <b>식권을 사거나 카드로 결제</b>한 뒤 식판을 들고 원하는 반찬을 담습니다. 밥·국·김치·샐러드·음료는 대개 무제한이고, 라면이나 토스트를 직접 만들어 먹는 셀프코너를 둔 곳도 많습니다.",
+      "점심은 보통 <b>11:10~14:00</b>, 12시부터 1시가 가장 붐빕니다. 다 먹은 식판은 반납대에 직접 갖다 놓습니다.",
+      "매운맛 표시는 메뉴 이름에서 자동으로 추정한 참고 표시입니다. 알레르기나 종교적 식이 제한이 있다면 반드시 현장에서 확인하세요."
+    ],
+    foot1:"메뉴는 각 식당이 카카오톡 채널에 올린 게시물 기준 · 재료 수급에 따라 변경될 수 있습니다",
+    foot2:d=>`마지막 갱신 ${d}`
+  },
+  en:{
+    search:"Search dishes, cafeterias or buildings",
+    count:n=>`${n} places`,
+    mains:"Today's mains",
+    sides:"Served alongside",
+    shot:"View the original board",
+    directions:"Walking route",
+    won:"KRW", ticket:"ticket",
+    pick:n=>`Local pick #${n}`,
+    stale:"Board not posted today",
+    noMenu:"Menu not collected",
+    noItems:"Today's menu has not been posted yet.",
+    offdate:d=>`Board dated ${d}`,
+    offdateNote:d=>`The board this cafeteria posted is dated <b>${d}</b>, not today. What is actually served may differ.`,
+    spicy:"SPICY",
+    deck:"Today's menus from the office cafeterias of Seoul's Gasan Digital Complex. Most cost <b>7,500 won</b> (about US$5.50), and anyone can walk in — you don't need to work in the building.",
+    oldWarn:d=>`The board on display is dated <b>${d}</b>. Today's menu is not up yet.`,
+    primerSum:"First time in a Korean office cafeteria?",
+    primer:[
+      "Most cafeterias in the Gasan Digital Complex are <b>open to anyone</b>. You do not need to work in the building to walk in and eat.",
+      "You <b>buy a meal ticket or pay by card</b> at the entrance, take a steel tray, and help yourself. Rice, soup, kimchi, salad and drinks are usually unlimited, and many places have a self-serve corner where you cook your own ramyeon or make toast.",
+      "Lunch runs roughly <b>11:10–14:00</b>, busiest from noon to 1pm. When you finish, you carry your own tray to the return counter.",
+      "The spicy marks are guessed from dish names and are a rough guide only. If you have allergies or religious dietary restrictions, always confirm on site."
+    ],
+    foot1:"Menus as posted by each cafeteria to its KakaoTalk channel · subject to change with ingredient supply",
+    foot2:d=>`Last updated ${d}`
+  }
+};
+
+const grid = document.getElementById("grid");
+const lb = document.getElementById("lb"), lbImg = document.getElementById("lbImg");
+document.getElementById("lbClose").onclick = () => lb.close();
+lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.getElementById("stamp").textContent = lang === "ko" ? DATA.dateKo : DATA.dateEn;
+  document.getElementById("deck").innerHTML = t.deck;
+  document.getElementById("q").placeholder = t.search;
+  document.getElementById("primerSum").textContent = t.primerSum;
+  document.getElementById("primerBody").innerHTML = t.primer.map(p => `<p>${p}</p>`).join("");
+  document.getElementById("foot1").textContent = t.foot1;
+  document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
+  document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
+  document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
+
+  document.getElementById("banner").innerHTML = DATA.sourceIsOld
+    ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
+
+  const term = document.getElementById("q").value.trim().toLowerCase();
+  grid.innerHTML = "";
+  let shown = 0;
+
+  for (const r of DATA.restaurants){
+    const hay = [r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ").toLowerCase();
+    if (term && !hay.includes(term)) continue;
+    shown++;
+
+    const name = lang === "ko" ? r.ko : (r.en || r.ko);
+    const sec  = lang === "ko" ? [r.en, r.gloss].filter(Boolean).join(" ") : r.ko;
+    const addr = lang === "ko" ? r.address : (r.addressEn || r.address);
+    const tip  = lang === "ko" ? r.tipKo : r.tipEn;
+    const hours = lang === "ko" ? r.hoursKo : r.hoursEn;
+    const mains = r.items.filter(i => i.main);
+    const sides = r.items.filter(i => !i.main);
+    const stale = !r.items.length;
+
+    const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
+
+    const tags = [];
+    if (r.pick) tags.push(`<span class="tag pick">${esc(t.pick(r.pick))}</span>`);
+    if (stale) tags.push(`<span class="tag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
+    if (boardDate) tags.push(`<span class="tag offdate">${esc(t.offdate(boardDate))}</span>`);
+
+    const card = document.createElement("article");
+    card.className = "tray" + (stale ? " stale" : "");
+    card.innerHTML = `
+      <div class="hd">
+        <div class="nm">
+          <h2>${esc(name)}<span class="sec">${esc(sec)}</span></h2>
+          ${r.price ? `<span class="won">${r.price.toLocaleString()}<small>${esc(r.price === 8000 ? t.ticket : t.won)}</small></span>` : ""}
+        </div>
+        ${addr ? `<div class="where">${esc(addr)}${r.directions ? ` · <a href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}</div>` : ""}
+        ${hours ? `<div class="where mono" style="font-size:12px">${esc(hours)}</div>` : ""}
+        ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
+      </div>
+      ${stale && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
+      ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
+      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => `
+        <div class="row"><div style="flex:1">
+          <div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
+          <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div>
+        </div>${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`).join("")}</div></div>` : ""}
+      ${sides.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sides.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
+      ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
+      ${r.img ? `<button class="shot" data-id="${esc(r.id)}">
+        <img src="${esc(r.img)}" alt="${esc(name)} menu board" loading="lazy"
+             referrerpolicy="no-referrer" onerror="this.closest('.shot').remove()">
+        <span class="cap">${esc(t.shot)}</span></button>` : ""}`;
+    grid.appendChild(card);
+  }
+  document.getElementById("count").textContent = t.count(shown);
+
+  grid.querySelectorAll(".shot").forEach(b => {
+    b.onclick = () => {
+      const r = DATA.restaurants.find(x => x.id === b.dataset.id);
+      lbImg.src = r.img;
+      lbImg.alt = (lang === "ko" ? r.ko : r.en) + " menu board";
+      lb.showModal();
+    };
+  });
+}
+
+document.getElementById("btnKo").onclick = () => { lang = "ko"; save(); render(); };
+document.getElementById("btnEn").onclick = () => { lang = "en"; save(); render(); };
+document.getElementById("q").addEventListener("input", render);
+
+function save(){ try { localStorage.setItem("glb-lang", lang); } catch(e) {} }
+try { const s = localStorage.getItem("glb-lang"); if (s === "ko" || s === "en") lang = s; } catch(e) {}
+if (lang === "ko" && !navigator.language.toLowerCase().startsWith("ko")) {
+  try { if (!localStorage.getItem("glb-lang")) lang = "en"; } catch(e) { lang = "en"; }
+}
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "간장치킨",
+   "en": "Soy-glazed chicken (Ganjang-chicken)",
+   "main": true
+  },
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "한식잡채",
+   "en": "Japchae (glass noodle stir-fry)",
+   "main": false
+  },
+  {
+   "ko": "가지구이 & 양념장",
+   "en": "Grilled eggplant with seasoning sauce",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal namul (seasoned greens)",
+   "main": false
+  },
+  {
+   "ko": "국내산 배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드 · 과일 · 음료",
+   "en": "Salad, fruit, drinks",
+   "main": false
+  }
+ ],
+ "notes": "현지 추천 2위. 메뉴판에 다음날 메뉴까지 함께 게시된다.",
+ "_model": "seeded-2026-08-27"
+}

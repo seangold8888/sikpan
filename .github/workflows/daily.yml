@@ -1,0 +1,49 @@
+name: 오늘의 메뉴 갱신
+
+on:
+  schedule:
+    # 식당마다 메뉴를 올리는 시각이 달라 오전에 세 번 확인한다 (KST 08:40 / 10:10 / 11:40).
+    - cron: "40 23 * * 0-5"
+    - cron: "10 1 * * 1-6"
+    - cron: "40 2 * * 1-6"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: menu-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 메뉴판 수집
+        run: python scripts/fetch.py
+
+      - name: 메뉴판 판독
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/ocr.py
+
+      - name: 페이지 생성
+        run: python scripts/build.py
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html data/sources.json cache/ocr
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "메뉴 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+            git push
+          fi

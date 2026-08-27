@@ -1,0 +1,54 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "갈비맛돈목살구이",
+   "en": "Galbi-flavored grilled pork neck",
+   "main": true
+  },
+  {
+   "ko": "순살돈까스 * 데미소스",
+   "en": "Boneless pork cutlet with demi-glace",
+   "main": true
+  },
+  {
+   "ko": "해물토마토칠리스파게티",
+   "en": "Seafood tomato chili spaghetti",
+   "main": true
+  },
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "브로콜리빈샐러드",
+   "en": "Broccoli and bean salad",
+   "main": false
+  },
+  {
+   "ko": "부추양파겉절이",
+   "en": "Fresh chive and onion salad",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김치",
+   "en": "Fresh napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "흰쌀밥 / 검은쌀잡곡밥",
+   "en": "White rice / black multigrain rice",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드 / 미니찐빵",
+   "en": "Cabbage salad / mini steamed bun",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

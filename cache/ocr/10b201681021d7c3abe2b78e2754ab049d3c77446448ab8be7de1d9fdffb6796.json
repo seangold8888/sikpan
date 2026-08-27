@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "데리야끼소스닭볶음",
+   "en": "Teriyaki chicken stir-fry",
+   "main": true
+  },
+  {
+   "ko": "불고기고로케",
+   "en": "Bulgogi croquette",
+   "main": true
+  },
+  {
+   "ko": "토마토라구파스타",
+   "en": "Tomato ragù pasta",
+   "main": true
+  },
+  {
+   "ko": "소고기장터국밥",
+   "en": "Beef market-style gukbap",
+   "main": false
+  },
+  {
+   "ko": "오코노미야키전",
+   "en": "Okonomiyaki-style pancake",
+   "main": false
+  },
+  {
+   "ko": "계란장조림",
+   "en": "Soy-braised eggs",
+   "main": false
+  },
+  {
+   "ko": "참치감자짜글이",
+   "en": "Tuna and potato jjaguli stew",
+   "main": false
+  },
+  {
+   "ko": "브로콜리오이초회",
+   "en": "Broccoli and cucumber in vinegar dressing",
+   "main": false
+  },
+  {
+   "ko": "혼합잡곡밥",
+   "en": "Mixed multigrain rice",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이",
+   "en": "Fresh napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드 · 드레싱 · 음료",
+   "en": "Garden salad, dressing, drinks",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "seeded-2026-08-27"
+}

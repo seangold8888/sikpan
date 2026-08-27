@@ -1,0 +1,64 @@
+{
+ "date_shown": "8월27일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "직화바싹불고기",
+   "en": "Charcoal-grilled crispy bulgogi",
+   "main": true
+  },
+  {
+   "ko": "뿌링클닭다리살치킨",
+   "en": "Cheese-powder fried chicken thigh",
+   "main": true
+  },
+  {
+   "ko": "순대철판볶음",
+   "en": "Griddled sundae (blood sausage) stir-fry",
+   "main": true
+  },
+  {
+   "ko": "수제치즈김치전",
+   "en": "House cheese kimchi pancake",
+   "main": false
+  },
+  {
+   "ko": "오이송송무침",
+   "en": "Diced cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh garden salad",
+   "main": false
+  },
+  {
+   "ko": "깍두기",
+   "en": "Kkakdugi (diced radish kimchi)",
+   "main": false
+  },
+  {
+   "ko": "얼갈이된장국",
+   "en": "Young cabbage doenjang soup",
+   "main": false
+  },
+  {
+   "ko": "상추쌈*쌈장",
+   "en": "Lettuce wraps with ssamjang",
+   "main": false
+  },
+  {
+   "ko": "바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "탄산음료*셀프라면",
+   "en": "Soda and self-serve ramyeon",
+   "main": false
+  }
+ ],
+ "notes": "채널 메뉴 공지는 오전 10시에 올라온다.",
+ "_model": "seeded-2026-08-27"
+}

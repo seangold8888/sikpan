@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": null,
+ "hours": "평일 11:10~14:00 · 토 11:10~13:00",
+ "items": [
+  {
+   "ko": "삼겹살 버섯 구이",
+   "en": "Grilled pork belly with mushrooms",
+   "main": true
+  },
+  {
+   "ko": "함박 스테이크 & 소스",
+   "en": "Hamburg steak with sauce",
+   "main": true
+  },
+  {
+   "ko": "소시지 돈육 김치찌개",
+   "en": "Sausage and pork kimchi stew",
+   "main": false
+  },
+  {
+   "ko": "웨지감자 튀김",
+   "en": "Potato wedges",
+   "main": false
+  },
+  {
+   "ko": "도토리묵 냉국",
+   "en": "Chilled acorn jelly soup",
+   "main": false
+  },
+  {
+   "ko": "진미채 무말랭이 무침",
+   "en": "Seasoned dried squid with dried radish",
+   "main": false
+  },
+  {
+   "ko": "미역줄기 볶음",
+   "en": "Stir-fried seaweed stems",
+   "main": false
+  },
+  {
+   "ko": "콩나물 무침",
+   "en": "Seasoned bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Multigrain rice / new-harvest white rice",
+   "main": false
+  },
+  {
+   "ko": "백김치",
+   "en": "Baek-kimchi (non-spicy)",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드 · 탄산음료",
+   "en": "Cabbage salad, soda",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지",
+   "en": "Nurungji (scorched rice tea)",
+   "main": false
+  }
+ ],
+ "notes": "원산지: 쌀·돈육 국내산, 삼겹살 네덜란드산.",
+ "_model": "seeded-2026-08-27"
+}

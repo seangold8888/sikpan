@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>가산 런치보드 — 오늘의 구내식당 메뉴</title>
+<meta name="description" content="서울 가산디지털단지 구내식당의 오늘 메뉴를 한국어와 영어로. Today's cafeteria menus in Seoul's Gasan Digital Complex, in Korean and English.">
+<meta property="og:title" content="가산 런치보드 / Gasan Lunch Board">
+<meta property="og:description" content="가산디지털단지 구내식당 오늘의 메뉴 · Today's office-cafeteria menus, with English">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Gothic+A1:wght@500;700;900&family=IBM+Plex+Sans+KR:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  --ground:#E8E9EC; --tray:#FDFDFD; --tray-edge:#C9CDD4; --tray-inset:#F2F3F5;
+  --ink:#191C21; --ink-2:#5B626D; --ink-3:#8B929C;
+  --accent:#1B4DD8; --accent-wash:#E7EDFD;
+  --heat:#C82A19; --heat-wash:#FBE9E6;
+  --rule:#D8DBE1; --pick:#0B7A55; --pick-wash:#E3F3EC;
+  --warn:#8A5A00; --warn-wash:#FBF0DC;
+  --shadow:0 1px 0 #FFF inset, 0 1px 2px rgba(16,20,28,.07), 0 8px 20px -12px rgba(16,20,28,.30);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
+  --accent:#7BA0FF; --accent-wash:#1E2A45;
+  --heat:#FF8A72; --heat-wash:#3A211B;
+  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
+  --warn:#E8B75E; --warn-wash:#332812;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+}}
+:root[data-theme="dark"]{
+  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31;
+  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
+  --accent:#7BA0FF; --accent-wash:#1E2A45;
+  --heat:#FF8A72; --heat-wash:#3A211B;
+  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
+  --warn:#E8B75E; --warn-wash:#332812;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:"IBM Plex Sans KR","Apple SD Gothic Neo",system-ui,sans-serif;line-height:1.5;
+  padding:0 16px 72px}
+.wrap{max-width:1240px;margin:0 auto}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+
+header{padding:36px 0 22px;border-bottom:2px solid var(--ink)}
+.topline{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+h1{margin:0;font-family:"Gothic A1","Archivo",sans-serif;font-weight:900;
+  font-size:clamp(28px,4.6vw,42px);letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
+h1 .en{display:block;font-family:"Archivo",sans-serif;font-weight:700;font-size:.42em;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:8px}
+.stamp{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.1em;
+  color:var(--accent);border:1.5px solid var(--accent);border-radius:3px;padding:5px 9px;white-space:nowrap}
+.deck{margin:16px 0 0;color:var(--ink-2);font-size:15px;max-width:62ch}
+.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:16px 0 24px;
+  border-bottom:1px solid var(--rule);margin-bottom:26px}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:4px;overflow:hidden}
+.seg button{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12.5px;letter-spacing:.08em;
+  background:transparent;color:var(--ink);border:0;padding:8px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.seg button+button{border-left:1.5px solid var(--ink)}
+input[type=search]{flex:1;min-width:190px;background:var(--tray);border:1.5px solid var(--tray-edge);
+  border-radius:4px;padding:9px 12px;color:var(--ink);font:inherit;font-size:14px}
+input[type=search]::placeholder{color:var(--ink-3)}
+.count{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
+button:focus-visible,input:focus-visible,.shot:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+.banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
+  padding:12px 16px;margin-bottom:20px;font-size:14px;color:var(--warn)}
+details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
+  padding:14px 18px;margin-bottom:26px}
+details.primer summary{cursor:pointer;font-weight:700;font-size:14.5px;color:var(--accent)}
+details.primer p{margin:12px 0 0;font-size:14px;color:var(--ink-2);max-width:70ch}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
+.tray{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
+  padding:20px;display:flex;flex-direction:column;gap:14px}
+.tray.stale{opacity:.66}
+.hd{display:flex;flex-direction:column;gap:7px}
+.nm{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.nm h2{margin:0;font-family:"Gothic A1",sans-serif;font-weight:900;font-size:19.5px;letter-spacing:-.01em}
+.nm .sec{display:block;font-family:"Archivo",sans-serif;font-weight:500;font-size:12.5px;
+  letter-spacing:.02em;color:var(--ink-3);margin-top:3px}
+.won{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;color:var(--ink);white-space:nowrap}
+.won small{display:block;font-size:10px;color:var(--ink-3);font-weight:500;text-align:right;letter-spacing:.04em}
+.where{font-size:13px;color:var(--ink-2)}
+.where a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
+.where a:hover{text-decoration:underline}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  padding:3px 7px;border-radius:3px;text-transform:uppercase}
+.tag.pick{background:var(--pick-wash);color:var(--pick)}
+.tag.stale{background:var(--tray-inset);color:var(--ink-3)}
+.tag.offdate{background:var(--warn-wash);color:var(--warn)}
+.mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--rule)}
+.mains .row{display:flex;align-items:baseline;gap:9px;padding:9px 0}
+.mains .row+.row{border-top:1px dotted var(--rule)}
+.mains .dish{font-weight:600;font-size:15.5px;letter-spacing:-.005em}
+.mains .sec2{font-size:12.5px;color:var(--ink-2)}
+.hot{font-size:10px;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--heat);
+  background:var(--heat-wash);border-radius:3px;padding:2px 5px;letter-spacing:.05em;white-space:nowrap}
+.sides{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px}
+.sides li{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:3px;padding:3px 8px}
+.lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+.note{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:5px;padding:9px 11px}
+.shot{margin-top:auto;display:block;width:100%;border:0;padding:0;background:none;cursor:zoom-in;border-radius:6px}
+.shot img{width:100%;display:block;border-radius:6px;border:1px solid var(--tray-edge);filter:saturate(.94)}
+.shot .cap{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--ink-3);
+  text-transform:uppercase;margin-top:6px;text-align:left;display:block}
+
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,760px);max-height:92vh}
+dialog::backdrop{background:rgba(10,12,16,.86)}
+dialog img{width:100%;height:auto;display:block;border-radius:8px;background:#fff}
+dialog .close{position:sticky;top:0;margin-left:auto;display:block;background:var(--ink);color:var(--ground);
+  border:0;border-radius:4px;padding:7px 12px;font-family:"JetBrains Mono",monospace;font-size:12px;
+  font-weight:700;cursor:pointer;margin-bottom:8px}
+
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+footer a{color:var(--ink-2)}
+@media (prefers-reduced-motion:no-preference){.tray{transition:box-shadow .16s ease}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="topline">
+    <h1>가산 런치보드<span class="en">Gasan Lunch Board</span></h1>
+    <div class="stamp mono" id="stamp"></div>
+  </div>
+  <p class="deck" id="deck"></p>
+</header>
+
+<div class="bar">
+  <div class="seg" role="group" aria-label="language">
+    <button id="btnKo" aria-pressed="true">한국어</button>
+    <button id="btnEn" aria-pressed="false">ENGLISH</button>
+  </div>
+  <input type="search" id="q" autocomplete="off">
+  <span class="count mono" id="count"></span>
+</div>
+
+<div id="banner"></div>
+
+<details class="primer">
+  <summary id="primerSum"></summary>
+  <div id="primerBody"></div>
+</details>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  <span id="foot1"></span>
+  <span id="foot2"></span>
+</footer>
+</div>
+
+<dialog id="lb"><button class="close" id="lbClose">ESC ✕</button><img id="lbImg" alt=""></dialog>
+
+<script>
+const DATA = __PAYLOAD__;
+let lang = "ko";
+
+const T = {
+  ko:{
+    search:"메뉴·식당·건물 검색 (예: 치킨, 제육, 대륭)",
+    count:n=>`${n}곳`,
+    mains:"오늘의 메인",
+    sides:"함께 나오는 것",
+    shot:"원본 메뉴판 보기",
+    directions:"길찾기",
+    won:"원", ticket:"식권",
+    pick:n=>`추천 ${n}위`,
+    stale:"오늘 메뉴 미게시",
+    noMenu:"메뉴 자동 수집 안 됨",
+    noItems:"오늘 메뉴가 아직 올라오지 않았습니다.",
+    offdate:d=>`${d} 메뉴판`,
+    offdateNote:d=>`이 식당이 올린 메뉴판은 <b>${d}</b> 기준입니다. 오늘 메뉴는 다를 수 있습니다.`,
+    spicy:"매움",
+    deck:"서울 가산디지털단지 구내식당의 오늘 메뉴. 대부분 <b>7,500원</b>이고, 그 건물에 근무하지 않아도 누구나 들어가 먹을 수 있습니다.",
+    oldWarn:d=>`게시된 메뉴가 <b>${d}</b> 기준입니다. 오늘 메뉴는 아직 올라오지 않았습니다.`,
+    primerSum:"한국 구내식당, 처음이라면",
+    primer:[
+      "가산디지털단지의 구내식당은 대부분 <b>개방형</b>입니다. 그 건물 직원이 아니어도 들어가 먹을 수 있습니다.",
+      "입구에서 <b>식권을 사거나 카드로 결제</b>한 뒤 식판을 들고 원하는 반찬을 담습니다. 밥·국·김치·샐러드·음료는 대개 무제한이고, 라면이나 토스트를 직접 만들어 먹는 셀프코너를 둔 곳도 많습니다.",
+      "점심은 보통 <b>11:10~14:00</b>, 12시부터 1시가 가장 붐빕니다. 다 먹은 식판은 반납대에 직접 갖다 놓습니다.",
+      "매운맛 표시는 메뉴 이름에서 자동으로 추정한 참고 표시입니다. 알레르기나 종교적 식이 제한이 있다면 반드시 현장에서 확인하세요."
+    ],
+    foot1:"메뉴는 각 식당이 카카오톡 채널에 올린 게시물 기준 · 재료 수급에 따라 변경될 수 있습니다",
+    foot2:d=>`마지막 갱신 ${d}`
+  },
+  en:{
+    search:"Search dishes, cafeterias or buildings",
+    count:n=>`${n} places`,
+    mains:"Today's mains",
+    sides:"Served alongside",
+    shot:"View the original board",
+    directions:"Walking route",
+    won:"KRW", ticket:"ticket",
+    pick:n=>`Local pick #${n}`,
+    stale:"Board not posted today",
+    noMenu:"Menu not collected",
+    noItems:"Today's menu has not been posted yet.",
+    offdate:d=>`Board dated ${d}`,
+    offdateNote:d=>`The board this cafeteria posted is dated <b>${d}</b>, not today. What is actually served may differ.`,
+    spicy:"SPICY",
+    deck:"Today's menus from the office cafeterias of Seoul's Gasan Digital Complex. Most cost <b>7,500 won</b> (about US$5.50), and anyone can walk in — you don't need to work in the building.",
+    oldWarn:d=>`The board on display is dated <b>${d}</b>. Today's menu is not up yet.`,
+    primerSum:"First time in a Korean office cafeteria?",
+    primer:[
+      "Most cafeterias in the Gasan Digital Complex are <b>open to anyone</b>. You do not need to work in the building to walk in and eat.",
+      "You <b>buy a meal ticket or pay by card</b> at the entrance, take a steel tray, and help yourself. Rice, soup, kimchi, salad and drinks are usually unlimited, and many places have a self-serve corner where you cook your own ramyeon or make toast.",
+      "Lunch runs roughly <b>11:10–14:00</b>, busiest from noon to 1pm. When you finish, you carry your own tray to the return counter.",
+      "The spicy marks are guessed from dish names and are a rough guide only. If you have allergies or religious dietary restrictions, always confirm on site."
+    ],
+    foot1:"Menus as posted by each cafeteria to its KakaoTalk channel · subject to change with ingredient supply",
+    foot2:d=>`Last updated ${d}`
+  }
+};
+
+const grid = document.getElementById("grid");
+const lb = document.getElementById("lb"), lbImg = document.getElementById("lbImg");
+document.getElementById("lbClose").onclick = () => lb.close();
+lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.getElementById("stamp").textContent = lang === "ko" ? DATA.dateKo : DATA.dateEn;
+  document.getElementById("deck").innerHTML = t.deck;
+  document.getElementById("q").placeholder = t.search;
+  document.getElementById("primerSum").textContent = t.primerSum;
+  document.getElementById("primerBody").innerHTML = t.primer.map(p => `<p>${p}</p>`).join("");
+  document.getElementById("foot1").textContent = t.foot1;
+  document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
+  document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
+  document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
+
+  document.getElementById("banner").innerHTML = DATA.sourceIsOld
+    ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
+
+  const term = document.getElementById("q").value.trim().toLowerCase();
+  grid.innerHTML = "";
+  let shown = 0;
+
+  for (const r of DATA.restaurants){
+    const hay = [r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ").toLowerCase();
+    if (term && !hay.includes(term)) continue;
+    shown++;
+
+    const name = lang === "ko" ? r.ko : (r.en || r.ko);
+    const sec  = lang === "ko" ? [r.en, r.gloss].filter(Boolean).join(" ") : r.ko;
+    const addr = lang === "ko" ? r.address : (r.addressEn || r.address);
+    const tip  = lang === "ko" ? r.tipKo : r.tipEn;
+    const hours = lang === "ko" ? r.hoursKo : r.hoursEn;
+    const mains = r.items.filter(i => i.main);
+    const sides = r.items.filter(i => !i.main);
+    const stale = !r.items.length;
+
+    const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
+
+    const tags = [];
+    if (r.pick) tags.push(`<span class="tag pick">${esc(t.pick(r.pick))}</span>`);
+    if (stale) tags.push(`<span class="tag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
+    if (boardDate) tags.push(`<span class="tag offdate">${esc(t.offdate(boardDate))}</span>`);
+
+    const card = document.createElement("article");
+    card.className = "tray" + (stale ? " stale" : "");
+    card.innerHTML = `
+      <div class="hd">
+        <div class="nm">
+          <h2>${esc(name)}<span class="sec">${esc(sec)}</span></h2>
+          ${r.price ? `<span class="won">${r.price.toLocaleString()}<small>${esc(r.price === 8000 ? t.ticket : t.won)}</small></span>` : ""}
+        </div>
+        ${addr ? `<div class="where">${esc(addr)}${r.directions ? ` · <a href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}</div>` : ""}
+        ${hours ? `<div class="where mono" style="font-size:12px">${esc(hours)}</div>` : ""}
+        ${tags.length ? `<div class="tags">${tags.join("")}</div>` : ""}
+      </div>
+      ${stale && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
+      ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
+      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => `
+        <div class="row"><div style="flex:1">
+          <div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
+          <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div>
+        </div>${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`).join("")}</div></div>` : ""}
+      ${sides.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sides.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
+      ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
+      ${r.img ? `<button class="shot" data-id="${esc(r.id)}">
+        <img src="${esc(r.img)}" alt="${esc(name)} menu board" loading="lazy"
+             referrerpolicy="no-referrer" onerror="this.closest('.shot').remove()">
+        <span class="cap">${esc(t.shot)}</span></button>` : ""}`;
+    grid.appendChild(card);
+  }
+  document.getElementById("count").textContent = t.count(shown);
+
+  grid.querySelectorAll(".shot").forEach(b => {
+    b.onclick = () => {
+      const r = DATA.restaurants.find(x => x.id === b.dataset.id);
+      lbImg.src = r.img;
+      lbImg.alt = (lang === "ko" ? r.ko : r.en) + " menu board";
+      lb.showModal();
+    };
+  });
+}
+
+document.getElementById("btnKo").onclick = () => { lang = "ko"; save(); render(); };
+document.getElementById("btnEn").onclick = () => { lang = "en"; save(); render(); };
+document.getElementById("q").addEventListener("input", render);
+
+function save(){ try { localStorage.setItem("glb-lang", lang); } catch(e) {} }
+try { const s = localStorage.getItem("glb-lang"); if (s === "ko" || s === "en") lang = s; } catch(e) {}
+if (lang === "ko" && !navigator.language.toLowerCase().startsWith("ko")) {
+  try { if (!localStorage.getItem("glb-lang")) lang = "en"; } catch(e) { lang = "en"; }
+}
+
+render();
+</script>
+</body>
+</html>

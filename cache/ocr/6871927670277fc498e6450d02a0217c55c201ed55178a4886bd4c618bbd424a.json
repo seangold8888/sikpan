@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 8월 27일 목요일",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "고추장불고기",
+   "en": "Gochujang bulgogi (spicy marinated beef)",
+   "main": true
+  },
+  {
+   "ko": "수제뿌링클치킨",
+   "en": "House-made cheese-powder fried chicken",
+   "main": true
+  },
+  {
+   "ko": "닭개장",
+   "en": "Spicy shredded chicken soup (Dak-gaejang)",
+   "main": false
+  },
+  {
+   "ko": "밀떡볶이",
+   "en": "Wheat tteokbokki (spicy rice cakes)",
+   "main": false
+  },
+  {
+   "ko": "떡산적스테이크",
+   "en": "Rice cake skewer steak",
+   "main": false
+  },
+  {
+   "ko": "쥐포채조림",
+   "en": "Braised dried filefish strips",
+   "main": false
+  },
+  {
+   "ko": "청경채겉절이",
+   "en": "Fresh bok choy salad",
+   "main": false
+  },
+  {
+   "ko": "부추콩나물무침",
+   "en": "Seasoned chives and bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "냉막국수 · 그린샐러드",
+   "en": "Cold buckwheat noodles, green salad",
+   "main": false
+  },
+  {
+   "ko": "이가찐빵 / 탄산음료",
+   "en": "Steamed buns / soda",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River self-cook ramyeon",
+   "main": false
+  }
+ ],
+ "notes": "현지 추천 3위. 반찬 가짓수가 많지만 점심시간엔 자리가 좁아 합석할 수도 있다.",
+ "_model": "seeded-2026-08-27"
+}
