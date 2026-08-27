@@ -69,6 +69,50 @@ button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{o
 .banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
   padding:12px 16px;margin-bottom:18px;font-size:14px;color:var(--warn)}
 
+.rec{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
+  margin-bottom:16px;overflow:hidden}
+.rechead{display:flex;align-items:center;gap:10px;padding:11px 18px;background:var(--ink);color:var(--ground)}
+.rechead .t{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.14em}
+.rechead .why{margin-left:auto;font-size:12px;opacity:.8}
+.recbody{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:0}
+@media (max-width:760px){.recbody{grid-template-columns:1fr}}
+.recmain{padding:18px;display:flex;flex-direction:column;gap:12px;border-right:1px solid var(--rule)}
+@media (max-width:760px){.recmain{border-right:0;border-bottom:1px solid var(--rule)}}
+.recwho{display:flex;align-items:center;gap:14px}
+.recwho img{width:74px;height:74px;border-radius:9px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0}
+.recname{font-family:"Gothic A1",sans-serif;font-weight:900;font-size:23px;line-height:1.1}
+.recmeta{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-2);margin-top:4px}
+.recscore{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:15px;color:var(--accent)}
+.recdish{font-size:14px;font-weight:600}
+.recgap{font-size:12px;color:var(--ink-2)}
+.bars{display:flex;flex-direction:column;gap:5px}
+.brow{display:grid;grid-template-columns:64px 1fr 52px;align-items:center;gap:8px;font-size:11.5px}
+.brow .bn{color:var(--ink-2);font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.04em}
+.btrack{height:7px;background:var(--tray-inset);border-radius:99px;overflow:hidden;border:1px solid var(--rule)}
+.bfill{height:100%;background:var(--accent);border-radius:99px}
+.bfill.na{background:repeating-linear-gradient(90deg,var(--rule) 0 4px,transparent 4px 8px)}
+.bv{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--ink-3);text-align:right}
+.recside{padding:16px 18px;display:flex;flex-direction:column;gap:12px;background:var(--tray-inset)}
+.wlabel{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--ink-3)}
+.wrow{display:grid;grid-template-columns:78px 1fr 22px;align-items:center;gap:8px;font-size:11.5px}
+.wrow label{color:var(--ink-2);font-size:11.5px;display:flex;align-items:center;gap:4px}
+.cov{font-family:"JetBrains Mono",monospace;font-size:9px;color:var(--warn);background:var(--warn-wash);
+  border-radius:3px;padding:1px 3px;cursor:help}
+.wrow input[type=range]{width:100%;accent-color:var(--accent);height:18px}
+.wrow .wv{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--ink-3);text-align:right}
+.presets{display:flex;gap:6px;flex-wrap:wrap}
+.presets button{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.04em;
+  background:var(--tray);color:var(--ink-2);border:1px solid var(--tray-edge);border-radius:99px;padding:4px 10px;cursor:pointer}
+.presets button:hover{border-color:var(--accent);color:var(--accent)}
+.ate{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:11.5px;color:var(--ink-2);
+  border-top:1px solid var(--rule);padding-top:10px}
+.ate button{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;background:var(--tray);
+  border:1px solid var(--tray-edge);border-radius:4px;padding:4px 9px;cursor:pointer;color:var(--ink)}
+.ate button:hover{border-color:var(--accent);color:var(--accent)}
+.runner{display:flex;align-items:center;gap:9px;padding:7px 0;border-top:1px dotted var(--rule);font-size:12.5px}
+.runner .rk{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--ink-3);width:14px}
+.runner .rn{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.runner .rs{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-2)}
 .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:14px}
 .hcard{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
   padding:16px 18px;display:flex;flex-direction:column;gap:9px;border-top:4px solid var(--accent)}
@@ -179,6 +223,7 @@ footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);color:v
 </div>
 
 <div id="banner"></div>
+<div class="rec" id="rec"></div>
 <div class="hero" id="hero"></div>
 <div class="statline" id="statline"></div>
 <div class="list" id="list"></div>
@@ -206,6 +251,18 @@ const T = {
   ko:{
     search:"메뉴·식당·건물 검색 (예: 치킨, 제육, 대륭)",
     count:n=>`${n}곳`,
+    recTitle:"오늘의 추천", recWhy:"슬라이더로 기준을 바꾸면 순위가 바뀝니다",
+    axes:{value:"가성비",variety:"반찬수",mains:"메인수",protein:"단백질",rarity:"희소성",near:"가까움"},
+    axisHelp:{value:"품목당 단가가 쌀수록",variety:"나오는 가짓수가 많을수록",mains:"메인 요리가 많을수록",
+      protein:"단백질 종류가 다양할수록",rarity:"다른 곳에 없는 메뉴일수록",near:"사무실에서 가까울수록"},
+    covHelp:"이 축의 값을 아는 식당 수 / 전체. 모르는 곳은 중립으로 계산됩니다.",
+    weights:"내 기준", presets:{balanced:"균형",cheap:"가성비 우선",meat:"고기 우선",lazy:"가까운 곳"},
+    score:s=>`${s}점`, gap:(n,d)=>`2위 ${n}보다 ${d}점 앞섬`, onlyOne:"오늘 비교 가능한 곳이 하나뿐입니다",
+    na:"정보 없음", ateQ:"여기서 먹었나요?", ateBtn:"오늘 여기 먹음", ateClear:"기록 지우기",
+    ateNote:n=>`최근 ${n}곳 기록 반영 중 — 최근 간 곳은 순위를 낮춥니다`,
+    because:{value:"품목당 단가가 오늘 가장 쌉니다",variety:"오늘 반찬 가짓수가 가장 많습니다",
+      mains:"메인 요리가 오늘 가장 많습니다",protein:"단백질 종류가 오늘 가장 다양합니다",
+      rarity:"오늘 다른 곳에 없는 메뉴입니다",near:"사무실에서 가장 가깝습니다"},
     heroValue:"오늘의 가성비", heroMains:"오늘의 메인 부자", heroPick:"대표님 추천 1위",
     perItem:w=>`${w.toLocaleString()}원/품목`, dishes:n=>`${n}찬`, mainsN:n=>`메인 ${n}가지`,
     statPlaces:n=>`오늘 ${n}곳 게시`, statAvg:v=>`평균 ${v}찬`, statOverlap:o=>`겹치는 메뉴 ${o.map(x=>x.ko).join("·")}`,
@@ -231,6 +288,18 @@ const T = {
   en:{
     search:"Search dishes, cafeterias or buildings",
     count:n=>`${n} places`,
+    recTitle:"Today's pick", recWhy:"Move the sliders and the ranking changes",
+    axes:{value:"Value",variety:"Variety",mains:"Mains",protein:"Protein",rarity:"Rarity",near:"Distance"},
+    axisHelp:{value:"lower cost per dish",variety:"more dishes on the tray",mains:"more main dishes",
+      protein:"more protein types",rarity:"dishes you won't find elsewhere today",near:"closer to the office"},
+    covHelp:"Places with data on this axis / total. Unknown ones are scored neutral.",
+    weights:"My priorities", presets:{balanced:"Balanced",cheap:"Value first",meat:"Protein first",lazy:"Closest"},
+    score:s=>`${s} pts`, gap:(n,d)=>`${d} pts ahead of ${n}`, onlyOne:"Only one place is comparable today",
+    na:"no data", ateQ:"Ate here?", ateBtn:"I ate here today", ateClear:"Clear history",
+    ateNote:n=>`Using your last ${n} visits — recent places rank lower`,
+    because:{value:"the lowest cost per dish today",variety:"the most dishes on the tray today",
+      mains:"the most main dishes today",protein:"the widest protein mix today",
+      rarity:"dishes you won't find elsewhere today",near:"the shortest walk from the office"},
     heroValue:"Best value today", heroMains:"Most mains today", heroPick:"Local pick #1",
     perItem:w=>`₩${w.toLocaleString()}/item`, dishes:n=>`${n} items`, mainsN:n=>`${n} main dishes`,
     statPlaces:n=>`${n} menus posted today`, statAvg:v=>`avg ${v} dishes`, statOverlap:o=>`served at multiple places: ${o.map(x=>x.ko).join(", ")}`,
@@ -267,6 +336,168 @@ const firstDishImg = r => {
   return null;
 };
 const shortAddr = a => a ? a.replace(/^서울(특별시)?\s*금천구\s*/, "").replace(/^(디지털로|가산디지털\d로|벚꽃로|서부샛길)\S*\s*/, "").replace(/^[\d-]+\s*/, "") : "";
+
+
+// ---- 추천 ----
+// 축별 원점수(0~1)는 빌드 때 계산해 두고, 가중치는 보는 사람이 정한다.
+// 모르는 값(가격 미확인 등)은 0.5로 두어 그 식당이 손해도 이득도 보지 않게 한다.
+const AXES = ["value","variety","mains","protein","rarity","near"];
+const PRESETS = {
+  balanced:{value:3,variety:3,mains:3,protein:2,rarity:2,near:2},
+  cheap:   {value:5,variety:4,mains:2,protein:1,rarity:1,near:2},
+  meat:    {value:1,variety:2,mains:5,protein:5,rarity:2,near:1},
+  lazy:    {value:2,variety:2,mains:2,protein:1,rarity:1,near:5},
+};
+let W = {...PRESETS.balanced};
+let ate = [];   // 최근 먹은 식당 id, 최신순
+
+try { const w = JSON.parse(localStorage.getItem("glb-w") || "null"); if (w) W = {...W, ...w}; } catch(e) {}
+try { const a = JSON.parse(localStorage.getItem("glb-ate") || "null"); if (Array.isArray(a)) ate = a.slice(0, 5); } catch(e) {}
+const keep = () => { try {
+  localStorage.setItem("glb-w", JSON.stringify(W));
+  localStorage.setItem("glb-ate", JSON.stringify(ate));
+} catch(e) {} };
+
+function scored(){
+  const out = [];
+  for (const r of DATA.restaurants){
+    const ax = DATA.axes && DATA.axes[r.id];
+    if (!ax) continue;                       // 오늘 메뉴가 제대로 올라온 곳만
+    let sum = 0, wsum = 0;
+    const parts = [];
+    for (const a of AXES){
+      const w = W[a] || 0;
+      const v = ax[a];
+      parts.push({ axis:a, value:v, weight:w });
+      if (!w) continue;
+      sum += (v === null ? 0.5 : v) * w;     // 정보 없으면 중립
+      wsum += w;
+    }
+    let score = wsum ? sum / wsum : 0;
+    // 최근에 간 곳은 낮춘다. 바로 어제 갔으면 많이, 닷새 전이면 조금.
+    const seen = ate.indexOf(r.id);
+    const penalty = seen === -1 ? 0 : 0.28 / (seen + 1);
+    score = Math.max(0, score - penalty);
+    out.push({ r, ax, parts, score: Math.round(score * 1000) / 10, penalty });
+  }
+  out.sort((a,b) => b.score - a.score);
+  return out;
+}
+
+// 축마다 값을 아는 곳이 몇 곳인지. 데이터가 얇은 축에 가중치를 크게 주면
+// 순위가 아니라 결측을 반영하게 되므로, 그 사실을 화면에 드러낸다.
+function coverage(){
+  const ids = Object.keys(DATA.axes || {});
+  const c = {};
+  for (const a of AXES) c[a] = ids.filter(id => DATA.axes[id][a] !== null).length;
+  c._total = ids.length;
+  return c;
+}
+
+function recHtml(){
+  const t = T[lang];
+  const list = scored();
+  if (!list.length) return "";
+  const top = list[0], second = list[1];
+
+  // 가장 크게 기여한 축 하나로 이유를 말한다.
+  let bestAxis = null, bestGain = -1;
+  for (const p of top.parts){
+    if (!p.weight || p.value === null) continue;
+    const gain = (p.value - 0.5) * p.weight;
+    if (gain > bestGain){ bestGain = gain; bestAxis = p.axis; }
+  }
+  const because = bestAxis && bestGain > 0 ? t.because[bestAxis] : "";
+
+  const img = firstDishImg(top.r);
+  const mains = top.r.items.filter(i => i.main).slice(0,2)
+    .map(i => lang === "ko" ? i.ko : i.en).join(" · ");
+  const st = top.r.stats || {};
+  const meta = [
+    top.r.price ? top.r.price.toLocaleString() + (lang === "ko" ? "원" : " KRW") : null,
+    st.count ? t.dishes(st.count) : null,
+    top.r.walkMin ? (lang === "ko" ? `도보 ${top.r.walkMin}분` : `${top.r.walkMin} min walk`) : null,
+  ].filter(Boolean).join(" · ");
+
+  const bars = top.parts.map(p => {
+    const na = p.value === null;
+    const pct = Math.round((na ? 0.5 : p.value) * 100);
+    return `<div class="brow" title="${esc(t.axisHelp[p.axis])}">
+      <span class="bn">${esc(t.axes[p.axis])}</span>
+      <span class="btrack"><span class="bfill${na ? " na" : ""}" style="width:${na ? 100 : pct}%"></span></span>
+      <span class="bv">${na ? esc(t.na) : pct}</span></div>`;
+  }).join("");
+
+  const cov = coverage();
+  const sliders = AXES.map(a => {
+    const thin = cov[a] < cov._total;
+    return `<div class="wrow">
+      <label for="w-${a}">${esc(t.axes[a])}${thin ? `<span class="cov" title="${esc(t.covHelp)}">${cov[a]}/${cov._total}</span>` : ""}</label>
+      <input type="range" id="w-${a}" data-axis="${a}" min="0" max="5" step="1" value="${W[a]}"
+        aria-label="${esc(t.axes[a])}">
+      <span class="wv">${W[a]}</span></div>`;
+  }).join("");
+
+  const runners = list.slice(1, 4).map((x, i) => `<div class="runner">
+      <span class="rk">${i + 2}</span>
+      <span class="rn">${esc(nm(x.r))}</span>
+      <span class="rs">${esc(t.score(x.score))}</span></div>`).join("");
+
+  return `<div class="rechead"><span class="t">${esc(t.recTitle)}</span><span class="why">${esc(t.recWhy)}</span></div>
+    <div class="recbody">
+      <div class="recmain">
+        <div class="recwho">
+          ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+          <div style="min-width:0">
+            <div class="recname">${esc(nm(top.r))}</div>
+            <div class="recmeta">${esc(meta)}</div>
+            <div class="recscore">${esc(t.score(top.score))}</div>
+          </div>
+        </div>
+        ${mains ? `<div class="recdish">${esc(mains)}</div>` : ""}
+        ${because ? `<div class="recgap">→ ${esc(because)}</div>` : ""}
+        <div class="bars">${bars}</div>
+        ${second ? `<div class="recgap">${esc(t.gap(nm(second.r), Math.round((top.score - second.score) * 10) / 10))}</div>`
+                 : `<div class="recgap">${esc(t.onlyOne)}</div>`}
+      </div>
+      <div class="recside">
+        <div class="wlabel">${esc(t.weights)}</div>
+        <div class="presets">${Object.keys(PRESETS).map(k =>
+          `<button data-preset="${k}">${esc(t.presets[k])}</button>`).join("")}</div>
+        ${sliders}
+        ${runners}
+        <div class="ate">
+          <button id="ateBtn">${esc(t.ateBtn)}</button>
+          ${ate.length ? `<span>${esc(t.ateNote(ate.length))}</span>
+            <button id="ateClear">${esc(t.ateClear)}</button>` : ""}
+        </div>
+      </div>
+    </div>`;
+}
+
+function wireRec(){
+  const box = document.getElementById("rec");
+  box.querySelectorAll('input[type=range]').forEach(inp => {
+    inp.addEventListener("input", () => {
+      W[inp.dataset.axis] = +inp.value;
+      inp.nextElementSibling.textContent = inp.value;
+      keep();
+      box.innerHTML = recHtml(); wireRec();
+    });
+  });
+  box.querySelectorAll("[data-preset]").forEach(b => {
+    b.onclick = () => { W = {...PRESETS[b.dataset.preset]}; keep(); box.innerHTML = recHtml(); wireRec(); };
+  });
+  const ab = document.getElementById("ateBtn");
+  if (ab) ab.onclick = () => {
+    const top = scored()[0];
+    if (!top) return;
+    ate = [top.r.id, ...ate.filter(x => x !== top.r.id)].slice(0, 5);
+    keep(); box.innerHTML = recHtml(); wireRec();
+  };
+  const ac = document.getElementById("ateClear");
+  if (ac) ac.onclick = () => { ate = []; keep(); box.innerHTML = recHtml(); wireRec(); };
+}
 
 function heroHtml(){
   const t = T[lang], N = DATA.todayNumbers || {};
@@ -365,6 +596,10 @@ function render(){
     ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
 
   const term = document.getElementById("q").value.trim().toLowerCase();
+  const recBox = document.getElementById("rec");
+  recBox.innerHTML = term ? "" : recHtml();
+  recBox.style.display = term ? "none" : "";
+  if (!term) wireRec();
   document.getElementById("hero").innerHTML = term ? "" : heroHtml();
 
   const N = DATA.todayNumbers || {};

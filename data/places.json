@@ -1,49 +1,99 @@
 {
-  "_comment": "사진에서 읽을 수 없는 고정 정보를 손으로 적어두는 곳. 키는 data/sources.json 의 id (식당 이름에서 만들어지므로 이름이 바뀌지 않는 한 그대로 유지된다).",
-  "places": {
-    "7d927ea8": { "en": "Geuraedo Jipbap", "gloss": "\"Still, Home Food\"", "price": 7500, "pick": 2,
-      "tipKo": "1층에 명가교동짬뽕이 있는 건물. 메뉴판에 다음날 메뉴까지 함께 붙는다.",
-      "tipEn": "Look for the building with Myeongga Gyodong Jjamppong on the ground floor. Their board also posts tomorrow's menu." },
-    "c7f1a82c": { "en": "Cooking Story", "price": 7500, "pick": 3,
-      "tipKo": "반찬 가짓수가 가장 많다. 점심시간엔 자리가 좁아 합석할 수도 있다.",
-      "tipEn": "The widest spread of side dishes here, but seating is tight at peak lunch and you may share a table." },
-    "cb0176ed": { "en": "Cook Plus", "price": 7500,
-      "tipKo": "쿠킹스토리와 같은 건물 지하. 무료 플러스코너를 따로 운영한다.",
-      "tipEn": "Same basement as Cooking Story. Runs a separate free \"Plus Corner\"." },
-    "5aeba71b": { "en": "Raon Food" },
-    "55165eba": { "en": "My Food", "price": 7500 },
-    "81444959": { "en": "iMeal" },
-    "d9380783": { "en": "Bareun Siktak", "gloss": "\"Right Table\"", "price": 8000,
-      "tipKo": "식권 8,000원. 이 목록에서 가장 비싸다.",
-      "tipEn": "Meal ticket 8,000 won, the highest on this list." },
-    "e023a81d": { "en": "The Soul Food" },
-    "fd1d0038": { "en": "The Food Sketch" },
-    "0113b1a3": { "en": "Bab[ON] Cafeteria" },
-    "edd59332": { "en": "Ssing Ssing Food" },
-    "ed47092f": { "en": "Star Valley Food 4U" },
-    "a79716e1": { "en": "Daesung Foodville",
-      "hoursKo": "평일 11:10~14:00 · 토 11:10~13:00",
-      "hoursEn": "Weekdays 11:10-14:00, Sat 11:10-13:00" },
-    "a117b56a": { "en": "Public Gasan Cafeteria",
-      "tipKo": "주간 식단표로 한 번에 게시된다.",
-      "tipEn": "Posted as a single weekly table rather than one board per day." },
-    "stx_e4c8b703": { "en": "Miga STX" },
-    "19_63ef1327": { "en": "Miga Foodville - Daeryung XIX" },
-    "8_6d16e754": { "en": "Miga Foodville - Ace Tower VIII" },
-    "5e54a17a": { "en": "Dashibom" }
+ "_comment": "사진에서 읽을 수 없는 고정 정보를 손으로 적어두는 곳. 키는 data/sources.json 의 id (식당 이름에서 만들어지므로 이름이 바뀌지 않는 한 그대로 유지된다).",
+ "places": {
+  "7d927ea8": {
+   "en": "Geuraedo Jipbap",
+   "gloss": "\"Still, Home Food\"",
+   "price": 7500,
+   "pick": 2,
+   "tipKo": "1층에 명가교동짬뽕이 있는 건물. 메뉴판에 다음날 메뉴까지 함께 붙는다.",
+   "tipEn": "Look for the building with Myeongga Gyodong Jjamppong on the ground floor. Their board also posts tomorrow's menu.",
+   "walkMin": 2
   },
-  "_extras_comment": "카카오톡 채널이 없어 메뉴가 자동으로 수집되지 않는 곳. 위치만 안내한다.",
-  "extras": [
-    {
-      "id": "chefs",
-      "ko": "쉐프의런치타임",
-      "en": "Chef's Lunch Time",
-      "address": "서울 금천구 가산디지털1로 165 백상스타타워1차 지하1층",
-      "addressEn": "Baeksang Star Tower I, B1, Gasan Digital 1-ro 165, Geumcheon-gu, Seoul",
-      "price": 7500,
-      "pick": 1,
-      "tipKo": "현지에서 가장 평이 좋은 곳. 카카오톡 채널이 없어 메뉴는 현장 게시판으로만 확인된다. 1층에 백상김밥이 있는 건물.",
-      "tipEn": "The best-regarded of the lot locally. It has no KakaoTalk channel, so the menu is only posted on the board at the entrance. Look for the building with Baeksang Gimbap on the ground floor."
-    }
-  ]
+  "c7f1a82c": {
+   "en": "Cooking Story",
+   "price": 7500,
+   "pick": 3,
+   "tipKo": "반찬 가짓수가 가장 많다. 점심시간엔 자리가 좁아 합석할 수도 있다.",
+   "tipEn": "The widest spread of side dishes here, but seating is tight at peak lunch and you may share a table.",
+   "walkMin": 5
+  },
+  "cb0176ed": {
+   "en": "Cook Plus",
+   "price": 7500,
+   "tipKo": "쿠킹스토리와 같은 건물 지하. 무료 플러스코너를 따로 운영한다.",
+   "tipEn": "Same basement as Cooking Story. Runs a separate free \"Plus Corner\".",
+   "walkMin": 5
+  },
+  "5aeba71b": {
+   "en": "Raon Food"
+  },
+  "55165eba": {
+   "en": "My Food",
+   "price": 7500
+  },
+  "81444959": {
+   "en": "iMeal"
+  },
+  "d9380783": {
+   "en": "Bareun Siktak",
+   "gloss": "\"Right Table\"",
+   "price": 8000,
+   "tipKo": "식권 8,000원. 이 목록에서 가장 비싸다.",
+   "tipEn": "Meal ticket 8,000 won, the highest on this list."
+  },
+  "e023a81d": {
+   "en": "The Soul Food"
+  },
+  "fd1d0038": {
+   "en": "The Food Sketch"
+  },
+  "0113b1a3": {
+   "en": "Bab[ON] Cafeteria"
+  },
+  "edd59332": {
+   "en": "Ssing Ssing Food"
+  },
+  "ed47092f": {
+   "en": "Star Valley Food 4U"
+  },
+  "a79716e1": {
+   "en": "Daesung Foodville",
+   "hoursKo": "평일 11:10~14:00 · 토 11:10~13:00",
+   "hoursEn": "Weekdays 11:10-14:00, Sat 11:10-13:00"
+  },
+  "a117b56a": {
+   "en": "Public Gasan Cafeteria",
+   "tipKo": "주간 식단표로 한 번에 게시된다.",
+   "tipEn": "Posted as a single weekly table rather than one board per day."
+  },
+  "stx_e4c8b703": {
+   "en": "Miga STX"
+  },
+  "19_63ef1327": {
+   "en": "Miga Foodville - Daeryung XIX"
+  },
+  "8_6d16e754": {
+   "en": "Miga Foodville - Ace Tower VIII"
+  },
+  "5e54a17a": {
+   "en": "Dashibom"
+  }
+ },
+ "_extras_comment": "카카오톡 채널이 없어 메뉴가 자동으로 수집되지 않는 곳. 위치만 안내한다.",
+ "extras": [
+  {
+   "id": "chefs",
+   "ko": "쉐프의런치타임",
+   "en": "Chef's Lunch Time",
+   "address": "서울 금천구 가산디지털1로 165 백상스타타워1차 지하1층",
+   "addressEn": "Baeksang Star Tower I, B1, Gasan Digital 1-ro 165, Geumcheon-gu, Seoul",
+   "price": 7500,
+   "pick": 1,
+   "tipKo": "현지에서 가장 평이 좋은 곳. 카카오톡 채널이 없어 메뉴는 현장 게시판으로만 확인된다. 1층에 백상김밥이 있는 건물.",
+   "tipEn": "The best-regarded of the lot locally. It has no KakaoTalk channel, so the menu is only posted on the board at the entrance. Look for the building with Baeksang Gimbap on the ground floor.",
+   "walkMin": 3
+  }
+ ],
+ "_walk_comment": "walkMin = 갑을그레이트밸리에서 도보 몇 분. 실제로 가본 곳만 적는다. 모르면 비워 두고, 화면에서는 중립으로 처리된다."
 }
