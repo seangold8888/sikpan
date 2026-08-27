@@ -78,12 +78,38 @@ def fmt_md(text):
     return f"{mo}월 {day}일", f"{MONTH_EN[mo] if 1 <= mo <= 12 else mo} {day}"
 
 
+def load_dish_images():
+    """요리 참고 사진 사전. 메뉴 이름 속 키워드로 찾되, 긴 키워드가 먼저 이긴다.
+    (돼지불고기가 '불고기'보다 '돼지불고기' 항목에 잡히도록)"""
+    f = ROOT / "data" / "dish_images.json"
+    if not f.exists():
+        return [], {}
+    d = json.loads(f.read_text(encoding="utf-8"))["dishes"]
+    kws = sorted(((kw, key) for key, v in d.items() for kw in v.get("match", [])),
+                 key=lambda x: -len(x[0]))
+    imgs = {k: {"thumb": v["thumb"], "page": v["page"],
+                "license": v.get("license", ""), "author": v.get("author", "")}
+            for k, v in d.items()}
+    return kws, imgs
+
+
+def match_dish(ko, kws):
+    flat = ko.replace(" ", "")
+    for kw, key in kws:
+        if kw in flat:
+            return key
+    return None
+
+
 def main():
     src = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
     places_file = json.loads((ROOT / "data" / "places.json").read_text(encoding="utf-8"))
     places = places_file.get("places", {})
     extras = places_file.get("extras", [])
     cache = ROOT / "cache" / "ocr"
+
+    dish_kws, dish_imgs = load_dish_images()
+    used_dishes = set()
 
     now = datetime.datetime.now(KST)
     today = now.date()
@@ -104,11 +130,15 @@ def main():
         items = []
         for it in ocr.get("items", []):
             ko = it.get("ko", "")
+            dish = match_dish(ko, dish_kws)
+            if dish:
+                used_dishes.add(dish)
             items.append({
                 "ko": ko,
                 "en": it.get("en", ""),
                 "main": bool(it.get("main")),
                 "spicy": any(k in ko for k in SPICY_KW),
+                "dish": dish,
             })
 
         shown = ocr.get("date_shown")
@@ -182,6 +212,7 @@ def main():
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),
         "todayNumbers": today_numbers,
+        "dishImages": {k: v for k, v in dish_imgs.items() if k in used_dishes},
         "restaurants": out,
     }
 
@@ -199,6 +230,12 @@ def main():
         print(f"  boards not dated today: {', '.join(offdate)}")
 
     if "--inline" in sys.argv:
+        # 요리 참고 사진도 파일 안에 박는다. 아티팩트는 바깥 이미지를 못 부른다.
+        thumbdir = ROOT / "cache" / "dishthumbs"
+        for k, v in payload["dishImages"].items():
+            t = thumbdir / f"{k}.jpg"
+            if t.exists():
+                v["thumb"] = "data:image/jpeg;base64," + base64.b64encode(t.read_bytes()).decode()
         imgdir = ROOT / "cache" / "img"
         by_id = {r["id"]: r for r in src["restaurants"]}
         for r in payload["restaurants"]:

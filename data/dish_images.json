@@ -1,0 +1,486 @@
+{
+ "thumbWidth": 320,
+ "dishes": {
+  "fried-chicken": {
+   "file": "File:Korean fried chicken 240206.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Korean_fried_chicken_240206.jpg/330px-Korean_fried_chicken_240206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_fried_chicken_240206.jpg",
+   "author": "Startandstar",
+   "license": "CC0",
+   "match": [
+    "후라이드치킨",
+    "뿌링클",
+    "순살치킨",
+    "치킨스틱",
+    "윙봉",
+    "크리스피치킨"
+   ]
+  },
+  "yangnyeom-chicken": {
+   "file": "File:Yangnyeom Chicken Korean fried chicken.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Yangnyeom_Chicken_Korean_fried_chicken.jpg/330px-Yangnyeom_Chicken_Korean_fried_chicken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Yangnyeom_Chicken_Korean_fried_chicken.jpg",
+   "author": "Startandstar",
+   "license": "CC0",
+   "match": [
+    "양념치킨",
+    "간장치킨",
+    "데리야끼소스닭",
+    "닭강정"
+   ]
+  },
+  "jjimdak": {
+   "file": "File:Andong-jjimdak.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Andong-jjimdak.jpg/330px-Andong-jjimdak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Andong-jjimdak.jpg",
+   "author": "Korean Culture and Information Service",
+   "license": "KOGL Type 1",
+   "match": [
+    "찜닭"
+   ]
+  },
+  "dakbokkeumtang": {
+   "file": "File:Korean.food-Dakbokemtang-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Korean.food-Dakbokemtang-01.jpg/330px-Korean.food-Dakbokemtang-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Dakbokemtang-01.jpg",
+   "author": "stuart_spivack (a flickr user)",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "닭볶음탕",
+    "닭도리탕"
+   ]
+  },
+  "dakgalbi": {
+   "file": "File:Cooking Dak-galbi in Seoul Korea.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cooking_Dak-galbi_in_Seoul_Korea.jpg/330px-Cooking_Dak-galbi_in_Seoul_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cooking_Dak-galbi_in_Seoul_Korea.jpg",
+   "author": "Sgroey",
+   "license": "CC BY-SA 4.0",
+   "match": [
+    "닭갈비"
+   ]
+  },
+  "samgyetang": {
+   "file": "File:Samgye-tang 2.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Samgye-tang_2.jpg/330px-Samgye-tang_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Samgye-tang_2.jpg",
+   "author": "wizdata",
+   "license": "CC0",
+   "match": [
+    "삼계탕",
+    "백숙"
+   ]
+  },
+  "jeyuk": {
+   "file": "File:Jeyuk-bokkeum 1.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jeyuk-bokkeum_1.jpg/330px-Jeyuk-bokkeum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Jeyuk-bokkeum_1.jpg",
+   "author": "Charles Haynes",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "제육",
+    "고추장불고기",
+    "두루치기",
+    "돼지불백",
+    "돼지불고기",
+    "매운돼지"
+   ]
+  },
+  "samgyeopsal": {
+   "file": "File:Korean.cuisine-Samgyeopsal-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Korean.cuisine-Samgyeopsal-01.jpg/330px-Korean.cuisine-Samgyeopsal-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Samgyeopsal-01.jpg",
+   "author": "by hellochris",
+   "license": "CC BY 2.0",
+   "match": [
+    "삼겹살",
+    "목살구이",
+    "오겹살"
+   ]
+  },
+  "bossam": {
+   "file": "File:Korean cuisine-Bossam-04.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Korean_cuisine-Bossam-04.jpg/330px-Korean_cuisine-Bossam-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Bossam-04.jpg",
+   "author": "Timber Tank",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "보쌈",
+    "수육"
+   ]
+  },
+  "tangsuyuk": {
+   "file": "File:Tangsuyuk (Korean Chinese sweet and sour pork).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tangsuyuk_%28Korean_Chinese_sweet_and_sour_pork%29.jpg/330px-Tangsuyuk_%28Korean_Chinese_sweet_and_sour_pork%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Tangsuyuk_(Korean_Chinese_sweet_and_sour_pork).jpg",
+   "author": "용스토리",
+   "license": "CC BY 4.0",
+   "match": [
+    "탕수육"
+   ]
+  },
+  "sundae-bokkeum": {
+   "file": "File:Sundae-bokkeum 1.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sundae-bokkeum_1.jpg/330px-Sundae-bokkeum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sundae-bokkeum_1.jpg",
+   "author": "Jens Ohlig",
+   "license": "CC BY 2.0",
+   "match": [
+    "순대볶음",
+    "순대철판",
+    "순대깻잎"
+   ]
+  },
+  "sundae": {
+   "file": "File:Korean.food-Sundae-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Korean.food-Sundae-01.jpg/330px-Korean.food-Sundae-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean.food-Sundae-01.jpg",
+   "author": "ayustety (a flickr user)",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "순대"
+   ]
+  },
+  "budae-jjigae": {
+   "file": "File:Budae jjigae indonesia.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Budae_jjigae_indonesia.jpg/330px-Budae_jjigae_indonesia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Budae_jjigae_indonesia.jpg",
+   "author": "Agus Damanik",
+   "license": "CC BY-SA 4.0",
+   "match": [
+    "부대찌개",
+    "부대전골"
+   ]
+  },
+  "bulgogi": {
+   "file": "File:Bulgogi 3.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bulgogi_3.jpg/330px-Bulgogi_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Bulgogi_3.jpg",
+   "author": "Debbie Tingzon",
+   "license": "CC BY 2.0",
+   "match": [
+    "불고기",
+    "불백"
+   ]
+  },
+  "galbijjim": {
+   "file": "File:Testing out @davidchang's mom's Galbi Jjim recipe for possible inclusion in Christmas Dinner. It's excellent. -Korean -shortribs -galbijjim (15334632144).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Testing_out_%40davidchang%27s_mom%27s_Galbi_Jjim_recipe_for_possible_inclusion_in_Christmas_Dinner._It%27s_excellent._-Korean_-shortribs_-galbijjim_%2815334632144%29.jpg/330px-Testing_out_%40davidchang%27s_mom%27s_Galbi_Jjim_recipe_for_possible_inclusion_in_Christmas_Dinner._It%27s_excellent._-Korean_-shortribs_-galbijjim_%2815334632144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Testing_out_@davidchang%27s_mom%27s_Galbi_Jjim_recipe_for_possible_inclusion_in_Christmas_Dinner._It%27s_excellent._-Korean_-shortribs_-galbijjim_(15334632144).jpg",
+   "author": "Arnold Gatilao from Oakland, CA, USA",
+   "license": "CC BY 2.0",
+   "match": [
+    "갈비찜"
+   ]
+  },
+  "tteokgalbi": {
+   "file": "File:Tteok-galbi 1.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Tteok-galbi_1.jpg/330px-Tteok-galbi_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Tteok-galbi_1.jpg",
+   "author": "anokarina",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "떡갈비"
+   ]
+  },
+  "yukgaejang": {
+   "file": "File:Korean soup-Yukgaejang-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Korean_soup-Yukgaejang-01.jpg/330px-Korean_soup-Yukgaejang-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_soup-Yukgaejang-01.jpg",
+   "author": "live",
+   "license": "CC BY 2.0",
+   "match": [
+    "육개장",
+    "닭개장"
+   ]
+  },
+  "gyudon": {
+   "file": "File:Gyuu-don 001.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Gyuu-don_001.jpg/330px-Gyuu-don_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Gyuu-don_001.jpg",
+   "author": "Ocdp",
+   "license": "CC0",
+   "match": [
+    "소고기덮밥",
+    "규동",
+    "우삼겹덮밥"
+   ]
+  },
+  "meatball": {
+   "file": "File:Spaghetti and meatballs 1.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spaghetti_and_meatballs_1.jpg/330px-Spaghetti_and_meatballs_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Spaghetti_and_meatballs_1.jpg",
+   "author": "jeffreyw",
+   "license": "CC BY 2.0",
+   "match": [
+    "미트볼",
+    "함박",
+    "동그랑땡"
+   ]
+  },
+  "jangjorim": {
+   "file": "File:Jangjorim.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Jangjorim.jpg/330px-Jangjorim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Jangjorim.jpg",
+   "author": "Hyeon-Jeong Suk",
+   "license": "CC BY 2.0",
+   "match": [
+    "장조림"
+   ]
+  },
+  "saengseon-gui": {
+   "file": "File:Korean grilled mackerel-Godeungeo gui-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Korean_grilled_mackerel-Godeungeo_gui-01.jpg/330px-Korean_grilled_mackerel-Godeungeo_gui-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_grilled_mackerel-Godeungeo_gui-01.jpg",
+   "author": "SEEMS to be at Flickr",
+   "license": "CC BY-SA 3.0",
+   "match": [
+    "고등어",
+    "삼치구이",
+    "임연수",
+    "가자미구이",
+    "생선구이"
+   ]
+  },
+  "saengseon-katsu": {
+   "file": "File:Cutlet Fish Fillet Full Breakfast.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cutlet_Fish_Fillet_Full_Breakfast.jpg/330px-Cutlet_Fish_Fillet_Full_Breakfast.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cutlet_Fish_Fillet_Full_Breakfast.jpg",
+   "author": "Ceeseven",
+   "license": "CC BY-SA 4.0",
+   "match": [
+    "생선까스",
+    "생선가스"
+   ]
+  },
+  "ojingeo-bokkeum": {
+   "file": "File:Ojingeo-chae-bokkeum.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ojingeo-chae-bokkeum.jpg/330px-Ojingeo-chae-bokkeum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ojingeo-chae-bokkeum.jpg",
+   "author": "꿀시럽",
+   "license": "CC BY 4.0",
+   "match": [
+    "오징어볶음",
+    "오징어채"
+   ]
+  },
+  "haemul-jeon": {
+   "file": "File:Korean pancake-Haemul pajeon-03.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Korean_pancake-Haemul_pajeon-03.jpg/330px-Korean_pancake-Haemul_pajeon-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_pancake-Haemul_pajeon-03.jpg",
+   "author": "by Tales of an LA Addict (Abby) at Flickr",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "해물전",
+    "완자전",
+    "해물완자"
+   ]
+  },
+  "kimchi-jjigae": {
+   "file": "File:Korean.cuisine-Kimchi jjigae-01.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg/330px-Korean.cuisine-Kimchi_jjigae-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean.cuisine-Kimchi_jjigae-01.jpg",
+   "author": "by avlxyz",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "김치찌개",
+    "김치찌게"
+   ]
+  },
+  "doenjang-jjigae": {
+   "file": "File:Doenjang-jjigae 2.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Doenjang-jjigae_2.jpg/330px-Doenjang-jjigae_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Doenjang-jjigae_2.jpg",
+   "author": "스물셋",
+   "license": "CC BY 4.0",
+   "match": [
+    "된장찌개",
+    "된장찌게",
+    "된장지짐"
+   ]
+  },
+  "sundubu": {
+   "file": "File:Korean stew-Sundubu jjigae-05.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Korean_stew-Sundubu_jjigae-05.jpg/330px-Korean_stew-Sundubu_jjigae-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean_stew-Sundubu_jjigae-05.jpg",
+   "author": "by titanium22",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "순두부"
+   ]
+  },
+  "bibimbap": {
+   "file": "File:Vegan hot stone pot bibimbap (Dolsot-bibimbap) - Kogi 2023-10-16.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vegan_hot_stone_pot_bibimbap_%28Dolsot-bibimbap%29_-_Kogi_2023-10-16.jpg/330px-Vegan_hot_stone_pot_bibimbap_%28Dolsot-bibimbap%29_-_Kogi_2023-10-16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Vegan_hot_stone_pot_bibimbap_(Dolsot-bibimbap)_-_Kogi_2023-10-16.jpg",
+   "author": "Andy Li",
+   "license": "CC0",
+   "match": [
+    "비빔밥"
+   ]
+  },
+  "curry": {
+   "file": "File:Beef curry rice 003.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/330px-Beef_curry_rice_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Beef_curry_rice_003.jpg",
+   "author": "Ocdp",
+   "license": "CC0",
+   "match": [
+    "카레"
+   ]
+  },
+  "pasta-cream": {
+   "file": "File:Bacon, cabbage, green onion, shimeji mushroom cream pasta (25657963980).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bacon%2C_cabbage%2C_green_onion%2C_shimeji_mushroom_cream_pasta_%2825657963980%29.jpg/330px-Bacon%2C_cabbage%2C_green_onion%2C_shimeji_mushroom_cream_pasta_%2825657963980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Bacon,_cabbage,_green_onion,_shimeji_mushroom_cream_pasta_(25657963980).jpg",
+   "author": "pelican from Tokyo, Japan",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "크림파스타",
+    "크림스파게티",
+    "까르보나라"
+   ]
+  },
+  "pasta-tomato": {
+   "file": "File:Liat Portal for Foodie Disorder - Spaghetti with Tomato Sauce.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Liat_Portal_for_Foodie_Disorder_-_Spaghetti_with_Tomato_Sauce.jpg/330px-Liat_Portal_for_Foodie_Disorder_-_Spaghetti_with_Tomato_Sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Spaghetti_with_Tomato_Sauce.jpg",
+   "author": "HaJunkiyada",
+   "license": "CC BY-SA 4.0",
+   "match": [
+    "토마토파스타",
+    "라구파스타",
+    "토마토칠리스파게티",
+    "미트스파게티"
+   ]
+  },
+  "eggs-in-hell": {
+   "file": "File:Shakshuka by Calliopejen1.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Shakshuka_by_Calliopejen1.jpg/330px-Shakshuka_by_Calliopejen1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg",
+   "author": "Calliopejen1",
+   "license": "CC BY-SA 3.0",
+   "match": [
+    "에그인헬"
+   ]
+  },
+  "japchae": {
+   "file": "File:Homemade Japchae, Dhaka 03.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Homemade_Japchae%2C_Dhaka_03.jpg/330px-Homemade_Japchae%2C_Dhaka_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Homemade_Japchae,_Dhaka_03.jpg",
+   "author": "Ibrahim Husain Meraj",
+   "license": "CC BY-SA 3.0",
+   "match": [
+    "잡채"
+   ]
+  },
+  "tteokbokki": {
+   "file": "File:Korean.snacks-Tteokbokki-08.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Korean.snacks-Tteokbokki-08.jpg/330px-Korean.snacks-Tteokbokki-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-08.jpg",
+   "author": "by jetalone (flickr)",
+   "license": "CC BY 2.0",
+   "match": [
+    "떡볶이"
+   ]
+  },
+  "mapo-tofu": {
+   "file": "File:Billyfoodmabodofu3.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Billyfoodmabodofu3.jpg/330px-Billyfoodmabodofu3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg",
+   "author": "Archon6812",
+   "license": "CC BY-SA 3.0",
+   "match": [
+    "마파두부"
+   ]
+  },
+  "takoyaki": {
+   "file": "File:Takoyaki by yomi955.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Takoyaki_by_yomi955.jpg/330px-Takoyaki_by_yomi955.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Takoyaki_by_yomi955.jpg",
+   "author": "heiwa4126",
+   "license": "CC BY 2.0",
+   "match": [
+    "타코야끼",
+    "타코야키"
+   ]
+  },
+  "croquette": {
+   "file": "File:Potato croquettes 001.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Potato_croquettes_001.jpg/330px-Potato_croquettes_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Potato_croquettes_001.jpg",
+   "author": "Ocdp",
+   "license": "CC0",
+   "match": [
+    "고로케",
+    "크로켓"
+   ]
+  },
+  "kimchi-bokkeum": {
+   "file": "File:Kimchi-bokkeum-bap (Kimchi fried rice) - Kogi 2023-09-11.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kimchi-bokkeum-bap_%28Kimchi_fried_rice%29_-_Kogi_2023-09-11.jpg/330px-Kimchi-bokkeum-bap_%28Kimchi_fried_rice%29_-_Kogi_2023-09-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Kimchi-bokkeum-bap_(Kimchi_fried_rice)_-_Kogi_2023-09-11.jpg",
+   "author": "Andy Li",
+   "license": "CC0",
+   "match": [
+    "김치볶음"
+   ]
+  },
+  "ramyeon": {
+   "file": "File:Ramyeon.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ramyeon.jpg/330px-Ramyeon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ramyeon.jpg",
+   "author": "Korea.net / Korean Culture and Information Service",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "라면"
+   ]
+  },
+  "naengmyeon": {
+   "file": "File:KOCIS Mul-naengmyeon, Chilled Buckwheat Noodle Soup (4594756202).jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg/330px-KOCIS_Mul-naengmyeon%2C_Chilled_Buckwheat_Noodle_Soup_%284594756202%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:KOCIS_Mul-naengmyeon,_Chilled_Buckwheat_Noodle_Soup_(4594756202).jpg",
+   "author": "Korea.net / Korean Culture and Information Service",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "냉면",
+    "막국수"
+   ]
+  },
+  "donkatsu": {
+   "file": "File:Tonkatsu of Kimukatsu.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tonkatsu_of_Kimukatsu.jpg/330px-Tonkatsu_of_Kimukatsu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Tonkatsu_of_Kimukatsu.jpg",
+   "author": "Minseong Kim",
+   "license": "CC BY-SA 4.0",
+   "match": [
+    "돈까스",
+    "돈가스",
+    "등심까스"
+   ]
+  },
+  "jjukkumi": {
+   "file": "File:Nakji-bokkeum, Stir-Fried Octopus.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nakji-bokkeum%2C_Stir-Fried_Octopus.jpg/330px-Nakji-bokkeum%2C_Stir-Fried_Octopus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakji-bokkeum,_Stir-Fried_Octopus.jpg",
+   "author": "Korea.net / Korean Culture and Information Service",
+   "license": "CC BY-SA 2.0",
+   "match": [
+    "쭈꾸미",
+    "주꾸미",
+    "낙지볶음"
+   ]
+  },
+  "eomuk": {
+   "file": "File:Eomuk-bokkeum 3.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Eomuk-bokkeum_3.jpg/330px-Eomuk-bokkeum_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Eomuk-bokkeum_3.jpg",
+   "author": "Hyeon-Jeong Suk",
+   "license": "CC BY 2.0",
+   "match": [
+    "어묵",
+    "오뎅"
+   ]
+  }
+ }
+}

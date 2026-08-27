@@ -106,7 +106,9 @@ details.primer p{margin:12px 0 0;font-size:14px;color:var(--ink-2);max-width:70c
 .tag.stale{background:var(--tray-inset);color:var(--ink-3)}
 .tag.offdate{background:var(--warn-wash);color:var(--warn)}
 .mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--rule)}
-.mains .row{display:flex;align-items:baseline;gap:9px;padding:9px 0}
+.mains .row{display:flex;align-items:center;gap:10px;padding:8px 0}
+.dpic{width:52px;height:52px;flex-shrink:0;border-radius:6px;object-fit:cover;
+  border:1px solid var(--tray-edge);background:var(--tray-inset)}
 .mains .row+.row{border-top:1px dotted var(--rule)}
 .mains .dish{font-weight:600;font-size:15.5px;letter-spacing:-.005em}
 .mains .sec2{font-size:12.5px;color:var(--ink-2)}
@@ -166,6 +168,7 @@ footer a{color:var(--ink-2)}
 <div class="grid" id="grid"></div>
 
 <footer>
+  <span id="photoNote" style="flex-basis:100%"></span>
   <span id="foot1"></span>
   <span id="foot2"></span>
 </footer>
@@ -206,6 +209,7 @@ const T = {
       "매운맛 표시는 메뉴 이름에서 자동으로 추정한 참고 표시입니다. 알레르기나 종교적 식이 제한이 있다면 반드시 현장에서 확인하세요."
     ],
     foot1:"메뉴는 각 식당이 카카오톡 채널에 올린 게시물 기준 · 재료 수급에 따라 변경될 수 있습니다",
+    photoNote:"요리 옆 작은 사진은 그 요리가 일반적으로 어떤 모습인지 보여주는 참고 사진(Wikimedia Commons)입니다. 실제 배식과 다를 수 있습니다.",
     foot2:d=>`마지막 갱신 ${d}`
   },
   en:{
@@ -236,6 +240,7 @@ const T = {
       "The spicy marks are guessed from dish names and are a rough guide only. If you have allergies or religious dietary restrictions, always confirm on site."
     ],
     foot1:"Menus as posted by each cafeteria to its KakaoTalk channel · subject to change with ingredient supply",
+    photoNote:"The small photos are reference images from Wikimedia Commons showing what each dish typically looks like — not the actual serving.",
     foot2:d=>`Last updated ${d}`
   }
 };
@@ -256,6 +261,7 @@ function render(){
   document.getElementById("primerSum").textContent = t.primerSum;
   document.getElementById("primerBody").innerHTML = t.primer.map(p => `<p>${p}</p>`).join("");
   document.getElementById("foot1").textContent = t.foot1;
+  document.getElementById("photoNote").textContent = t.photoNote;
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
   document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
   document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
@@ -315,11 +321,16 @@ function render(){
       ${r.stats ? `<div class="statline">${t.statChips(r.stats).filter(Boolean).map(c => `<span${c.includes("/") ? ' class="per"' : ""}>${esc(c)}</span>`).join("")}</div>` : ""}
       ${stale && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
       ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
-      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => `
-        <div class="row"><div style="flex:1">
+      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => {
+        const di = i.dish && DATA.dishImages[i.dish];
+        return `
+        <div class="row">${di ? `<img class="dpic" src="${esc(di.thumb)}" alt="" loading="lazy"
+          referrerpolicy="no-referrer" onerror="this.remove()"
+          title="${esc((di.author ? di.author + " · " : "") + di.license + " · Wikimedia Commons")}">` : ""}<div style="flex:1">
           <div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
           <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div>
-        </div>${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`).join("")}</div></div>` : ""}
+        </div>${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`;
+      }).join("")}</div></div>` : ""}
       ${sides.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sides.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
       ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
       ${r.img ? `<button class="shot" data-id="${esc(r.id)}">
