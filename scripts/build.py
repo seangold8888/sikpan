@@ -1,5 +1,10 @@
 # -*- coding: utf-8 -*-
-"""수집한 정보와 판독 결과를 합쳐 docs/index.html 을 만든다."""
+"""수집한 정보와 판독 결과를 합쳐 docs/index.html 을 만든다.
+
+--inline 을 주면 사진을 파일 안에 박아 넣은 사본을 dist/artifact.html 로 함께 만든다.
+바깥 주소를 못 부르는 곳(예: 아티팩트)에 올릴 때 쓴다.
+"""
+import base64
 import datetime
 import json
 import pathlib
@@ -165,6 +170,26 @@ def main():
           + (f"  [source page dated {src.get('sourceDate')}]" if payload["sourceIsOld"] else ""))
     if offdate:
         print(f"  boards not dated today: {', '.join(offdate)}")
+
+    if "--inline" in sys.argv:
+        imgdir = ROOT / "cache" / "img"
+        by_id = {r["id"]: r for r in src["restaurants"]}
+        for r in payload["restaurants"]:
+            local = by_id.get(r["id"], {}).get("img")
+            p = imgdir / local if local else None
+            if p and p.exists():
+                r["img"] = "data:image/jpeg;base64," + base64.b64encode(p.read_bytes()).decode()
+            else:
+                r["img"] = None
+        art = ROOT / "dist"
+        art.mkdir(exist_ok=True)
+        dest2 = art / "artifact.html"
+        dest2.write_text(
+            tpl.replace("__PAYLOAD__", json.dumps(payload, ensure_ascii=False, separators=(",", ":"))),
+            encoding="utf-8",
+        )
+        print(f"built {dest2} with photos embedded — {round(dest2.stat().st_size / 1024, 1)} KB")
+
     return 0
 
 
