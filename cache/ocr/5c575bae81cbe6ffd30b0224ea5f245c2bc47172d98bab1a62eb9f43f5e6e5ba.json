@@ -1,0 +1,64 @@
+{
+ "date_shown": "금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "통마늘갈비양념불고기",
+   "en": "Whole-garlic galbi-seasoned bulgogi",
+   "main": true
+  },
+  {
+   "ko": "베이컨새우볶음밥",
+   "en": "Bacon and shrimp fried rice",
+   "main": true
+  },
+  {
+   "ko": "불닭고로케",
+   "en": "Buldak croquette",
+   "main": true
+  },
+  {
+   "ko": "함박미트볼&크림소스",
+   "en": "Hamburg meatballs, cream sauce",
+   "main": true
+  },
+  {
+   "ko": "장칼국수",
+   "en": "Spicy jang-kalguksu",
+   "main": false
+  },
+  {
+   "ko": "백미밥",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "죽봉어묵볶음",
+   "en": "Stir-fried fish cake",
+   "main": false
+  },
+  {
+   "ko": "꼬시래기무무침",
+   "en": "Kkosiraegi seaweed and radish salad",
+   "main": false
+  },
+  {
+   "ko": "매콤호박무침",
+   "en": "Spicy squash salad",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&포도D",
+   "en": "Garden salad, grape dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa kimchi",
+   "main": false
+  }
+ ],
+ "notes": "메뉴판에 날짜 숫자 없이 요일만 인쇄돼 있다.",
+ "_model": "read-2026-08-28"
+}

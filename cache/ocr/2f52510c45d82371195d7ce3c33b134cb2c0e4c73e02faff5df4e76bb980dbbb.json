@@ -1,0 +1,64 @@
+{
+ "date_shown": "8월 28일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "청양풍돼지불고기",
+   "en": "Cheongyang-style spicy pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "오징어당면까스&칠리S",
+   "en": "Squid glass-noodle cutlet, chili sauce",
+   "main": true
+  },
+  {
+   "ko": "고추참치덮밥",
+   "en": "Spicy tuna rice bowl",
+   "main": true
+  },
+  {
+   "ko": "통인시장기름떡볶이",
+   "en": "Tongin Market oil tteokbokki",
+   "main": true
+  },
+  {
+   "ko": "해파리겨자냉채",
+   "en": "Jellyfish salad in mustard sauce",
+   "main": false
+  },
+  {
+   "ko": "매콤콩나물무침",
+   "en": "Spicy bean sprout salad",
+   "main": false
+  },
+  {
+   "ko": "오이지무침/포기김치",
+   "en": "Pickled cucumber salad / napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "무교동북엇국",
+   "en": "Mugyo-dong dried pollock soup",
+   "main": false
+  },
+  {
+   "ko": "미니찐빵튀김",
+   "en": "Mini fried steamed bun",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Multigrain rice / white rice",
+   "main": false
+  }
+ ],
+ "notes": "셀프코너: 쌈채소·풋고추, 한강라면, 잼토스트, 숭늉, 탄산음료.",
+ "_model": "read-2026-08-28"
+}

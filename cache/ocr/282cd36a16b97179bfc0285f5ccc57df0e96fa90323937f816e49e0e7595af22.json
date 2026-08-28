@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 8월 28일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "봉추찜닭",
+   "en": "Bongchu-style braised chicken (Jjimdak)",
+   "main": true
+  },
+  {
+   "ko": "오징어까스/칠리마요",
+   "en": "Squid cutlet with chili mayo",
+   "main": true
+  },
+  {
+   "ko": "돼지고기김치전",
+   "en": "Pork and kimchi pancake",
+   "main": true
+  },
+  {
+   "ko": "흑미밥, 백미밥",
+   "en": "Black rice, white rice",
+   "main": false
+  },
+  {
+   "ko": "얼큰소고기장터국",
+   "en": "Spicy beef market soup",
+   "main": false
+  },
+  {
+   "ko": "매콤소떡만떡",
+   "en": "Spicy sausage and rice-cake skewer",
+   "main": false
+  },
+  {
+   "ko": "직화어묵채숙주볶음",
+   "en": "Griddled fish cake and bean sprout stir-fry",
+   "main": false
+  },
+  {
+   "ko": "견과류자반",
+   "en": "Seasoned laver with nuts",
+   "main": false
+  },
+  {
+   "ko": "고구마빠스",
+   "en": "Candied sweet potato",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River self-cook ramyeon",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한차",
+   "en": "Soda / cold tea",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

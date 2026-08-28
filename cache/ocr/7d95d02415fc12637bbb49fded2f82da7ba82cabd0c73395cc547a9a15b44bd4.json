@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (8/28 금요일)",
+ "price": null,
+ "hours": "점심 11:10 ~ 13:30",
+ "items": [
+  {
+   "ko": "매운 닭도리탕",
+   "en": "Spicy braised chicken (Dak-doritang)",
+   "main": true
+  },
+  {
+   "ko": "돈육 짜장덮밥 & 짜장면",
+   "en": "Pork jjajang rice bowl and noodles",
+   "main": true
+  },
+  {
+   "ko": "등심 탕수육 & 소스",
+   "en": "Pork loin tangsuyuk with sauce",
+   "main": true
+  },
+  {
+   "ko": "잡곡밥 / 흰쌀밥",
+   "en": "Multigrain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "김치 순두부 찌개",
+   "en": "Kimchi sundubu stew",
+   "main": false
+  },
+  {
+   "ko": "중화 돈채 고추 잡채",
+   "en": "Chinese pork and pepper japchae",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 누룽지.라면강정",
+   "en": "Sungnyung / crisped rice and ramyeon brittle",
+   "main": false
+  },
+  {
+   "ko": "아삭이 고추무침 / 반달단무지",
+   "en": "Crunchy pepper salad / pickled radish",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage salad",
+   "main": false
+  },
+  {
+   "ko": "겉절이 김치",
+   "en": "Fresh geotjeori kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Soda",
+   "main": false
+  }
+ ],
+ "notes": "중식 특선일.",
+ "_model": "read-2026-08-28"
+}

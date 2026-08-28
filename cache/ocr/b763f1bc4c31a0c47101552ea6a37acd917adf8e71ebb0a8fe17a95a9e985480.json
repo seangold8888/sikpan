@@ -1,0 +1,44 @@
+{
+ "date_shown": "8/28(금,점심)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "날치알김치덮밥&계란후라이",
+   "en": "Flying-fish-roe kimchi rice bowl with fried egg",
+   "main": true
+  },
+  {
+   "ko": "꿔바로우",
+   "en": "Guobaorou (sweet-and-sour pork)",
+   "main": true
+  },
+  {
+   "ko": "미소된장국",
+   "en": "Miso doenjang soup",
+   "main": false
+  },
+  {
+   "ko": "소시치떡볶음",
+   "en": "Sausage tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "건파래자반",
+   "en": "Dried seasoned green laver",
+   "main": false
+  },
+  {
+   "ko": "단무지",
+   "en": "Danmuji (pickled radish)",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, drinks",
+   "main": false
+  }
+ ],
+ "notes": "같은 메뉴판에 8/31(월) 메뉴도 함께 붙어 있다.",
+ "_model": "read-2026-08-28"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 8월 28일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "고사리목삼겹대패구이",
+   "en": "Bracken and shaved pork belly grill",
+   "main": true
+  },
+  {
+   "ko": "스팸계란볶음밥",
+   "en": "Spam and egg fried rice",
+   "main": true
+  },
+  {
+   "ko": "한입치킨까스",
+   "en": "Bite-size chicken katsu",
+   "main": true
+  },
+  {
+   "ko": "불닭마요너비아니",
+   "en": "Fire-chicken mayo neobiani",
+   "main": true
+  },
+  {
+   "ko": "냉우동",
+   "en": "Cold udon",
+   "main": false
+  },
+  {
+   "ko": "도토리묵무침",
+   "en": "Seasoned acorn jelly",
+   "main": false
+  },
+  {
+   "ko": "삐강콩나물,도시락김",
+   "en": "Seasoned bean sprouts, lunchbox laver",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 쌈장",
+   "en": "Wrap greens and ssamjang",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Domestic napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭늉 & 음료",
+   "en": "Sungnyung and drinks",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

@@ -1,0 +1,59 @@
+{
+ "date_shown": "8월28일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "햄맛살볶음밥*데미소스/백미밥",
+   "en": "Ham and crab-stick fried rice, demi sauce",
+   "main": true
+  },
+  {
+   "ko": "삼겹살두루치기",
+   "en": "Spicy pork belly duruchigi",
+   "main": true
+  },
+  {
+   "ko": "쿠즈락한입갈비산적",
+   "en": "Bite-size galbi skewers",
+   "main": true
+  },
+  {
+   "ko": "직화오징어어묵볶음",
+   "en": "Griddled squid and fish-cake stir-fry",
+   "main": true
+  },
+  {
+   "ko": "얼갈이된장국",
+   "en": "Young cabbage doenjang soup",
+   "main": false
+  },
+  {
+   "ko": "모듬크로켓*타르타르s",
+   "en": "Assorted croquettes, tartar sauce",
+   "main": false
+  },
+  {
+   "ko": "짜파게티",
+   "en": "Jjapaghetti",
+   "main": false
+  },
+  {
+   "ko": "햄감자채볶음/오이생채",
+   "en": "Ham and potato stir-fry / cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad, fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi / self-serve ramyeon / toast / drinks",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

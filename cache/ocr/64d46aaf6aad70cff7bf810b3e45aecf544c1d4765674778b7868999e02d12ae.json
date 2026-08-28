@@ -1,0 +1,64 @@
+{
+ "date_shown": "8월 28일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "숯불돼지갈비구이",
+   "en": "Charcoal-grilled pork ribs",
+   "main": true
+  },
+  {
+   "ko": "게살볶음밥",
+   "en": "Crab fried rice",
+   "main": true
+  },
+  {
+   "ko": "닭다리살치킨너겟",
+   "en": "Chicken thigh nuggets",
+   "main": true
+  },
+  {
+   "ko": "믌냉면",
+   "en": "Mul-naengmyeon (cold noodles)",
+   "main": false
+  },
+  {
+   "ko": "통김말이",
+   "en": "Fried seaweed rolls (Gimmari)",
+   "main": false
+  },
+  {
+   "ko": "갈릭치즈토스트",
+   "en": "Garlic cheese toast",
+   "main": false
+  },
+  {
+   "ko": "김치만두",
+   "en": "Kimchi dumplings",
+   "main": false
+  },
+  {
+   "ko": "부산어묵떡볶이",
+   "en": "Busan fish-cake tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "단무지채무침",
+   "en": "Shredded pickled radish salad",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad / dressing",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이/음료",
+   "en": "Fresh kimchi / drinks",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

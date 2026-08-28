@@ -1,0 +1,79 @@
+{
+ "date_shown": "8월 28일 (금요일) 메뉴",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "청양풍돼지불고기",
+   "en": "Cheongyang-style spicy pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "오징어당면까스&칠리s",
+   "en": "Squid glass-noodle cutlet, chili sauce",
+   "main": true
+  },
+  {
+   "ko": "고추참치덮밥",
+   "en": "Spicy tuna rice bowl",
+   "main": true
+  },
+  {
+   "ko": "해파리겨자냉채",
+   "en": "Jellyfish salad in mustard sauce",
+   "main": false
+  },
+  {
+   "ko": "통인시장기름떡볶이",
+   "en": "Tongin Market oil tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "브로콜리연근흑임자무침",
+   "en": "Broccoli, lotus root, black sesame salad",
+   "main": false
+  },
+  {
+   "ko": "양념오이지무침 / 포기김치",
+   "en": "Seasoned pickled cucumber / napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "무교동북엇국",
+   "en": "Mugyo-dong dried pollock soup",
+   "main": false
+  },
+  {
+   "ko": "plus코너) 바나나",
+   "en": "Banana (Plus corner)",
+   "main": false
+  },
+  {
+   "ko": "싱싱쌈채소",
+   "en": "Fresh wrap greens",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River self-cook ramyeon",
+   "main": false
+  },
+  {
+   "ko": "팜토스트",
+   "en": "Farm toast",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Soda",
+   "main": false
+  }
+ ],
+ "notes": "플러스 코너(무료): 쌈채소, 한강라면, 토스트, 탄산음료.",
+ "_model": "read-2026-08-28"
+}

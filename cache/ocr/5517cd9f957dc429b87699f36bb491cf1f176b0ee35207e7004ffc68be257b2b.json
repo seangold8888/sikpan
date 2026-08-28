@@ -1,0 +1,59 @@
+{
+ "date_shown": "8월28일 금요일메뉴",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "지리산흑돼지고추장제육",
+   "en": "Jirisan black pork gochujang jeyuk",
+   "main": true
+  },
+  {
+   "ko": "순대/내장모듬/소금장",
+   "en": "Sundae with assorted offal, salt dip",
+   "main": true
+  },
+  {
+   "ko": "국물떡볶이",
+   "en": "Broth tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "감자핫도그튀김/케찹",
+   "en": "Fried potato corn dog, ketchup",
+   "main": false
+  },
+  {
+   "ko": "브로콜리마요무침",
+   "en": "Broccoli with mayo",
+   "main": false
+  },
+  {
+   "ko": "건새우콩나물국",
+   "en": "Dried shrimp and bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수콘.건포도",
+   "en": "Cabbage, corn, raisins",
+   "main": false
+  },
+  {
+   "ko": "상추쌈/젓갈류",
+   "en": "Lettuce wraps, salted seafood",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramyeon corner",
+   "main": false
+  },
+  {
+   "ko": "음료/야쿠르트",
+   "en": "Drinks / Yakult",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

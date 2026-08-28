@@ -1,0 +1,79 @@
+{
+ "date_shown": "8월28일 (금)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "안동찜닭",
+   "en": "Andong jjimdak (braised chicken)",
+   "main": true
+  },
+  {
+   "ko": "햄,김치볶음덮밥",
+   "en": "Ham and kimchi fried rice bowl",
+   "main": true
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "골라먹는모듬튀김",
+   "en": "Assorted fritters, pick your own",
+   "main": false
+  },
+  {
+   "ko": "온두부,양념장",
+   "en": "Warm tofu with seasoned sauce",
+   "main": false
+  },
+  {
+   "ko": "소떡소떡",
+   "en": "Sausage and rice-cake skewers",
+   "main": false
+  },
+  {
+   "ko": "오이부추무침",
+   "en": "Cucumber and chive salad",
+   "main": false
+  },
+  {
+   "ko": "얼갈이겉절이",
+   "en": "Young cabbage geotjeori",
+   "main": false
+  },
+  {
+   "ko": "백김치",
+   "en": "Baek-kimchi (non-spicy)",
+   "main": false
+  },
+  {
+   "ko": "냉김치말이국수",
+   "en": "Cold kimchi noodle rolls",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드",
+   "en": "Green salad",
+   "main": false
+  },
+  {
+   "ko": "벌집감자튀김",
+   "en": "Honeycomb fries",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Soda",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River self-cook ramyeon",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}

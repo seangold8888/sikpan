@@ -1,0 +1,64 @@
+{
+ "date_shown": "8월28일 (금) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "매콤단호박돈목살찜",
+   "en": "Spicy braised pork neck with kabocha",
+   "main": true
+  },
+  {
+   "ko": "수제중화탕수육",
+   "en": "House Chinese-style tangsuyuk",
+   "main": true
+  },
+  {
+   "ko": "우렁강된장덮밥",
+   "en": "River snail doenjang rice bowl",
+   "main": true
+  },
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / black multigrain rice",
+   "main": false
+  },
+  {
+   "ko": "들깨미역국",
+   "en": "Perilla seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "*양배추쌈*",
+   "en": "Cabbage wraps",
+   "main": false
+  },
+  {
+   "ko": "비엔나쏘야볶음",
+   "en": "Stir-fried Vienna sausage and soybeans",
+   "main": false
+  },
+  {
+   "ko": "간장쥐어채볶음",
+   "en": "Soy-braised shredded dried fish",
+   "main": false
+  },
+  {
+   "ko": "숙주나물무침",
+   "en": "Seasoned bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김치",
+   "en": "Fresh napa geotjeori",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "read-2026-08-28"
+}
