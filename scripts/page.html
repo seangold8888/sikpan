@@ -562,7 +562,9 @@ const T = {
     noItems:"오늘 메뉴가 아직 올라오지 않았습니다.",
     offdate:d=>`${d} 메뉴판`,
     offdateNote:d=>`이 식당이 올린 메뉴판은 <b>${d}</b> 기준입니다. 오늘 메뉴는 다를 수 있습니다.`,
-    oldWarn:d=>`게시된 메뉴가 <b>${d}</b> 기준입니다. 오늘 메뉴는 아직 올라오지 않았습니다.`,
+    oldWarn:(d,n)=>n>1
+      ? `게시된 메뉴가 <b>${d}</b> 기준 — <b>${n}일 전</b> 메뉴판입니다. 자동 갱신이 멈춰 있을 수 있으니 그대로 믿지 마세요.`
+      : `게시된 메뉴가 <b>${d}</b> 기준입니다. 오늘 메뉴는 아직 올라오지 않았습니다.`,
     primerSum:"한국 구내식당, 처음이라면",
     primer:[
       "가산디지털단지의 구내식당은 대부분 <b>개방형</b>입니다. 그 건물 직원이 아니어도 들어가 먹을 수 있습니다.",
@@ -603,7 +605,9 @@ const T = {
     noItems:"Today's menu has not been posted yet.",
     offdate:d=>`Board dated ${d}`,
     offdateNote:d=>`The board this cafeteria posted is dated <b>${d}</b>, not today. What is actually served may differ.`,
-    oldWarn:d=>`The boards on display are dated <b>${d}</b>. Today's menus are not up yet.`,
+    oldWarn:(d,n)=>n>1
+      ? `The boards on display are dated <b>${d}</b> — <b>${n} days old</b>. The daily update may have stopped, so do not rely on these.`
+      : `The boards on display are dated <b>${d}</b>. Today's menus are not up yet.`,
     primerSum:"First time in a Korean office cafeteria?",
     primer:[
       "Most cafeterias in the Gasan Digital Complex are <b>open to anyone</b>. You do not need to work in the building to walk in and eat.",
@@ -622,6 +626,17 @@ document.getElementById("lbClose").onclick = () => lb.close();
 lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// 이 사이트는 가산(KST)의 오늘을 기준으로 한다. 보는 사람이 어느 시간대에 있든
+// 판정이 흔들리지 않도록 UTC+9 로 옮겨 계산한다.
+const kstToday = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+// 메뉴판이 며칠 지난 것인지. 날짜를 모르면 null.
+const boardAgeDays = () => {
+  const iso = DATA.sourceDateIso;
+  if (!iso) return null;
+  const diff = Date.parse(kstToday() + "T00:00:00Z") - Date.parse(iso + "T00:00:00Z");
+  return Number.isFinite(diff) ? Math.round(diff / 86400e3) : null;
+};
 const nm = (r) => lang === "ko" ? r.ko : (r.en || r.ko);
 const firstDishImg = r => {
   for (const i of r.items) if (i.main && i.dish && DATA.dishImages[i.dish]) return DATA.dishImages[i.dish].thumb;
@@ -924,8 +939,11 @@ function render(){
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
   document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
   document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
-  document.getElementById("banner").innerHTML = DATA.sourceIsOld
-    ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate))}</div>` : "";
+  const age = boardAgeDays();
+  // 날짜를 못 읽은 경우(age === null)에는 예전처럼 빌드 시점 판정으로 물러선다.
+  const isOld = age === null ? DATA.sourceIsOld : age > 0;
+  document.getElementById("banner").innerHTML = isOld
+    ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate), age)}</div>` : "";
 
   const term = document.getElementById("q").value.trim().toLowerCase();
   const recBox = document.getElementById("rec");

@@ -215,6 +215,9 @@ def main():
         "dateEn": today.strftime("%A, %B %-d, %Y") if sys.platform != "win32"
                   else today.strftime("%A, %B %d, %Y").replace(" 0", " "),
         "sourceDate": src.get("sourceDate"),
+        # 묵은 판 판정은 브라우저가 KST 기준으로 한다. 빌드 시점에 굳혀 두면
+        # 자동 갱신이 멈춘 동안 옛 메뉴판이 오늘 것처럼 보인다.
+        "sourceDateIso": sdate.isoformat() if sdate else None,
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),
         "todayNumbers": today_numbers,
