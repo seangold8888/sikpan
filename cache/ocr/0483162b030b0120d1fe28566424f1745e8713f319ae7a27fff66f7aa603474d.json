@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 10일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥, 백미밥",
+   "en": "Black rice and white rice",
+   "main": false
+  },
+  {
+   "ko": "우거지해장국",
+   "en": "우거지 Hangover soup",
+   "main": false
+  },
+  {
+   "ko": "칼비양념묵실쌈판구이",
+   "en": "Seasoned kalbi with vegetables and grilled",
+   "main": true
+  },
+  {
+   "ko": "풀넉고로케&쌀리마요",
+   "en": "Potato croquette and rice mayo",
+   "main": false
+  },
+  {
+   "ko": "로제미트볼스트",
+   "en": "Rose meatball stew",
+   "main": false
+  },
+  {
+   "ko": "오징어어묵무침",
+   "en": "Squid and fish cake seasoned side",
+   "main": false
+  },
+  {
+   "ko": "총무김밥",
+   "en": "Chongmu kimbap",
+   "main": false
+  },
+  {
+   "ko": "청포묵김가루무침",
+   "en": "Cheongpo jelly with seaweed powder",
+   "main": false
+  },
+  {
+   "ko": "간장고추장",
+   "en": "Soy sauce and red pepper paste",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad and napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated beverage and cold drink",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (2026년 09월 10일 목요일)",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 10일(목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus코너강냉이&마카로니",
+   "en": "Plus corner corn & macaroni",
+   "main": false
+  },
+  {
+   "ko": "캡핑소금구이",
+   "en": "Capping salt-grilled",
+   "main": true
+  },
+  {
+   "ko": "처갓집순살양념치킨",
+   "en": "Seasoned chicken breast",
+   "main": true
+  },
+  {
+   "ko": "누들묵묵떡볶이",
+   "en": "Noodle tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "순대&내장전 / 소금",
+   "en": "Sundae & offal pancake / salt",
+   "main": false
+  },
+  {
+   "ko": "소보로마늘쑥쑥붕음",
+   "en": "Garlic wormwood rice",
+   "main": false
+  },
+  {
+   "ko": "미니오이숙박이",
+   "en": "Mini cucumber pickles",
+   "main": false
+  },
+  {
+   "ko": "쌔앗딩궁조림 / 깍두기",
+   "en": "Seasoned greens / radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "돼지누부김치찌개",
+   "en": "Pork belly kimchi stew",
+   "main": true
+  }
+ ],
+ "notes": "Date shown matches target date. Restaurant: 플러스 코너 (무료). Food origin labels present: 성심 쌀미/호, 양강김목 / 명 도축소, 민송풍토",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 10일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기버섯전골",
+   "en": "Beef and mushroom hot pot",
+   "main": true
+  },
+  {
+   "ko": "양념반추라이드바강정",
+   "en": "Marinated half-fried chicken",
+   "main": true
+  },
+  {
+   "ko": "바싹볶고기",
+   "en": "Crispy stir-fried meat",
+   "main": true
+  },
+  {
+   "ko": "미트볼스파게티",
+   "en": "Meatball spaghetti",
+   "main": true
+  },
+  {
+   "ko": "딸기쨈프렌치토스트",
+   "en": "Strawberry jam French toast",
+   "main": true
+  },
+  {
+   "ko": "아이스오션껍단",
+   "en": "Ice ocean shrimp",
+   "main": false
+  },
+  {
+   "ko": "도라지오이우침",
+   "en": "Platycodon and cucumber pickles",
+   "main": false
+  },
+  {
+   "ko": "바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "쌀밥 & 드레싱",
+   "en": "Rice and dressing",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Domestic Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭늉 & 음료",
+   "en": "Barley tea and beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

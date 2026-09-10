@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 10일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기국",
+   "en": "Beef soup (Sogogi-guk)",
+   "main": false
+  },
+  {
+   "ko": "돼지갈비찜닭",
+   "en": "Braised pork ribs and chicken (Dwaeji-galbi-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "간장조초응주육",
+   "en": "Soy-braised meat (Ganjang-jo-cho-eung-ju-yuk)",
+   "main": true
+  },
+  {
+   "ko": "밀떡볶이",
+   "en": "Wheat rice cake stir-fry (Mil-tteok-bokki)",
+   "main": false
+  },
+  {
+   "ko": "궁중오색집채",
+   "en": "Royal five-color vegetables (Gungjung-o-saek-jip-chae)",
+   "main": false
+  },
+  {
+   "ko": "쥐어채조림",
+   "en": "Braised vegetable strips (Jwi-eo-chae-jorim)",
+   "main": false
+  },
+  {
+   "ko": "참치두부조림",
+   "en": "Braised tuna and tofu (Chamchi-dubu-jorim)",
+   "main": false
+  },
+  {
+   "ko": "양념깻잎지",
+   "en": "Seasoned perilla leaf kimchi (Yangnyeom-kkaen-nip-ji)",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi (Baechu-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "가쓰오들깨샐러드",
+   "en": "Perilla seed salad (Gaseu-o-deul-kkae-saelreo-deu)",
+   "main": false
+  },
+  {
+   "ko": "우동역 김자튀김 / 타산음료 / 핫강라면",
+   "en": "Udong Station-style dishes and beverages",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월 10일 (목) which matches target date 2026년 09월 10일 (목). Bottom text states: '모든 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 있습니다.' (All menus may be substituted if sold out early).",
+ "_model": "claude-haiku-4-5-20251001"
+}

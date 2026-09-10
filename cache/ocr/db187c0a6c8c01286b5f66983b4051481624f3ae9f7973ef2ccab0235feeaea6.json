@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월10일 (목) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice and grain rice",
+   "main": false
+  },
+  {
+   "ko": "칩치 김치찌개",
+   "en": "Kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "태리아께 소스닭뭉움",
+   "en": "Teriyaki style chicken",
+   "main": true
+  },
+  {
+   "ko": "김밥이튀김/제우징이볶튀김",
+   "en": "Kimbap and fried items",
+   "main": false
+  },
+  {
+   "ko": "스팸 계마삼주머밥",
+   "en": "Spam fried rice",
+   "main": true
+  },
+  {
+   "ko": "자장나 드릉뷔이",
+   "en": "Black bean sauce noodles",
+   "main": true
+  },
+  {
+   "ko": "가자중어채뷔움",
+   "en": "Seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "콘나못우침",
+   "en": "Corn side dish",
+   "main": false
+  },
+  {
+   "ko": "배추깍정어김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad",
+   "main": false
+  },
+  {
+   "ko": "열음신혜/무신과자",
+   "en": "Fruit / Snacks",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (9월10일 목요일). Some menu item text is unclear or possibly misprinted in the original image, transcribed as accurately as possible.",
+ "_model": "claude-haiku-4-5-20251001"
+}

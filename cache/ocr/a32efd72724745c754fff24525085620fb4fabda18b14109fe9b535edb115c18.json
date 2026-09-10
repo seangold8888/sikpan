@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월10일 목요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "해물짜장불고기",
+   "en": "Seafood jjajang bulgogi",
+   "main": true
+  },
+  {
+   "ko": "화탕카츠",
+   "en": "Hwa-tang katsu",
+   "main": true
+  },
+  {
+   "ko": "철판우제찻께익",
+   "en": "Teppan beef steak",
+   "main": true
+  },
+  {
+   "ko": "킬바사뷔음",
+   "en": "Kielbasa",
+   "main": false
+  },
+  {
+   "ko": "새콤미역무침",
+   "en": "Seasoned wakame",
+   "main": false
+  },
+  {
+   "ko": "상상셀러드",
+   "en": "Imaginary salad",
+   "main": false
+  },
+  {
+   "ko": "직접담은걸정이",
+   "en": "House-made pickles",
+   "main": false
+  },
+  {
+   "ko": "가스오순두부국",
+   "en": "Gas silken tofu soup",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥",
+   "en": "Self-serve bibimbap",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프라면",
+   "en": "Self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Instagram: urbanworkdasbom. Instagram DM for reservation and menu details. Operating hours until 10 AM.",
+ "_model": "claude-haiku-4-5-20251001"
+}

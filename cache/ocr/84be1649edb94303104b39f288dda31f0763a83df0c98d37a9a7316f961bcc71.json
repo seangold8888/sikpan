@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월10일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "온항장곡밥",
+   "en": "Onhang janggouk bap",
+   "main": true
+  },
+  {
+   "ko": "북어해장국",
+   "en": "Dried pollack hangover soup (Bugeoh haejang-guk)",
+   "main": false
+  },
+  {
+   "ko": "바베큐소스닭불고기",
+   "en": "Barbecue sauce chicken bulgogi (Babbekyu sosesu dak-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "해물까스",
+   "en": "Seafood cutlet (Haemul kkas)",
+   "main": true
+  },
+  {
+   "ko": "고추장채완자전",
+   "en": "Red chili paste vegetable and meatball pancake (Gochu-jang-chae wanja-jeon)",
+   "main": true
+  },
+  {
+   "ko": "철판순대볶음",
+   "en": "Iron plate stir-fried Korean blood sausage (Cheolpan sundae-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "들기름약국수",
+   "en": "Perilla seed oil noodles (Deulgireum yak-guksoo)",
+   "main": true
+  },
+  {
+   "ko": "감자채계란볶음",
+   "en": "Stir-fried potato and egg (Gamja-chae gyeran-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "깻잎지",
+   "en": "Perilla leaf kimchi (Kkaennip-ji)",
+   "main": false
+  },
+  {
+   "ko": "가드샐러드/드레싱",
+   "en": "Garden salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이/음료",
+   "en": "Napa cabbage quick pickle / beverage",
+   "main": false
+  }
+ ],
+ "notes": "Menu board for company cafeteria (더푸드스케쳐). Date shown matches target date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

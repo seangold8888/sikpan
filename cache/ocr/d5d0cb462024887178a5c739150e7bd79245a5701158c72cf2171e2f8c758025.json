@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월10일(목요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "소고기못국",
+   "en": "Beef soup",
+   "main": false
+  },
+  {
+   "ko": "목은지묵쌀찐*은두부",
+   "en": "Wood ear jelly and steamed tofu",
+   "main": false
+  },
+  {
+   "ko": "댓치까스*마블링S",
+   "en": "Catch cutlet with marbling",
+   "main": true
+  },
+  {
+   "ko": "베이컨바질크림떡볶이",
+   "en": "Bacon basil cream tteokbokki",
+   "main": true
+  },
+  {
+   "ko": "시리얼과일사라다",
+   "en": "Cereal and fruit salad",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침",
+   "en": "Seasoned dried radish",
+   "main": false
+  },
+  {
+   "ko": "열무김절이",
+   "en": "Young radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "깐두릅",
+   "en": "Peeled chestnuts",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럽드&드레싱",
+   "en": "Greek salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen and toast",
+   "main": false
+  },
+  {
+   "ko": "쌀채소*풍고추*쌀장",
+   "en": "Rice vegetables, red chili, soy sauce",
+   "main": false
+  },
+  {
+   "ko": "는룽지*탕샤응국*매실침",
+   "en": "Lung vegetable, tang sha soup, pickled plum",
+   "main": false
+  }
+ ],
+ "notes": "쌀기 메뉴는 식사 시 자정에 따라 있던 것 변동될 수 있습니다. (Note about menu changes based on meal times is printed at bottom)",
+ "_model": "claude-haiku-4-5-20251001"
+}

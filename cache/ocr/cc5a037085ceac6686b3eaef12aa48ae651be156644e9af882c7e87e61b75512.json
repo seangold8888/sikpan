@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월10(목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우삼겹육개장",
+   "en": "Beef brisket soup (Yusamgyeop-yukgaejang)",
+   "main": true
+  },
+  {
+   "ko": "허브솔트대패소금구이",
+   "en": "Herb salt grilled sliced pork (Daepa salt-gui)",
+   "main": true
+  },
+  {
+   "ko": "통살지킨가스*브라운소스",
+   "en": "Whole chicken cutlet with brown sauce (Tongssal-gikkin gas)",
+   "main": true
+  },
+  {
+   "ko": "해물뚝전&볶고기햄게란전",
+   "en": "Seafood and stir-fried meat ham egg jeon (Haemul-tteokjeon & Bokkogi-ham gaeran-jeon)",
+   "main": false
+  },
+  {
+   "ko": "메추리알카레조림",
+   "en": "Quail eggs in curry sauce (Metchu-ri-al curry jorim)",
+   "main": false
+  },
+  {
+   "ko": "이영자st들기름묵은지막국수",
+   "en": "Perilla oil aged kimchi noodles (Deul-gi-reum muk-eun-ji makguksu)",
+   "main": true
+  },
+  {
+   "ko": "오징어채소무침",
+   "en": "Squid and vegetable side dish (Ojingeochae-somu-chim)",
+   "main": false
+  },
+  {
+   "ko": "콘마카로니샐러드",
+   "en": "Corn macaroni salad (Kon makaroni salad)",
+   "main": false
+  },
+  {
+   "ko": "취나물볶음",
+   "en": "Seasoned fatsia shoots (Chwi-namul bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "양배추숙쌈*쌈장",
+   "en": "Cabbage with sauce (Yangbaechu-suk ssam)",
+   "main": false
+  },
+  {
+   "ko": "표기김치/셀프라면/토스트/음료",
+   "en": "Labeled kimchi, self-serve instant noodles, toast, beverages",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월10(목) which corresponds to target date 2026년 09월 10일 (목)",
+ "_model": "claude-haiku-4-5-20251001"
+}

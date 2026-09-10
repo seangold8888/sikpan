@@ -1,0 +1,59 @@
+{
+ "date_shown": "점심 (9/10 목요일)",
+ "price": null,
+ "hours": "점심,11시 10분 ~ 1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "냉상 소금구이",
+   "en": "Chilled salted grilled dish",
+   "main": true
+  },
+  {
+   "ko": "매운 오징어 볶음",
+   "en": "Spicy stir-fried squid",
+   "main": true
+  },
+  {
+   "ko": "한박 스테이크 & 소스",
+   "en": "Hanpark steak & sauce",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 미숟가루",
+   "en": "Savory scorched rice / Rice powder",
+   "main": false
+  },
+  {
+   "ko": "새우 부추전 & 간장",
+   "en": "Shrimp and Chinese chive pancake & soy sauce",
+   "main": false
+  },
+  {
+   "ko": "미소 팡이 장국",
+   "en": "Miso broth",
+   "main": false
+  },
+  {
+   "ko": "콩나물 버섯 무침 / 아삭이 고추무침",
+   "en": "Bean sprout and mushroom seasoned vegetables / Crispy cucumber kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "포 기 김 치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner and origin labeling information printed at bottom of board",
+ "_model": "claude-haiku-4-5-20251001"
+}

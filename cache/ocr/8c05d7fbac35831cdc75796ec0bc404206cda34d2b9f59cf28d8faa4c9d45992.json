@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 10일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "바싹불고기",
+   "en": "Crispy bulgogi (Basak bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "중화볶음우동",
+   "en": "Chinese-style stir-fried udon",
+   "main": true
+  },
+  {
+   "ko": "햄계란말이",
+   "en": "Ham and egg roll (Ham gyeran mari)",
+   "main": false
+  },
+  {
+   "ko": "김치맛이비빔국수",
+   "en": "Kimchi-flavored bibim noodles",
+   "main": true
+  },
+  {
+   "ko": "양배추쌈*청상엄장",
+   "en": "Cabbage wraps with sauce",
+   "main": false
+  },
+  {
+   "ko": "생야채겯절이",
+   "en": "Fresh vegetable pickle (Saeng yachae geot-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "매실고추지",
+   "en": "Plum and chili pickle (Maesil gochu-ji)",
+   "main": false
+  },
+  {
+   "ko": "한깡라면",
+   "en": "Han-kang ramen",
+   "main": true
+  },
+  {
+   "ko": "가는쌀러더 / 포기김치",
+   "en": "Fine rice salad / Poggi kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated drinks / Plum tea / Seungnong",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

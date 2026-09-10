@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 10일 (목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "캠핑소금구이",
+   "en": "Camping salt-grilled meat",
+   "main": true
+  },
+  {
+   "ko": "애송리애간장치킨",
+   "en": "Soy sauce chicken",
+   "main": true
+  },
+  {
+   "ko": "누들육묵덕볶이",
+   "en": "Noodle stir-fried meat",
+   "main": true
+  },
+  {
+   "ko": "순대*내장찜&소금",
+   "en": "Sundae and offal steamed",
+   "main": false
+  },
+  {
+   "ko": "소보로마늘쫑볶음",
+   "en": "Garlic scape stir-fry",
+   "main": false
+  },
+  {
+   "ko": "미니오이숙박이",
+   "en": "Mini cucumber side dish",
+   "main": false
+  },
+  {
+   "ko": "땅콩조림/깍두기",
+   "en": "Peanut braised / radish cubes",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "돼지두부김치찌개",
+   "en": "Pork tofu kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "벌집감자튀김&케찹",
+   "en": "Honeycomb potato fries & ketchup",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌀채소 & 풋고추 / 막강하면 & 글로팜 팹 토스트 / 구수한 숭늉 & 시원한 탄산음료",
+   "en": "Rice vegetables & green pepper / side options / barley tea & cold beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (9월 10일 목요일 = September 10, Thursday). Last line contains self-serve options and beverage choices.",
+ "_model": "claude-haiku-4-5-20251001"
+}

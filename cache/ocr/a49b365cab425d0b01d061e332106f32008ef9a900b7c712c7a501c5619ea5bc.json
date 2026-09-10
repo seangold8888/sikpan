@@ -1,0 +1,24 @@
+{
+ "date_shown": "26년 9월 7일 ~ 26년9월 11일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우육덮밥",
+   "en": "Beef rice bowl",
+   "main": true
+  },
+  {
+   "ko": "닭지짐장비",
+   "en": "Chicken with black bean sauce",
+   "main": true
+  },
+  {
+   "ko": "김치좋나물우",
+   "en": "Kimchi and vegetable side dishes",
+   "main": false
+  }
+ ],
+ "notes": "Board shows week of Sept 7-11, 2026. Target date requested (Sept 10, Thursday/목) corresponds to column 우요일 showing 우육덮밥 as main dish.",
+ "_model": "claude-haiku-4-5-20251001"
+}

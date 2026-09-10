@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 10일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "목은지돼지갈비",
+   "en": "Pork short ribs (Dwaejigalbi)",
+   "main": true
+  },
+  {
+   "ko": "두부그릴구이0I&양념장",
+   "en": "Grilled tofu with sauce",
+   "main": false
+  },
+  {
+   "ko": "화이트소스통등심돈까스",
+   "en": "White sauce pork cutlet (Donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "영콩수제소세지볶음",
+   "en": "Homemade sausage stir-fry",
+   "main": false
+  },
+  {
+   "ko": "피자미트볼",
+   "en": "Pizza meatballs",
+   "main": false
+  },
+  {
+   "ko": "치커리유자청절이",
+   "en": "Chicory with yuzu sauce",
+   "main": false
+  },
+  {
+   "ko": "간장고추지",
+   "en": "Soy sauce chili paste",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "쏟고추/깍배추쌈&쌈장",
+   "en": "Red chili / Chopped napa cabbage with sauce",
+   "main": false
+  },
+  {
+   "ko": "가르셀러드&요거트드레싱",
+   "en": "Garden salad & yogurt dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Juice / Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (2026년 09월 10일 목요일). Text at bottom indicates self-serve items and origin information available.",
+ "_model": "claude-haiku-4-5-20251001"
+}

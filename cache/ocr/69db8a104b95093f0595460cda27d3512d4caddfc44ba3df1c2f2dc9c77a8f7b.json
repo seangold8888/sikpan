@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/10(목,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "잡지미역국",
+   "en": "Seaweed soup with seafood (Japji-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "지코바져권",
+   "en": "Jiko ba jeojwon",
+   "main": true
+  },
+  {
+   "ko": "닭깔스크랩블",
+   "en": "Chicken cutlet scramble (Dak-kkal-seu-keuraembeul)",
+   "main": true
+  },
+  {
+   "ko": "냉메탈셀러드",
+   "en": "Cold metal salad (Naeng-metal-sellereodeu)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables (Gyejeol-namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi (Gungnaessan-baechukimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀러드 과일 음료",
+   "en": "Salad, fruit, and beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner noted at bottom. Date matches target date 2026년 09월 10일 (목).",
+ "_model": "claude-haiku-4-5-20251001"
+}

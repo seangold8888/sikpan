@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 10일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우제치킹&앙파크리미소스",
+   "en": "Pork cutlet & mushroom cream sauce",
+   "main": true
+  },
+  {
+   "ko": "우제오징어김치전",
+   "en": "Pork and squid kimchi pancake",
+   "main": true
+  },
+  {
+   "ko": "토마토스크랩볶음",
+   "en": "Tomato scrap stir-fry",
+   "main": false
+  },
+  {
+   "ko": "롯두부무우원",
+   "en": "Rolled tofu with radish",
+   "main": false
+  },
+  {
+   "ko": "오이깍둑짱무침",
+   "en": "Diced cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&딸기ID",
+   "en": "Garden salad with strawberry",
+   "main": false
+  },
+  {
+   "ko": "국내산 배추겉절이",
+   "en": "Korean cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve bibimbap / Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "간편식: 홍제오리셀러드",
+   "en": "Convenience meal: Hongje duck salad",
+   "main": false
+  }
+ ],
+ "notes": "Country of origin labels shown: 국내산(domestic), 중국산(China), 호주산(Australia)",
+ "_model": "claude-haiku-4-5-20251001"
+}

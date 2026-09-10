@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월10일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "지리삼숙돼지수육/세우젓",
+   "en": "Braised pork belly with shrimp sauce",
+   "main": true
+  },
+  {
+   "ko": "옛날소시지계란전",
+   "en": "Classic sausage and egg pancake",
+   "main": false
+  },
+  {
+   "ko": "교자만두튀김/소스",
+   "en": "Fried dumplings with sauce",
+   "main": false
+  },
+  {
+   "ko": "꽈리감자조림",
+   "en": "Braised shishito peppers and potatoes",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned soybean sprouts",
+   "main": false
+  },
+  {
+   "ko": "제철된장국",
+   "en": "Seasonal soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/우슥수콘 건포도",
+   "en": "Cabbage, corn, and raisin salad",
+   "main": false
+  },
+  {
+   "ko": "상추쌈/젓갈류",
+   "en": "Lettuce wraps with fermented seafood",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/야쿠르트",
+   "en": "Beverages and yogurt drinks",
+   "main": false
+  }
+ ],
+ "notes": "제료공금에따메뉴바뀔수있습니다 (Menu may change depending on ingredient availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}
