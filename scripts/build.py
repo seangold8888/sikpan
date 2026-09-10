@@ -105,6 +105,10 @@ def match_dish(ko, kws):
 def main():
     src = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
     places_file = json.loads((ROOT / "data" / "places.json").read_text(encoding="utf-8"))
+    # 식당 좌표. 한 번 구해 둔 값이라 없으면 지도만 빠지고 나머지는 그대로 돈다.
+    coords_file = ROOT / "data" / "coords.json"
+    coords_all = json.loads(coords_file.read_text(encoding="utf-8")) if coords_file.exists() else {}
+    coords = coords_all.get("places", {})
     places = places_file.get("places", {})
     extras = places_file.get("extras", [])
     cache = ROOT / "cache" / "ocr"
@@ -167,6 +171,8 @@ def main():
             "notes": ocr.get("notes") if not items else None,
             "items": items,
             "walkMin": p.get("walkMin"),
+            "lat": coords.get(r["id"], {}).get("lat"),
+            "lng": coords.get(r["id"], {}).get("lng"),
             "stats": menu_stats.summarize(items, p.get("price") or ocr.get("price"),
                                           ocr.get("notes")) if items else None,
         })
@@ -180,6 +186,8 @@ def main():
             "hoursKo": e.get("hoursKo"), "hoursEn": e.get("hoursEn"),
             "tipKo": e.get("tipKo"), "tipEn": e.get("tipEn"),
             "notes": None, "manual": True, "items": [], "walkMin": e.get("walkMin"),
+            "lat": coords.get(e["id"], {}).get("lat"),
+            "lng": coords.get(e["id"], {}).get("lng"),
         })
 
     # 오늘 하루를 요약하는 숫자들. 값을 모르는 곳은 빼고 계산하고, 몇 곳 기준인지 함께 적는다.
@@ -218,6 +226,7 @@ def main():
         # 묵은 판 판정은 브라우저가 KST 기준으로 한다. 빌드 시점에 굳혀 두면
         # 자동 갱신이 멈춘 동안 옛 메뉴판이 오늘 것처럼 보인다.
         "sourceDateIso": sdate.isoformat() if sdate else None,
+        "station": coords_all.get("station"),
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),
         "todayNumbers": today_numbers,

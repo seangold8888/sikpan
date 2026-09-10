@@ -478,6 +478,59 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
 }
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
+
+/* 도식 지도 — 타일을 깔지 않고 좌표만 우리 팔레트로 그린다. */
+.gmap{margin:0 0 14px;background:var(--tray);border:2px solid var(--outline);border-radius:26px;box-shadow:var(--shadow);overflow:hidden;animation:rise-in .45s .1s cubic-bezier(.2,.7,.2,1) both}
+.gmhead{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:54px;padding:13px 20px;color:#111;background:var(--signal);border-bottom:2px solid var(--outline)}
+.gmhead .t{font:900 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.gmhead .h{color:#4B4C45;font-size:11px;font-weight:700}
+.gmbody{display:grid;grid-template-columns:minmax(0,1fr) 232px;gap:0}
+.gmcanvas{position:relative;padding:16px 10px;min-width:0;background:
+  linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px),var(--tray-inset);
+  background-size:26px 26px}
+.gmcanvas svg{display:block;width:100%;height:auto;max-height:min(68vh,600px)}
+.gmside{padding:18px 18px 16px;border-left:2px solid var(--outline);background:var(--tray)}
+.gmlegend{display:flex;flex-direction:column;gap:11px;margin-bottom:16px}
+.gmleg{display:flex;align-items:center;gap:9px;color:var(--ink-2);font-size:11.5px;font-weight:700;line-height:1.35}
+.gmswatch{flex:0 0 auto;width:19px;height:19px;border:2px solid var(--outline);border-radius:50%;background:var(--tray)}
+.gmswatch.pick{background:var(--signal)}
+.gmswatch.none{background:var(--tray-inset);border-style:dashed}
+.gmswatch.sta{border-radius:4px;background:var(--cobalt);border-color:var(--cobalt)}
+.gmswatch.ring{background:transparent;border-style:dashed;border-color:color-mix(in srgb,var(--ink-3) 58%,transparent)}
+.gmnote{padding:11px 12px;color:var(--ink-2);background:var(--tray-inset);border-radius:10px;font-size:11.5px;font-weight:600;line-height:1.6}
+.gmnote b{color:var(--ink)}
+/* 핀 */
+.gpin{cursor:pointer}
+.gpin circle{fill:var(--tray);stroke:var(--outline);stroke-width:2;transition:.15s ease}
+.gpin text{fill:var(--ink);font:800 10px/1 "Archivo",sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none;user-select:none}
+.gpin.pick circle{fill:var(--signal)}
+.gpin.pick text{fill:#151515}
+.gpin.nomenu circle{fill:var(--tray-inset);stroke-dasharray:3 2.5}
+.gpin.nomenu text{fill:var(--ink-3)}
+.gpin.pick circle{fill:var(--signal);stroke-dasharray:none}
+.gpin.pick text{fill:#151515}
+.gpin:hover circle,.gpin:focus-visible circle{fill:var(--accent);stroke-width:2.5}
+.gpin:hover text,.gpin:focus-visible text{fill:#fff}
+.gpin.on circle{fill:var(--cobalt);stroke-width:2.5}
+.gpin.on text{fill:#fff}
+.gsta rect{fill:var(--cobalt);stroke:var(--outline);stroke-width:2}
+.gsta text{fill:#fff;font:800 8.5px/1 "Archivo",sans-serif;text-anchor:middle;dominant-baseline:central}
+.gring circle{fill:none;stroke:color-mix(in srgb,var(--ink-3) 58%,transparent);stroke-width:1.5;stroke-dasharray:5 5}
+.gring text{fill:var(--ink-3);font:700 9px/1 "Archivo",sans-serif;text-anchor:middle}
+.gscale line,.gscale path{stroke:var(--ink-3);stroke-width:1.5;fill:none}
+.gscale text{fill:var(--ink-3);font:700 9px/1 "Archivo",sans-serif}
+.gnorth path{fill:var(--ink-3)}
+.gnorth text{fill:var(--ink-3);font:800 10px/1 "Archivo",sans-serif;text-anchor:middle}
+@media (max-width:980px){
+  .gmbody{grid-template-columns:1fr}
+  .gmside{border-left:0;border-top:2px solid var(--outline)}
+  .gmlegend{flex-direction:row;flex-wrap:wrap;gap:10px 16px;margin-bottom:12px}
+}
+@media (max-width:720px){
+  .gmap{border-radius:20px}.gmhead{min-height:48px;padding:12px 15px}.gmhead .h{display:none}
+  .gmcanvas{padding:10px 4px}.gmcanvas svg{max-height:min(62vh,460px)}.gmside{padding:14px 15px}
+  .gmleg{font-size:10.5px}.gmnote{font-size:10.5px}
+}
 </style>
 </head>
 <body>
@@ -511,6 +564,7 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
 <div class="rec" id="rec"></div>
 <div class="hero" id="hero"></div>
 <div class="statline" id="statline"></div>
+<section class="gmap" id="gmap" hidden></section>
 <div class="list" id="list"></div>
 
 <details class="primer">
@@ -539,6 +593,10 @@ const T = {
     recTitle:"오늘의 추천",
     whyTitle:"이 식당이 지금 1위인 이유", quick:"오늘의 기준 빠르게 바꾸기",
     recDetails:"추천 근거와 가중치 자세히 보기",
+    mapTitle:"식당 위치", mapHint:"핀을 누르면 그 식당이 열립니다",
+    mapPick:"오늘의 추천", mapOpen:"오늘 메뉴 있음", mapNone:"메뉴 미게시",
+    mapSta:"가산디지털단지역", mapM:n=>`${n}m`, mapRing:"역에서 거리",
+    mapNote:"가산디지털단지 안의 상대 위치입니다. 길이 아니라 <b>거리와 방향</b>만 보여줍니다. 실제 길안내는 각 식당을 펼쳐 <b>길찾기</b>를 누르세요.",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
     axes:{value:"가성비",variety:"반찬수",mains:"메인수",protein:"단백질",rarity:"희소성",near:"가까움"},
@@ -582,6 +640,10 @@ const T = {
     recTitle:"Today's pick",
     whyTitle:"Why this place ranks first", quick:"Tune today's pick",
     recDetails:"See ranking logic & weights",
+    mapTitle:"Where they are", mapHint:"tap a pin to open that cafeteria",
+    mapPick:"today's pick", mapOpen:"menu posted today", mapNone:"no menu posted",
+    mapSta:"Gasan Digital Complex Stn", mapM:n=>`${n}m`, mapRing:"distance from station",
+    mapNote:"Relative positions within the complex. This shows <b>distance and direction</b>, not streets. For turn-by-turn, open a cafeteria and tap <b>directions</b>.",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
     axes:{value:"Value",variety:"Variety",mains:"Mains",protein:"Protein",rarity:"Rarity",near:"Distance"},
@@ -824,6 +886,7 @@ function wireRec(){
     box.innerHTML = recHtml();
     if (openW){ const d = box.querySelector("details.wt"); if (d) d.open = true; }
     wireRec();
+    syncMapPick();
   };
   box.querySelectorAll('input[type=range]').forEach(inp => {
     inp.addEventListener("input", () => {
@@ -875,6 +938,124 @@ function heroHtml(){
       ${tip ? `<div class="hsub">${esc(tip)}</div>` : ""}</div>`);
   }
   return cards.join("");
+}
+
+// ── 도식 지도 ────────────────────────────────────────────────
+// 타일 지도를 깔지 않는다. 좌표를 그대로 투영해 상대 위치만 우리 팔레트로 그린다.
+// 길 모양은 데이터가 없으므로 그리지 않는다 — 없는 길을 지어내면 틀린 지도가 된다.
+const MPD_LAT = 111000;                                   // 위도 1도의 미터
+const mpdLng = lat => 111320 * Math.cos(lat * Math.PI / 180);
+
+function mapHtml(shownList) {
+  const t = T[lang];
+  const pts = shownList.filter(x => x.r.lat != null && x.r.lng != null);
+  if (pts.length < 2) return "";
+
+  const sta = DATA.station;
+  // 추천은 가중치에 따라 바뀐다. 지도도 매번 같이 갱신된다.
+  const ranked = scored();
+  const topId = ranked.length ? ranked[0].r.id : null;
+  const lats = pts.map(x => x.r.lat), lngs = pts.map(x => x.r.lng);
+  if (sta) { lats.push(sta.lat); lngs.push(sta.lng); }
+  const latMin = Math.min(...lats), latMax = Math.max(...lats);
+  const lngMin = Math.min(...lngs), lngMax = Math.max(...lngs);
+  const midLat = (latMin + latMax) / 2, mLng = mpdLng(midLat);
+
+  // 미터 단위로 펴 놓고 가로세로 비율을 지킨다
+  const wM = Math.max((lngMax - lngMin) * mLng, 1);
+  const hM = Math.max((latMax - latMin) * MPD_LAT, 1);
+  const PAD = 34, W = 760;
+  const scale = (W - PAD * 2) / wM;
+  const H = Math.round(hM * scale + PAD * 2);
+  const px = lng => PAD + (lng - lngMin) * mLng * scale;
+  const py = lat => PAD + (latMax - lat) * MPD_LAT * scale;   // 북쪽이 위
+
+  // 같은 건물에 여러 곳이 있으면 핀이 겹친다. 겹치는 만큼 부채꼴로 벌린다.
+  const R = 13, placed = [];
+  const spread = (x, y) => {
+    for (let ring = 0; ring < 6; ring++) {
+      const n = ring === 0 ? 1 : ring * 6, rad = ring * (R * 1.9);
+      for (let k = 0; k < n; k++) {
+        const a = (k / n) * Math.PI * 2 - Math.PI / 2;
+        const cx = x + Math.cos(a) * rad, cy = y + Math.sin(a) * rad;
+        if (placed.every(q => (q[0] - cx) ** 2 + (q[1] - cy) ** 2 > (R * 1.85) ** 2)) {
+          placed.push([cx, cy]); return [cx, cy];
+        }
+      }
+    }
+    placed.push([x, y]); return [x, y];
+  };
+
+  const pins = pts.map(({ r, idx }) => {
+    const [cx, cy] = spread(px(r.lng), py(r.lat));
+    const cls = "gpin" + (r.items.length ? "" : " nomenu") + (r.id === topId ? " pick" : "");
+    return `<g class="${cls}" data-id="${esc(r.id)}" tabindex="0" role="button"
+      aria-label="${esc(nm(r))}"><title>${esc(nm(r))}</title>
+      <circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${R}"></circle>
+      <text x="${cx.toFixed(1)}" y="${(cy + .5).toFixed(1)}">${idx}</text></g>`;
+  }).join("");
+
+  // 역에서 얼마나 떨어졌는지. 빈 공간이 거리를 읽게 해 준다.
+  const ringEl = sta ? [200, 400, 600, 800].map(m => {
+    const rr = m * scale, cx = px(sta.lng), cy = py(sta.lat);
+    // 원이 화면 밖으로 완전히 나가면 그리지 않는다
+    if (cx - rr > W && cy - rr > H) return "";
+    return `<g class="gring"><circle cx="${cx.toFixed(1)}" cy="${cy.toFixed(1)}" r="${rr.toFixed(1)}"></circle>
+      <text x="${cx.toFixed(1)}" y="${(cy - rr + 11).toFixed(1)}">${esc(t.mapM(m))}</text></g>`;
+  }).join("") : "";
+
+  const staEl = sta ? `<g class="gsta"><rect x="${(px(sta.lng) - 13).toFixed(1)}"
+      y="${(py(sta.lat) - 9).toFixed(1)}" width="26" height="18" rx="4"></rect>
+      <text x="${px(sta.lng).toFixed(1)}" y="${py(sta.lat).toFixed(1)}">${lang === "ko" ? "역" : "STN"}</text></g>` : "";
+
+  // 눈금자 — 100m 단위로 딱 떨어지게
+  const target = 150 / scale;
+  const step = [100, 200, 300, 500].reduce((a, b) => Math.abs(b - target) < Math.abs(a - target) ? b : a);
+  const sw = step * scale, sx = PAD, sy = H - 14;
+  const scaleEl = `<g class="gscale"><path d="M${sx} ${sy - 5}V${sy}H${sx + sw}V${sy - 5}"></path>
+    <text x="${sx + sw / 2}" y="${sy - 8}" text-anchor="middle">${esc(t.mapM(step))}</text></g>`;
+  const northEl = `<g class="gnorth"><path d="M${W - PAD} ${PAD - 20}l5 13h-10z"></path>
+    <text x="${W - PAD}" y="${PAD + 4}">N</text></g>`;
+
+  return `<div class="gmhead"><span class="t">${esc(t.mapTitle)}</span><span class="h">${esc(t.mapHint)}</span></div>
+  <div class="gmbody">
+    <div class="gmcanvas"><svg viewBox="0 0 ${W} ${H}" role="img"
+      aria-label="${esc(t.mapTitle)}">${ringEl}${scaleEl}${northEl}${staEl}${pins}</svg></div>
+    <div class="gmside">
+      <div class="gmlegend">
+        <div class="gmleg"><span class="gmswatch pick"></span>${esc(t.mapPick)}</div>
+        <div class="gmleg"><span class="gmswatch"></span>${esc(t.mapOpen)}</div>
+        <div class="gmleg"><span class="gmswatch none"></span>${esc(t.mapNone)}</div>
+        <div class="gmleg"><span class="gmswatch sta"></span>${esc(t.mapSta)}</div>
+        <div class="gmleg"><span class="gmswatch ring"></span>${esc(t.mapRing)}</div>
+      </div>
+      <div class="gmnote">${t.mapNote}</div>
+    </div>`;
+}
+
+// 추천이 바뀌면 지도 강조도 옮긴다. 핀 위치는 그대로라 다시 그리지 않는다.
+function syncMapPick(){
+  const top = scored()[0];
+  document.querySelectorAll(".gpin.pick").forEach(g => g.classList.remove("pick"));
+  if (top) document.querySelector(`.gpin[data-id="${CSS.escape(top.r.id)}"]`)?.classList.add("pick");
+}
+
+// 핀을 누르면 그 식당 줄을 펼치고 그리로 데려간다.
+function wireMap() {
+  document.querySelectorAll(".gpin").forEach(g => {
+    const go = () => {
+      const row = document.querySelector(`details.lrow[data-id="${CSS.escape(g.dataset.id)}"]`);
+      if (!row) return;
+      if (!row.open) { row.open = true; open.add(g.dataset.id); }
+      row.scrollIntoView({ behavior: "smooth", block: "center" });
+      document.querySelectorAll(".gpin.on").forEach(o => o.classList.remove("on"));
+      g.classList.add("on");
+    };
+    g.addEventListener("click", go);
+    g.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); }
+    });
+  });
 }
 
 function rowHtml(r, idx){
@@ -960,19 +1141,27 @@ function render(){
   document.getElementById("statline").innerHTML = term ? "" : stats.join('<span style="color:var(--rule)">|</span>');
 
   let shown = 0, rows = "";
+  const shownList = [];
   DATA.restaurants.forEach(r => {
     const hay = [r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ").toLowerCase();
     if (term && !hay.includes(term)) return;
     shown++;
+    shownList.push({ r, idx: shown });
     rows += rowHtml(r, shown);
   });
   document.getElementById("count").textContent = t.count(shown);
   document.getElementById("list").innerHTML =
     `<div class="lhead"><span class="t">${esc(t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
 
+  const gm = document.getElementById("gmap");
+  const gmHtml = mapHtml(shownList);
+  gm.innerHTML = gmHtml;
+  gm.hidden = !gmHtml;
+
   document.querySelectorAll("details.lrow").forEach(d => {
     d.addEventListener("toggle", () => { d.open ? open.add(d.dataset.id) : open.delete(d.dataset.id); });
   });
+  wireMap();
   document.querySelectorAll(".shotbtn").forEach(b => {
     b.onclick = (e) => {
       e.preventDefault();
