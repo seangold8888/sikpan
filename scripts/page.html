@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>가산 런치보드 — 오늘의 구내식당 메뉴</title>
-<meta name="description" content="서울 가산디지털단지 구내식당의 오늘 메뉴를 한국어와 영어로. Today's cafeteria menus in Seoul's Gasan Digital Complex, in Korean and English.">
-<meta property="og:title" content="가산 런치보드 / Gasan Lunch Board">
-<meta property="og:description" content="가산디지털단지 구내식당 오늘의 메뉴 · Today's office-cafeteria menus, with English">
+<title>SIKPAN 식판 — 가산 구내식당 오늘의 점심 점수</title>
+<meta name="description" content="주판(ZOOPAN) 자매품. 서울 가산디지털단지 구내식당의 오늘 메뉴를 반찬까지 세어 점수로. Today's cafeteria menus in Seoul's Gasan Digital Complex, scored, in Korean and English.">
+<meta property="og:title" content="SIKPAN 식판 · 주판(ZOOPAN) 자매품">
+<meta property="og:description" content="반찬까지 세어서 점심을 고릅니다 · 가산디지털단지 구내식당 오늘의 메뉴와 점수">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23DDFE52'/%3E%3Ccircle cx='32' cy='32' r='15' fill='%23FF5C3A'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23EF5A2F'/%3E%3Crect x='12' y='14' width='18' height='14' rx='4' fill='%23fff'/%3E%3Crect x='34' y='14' width='18' height='14' rx='4' fill='%23fff'/%3E%3Crect x='12' y='32' width='40' height='18' rx='5' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
@@ -65,7 +65,9 @@ button{font-family:inherit}
 header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px 0 16px}
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
 .logo{flex:0 0 auto;display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--accent);font-size:22px;box-shadow:0 8px 20px -10px var(--accent)}
-h1{margin:0;font-size:22px;font-weight:800;letter-spacing:-.03em;line-height:1.2}
+h1{margin:0;font-size:22px;font-weight:900;letter-spacing:.06em;line-height:1.2}
+.ttl{display:flex;align-items:center;flex-wrap:wrap;gap:4px 8px}
+.sib{padding:3px 8px;border:1px solid var(--line);border-radius:999px;color:var(--ink-3);font-size:11px;font-weight:700;line-height:1;white-space:nowrap}
 .stamp{margin-top:3px;color:var(--ink-3);font-size:13px;font-weight:600}
 .langs{flex:0 0 auto;display:flex;padding:3px;background:var(--soft);border-radius:11px}
 .langs button{height:32px;padding:0 12px;border:0;border-radius:8px;background:transparent;color:var(--ink-3);font-size:13px;font-weight:700;cursor:pointer}
@@ -332,7 +334,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
 <div class="wrap">
 <header class="top">
   <div class="brand"><span class="logo" aria-hidden="true">🍱</span>
-    <div><h1 id="siteTitle">가산 런치보드</h1><div class="stamp" id="stamp"></div></div></div>
+    <div><div class="ttl"><h1 id="siteTitle">SIKPAN</h1><span class="sib" id="siteSib">주판 자매품</span></div><div class="stamp" id="stamp"></div></div></div>
   <div class="langs" role="group" aria-label="language">
     <button id="btnKo" aria-pressed="true">한국어</button><button id="btnEn" aria-pressed="false">EN</button></div>
 </header>
@@ -378,7 +380,7 @@ const T = {
     nearTitle:(n,c)=>`${n}에서 가까운 ${c}곳`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
     nearScore:s=>`점수 ${s}`, nearNoScore:"오늘 점수 없음", cardScore:"점",
     cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물", noPrice:"가격 미확인", originOn:"가까움 기준", originClear:"기준 지우기",
-    siteTitle:"가산 런치보드", picksSub:"오늘 메뉴로 매긴 점수", tuneBtn:"추천 기준 조정", tuneClose:"접기",
+    siteTitle:"SIKPAN", siteSib:"주판 자매품", picksSub:"오늘 메뉴로 매긴 점수", tuneBtn:"추천 기준 조정", tuneClose:"접기",
     mapBtn:"지도", gridTitle:"오늘의 구내식당", gridSub:"점수 높은 순", searchTitle:n=>`검색 결과 ${n}곳`,
     nearSub:"가까운 순 · 점수는 오늘 추천 기준", topBadge:"오늘 1위", edPick:n=>`대표 추천 ${n}위`,
     zoom:"메뉴판 크게", more:"자세히", empty:"맞는 식당이 없습니다", walkFrom:min=>`도보 약 ${min}분`,
@@ -435,7 +437,7 @@ const T = {
     nearTitle:(n,c)=>`${c} nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
     nearScore:s=>`score ${s}`, nearNoScore:"no score today", cardScore:"pts",
     cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building", noPrice:"price n/a", originOn:"Distance from", originClear:"clear",
-    siteTitle:"Gasan Lunch Board", picksSub:"scored from today's menus", tuneBtn:"Tune ranking", tuneClose:"Hide",
+    siteTitle:"SIKPAN", siteSib:"by ZOOPAN", picksSub:"scored from today's menus", tuneBtn:"Tune ranking", tuneClose:"Hide",
     mapBtn:"Map", gridTitle:"Today's cafeterias", gridSub:"highest score first", searchTitle:n=>`${n} results`,
     nearSub:"nearest first · scores use today's ranking", topBadge:"#1 today", edPick:n=>`Staff pick #${n}`,
     zoom:"View board", more:"More", empty:"No matching cafeteria", walkFrom:min=>`~${min} min walk`,
@@ -1194,6 +1196,7 @@ function render(){
   const t = T[lang];
   document.documentElement.lang = lang;
   document.getElementById("siteTitle").textContent = t.siteTitle;
+  document.getElementById("siteSib").textContent = t.siteSib;
   const N = DATA.todayNumbers || {};
   document.getElementById("stamp").textContent =
     [lang === "ko" ? DATA.dateKo : DATA.dateEn, N.places ? t.statPlaces(N.places) : ""].filter(Boolean).join(" · ");
