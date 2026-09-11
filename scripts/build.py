@@ -230,7 +230,7 @@ def main():
         # 자동 갱신이 멈춘 동안 옛 메뉴판이 오늘 것처럼 보인다.
         "sourceDateIso": sdate.isoformat() if sdate else None,
         "station": coords_all.get("station"),
-        "streets": ({k: streets[k] for k in ("roads", "rails", "stations", "landmarks", "_attribution")}
+        "streets": ({k: streets[k] for k in ("roads", "rails", "stations", "landmarks", "buildings", "_attribution") if k in streets}
                     if streets else None),
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),

@@ -351,6 +351,13 @@ button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{o
 }
 .recwho{display:grid;grid-template-columns:112px minmax(0,1fr) auto;align-items:center;gap:20px;padding:0;border:0}
 .recwho img{width:112px;height:112px;border:2px solid #151515;border-radius:22px;box-shadow:5px 5px 0 #151515;transform:rotate(-1.5deg)}
+.recart svg{display:block;width:112px;height:112px;filter:drop-shadow(5px 5px 0 #151515);transform:rotate(-1.5deg)}
+.recart circle{fill:#FFFDF8;stroke:#151515;stroke-width:2.4}
+.recart use{--i1:#9A4A33;--i2:#151515}
+/* 사진 로딩이 실패해 칸이 비면 글자가 그 칸으로 밀려 들어간다. 그럴 땐 격자를 접는다. */
+.recwho:not(:has(img,.recart)){grid-template-columns:minmax(0,1fr) auto}
+/* 한글은 단어 중간에서 끊지 않는다. 너무 긴 한 단어만 넘칠 때 끊는다. */
+body{word-break:keep-all;overflow-wrap:break-word}
 .recname{font-size:clamp(25px,3.5vw,42px);line-height:1.02;letter-spacing:-.055em}
 .recdish{max-width:36ch;margin-top:8px;color:var(--ink-2);font-size:14px;font-weight:700;line-height:1.5}
 .recmeta{margin-top:9px;color:var(--ink-2);font:800 10.5px/1.5 "Archivo","Gothic A1",sans-serif;letter-spacing:.015em}
@@ -466,7 +473,7 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
   .mast-deck{margin-top:15px;font-size:12px;line-height:1.6}.mast-meta{min-width:0;width:min(100%,270px);padding:14px 15px;box-shadow:4px 4px 0 #151515;transform:none}.mast-note{display:none}.stamp{margin-top:9px;font-size:10px}
   .bar{top:8px;grid-template-columns:1fr auto;gap:8px;margin-bottom:16px;padding:8px;border-radius:15px}.seg{justify-self:start}.seg button{min-height:37px;padding:7px 11px;font-size:9.5px}input[type=search]{grid-column:1/-1;grid-row:2;height:43px;font-size:12px}.count{grid-column:2;grid-row:1;justify-self:end}
   .rechead{padding:12px 16px}.rechead .d{display:none}.rec{border-radius:21px}.recL,.recR{padding:20px}
-  .recwho{grid-template-columns:82px minmax(0,1fr);gap:15px}.recwho img{width:82px;height:82px;border-radius:17px;box-shadow:4px 4px 0 #151515}.recname{font-size:clamp(24px,8vw,34px)}.recdish{font-size:12px}.recmeta{font-size:9.5px}.recbig{grid-column:1/-1;display:flex;align-items:end;gap:8px;padding:10px 0 0;text-align:left}.recbig .n{font-size:52px}.recbig .u{margin:0 0 5px}
+  .recwho{grid-template-columns:82px minmax(0,1fr);gap:15px}.recwho img{width:82px;height:82px;border-radius:17px;box-shadow:4px 4px 0 #151515}.recart svg{width:82px;height:82px;filter:drop-shadow(4px 4px 0 #151515)}.recwho:not(:has(img,.recart)){grid-template-columns:minmax(0,1fr)}.recname{font-size:clamp(24px,8vw,34px)}.recdish{font-size:12px}.recmeta{font-size:9.5px}.recbig{grid-column:1/-1;display:flex;align-items:end;gap:8px;padding:10px 0 0;text-align:left}.recbig .n{font-size:52px}.recbig .u{margin:0 0 5px}
   .reason-grid{gap:6px}.reason{padding:11px 6px}.reason b{font-size:16px}.reason span{font-size:9px}.presets button{flex:1;min-width:calc(50% - 4px)}
   .hero{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(82vw,330px);gap:11px;margin-right:-12px;padding:1px 12px 11px 1px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.hero::-webkit-scrollbar{display:none}.hcard:nth-child(1),.hcard.heat,.hcard.pick{grid-column:auto;scroll-snap-align:start}.hcard{min-height:176px;padding:19px;border-radius:19px;box-shadow:4px 4px 0 #151515}.hcard img{width:72px;height:72px}
   .statline{margin:12px 0 16px;padding:12px 13px;gap:8px;font-size:9.5px}
@@ -552,6 +559,14 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
 .gnorth path{fill:var(--ink-2)}
 .gnorth text{fill:var(--ink-2);font:800 16px "Archivo",sans-serif;text-anchor:middle}
 .gattrs{fill:var(--ink-3);font:600 13px "Gothic A1",sans-serif;text-anchor:end}
+/* 검색한 건물 */
+.ghere-ring{fill:color-mix(in srgb,var(--accent) 22%,transparent);stroke:var(--accent);stroke-width:2.5}
+.ghere-dot{fill:var(--accent);stroke:var(--outline);stroke-width:3}
+.ghere line{stroke:var(--outline);stroke-width:3}
+.ghere rect{fill:var(--accent);stroke:var(--outline);stroke-width:2.6}
+.ghere text{fill:#151515;font:900 19px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central}
+.gsw.here{background:var(--accent)}
+.ltag.near{color:#111;background:var(--signal)}
 @media (max-width:900px){
   .gmbody{grid-template-columns:1fr}
   .gmside{border-left:0;border-top:2px solid var(--outline)}
@@ -631,6 +646,8 @@ const T = {
     mapSta:"가산디지털단지역", mapM:n=>`${n}m`, mapAttr:"지도 데이터",
     cardPick:"오늘의 추천", cardNone:"오늘 메뉴가 아직 올라오지 않았습니다",
     cardWalk:n=>`역에서 걸어서 약 ${n}분`, cardMenu:"오늘 메뉴 보기", cardDir:"길찾기",
+    nearTitle:n=>`${n}에서 가까운 순`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
+    cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
     axes:{value:"가성비",variety:"반찬수",mains:"메인수",protein:"단백질",rarity:"희소성",near:"가까움"},
@@ -679,6 +696,8 @@ const T = {
     mapSta:"Gasan Digital Complex Stn", mapM:n=>`${n}m`, mapAttr:"Map data",
     cardPick:"Today's pick", cardNone:"Today's menu is not up yet",
     cardWalk:n=>`about ${n} min walk from the station`, cardMenu:"See today's menu", cardDir:"Directions",
+    nearTitle:n=>`Nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
+    cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
     axes:{value:"Value",variety:"Variety",mains:"Mains",protein:"Protein",rarity:"Rarity",near:"Distance"},
@@ -884,7 +903,8 @@ function recHtml(){
     <div class="recbody">
       <div class="recL">
         <div class="recwho">
-          ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+          ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`
+                : `<span class="recart" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"></circle><use href="#i-${dishFamily(top.r)}" x="11" y="11" width="42" height="42"></use></svg></span>`}
           <div style="min-width:0">
             <div class="recname">${esc(nm(top.r))}</div>
             ${mains ? `<div class="recdish">${esc(mains)}</div>` : ""}
@@ -914,6 +934,17 @@ function recHtml(){
     </div>`;
 }
 
+// 추천 식당 이름이 칸보다 길면 글자를 줄인다. 한 단어짜리 긴 이름은 줄바꿈하면 중간이 끊긴다.
+function fitRecName(){
+  const el = document.querySelector("#rec .recname");
+  if (!el) return;
+  el.style.fontSize = ""; el.style.whiteSpace = "nowrap";
+  let fs = parseFloat(getComputedStyle(el).fontSize);
+  while (el.scrollWidth > el.clientWidth + 1 && fs > 20){ fs -= 1; el.style.fontSize = fs + "px"; }
+  if (el.scrollWidth > el.clientWidth + 1) el.style.whiteSpace = "";   // 20px 로도 안 되면 줄바꿈 허용
+}
+addEventListener("resize", fitRecName);
+
 function wireRec(){
   const box = document.getElementById("rec");
   const redraw = () => {
@@ -942,6 +973,7 @@ function wireRec(){
   };
   const ac = document.getElementById("ateClear");
   if (ac) ac.onclick = () => { ate = []; keep(); redraw(); };
+  fitRecName();
 }
 
 function heroHtml(){
@@ -1021,6 +1053,11 @@ const ICON_DEFS = `<defs>
 <symbol id="i-tray" viewBox="0 0 24 24"><rect x="2.4" y="5" width="19.2" height="14" rx="2.6" fill="var(--i2)"/><path d="M2.4 12.4h19.2M12.6 5v7.4M12.6 12.4V19" stroke="var(--i1)" stroke-width="1.5"/><circle cx="7.4" cy="15.8" r="1.9" fill="var(--i1)"/></symbol>
 </defs>`;
 
+// 아이콘 <symbol> 을 문서에 한 번 심어 두고, 쓰는 곳은 <use href> 로 가리키기만 한다.
+// display:none 인 SVG 안의 symbol 은 일부 브라우저가 안 그리므로 크기 0 으로 숨긴다.
+(document.body || document.documentElement).insertAdjacentHTML("afterbegin",
+  `<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">${ICON_DEFS}</svg>`);
+
 // ── 식당 지도 ────────────────────────────────────────────────
 // 밑그림은 OSM 도로·철길·쇼핑몰(data/streets.json), 식당 좌표는 네이버 길찾기 링크에서
 // 풀어낸 값이다. 둘 다 같은 좌표계라 식당이 제 길 옆에 앉는다.
@@ -1039,11 +1076,31 @@ const GM_LANDMARK = {
   "롯데팩토리아울렛 가산점": ["롯데아울렛", "Lotte Outlet"],
 };
 let mapSel = null;              // 사용자가 누른 식당. 없으면 오늘의 추천을 보여 준다
+let mapNear = null, mapNearKey = "";   // 건물 검색 중이면 그 건물
 
-function mapFrame(){
+// ── 건물로 찾기 ───────────────────────────────────────────────
+// 띄어쓰기는 무시한다 ("갑을 그레이트밸리" = "갑을그레이트밸리").
+const normQ = s => (s || "").toLowerCase().replace(/\s+/g, "");
+const gmDist = (a, b) => Math.hypot((a.lng - b.lng) * GM_MX, (a.lat - b.lat) * GM_MY);
+// 식당이 없는 건물을 쳐도 근처 식당을 보여 주려고 OSM 건물 이름을 들고 있다.
+// 딱 맞는 이름 > 앞부분이 맞는 이름 > 어딘가 들어 있는 이름 순, 같으면 짧은 이름.
+function findBuilding(nterm){
+  const B = (DATA.streets && DATA.streets.buildings) || [];
+  if (nterm.length < 2) return null;
+  let best = null, bs = 0;
+  for (const b of B){
+    const nb = normQ(b.n);
+    const s = nb === nterm ? 3 : nb.startsWith(nterm) ? 2 : nb.includes(nterm) ? 1 : 0;
+    if (s > bs || (s && s === bs && nb.length < normQ(best.n).length)){ best = b; bs = s; }
+  }
+  return best ? { n: best.n, lat: best.p[0], lng: best.p[1] } : null;
+}
+
+function mapFrame(extra){
   // 틀은 늘 전체 식당 기준이다. 검색으로 몇 곳만 남아도 지도가 튀지 않게.
   const pts = DATA.restaurants.filter(r => r.lat != null);
   const la = pts.map(r => r.lat), lo = pts.map(r => r.lng);
+  if (extra){ la.push(extra.lat); lo.push(extra.lng); }
   const lat1 = Math.max(...la), lng0 = Math.min(...lo);
   const W = Math.round((Math.max(...lo) - lng0) * GM_MX + GM_PAD * 2);
   const H = Math.round((lat1 - Math.min(...la)) * GM_MY + GM_PAD * 2);
@@ -1066,11 +1123,15 @@ const gmStation = () => {
   return DATA.station || null;
 };
 
-function mapHtml(shownList){
+function mapHtml(shownList, near){
   const t = T[lang], S = DATA.streets;
+  // 검색한 건물이 바뀌면 전에 누른 식당 선택은 푼다
+  const nk = near ? near.n : "";
+  if (nk !== mapNearKey){ mapSel = null; mapNearKey = nk; }
+  mapNear = near || null;
   const shown = shownList.filter(x => x.r.lat != null);
   if (!shown.length) return "";
-  const F = mapFrame(), W = F.W, H = F.H;
+  const F = mapFrame(near), W = F.W, H = F.H;
   const top = scored()[0], topId = top ? top.r.id : null;
   const obst = [];                                   // 이름표가 피해야 할 자리
 
@@ -1133,6 +1194,20 @@ function mapHtml(shownList){
     obst.push({ x: bx - 4, y: by - 4, w: w + 8, h: bh + 34 });
   }
 
+  // 검색한 건물 — 식당 이름표가 이걸 가리지 않게 자리를 먼저 잡는다
+  let hereEl = "";
+  if (near){
+    const hx = F.X(near.lng), hy = F.Y(near.lat), lb = near.n;
+    const w = gmTextW(lb, 19) + 26, bh = 36, bx = Math.max(8, Math.min(W - w - 8, hx - w / 2));
+    let by = hy - bh - 26; if (by < 8) by = hy + 26;
+    hereEl = `<g class="ghere"><circle class="ghere-ring" cx="${hx.toFixed(0)}" cy="${hy.toFixed(0)}" r="24"/>
+      <line x1="${hx.toFixed(0)}" y1="${(by < hy ? by + bh : by).toFixed(0)}" x2="${hx.toFixed(0)}" y2="${hy.toFixed(0)}"/>
+      <circle class="ghere-dot" cx="${hx.toFixed(0)}" cy="${hy.toFixed(0)}" r="11"/>
+      <rect x="${bx.toFixed(0)}" y="${by.toFixed(0)}" width="${w.toFixed(0)}" height="${bh}" rx="10"/>
+      <text x="${(bx + w / 2).toFixed(0)}" y="${(by + bh / 2 + 1).toFixed(0)}">${esc(lb)}</text></g>`;
+    obst.push({ x: bx - 4, y: by - 4, w: w + 8, h: bh + 8 }, { x: hx - 26, y: hy - 26, w: 52, h: 52 });
+  }
+
   // 식당 점 — 같은 건물에 둘이면 옆으로 조금 벌린다
   const P = shown.map(({ r }) => ({ r, x: F.X(r.lng), y: F.Y(r.lat) }));
   const seen = {};
@@ -1190,13 +1265,13 @@ function mapHtml(shownList){
   <div class="gmbody">
     <div class="gmcanvas"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.mapTitle)}">
       <g>${malls}</g><g>${casing}${fill}</g>${rails}<g>${roadN}</g><g>${mallN}</g>${staEl}
-      <g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${scale}${north}${attr}</svg></div>
+      <g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
     <div class="gmside"><div class="gmsticky"><div id="gmcard"></div>
       <div class="gmlegend">
         <span class="gmleg"><i class="gsw pick"></i>${esc(t.mapPick)}</span>
         <span class="gmleg"><i class="gsw"></i>${esc(t.mapOpen)}</span>
         <span class="gmleg"><i class="gsw none"></i>${esc(t.mapNone)}</span>
-        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span></div>
+        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span>${near ? `<span class="gmleg"><i class="gsw here"></i>${esc(t.mapHere)}</span>` : ""}</div>
       <div class="gmattr">${esc(t.mapAttr)} © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></div>
     </div></div>
   </div>`;
@@ -1211,6 +1286,7 @@ function gmWalk(r){
 function gmCurrentId(){
   const ids = [...document.querySelectorAll("#gmap .gchip")].map(g => g.dataset.id);
   if (mapSel && ids.includes(mapSel)) return mapSel;
+  if (mapNear) return ids[0];                 // 가까운 순으로 늘어서 있다
   const top = scored()[0];
   return top && ids.includes(top.r.id) ? top.r.id : ids[0];
 }
@@ -1218,11 +1294,11 @@ function mapCard(r){
   const t = T[lang], top = scored()[0], isPick = !!top && top.r.id === r.id;
   const fam = dishFamily(r);
   const mains = r.items.filter(i => i.main).slice(0, 2).map(i => lang === "ko" ? i.ko : i.en);
-  const walk = gmWalk(r);
+  const walk = mapNear ? Math.max(1, Math.round(gmDist(r, mapNear) * 1.3 / 75)) : gmWalk(r);
   const price = r.price ? (lang === "ko" ? `${r.price.toLocaleString("ko-KR")}원` : `₩${r.price.toLocaleString("en-US")}`) : "";
-  const meta = [walk ? t.cardWalk(walk) : "", price].filter(Boolean).join(" · ");
+  const meta = [walk ? (mapNear ? t.cardWalkFrom(mapNear.n, walk) : t.cardWalk(walk)) : "", price].filter(Boolean).join(" · ");
   return `<div class="gcard${isPick ? " pick" : ""}${r.items.length ? "" : " none"}">
-    <div class="gcart"><svg viewBox="0 0 64 64" aria-hidden="true">${ICON_DEFS}
+    <div class="gcart"><svg viewBox="0 0 64 64" aria-hidden="true">
       <circle cx="32" cy="32" r="29"></circle><use href="#i-${fam}" x="12" y="12" width="40" height="40"></use></svg></div>
     <div class="gcbody">
       ${isPick ? `<span class="gctag">${esc(t.cardPick)}</span>` : ""}
@@ -1269,11 +1345,15 @@ function wireMap(){
   }
 }
 
-function rowHtml(r, idx){
+function rowHtml(r, idx, near){
   const t = T[lang];
   const mains = r.items.filter(i => i.main), sidesArr = r.items.filter(i => !i.main);
   const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
   const tags = [];
+  if (near && r.lat != null){
+    const m = gmDist(r, near);
+    tags.push(`<span class="ltag near">${esc(t.nearTag(Math.round(m / 10) * 10, Math.max(1, Math.round(m * 1.3 / 75))))}</span>`);
+  }
   if (r.pick) tags.push(`<span class="ltag pick">${esc(t.pick(r.pick))}</span>`);
   if (boardDate) tags.push(`<span class="ltag warn">${esc(t.offdate(boardDate))}</span>`);
   if (!r.items.length) tags.push(`<span class="ltag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
@@ -1351,21 +1431,26 @@ function render(){
   if (N.overlap && N.overlap.length) stats.push(esc(t.statOverlap(N.overlap)));
   document.getElementById("statline").innerHTML = term ? "" : stats.join('<span style="color:var(--rule)">|</span>');
 
+  const nterm = normQ(term);
+  const matchR = r => normQ([r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ")).includes(nterm);
+  // 식당 이름·주소·메뉴에 하나도 안 걸리면 건물 이름으로 보고, 그 건물에서 가까운 순으로 전부 보여 준다.
+  const near = nterm && !DATA.restaurants.some(matchR) ? findBuilding(nterm) : null;
+  let list = DATA.restaurants.filter(r => !nterm || near || matchR(r));
+  if (near) list = [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, near) - gmDist(b, near));
+
   let shown = 0, rows = "";
   const shownList = [];
-  DATA.restaurants.forEach(r => {
-    const hay = [r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ").toLowerCase();
-    if (term && !hay.includes(term)) return;
+  list.forEach(r => {
     shown++;
     shownList.push({ r, idx: shown });
-    rows += rowHtml(r, shown);
+    rows += rowHtml(r, shown, near);
   });
   document.getElementById("count").textContent = t.count(shown);
   document.getElementById("list").innerHTML =
-    `<div class="lhead"><span class="t">${esc(t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
+    `<div class="lhead"><span class="t">${esc(near ? t.nearTitle(near.n) : t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
 
   const gm = document.getElementById("gmap");
-  const gmHtml = mapHtml(shownList);
+  const gmHtml = mapHtml(shownList, near);
   gm.innerHTML = gmHtml;
   gm.hidden = !gmHtml;
 
