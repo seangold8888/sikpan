@@ -34,6 +34,8 @@ Rules:
 - "main" is true only for the main dishes (the protein or entree). Rice, soup, kimchi, side
   vegetables, salad, fruit and drinks are false.
 - English: romanization plus a short description, e.g. "Spicy stir-fried pork (Jeyuk-bokkeum)".
+- If one printed line lists several things (e.g. 샐러드,과일,음료), keep it as one item but copy the
+  commas or dots between them exactly as printed. Do not drop them.
 - If the board shows several days, transcribe only the column for the date given below.
 - If the board shows a different date, transcribe it anyway and say so in "notes".
 - If the image is not a menu board at all, return "items":[] and explain in "notes".

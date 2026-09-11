@@ -5,6 +5,37 @@
 전부 메뉴판에 실제로 인쇄된 것에서만 뽑는다. 추정해서 채우지 않는다.
 """
 
+import re
+
+# 메뉴판 한 줄에 여러 가지를 적는 곳이 있다('샐러드,과일,음료'). 줄 수로 세면 그런 곳이 손해를 본다.
+_SEP = re.compile(r"\s*[,，、·ㆍ]\s*")
+# 구분자 없이 띄어쓰기로만 나열된 줄은, 조각이 전부 이 말들일 때만 나눈다.
+# '맥적 돼지 불고기' 같은 요리 이름을 쪼개지 않으려는 것이다.
+_SIDE_WORDS = {"샐러드", "과일", "음료", "음료수", "요구르트", "요거트", "식혜", "누룽지", "숭늉",
+               "커피", "주스", "쥬스", "우유", "후식", "디저트", "김", "탄산음료", "아이스티", "차"}
+_CONDIMENT = ("드레싱", "양념장", "소스", "초장")
+
+
+def item_units(ko):
+    """메뉴판 한 줄이 실제로 몇 가지인지.
+
+    쉼표·가운뎃점으로 나뉘면 따로 센다('샐러드,과일,음료' = 3). 슬래시는 '택1'이라 하나다
+    ('잡곡밥 / 백미밥' = 1). 밥 선택지('흑미밥, 백미밥')도 하나, 드레싱·양념장 같은 곁들임은
+    세지 않는다.
+    """
+    ko = (ko or "").strip()
+    if not ko:
+        return 0
+    parts = [x.strip() for x in _SEP.split(ko) if x.strip()]
+    if len(parts) == 1:
+        words = ko.split()
+        return len(words) if len(words) > 1 and all(w in _SIDE_WORDS for w in words) else 1
+    parts = [x for x in parts if not x.endswith(_CONDIMENT)]
+    if parts and all(x.endswith("밥") for x in parts):
+        return 1
+    return max(1, len(parts))
+
+
 # 메뉴 이름에 나오는 재료를 단백질 종류로 묶는다. 이름만 보고 판단하므로 완벽하지 않다.
 # 애매한 것(장조림은 소고기일 수도 메추리알일 수도)은 넣지 않는 쪽을 택했다.
 PROTEIN = {
@@ -52,14 +83,15 @@ def summarize(items, price=None, notes=None):
     """식당 한 곳의 오늘 메뉴를 숫자로."""
     mains = [i for i in items if i.get("main")]
     prot = proteins(items)
+    count = sum(item_units(i.get("ko")) for i in items)
     return {
-        "count": len(items),
+        "count": count,
         "mains": len(mains),
         "proteins": prot,
         "proteinCount": len(prot),
         "freeExtra": has_free_extra(items, notes),
         # 가격을 모르는 곳이 많다. 모르면 계산하지 않고 비워 둔다.
-        "wonPerItem": round(price / len(items)) if price and items else None,
+        "wonPerItem": round(price / count) if price and count else None,
     }
 
 

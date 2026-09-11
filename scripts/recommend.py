@@ -23,6 +23,21 @@ def _norm(vals):
     return [None if v is None else (v - lo) / (hi - lo) for v in vals]
 
 
+def _price_score(vals):
+    """가격을 0~1로. 보통 가격(아는 값의 중앙값)을 0.5에 두고 1% 싸면 +0.03, 비싸면 -0.03.
+
+    최저·최고로 펴지 않는다. 가격을 아는 곳이 몇 안 되고 대부분 같은 값이라, 500원 차이가
+    0점 대 100점이 돼 버린다. 중앙값을 0.5에 두는 까닭은 모르는 곳이 중립(0.5)으로 계산되기
+    때문이다 — 보통 가격을 아는 곳도 같은 자리에 있어야 가격을 모르는 곳이 손해를 보지 않는다.
+    """
+    known = sorted(v for v in vals if v)
+    if not known:
+        return [None] * len(vals)
+    n = len(known)
+    med = known[n // 2] if n % 2 else (known[n // 2 - 1] + known[n // 2]) / 2
+    return [None if not v else max(0.0, min(1.0, 0.5 + (med - v) / med * 3)) for v in vals]
+
+
 def build(rows):
     """rows: [{id, stats, price, walkMin, items, boardOffDate}] -> {id: {axis: 0~1}}
 
@@ -43,9 +58,8 @@ def build(rows):
     raw = {"value": [], "variety": [], "mains": [], "protein": [], "rarity": [], "near": []}
     for r in rows:
         st = r.get("stats") or {}
-        wpi = st.get("wonPerItem")
-        # 원/품목은 작을수록 좋으므로 부호를 뒤집는다.
-        raw["value"].append(-wpi if wpi else None)
+        # 가성비는 가격으로만 본다. 원/품목으로 매기면 반찬 수가 '반찬수' 축과 두 번 들어간다.
+        raw["value"].append(r.get("price"))
         raw["variety"].append(st.get("count"))
         raw["mains"].append(st.get("mains"))
         raw["protein"].append(st.get("proteinCount"))
@@ -60,6 +74,7 @@ def build(rows):
         raw["near"].append(-wm if wm else None)
 
     normed = {a: _norm(raw[a]) for a in AXES}
+    normed["value"] = _price_score(raw["value"])
     out = {}
     for idx, r in enumerate(rows):
         out[r["id"]] = {a: (None if normed[a][idx] is None else round(normed[a][idx], 4)) for a in AXES}
