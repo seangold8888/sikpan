@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월11일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "중국집볶음밥/�깨미밥",
+   "en": "Chinese-style fried rice / Kkae-mi rice",
+   "main": true
+  },
+  {
+   "ko": "유니짜장소스",
+   "en": "Uni jjajang sauce",
+   "main": false
+  },
+  {
+   "ko": "파송송계란탕",
+   "en": "Egg soup with scallions",
+   "main": false
+  },
+  {
+   "ko": "훈제오리부추쌈*허니머스터드",
+   "en": "Smoked duck with leek wrap and honey mustard",
+   "main": true
+  },
+  {
+   "ko": "중화고추장채&꽃빵",
+   "en": "Chinese gochujang vegetables and flower bread",
+   "main": false
+  },
+  {
+   "ko": "북카츠",
+   "en": "Bok katsu (pork cutlet)",
+   "main": true
+  },
+  {
+   "ko": "해물깜뽕파스타",
+   "en": "Seafood jjamppong pasta",
+   "main": true
+  },
+  {
+   "ko": "오이생채",
+   "en": "Cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "브로콜리&다시마*초고추장",
+   "en": "Broccoli and kelp with spicy gochujang",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi / Self-serve ramen / Toast / Beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

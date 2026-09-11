@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월11일(금요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice / Cold mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "돼지김치찌개",
+   "en": "Pork and kimchi stew (Dwae-ji kimchi jjigae)",
+   "main": true
+  },
+  {
+   "ko": "눈꽃치즈닭갈비",
+   "en": "Cheese dakgalbi with snow effect",
+   "main": true
+  },
+  {
+   "ko": "생선까스*와사비타르츠S",
+   "en": "Fish cutlet with wasabi tartare",
+   "main": true
+  },
+  {
+   "ko": "블로네제파스타",
+   "en": "Blonoise pasta",
+   "main": true
+  },
+  {
+   "ko": "밥차버블라떼",
+   "en": "Rice tea bubble latte",
+   "main": false
+  },
+  {
+   "ko": "콩나물김가루무우침",
+   "en": "Bean sprout and seaweed powder seasoning",
+   "main": false
+  },
+  {
+   "ko": "야채겹절이",
+   "en": "Layered vegetable pickles",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭셀러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Han River ramen and toast",
+   "main": false
+  },
+  {
+   "ko": "쌈채소*쌉고추*쌈장",
+   "en": "Lettuce wraps, peppers, and ssamjang",
+   "main": false
+  },
+  {
+   "ko": "는룽지*탕사은룡*매실칭",
+   "en": "Side vegetables and condiments",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items marked with asterisk (*). Menu board shows items from 2026년 09월 11일 (금요일) as requested.",
+ "_model": "claude-haiku-4-5-20251001"
+}

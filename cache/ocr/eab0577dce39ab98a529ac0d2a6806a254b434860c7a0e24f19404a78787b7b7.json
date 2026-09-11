@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 11일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순제오리야채볶음&겨자소스",
+   "en": "Stir-fried duck with vegetables and mustard sauce",
+   "main": true
+  },
+  {
+   "ko": "치즈칼초네&칠리소스",
+   "en": "Cheese calzone with chili sauce",
+   "main": true
+  },
+  {
+   "ko": "분식집st 비빔쫄면",
+   "en": "Bibim jjolmyeon (spicy mixed thin noodles)",
+   "main": true
+  },
+  {
+   "ko": "대파베이컨포테이토볶법",
+   "en": "Stir-fried leek, bacon and potato",
+   "main": false
+  },
+  {
+   "ko": "청양볶음묵볶음",
+   "en": "Spicy stir-fried arrowroot jelly",
+   "main": false
+  },
+  {
+   "ko": "부추양파무침",
+   "en": "Seasoned garlic chives and onions",
+   "main": false
+  },
+  {
+   "ko": "와사비쌈무/김치걸절이",
+   "en": "Wasabi leaf wraps, kimchi radish pickle",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "우겨지순살감자탕",
+   "en": "Short rib and potato soup",
+   "main": false
+  },
+  {
+   "ko": "바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice or white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/한장쌈면&닭곰한팜토스트/구수한 숭늉&식혜한 음료",
+   "en": "Wrap vegetables, grilled fish and crispy toast, sweet rice drink and sikhye",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (9월 11일/금요일). Text at bottom appears to list additional side dishes and beverages available.",
+ "_model": "claude-haiku-4-5-20251001"
+}

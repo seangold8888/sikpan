@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 11일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "사골왕태해장국",
+   "en": "Oxtail bone hangover soup",
+   "main": false
+  },
+  {
+   "ko": "매콤지즈풀닭",
+   "en": "Spicy chicken",
+   "main": true
+  },
+  {
+   "ko": "늘깬짓왠백볼고기",
+   "en": "Beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "깐소새우강정",
+   "en": "Crispy shrimp in sweet sauce",
+   "main": true
+  },
+  {
+   "ko": "비빔우동",
+   "en": "Mixed udon noodles",
+   "main": true
+  },
+  {
+   "ko": "대파크림치즈베이글",
+   "en": "Scallion cream cheese bagel",
+   "main": true
+  },
+  {
+   "ko": "삼색둑김기루무침",
+   "en": "Three-color seaweed side dish",
+   "main": false
+  },
+  {
+   "ko": "맛소스부추굴절이",
+   "en": "Seasoned leek and oyster side dish",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve instant ramen",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili / vegetable wraps & sauce",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&키위드레싱",
+   "en": "Garden salad & kiwi dressing",
+   "main": false
+  },
+  {
+   "ko": "중능/탄산음료",
+   "en": "Juice / carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "심기 메뉴는 회사 사정에 따라 임의 변경 수 있습니다. (Substitutions may be made at management discretion.)",
+ "_model": "claude-haiku-4-5-20251001"
+}

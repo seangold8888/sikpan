@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 11일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우리카케밥",
+   "en": "Our Kebab",
+   "main": true
+  },
+  {
+   "ko": "미니돈코츠라멘(돈육:스페인산)",
+   "en": "Mini Tonkotsu Ramen (Pork: Spanish)",
+   "main": true
+  },
+  {
+   "ko": "남산매운돈까스(돈육:미국산)",
+   "en": "Namsan Spicy Pork Cutlet (Pork: US)",
+   "main": true
+  },
+  {
+   "ko": "은함치리기자돈나멘셀러드",
+   "en": "Silver Bowl Chili Garlic Tong Noodle Salad",
+   "main": true
+  },
+  {
+   "ko": "팰리고추깜자초림",
+   "en": "Pali Chili Potato Stir-fry",
+   "main": true
+  },
+  {
+   "ko": "마늘쫑알마늘무침",
+   "en": "Garlic shoots and garlic seasoning",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드&우리엔탈D",
+   "en": "Garden Salad & Our Oriental D",
+   "main": false
+  },
+  {
+   "ko": "깎두기",
+   "en": "Kkadugi (Cubed radish kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve Bibimbap / Hangang Ramen",
+   "main": false
+  },
+  {
+   "ko": "간편식:김밥시쏘세지셀러드",
+   "en": "Convenience meal: Kimbap with sausage salad",
+   "main": false
+  }
+ ],
+ "notes": "Menu board shows 9월 11일 (금) which matches target date. Origin labels shown for some items (돈육:스페인산, 돈육:미국산). Self-serve options and convenience meals listed at bottom. Additional text indicates this is for 우육점심 (lunch service) at various locations.",
+ "_model": "claude-haiku-4-5-20251001"
+}

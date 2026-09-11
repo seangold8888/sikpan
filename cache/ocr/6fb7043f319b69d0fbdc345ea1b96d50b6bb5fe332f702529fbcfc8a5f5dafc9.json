@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/11(금,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순두부백탕",
+   "en": "Soft tofu soup (Sundubu-baektang)",
+   "main": true
+  },
+  {
+   "ko": "중화중제육볶음",
+   "en": "Chinese-style stir-fried beef (Junghwa jungjeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "해물완자전",
+   "en": "Seafood meatball pancake (Haemul-wanja-jeon)",
+   "main": false
+  },
+  {
+   "ko": "깻교주쌈장비이",
+   "en": "Sesame leaf with sauce (Kkaetnip-ssaeum-jang)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal greens (Gyejeol-namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa kimchi (Gungnaesang-baechoo-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드 과일 음료",
+   "en": "Salad, fruit, and beverages (Salad-gwail-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "Menu board shows two dates; transcribed left column for target date 9/11(금,점심). Korean text has some characters that appear unclear or non-standard orthography as printed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

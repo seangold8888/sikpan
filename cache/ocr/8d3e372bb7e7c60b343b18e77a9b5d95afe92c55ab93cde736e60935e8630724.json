@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 11일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "어묵무국",
+   "en": "Fish cake and radish soup (Eomuk-muguk)",
+   "main": false
+  },
+  {
+   "ko": "돼지고기부추볶음*꽃뻥",
+   "en": "Stir-fried pork with Chinese chives and rice snack (Dwaeji-gogi buchu-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "우제닭뭉튀김*청양양마요",
+   "en": "Fried chicken nuggets with gochugaru mayo (Dak-twigim)",
+   "main": true
+  },
+  {
+   "ko": "파인암박스테이크",
+   "en": "Pineapple box steak (Pain-am box steak)",
+   "main": true
+  },
+  {
+   "ko": "옛날짜장면",
+   "en": "Traditional jajangmyeon noodles (Yetnal jajang-myeon)",
+   "main": true
+  },
+  {
+   "ko": "단무지참기름무침",
+   "en": "Pickled radish with sesame oil (Danmuji-chamgi-munim)",
+   "main": false
+  },
+  {
+   "ko": "숙주나물무침",
+   "en": "Seasoned bean sprouts (Sukju-namul-munim)",
+   "main": false
+  },
+  {
+   "ko": "생야채걸절이",
+   "en": "Fresh vegetable pickle (Saeng-yachae geoljeol-i)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen (Han-gang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "가는쌀렌드 / 포기김치",
+   "en": "Fine rice blend / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 메실차 / 숭능",
+   "en": "Carbonated drinks / Plum tea / Seungneung",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 10일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "찰지김밥",
+   "en": "Sticky kimbap",
+   "main": true
+  },
+  {
+   "ko": "차돌고추장찌개",
+   "en": "Beef brisket red chili stew (Chadol-gochujang-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "큐브묵살허브스테이크",
+   "en": "Cube muk herb steak",
+   "main": true
+  },
+  {
+   "ko": "치킨스틱&치즈스틱",
+   "en": "Chicken stick & cheese stick",
+   "main": false
+  },
+  {
+   "ko": "칼집비엔나구이",
+   "en": "Scored vienna sausage (Kalzip-vienna-gui)",
+   "main": false
+  },
+  {
+   "ko": "비빔냉면",
+   "en": "Mixed cold noodles (Bibim-naengmyeon)",
+   "main": false
+  },
+  {
+   "ko": "모듬견과류조림",
+   "en": "Assorted nuts braised",
+   "main": false
+  },
+  {
+   "ko": "후식",
+   "en": "Dessert",
+   "main": false
+  },
+  {
+   "ko": "쌀런 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "쌀푸항간이면 & 국산포기김치",
+   "en": "Rice with seasoning & domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭늉 & 음료",
+   "en": "Barley tea & beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 2026년 9월 10일 (September 10, 2026), not the target date of September 11, 2026.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,59 @@
+{
+ "date_shown": "금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "오므라이스",
+   "en": "Omurice (omelet rice)",
+   "main": true
+  },
+  {
+   "ko": "백미밥",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "메추리알동장조림",
+   "en": "Braised quail eggs in soy sauce",
+   "main": false
+  },
+  {
+   "ko": "자취특",
+   "en": "Self-catered special",
+   "main": false
+  },
+  {
+   "ko": "고구마치즈스틱",
+   "en": "Sweet potato cheese stick",
+   "main": false
+  },
+  {
+   "ko": "꼬떼",
+   "en": "Cotelet (breaded cutlet)",
+   "main": false
+  },
+  {
+   "ko": "고사리장쌈북음",
+   "en": "Seasoned bracken fern lettuce wrap",
+   "main": false
+  },
+  {
+   "ko": "깍두국",
+   "en": "Radish cube soup",
+   "main": false
+  },
+  {
+   "ko": "가는샐러드&우도D",
+   "en": "Mixed salad & Udo D",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 금요일 (Friday) but target date is 2026년 09월 11일 (금). Bottom text indicates origin labels: 쌀·국내산, 돼지고기·국내산, 우육·몽골산, 도미·국내산, 우육(등심)·국내산, and additional ingredients from various origins. Self-serve corner mentioned (자취).",
+ "_model": "claude-haiku-4-5-20251001"
+}

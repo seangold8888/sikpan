@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 11일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김지볶음밥",
+   "en": "Kimchi fried rice",
+   "main": true
+  },
+  {
+   "ko": "베트남쌀국수",
+   "en": "Vietnamese rice noodle soup (Pho)",
+   "main": true
+  },
+  {
+   "ko": "돈장숙성상겹살구이",
+   "en": "Grilled marbled beef (Galbisang)",
+   "main": true
+  },
+  {
+   "ko": "고추군맛도",
+   "en": "Seasoned peppers",
+   "main": false
+  },
+  {
+   "ko": "치킨스냑량",
+   "en": "Chicken snack",
+   "main": false
+  },
+  {
+   "ko": "모듬사리떡볶이",
+   "en": "Assorted rice cake stir-fry (Tteokbokki)",
+   "main": false
+  },
+  {
+   "ko": "새송이어묵볶음",
+   "en": "Stir-fried king oyster mushroom and fish cake",
+   "main": false
+  },
+  {
+   "ko": "파래무침",
+   "en": "Sea lettuce side dish (Parae)",
+   "main": false
+  },
+  {
+   "ko": "단무지",
+   "en": "Pickled radish (Danmuji)",
+   "main": false
+  },
+  {
+   "ko": "마카로니콘샐러드",
+   "en": "Macaroni corn salad",
+   "main": false
+  },
+  {
+   "ko": "알배기걸정이/음료",
+   "en": "Dessert/Beverage",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월 11일 금요일 (September 11, Friday) which does not match target date of 2026년 09월 11일 (금). This appears to be from 2024 or earlier. Contains 'MENU' label and 'The Brothers Cautery' branding.",
+ "_model": "claude-haiku-4-5-20251001"
+}

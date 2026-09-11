@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 11일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥, 백미밥",
+   "en": "Black rice and white rice",
+   "main": false
+  },
+  {
+   "ko": "북어해장국",
+   "en": "Dried pollack soup (Bugeoh-haejang-guk)",
+   "main": false
+  },
+  {
+   "ko": "콩나물소불고기",
+   "en": "Bean sprout beef stir-fry (Kong-namul-sobuul-gogi)",
+   "main": true
+  },
+  {
+   "ko": "해물까스&생선까스",
+   "en": "Seafood cutlet & fish cutlet (Haemul-kkas & Saengseon-kkas)",
+   "main": true
+  },
+  {
+   "ko": "모듬두유찬죽힐",
+   "en": "Assorted tofu cold porridge",
+   "main": false
+  },
+  {
+   "ko": "청양오징어두족전",
+   "en": "Spicy squid tentacle pancake (Cheongyang-ojingeuh-dujok-jeon)",
+   "main": true
+  },
+  {
+   "ko": "매콤김치말이국수",
+   "en": "Spicy kimchi rolled noodles soup (Maekkom-gimchi-mali-guksu)",
+   "main": true
+  },
+  {
+   "ko": "여름곳힐",
+   "en": "Summer side dish",
+   "main": false
+  },
+  {
+   "ko": "알배추쌈장결절이",
+   "en": "Egg vegetable wraps with ssamjang",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Cabbage kimchi",
+   "main": false
+  }
+ ],
+ "notes": "탄산음료 / 사원한자 (Carbonated beverages / Employee ID holder). Some menu items have unclear or possibly misspelled Korean text due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

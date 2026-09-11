@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월11일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "무우어묵탕",
+   "en": "Radish and fish cake soup (Mu-u eomuk-tang)",
+   "main": false
+  },
+  {
+   "ko": "슈제뼈닭우라이드치킨",
+   "en": "Swiss bone chicken fried chicken (Shu-je-ppyeo-dak uraideo chikin)",
+   "main": true
+  },
+  {
+   "ko": "무 은 지제육 부대볶 음",
+   "en": "Radish and pork bag stir-fry (Mu eun jije-yuk budae-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "×우드볶×",
+   "en": "Wood stir-fry",
+   "main": false
+  },
+  {
+   "ko": "야채카레 우동",
+   "en": "Vegetable curry udon (Yachae-kare udon)",
+   "main": true
+  },
+  {
+   "ko": "무생채/견정이",
+   "en": "Raw radish salad / Gyeong-jeong-i",
+   "main": false
+  },
+  {
+   "ko": "야끔교초장야지무친",
+   "en": "Seasoned red chili sauce vegetable side (Ya-kkeum gyocho-jang yaji muchin)",
+   "main": false
+  },
+  {
+   "ko": "배추김정이1김치",
+   "en": "Napa cabbage kimchi (Baechu-kim jeong-i kimchi)",
+   "main": false
+  },
+  {
+   "ko": "앙배추새콜라드",
+   "en": "Sweet cabbage coleslaw (Ang baechu-sae collard)",
+   "main": false
+  },
+  {
+   "ko": "식빵귀스크튀김",
+   "en": "Crispy fried bread (Sikppang-gwi-suk twigim)",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date 2026년 09월 11일 (금). Some menu item text is unclear or possibly misspelled in original.",
+ "_model": "claude-haiku-4-5-20251001"
+}

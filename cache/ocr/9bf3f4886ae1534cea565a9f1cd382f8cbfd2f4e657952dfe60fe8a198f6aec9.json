@@ -1,0 +1,49 @@
+{
+ "date_shown": "9월11일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "청양제육",
+   "en": "Spicy stir-fried pork (Cheongyang Jeyuk)",
+   "main": true
+  },
+  {
+   "ko": "토삭샘선까스",
+   "en": "Breaded cutlet (Tosagsaem Seonkkas)",
+   "main": true
+  },
+  {
+   "ko": "우제제란만두",
+   "en": "Dumplings (Uuje Jeran Mandu)",
+   "main": false
+  },
+  {
+   "ko": "핵깜자뭉음",
+   "en": "Side dish",
+   "main": false
+  },
+  {
+   "ko": "고추지묵첨",
+   "en": "Side dish",
+   "main": false
+  },
+  {
+   "ko": "성성쌜러드",
+   "en": "Salad (Seongsseong Salad)",
+   "main": false
+  },
+  {
+   "ko": "직정담은갈절이",
+   "en": "Pickled vegetables (Jikjeong Damun Galjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "궁나몰국",
+   "en": "Soup (Gung Namol-guk)",
+   "main": false
+  }
+ ],
+ "notes": "Target date is 2026년 09월 11일 but board shows 9월11일 (September 11, year not specified). Additional text includes Instagram handle 'urbanworkdasbomo' and location 'metongoongji-oji-eon10si'. Image shows what appears to be a fried item photo.",
+ "_model": "claude-haiku-4-5-20251001"
+}

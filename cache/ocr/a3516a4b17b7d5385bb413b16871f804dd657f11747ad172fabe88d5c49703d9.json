@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월11일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "치킨너겟튀김/소스",
+   "en": "Chicken nugget tempura with sauce",
+   "main": true
+  },
+  {
+   "ko": "카레라이스덮밥",
+   "en": "Curry rice bowl",
+   "main": true
+  },
+  {
+   "ko": "영무비빔국수",
+   "en": "Young-mu bibim noodles",
+   "main": false
+  },
+  {
+   "ko": "오이피클/단무지",
+   "en": "Cucumber pickle and radish pickle",
+   "main": false
+  },
+  {
+   "ko": "청경채나물",
+   "en": "Seasoned bok choy",
+   "main": false
+  },
+  {
+   "ko": "김치공나물국",
+   "en": "Kimchi and seasoned greens soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수콘,진포도",
+   "en": "Cabbage, corn, dried grapes",
+   "main": false
+  },
+  {
+   "ko": "상주쌈/겻갈류",
+   "en": "Sangju lettuce wrap with side vegetables",
+   "main": false
+  },
+  {
+   "ko": "즉석러면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아이스크림",
+   "en": "Beverages and ice cream",
+   "main": false
+  }
+ ],
+ "notes": "제료공금에따메뉴바뀜수있습니다 (Menu subject to change due to ingredient availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

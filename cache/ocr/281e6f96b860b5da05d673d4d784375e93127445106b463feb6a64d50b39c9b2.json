@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (9/11 금요일)",
+ "price": null,
+ "hours": "점심.11시 10분 ~1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "맥적 돼지 불고기",
+   "en": "Grilled pork bulgogi (Doenjang-mari)",
+   "main": true
+  },
+  {
+   "ko": "등심 탕수육, 탕수만두",
+   "en": "Sweet and sour pork loin, sweet and sour dumplings",
+   "main": true
+  },
+  {
+   "ko": "돈육 자장 덮밥 & 자장면",
+   "en": "Pork black bean sauce rice bowl & noodles (Jajangmyeon)",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 닭꼼한 식혜",
+   "en": "Savory scorched rice / Sweet rice drink",
+   "main": false
+  },
+  {
+   "ko": "맛살 닭갈찜",
+   "en": "Steamed chicken with vegetables",
+   "main": false
+  },
+  {
+   "ko": "청양 궁나물국",
+   "en": "Green chili vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "오이 부추 무침 / 반달 단무지",
+   "en": "Cucumber and chive seasoned vegetables / Half-moon pickled radish",
+   "main": false
+  },
+  {
+   "ko": "왕배추 야채 쌈러드",
+   "en": "Cabbage and vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "깍 두 기",
+   "en": "Kkakdugi (radish kimchi cubes)",
+   "main": false
+  },
+  {
+   "ko": "\" 단 산 음 료 \"",
+   "en": "Sweet beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner (맛깔게 드세요 ♡). Menu includes origin labels and allergy notices at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

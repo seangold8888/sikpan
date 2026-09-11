@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 11일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김지어육국",
+   "en": "Kimchi and beef soup",
+   "main": false
+  },
+  {
+   "ko": "소불고기",
+   "en": "Beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "주제망남지킹",
+   "en": "Jujebemang-nam jikking",
+   "main": true
+  },
+  {
+   "ko": "사천식마파두부덮밥",
+   "en": "Sichuan-style mapo tofu rice bowl",
+   "main": true
+  },
+  {
+   "ko": "데리아까지즈떡조림",
+   "en": "Dakgangjeong with tteok (fried chicken and tteok)",
+   "main": true
+  },
+  {
+   "ko": "컨샤우마늘쫑조림",
+   "en": "Garlic stem braised dish",
+   "main": false
+  },
+  {
+   "ko": "숙주나물",
+   "en": "Seasoned bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "도라지초무침",
+   "en": "Seasoned bellflower root",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "유부김치우동 / 왕깡라면",
+   "en": "Tofu pouch kimchi udon / Spicy ramen",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드",
+   "en": "Green salad",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Bottom text states: '모든 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 있습니다.' (All menus may be substituted with different items if sold out early).",
+ "_model": "claude-haiku-4-5-20251001"
+}

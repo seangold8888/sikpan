@@ -1,0 +1,49 @@
+{
+ "date_shown": "9월 11일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "치즈칼조네(이태리식치즈만두)",
+   "en": "Cheese calzone (Italian-style cheese dumpling)",
+   "main": true
+  },
+  {
+   "ko": "분식집st콩나물비빔볶음",
+   "en": "Bean sprout stir-fried rice",
+   "main": true
+  },
+  {
+   "ko": "떠파베이컨포테이토볶음",
+   "en": "Tteopa bacon potato stir-fry",
+   "main": true
+  },
+  {
+   "ko": "청양풍블어묵부음",
+   "en": "Cheongyang-style fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "부추양파견절이",
+   "en": "Korean leek and onion seasoning",
+   "main": false
+  },
+  {
+   "ko": "와사비쌈무 / 김치김절이",
+   "en": "Wasabi wrap radish / kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "우거지순샬감자탕",
+   "en": "Ueogji tender greens potato soup",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date. Menu from 플러스 코너 (Plus Corner) at 우리오 (Woori O). Contains self-serve items including salad and dressing. Origin labels show: 쌀/쌀/쌀, 양갈김 / 땅 도수몬, 방심음문",
+ "_model": "claude-haiku-4-5-20251001"
+}
