@@ -159,13 +159,32 @@ def fetch(svc, a, b):
             time.sleep(3 * (attempt + 1))
 
 
-def rows(svc):
-    first = fetch(svc, 1, PAGE)
-    total = first["list_total_count"]
-    yield from first.get("row", [])
-    for a in range(PAGE + 1, total + 1, PAGE):
+MAX_PASSES = 8
+
+
+def _one_pass(svc, total):
+    for a in range(1, total + 1, PAGE):
         time.sleep(0.3)
         yield from fetch(svc, a, min(a + PAGE - 1, total)).get("row", [])
+
+
+def rows(svc):
+    """서비스 전체 줄.
+
+    이 API 는 페이지마다 정렬이 흔들려, 한 바퀴 돌면 약 6%가 두 번 오고 그만큼이 아예 안 온다
+    (2026-09-11 금천 일반음식점 13,891줄 중 864). 그래서 관리번호로 모으며 전체 건수를 채울 때까지
+    여러 바퀴 돈다.
+    """
+    total = fetch(svc, 1, 1)["list_total_count"]
+    got, n = {}, 0
+    for n in range(1, MAX_PASSES + 1):
+        for r in _one_pass(svc, total):
+            got[r.get("MGTNO")] = r
+        if len(got) >= total:
+            break
+    missing = total - len(got)
+    print(f"    {svc}: {n}바퀴 {len(got)}/{total}" + (f" — {missing}줄은 끝내 못 받음" if missing > 0 else ""), flush=True)
+    return list(got.values())
 
 
 def origin():
