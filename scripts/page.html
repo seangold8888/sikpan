@@ -282,7 +282,15 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
 .gsw.none{border-style:dashed;border-color:var(--ink-3)}
 .gsw.sta{background:#2F6BFF;border-color:#2F6BFF}
 .gsw.here{background:var(--ink);border-color:var(--ink)}
-.gsw.nb{width:8px;height:8px;border:0;border-radius:50%;background:var(--ink-2);opacity:.6}
+.glegi{display:block;flex:0 0 auto}
+.gnbhead{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.gnbhead .glegi{width:38px;height:38px}
+.gnblist{display:grid;gap:7px;margin:0;padding:0;list-style:none}
+.gnblist li{display:flex;align-items:center;gap:8px;font-size:13px}
+.gnbn{flex:1;min-width:0;overflow:hidden;font-weight:700;text-overflow:ellipsis;white-space:nowrap}
+.gnblist a{flex:0 0 auto;color:var(--ink-3);font-weight:700;text-decoration:none}
+.gnblist a:hover{color:var(--ink)}
+.gnbmore{margin-top:8px;color:var(--ink-3);font-size:12px;font-weight:600}
 .gmattr{margin-top:10px;color:var(--ink-3);font-size:11px}
 .gmattr a{color:inherit}
 .gmall{fill:var(--map-mall);stroke:var(--map-mall-line)}
@@ -297,11 +305,29 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
 .gsta rect{fill:#2F6BFF}
 .gsta text{fill:#fff;font:700 18px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;dominant-baseline:central}
 .glead{stroke:var(--ink-3)}
-.gmark{fill:var(--ink);stroke:var(--card);stroke-width:3.5;cursor:pointer}
-.gmark.none{fill:var(--card);stroke:var(--ink-3);stroke-dasharray:3 2}
-.gmark.pick{fill:var(--accent);stroke:var(--card);stroke-dasharray:none}
-.gmark.on{fill:var(--accent);stroke:var(--ink)}
-.gnb{fill:var(--ink-2);opacity:.5}
+/* 구내식당 = 식판 */
+.gmark{cursor:pointer}
+.gmark .tb{fill:var(--ink);stroke:var(--card);stroke-width:3}
+.gmark .tw{fill:var(--card)}
+.gmark.none .tb{fill:var(--card);stroke:var(--ink-3);stroke-dasharray:4 3}
+.gmark.none .tw{fill:var(--soft)}
+.gmark.pick .tb{fill:var(--accent);stroke:var(--card);stroke-dasharray:none}
+.gmark.pick .tw{fill:#fff}
+.gmark.on .tb{fill:var(--accent);stroke:var(--ink);stroke-dasharray:none}
+.gmark.on .tw{fill:#fff}
+/* 일반식당 = 숟가락·젓가락, 건물마다 하나 */
+.gnbm{cursor:pointer}
+.gnbm.one{opacity:.75}
+.gnbm.one.on,.gnbm.one:hover{opacity:1}
+.gnbm .sb{fill:var(--card);stroke:var(--ink-3);stroke-width:2}
+.gnbm .si{fill:var(--ink-2)}
+.gnbm .sl{fill:none;stroke:var(--ink-2);stroke-width:2.2;stroke-linecap:round}
+.gnbm:hover .sb{stroke:var(--ink);stroke-width:2.6}
+.gnbm.on .sb{fill:var(--ink);stroke:var(--ink)}
+.gnbm.on .si{fill:var(--card)}
+.gnbm.on .sl{stroke:var(--card)}
+.gnbc rect{fill:var(--ink-2);stroke:var(--card);stroke-width:2}
+.gnbc text{fill:var(--card);font:800 15px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none}
 .gradius{fill:var(--accent);fill-opacity:.05;stroke:var(--accent);stroke-opacity:.55}
 .gchip{cursor:pointer}
 .gchip:focus{outline:none}
@@ -400,7 +426,8 @@ const T = {
     count:n=>`${n}곳`,
     kind:{all:"전체", caf:"구내식당", near:"일반식당"}, kindLabel:"보기",
     nbTitle:n=>`${n} 근처 일반식당`, nbSub:"가까운 순 · 가격은 아직 모름", nbRadius:"걸어서",
-    nbMin:m=>`도보 ${m}분`, nbAll:"전체", nbSame:"같은 건물", nbKakao:"카카오맵", nbNone:"이 거리 안에 맞는 식당이 없습니다",
+    nbMin:m=>`도보 ${m}분`, nbAll:"전체", nbSame:"같은 건물", nbKakao:"카카오맵", nbHere:"이 건물",
+    nbInBldg:n=>`일반식당 ${n}곳`, nbEtc:n=>`외 ${n}곳`, nbNone:"이 거리 안에 맞는 식당이 없습니다",
     nbMore:(k, left)=>`${k}곳 더 보기 · 남은 ${left}곳`,
     nbNote:"일반식당은 메뉴판 가격이 모이는 대로 추천 점수에 들어갑니다. 지금은 거리와 업종만 보여 줍니다.",
     mapNb:"일반식당", nbAttr:"일반식당 목록: 서울 열린데이터광장 일반·휴게음식점 인허가 정보 (공공누리 제1유형)",
@@ -463,7 +490,8 @@ const T = {
     count:n=>`${n} places`,
     kind:{all:"All", caf:"Cafeterias", near:"Restaurants"}, kindLabel:"Show",
     nbTitle:n=>`Restaurants near ${n}`, nbSub:"nearest first · prices not collected yet", nbRadius:"Walking",
-    nbMin:m=>`${m} min walk`, nbAll:"All", nbSame:"same building", nbKakao:"Kakao Map", nbNone:"No restaurants in this range",
+    nbMin:m=>`${m} min walk`, nbAll:"All", nbSame:"same building", nbKakao:"Kakao Map", nbHere:"This building",
+    nbInBldg:n=>`${n} restaurants`, nbEtc:n=>`+${n} more`, nbNone:"No restaurants in this range",
     nbMore:(k, left)=>`Show ${k} more · ${left} left`,
     nbNote:"Restaurants join the ranking as their menu prices are collected. For now they show distance and cuisine only.",
     mapNb:"Restaurant", nbAttr:"Restaurant list: Seoul Open Data Plaza food-business licence data (KOGL Type 1)",
@@ -807,6 +835,7 @@ const GM_LANDMARK = {
   "W몰": ["W몰", "W Mall"],
   "롯데팩토리아울렛 가산점": ["롯데아울렛", "Lotte Outlet"],
 };
+let gmNb = {}, mapNbSel = null;  // 지도에 그린 일반식당 건물 묶음, 그중 누른 것
 let mapSel = null;              // 사용자가 누른 식당. 없으면 오늘의 추천을 보여 준다
 let mapNear = null, mapNearKey = "";   // 건물 검색 중이면 그 건물
 
@@ -880,6 +909,30 @@ const gmStation = () => {
     lng: S.stations.reduce((a, s) => a + s.p[1], 0) / S.stations.length };
   return DATA.station || null;
 };
+
+// 지도 표시 모양 (확대 전 단위, 가운데가 0,0). 구내식당 = 식판, 일반식당 = 숟가락·젓가락
+const TRAY = `<rect class="tb" x="-21" y="-15" width="42" height="30" rx="8"/>`
+  + `<rect class="tw" x="-15" y="-9" width="8.5" height="7.5" rx="2"/><rect class="tw" x="-4.25" y="-9" width="8.5" height="7.5" rx="2"/>`
+  + `<rect class="tw" x="6.5" y="-9" width="8.5" height="7.5" rx="2"/><rect class="tw" x="-15" y="1.5" width="30" height="8" rx="2.5"/>`;
+const SPOON = `<circle class="sb" r="15"/><ellipse class="si" cx="-4.5" cy="-4.5" rx="3.2" ry="4.3"/>`
+  + `<path class="sl" d="M-4.5 -1V9M2.6 -9 3.4 9M6.6 -9 5.8 9"/>`;
+const legTray = cls => `<svg class="glegi" viewBox="-23 -17 46 34" width="24" height="18" aria-hidden="true"><g class="gmark${cls ? " " + cls : ""}">${TRAY}</g></svg>`;
+const legSpoon = () => `<svg class="glegi" viewBox="-17 -17 34 34" width="18" height="18" aria-hidden="true"><g class="gnbm">${SPOON}</g></svg>`;
+// 묶음 자리에서 45m 안의 이름 있는 건물(OSM). 없으면 빈 문자열
+function gmBuildingAt(c){
+  const bs = DATA.streets && DATA.streets.buildings; if (!bs) return "";
+  let best = "", bd = 45;
+  for (const x of bs){ const d = gmDist({ lat: x.p[0], lng: x.p[1] }, c); if (d < bd){ bd = d; best = x.n; } }
+  return best;
+}
+function nbClusterCard(c){
+  const t = T[lang], o = nbOrigin(), n = c.ps.length, d = o ? gmDist(c, o) : null;
+  const far = d == null ? "" : d < 30 ? t.nbSame : t.walkFrom(walkFrom(c, o));
+  const rows = c.ps.slice(0, 12).map(({ p }) => `<li><span class="gnbn">${esc(p.n)}</span><i class="nbg">${esc(grpName(p.g))}</i><a href="${kakaoLink(p)}" target="_blank" rel="noopener" aria-label="${esc(p.n)} ${esc(t.nbKakao)}">${esc(t.nbKakao)} ↗</a></li>`).join("");
+  return `<div class="gnbhead">${legSpoon()}<div><div class="gcname">${esc(gmBuildingAt(c) || t.nbHere)}</div>
+    <div class="gcmeta">${esc([t.nbInBldg(n), far].filter(Boolean).join(" · "))}</div></div></div>
+    <ul class="gnblist">${rows}</ul>${n > 12 ? `<div class="gnbmore">${esc(t.nbEtc(n - 12))}</div>` : ""}`;
+}
 
 function mapHtml(shownList, near){
   const t = T[lang], S = DATA.streets;
@@ -997,9 +1050,9 @@ function mapHtml(shownList, near){
   for (const q of P){
     const key = `${q.x.toFixed(0)},${q.y.toFixed(0)}`;
     const n = seen[key] = (seen[key] || 0) + 1;
-    if (n > 1) q.x += (n - 1) * 22 * K;
+    if (n > 1) q.x += (n - 1) * 46 * K;
   }
-  const MR = 9;                                       // 확대 전 단위
+  const MR = 16;                                       // 확대 전 단위
   for (const q of P) obst.push({ x: q.x - (MR + 3) * K, y: q.y - (MR + 3) * K, w: (MR * 2 + 6) * K, h: (MR * 2 + 6) * K });
 
   // 이름표 — 추천을 먼저, 그다음 이웃이 많은 곳부터 자리를 잡는다
@@ -1039,7 +1092,7 @@ function mapHtml(shownList, near){
       const ex = Math.max(c.x, Math.min(q.x, c.x + c.w)), ey = Math.max(c.y, Math.min(q.y, c.y + c.h));
       leads.push(`<line class="glead" style="stroke-width:${(2.2 * K).toFixed(2)}" x1="${q.x.toFixed(1)}" y1="${q.y.toFixed(1)}" x2="${ex.toFixed(1)}" y2="${ey.toFixed(1)}"/>`);
     }
-    marks.push(`<circle class="gmark${cls}" data-id="${esc(q.r.id)}" transform="${at(q.x, q.y)}" r="${MR}"/>`);
+    marks.push(`<g class="gmark${cls}" data-id="${esc(q.r.id)}" transform="${at(q.x, q.y)}">${TRAY}</g>`);
     chips.push(`<g class="gchip${cls}" data-id="${esc(q.r.id)}" tabindex="0" role="button" aria-label="${esc(nm(q.r))}">
       <g transform="${at(c.x + c.w / 2, c.y + c.h / 2)}"><rect x="${(-q.wl / 2).toFixed(1)}" y="${-CH / 2}" width="${q.wl.toFixed(1)}" height="${CH}" rx="${CH / 2}"/>
       <text y="1">${esc(q.lb)}${q.sc ? `<tspan class="gsc" dx="10">${q.sc}</tspan>` : ""}</text></g></g>`);
@@ -1047,13 +1100,29 @@ function mapHtml(shownList, near){
 
   // 근처 일반식당 — 작은 점. 기준 건물 둘레에 지금 고른 도보 반경 원을 그린다
   let nbEl = "";
+  gmNb = {};
   if (kindF !== "caf" && NB.length && nbOrigin()){
     const o = nbOrigin(), ox = F.X(o.lng), oy = F.Y(o.lat);
     nbEl = `<circle class="gradius" cx="${ox.toFixed(1)}" cy="${oy.toFixed(1)}" r="${nbRadiusM().toFixed(1)}" style="stroke-width:${(2 * K).toFixed(2)};stroke-dasharray:${(10 * K).toFixed(1)} ${(8 * K).toFixed(1)}"/>`;
-    for (const { p } of nbList()){
-      const x = F.X(p.lng), y = F.Y(p.lat);
-      if (!inside(x, y)) continue;
-      nbEl += `<circle class="gnb" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(4.5 * K).toFixed(2)}"><title>${esc(p.n)} · ${esc(grpName(p.g))}</title></circle>`;
+    // 인허가 좌표는 건물 중심점 — 18m 안은 한 건물로 묶는다(가까운 곳부터 씨앗)
+    const cl = [];
+    for (const x of nbList()){
+      let c = cl.find(c => gmDist(c, x.p) < 18);
+      if (!c){ c = { lat: x.p.lat, lng: x.p.lng, ps: [] }; cl.push(c); }
+      c.ps.push(x);
+    }
+    for (const c of cl){
+      const cx = F.X(c.lng), cy = F.Y(c.lat);
+      if (!inside(cx, cy)) continue;
+      const key = `${c.lat.toFixed(5)},${c.lng.toFixed(5)}`, n = c.ps.length;
+      gmNb[key] = c;
+      const names = c.ps.slice(0, 6).map(x => x.p.n).join(", ") + (n > 6 ? ` ${t.nbEtc(n - 6)}` : "");
+      const bw = 12 + String(n).length * 10;
+      // 한 곳뿐인 건물은 작고 흐리게 — 여러 곳 모인 건물이 먼저 눈에 들어오게
+      nbEl += `<g class="gnbm${n === 1 ? " one" : ""}${key === mapNbSel ? " on" : ""}" data-nbk="${key}" transform="${at(cx, cy)}">`
+        + (n === 1 ? `<g transform="scale(.8)">${SPOON}</g>` : SPOON)
+        + (n > 1 ? `<g class="gnbc" transform="translate(15 -14)"><rect x="${-bw / 2}" y="-11" width="${bw}" height="22" rx="11"/><text y="1">${n}</text></g>` : "")
+        + `<title>${esc(names)}</title></g>`;
     }
   }
 
@@ -1066,14 +1135,14 @@ function mapHtml(shownList, near){
   return `<div class="gmhead"><span class="t">${esc(t.mapTitle)}</span><span class="h">${esc(t.mapHint)}</span></div>
   <div class="gmbody${near ? " near" : ""}">
     <div class="gmcanvas"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.mapTitle)}">
-      <g>${malls}</g><g>${casing}${fill}</g>${rails}<g>${roadN}</g><g>${mallN}</g>${staEl}
-      <g>${nbEl}</g><g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
+      <g>${malls}</g><g>${casing}${fill}</g>${rails}<g>${roadN}</g><g>${nbEl}</g><g>${mallN}</g>${staEl}
+      <g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
     <div class="gmside"><div class="gmsticky"><div id="gmcard"></div>
       <div class="gmlegend">
-        <span class="gmleg"><i class="gsw pick"></i>${esc(t.mapPick)}</span>
-        <span class="gmleg"><i class="gsw"></i>${esc(t.mapOpen)}</span>
-        <span class="gmleg"><i class="gsw none"></i>${esc(t.mapNone)}</span>
-        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span>${nbEl ? `<span class="gmleg"><i class="gsw nb"></i>${esc(t.mapNb)}</span>` : ""}${near ? `<span class="gmleg"><i class="gsw here"></i>${esc(t.mapHere)}</span>` : ""}</div>
+        <span class="gmleg">${legTray("pick")}${esc(t.mapPick)}</span>
+        <span class="gmleg">${legTray("")}${esc(t.mapOpen)}</span>
+        <span class="gmleg">${legTray("none")}${esc(t.mapNone)}</span>
+        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span>${nbEl ? `<span class="gmleg">${legSpoon()}${esc(t.mapNb)}</span>` : ""}${near ? `<span class="gmleg"><i class="gsw here"></i>${esc(t.mapHere)}</span>` : ""}</div>
       <div class="gmattr">${esc(t.mapAttr)} © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></div>
     </div></div>
   </div>`;
@@ -1115,23 +1184,34 @@ function mapCard(r){
 }
 function gmDraw(){
   const box = document.getElementById("gmcard"); if (!box) return;
+  const nb = mapNbSel && gmNb[mapNbSel];
+  document.querySelectorAll("#gmap .gnbm[data-nbk]").forEach(el => el.classList.toggle("on", !!nb && el.dataset.nbk === mapNbSel));
+  if (nb){
+    box.innerHTML = nbClusterCard(nb);
+    document.querySelectorAll("#gmap .gchip, #gmap .gmark[data-id]").forEach(el => el.classList.remove("on"));
+    return;
+  }
   const id = gmCurrentId(), r = DATA.restaurants.find(x => x.id === id);
   box.innerHTML = r ? mapCard(r) : "";
-  document.querySelectorAll("#gmap .gchip, #gmap .gmark").forEach(el => el.classList.toggle("on", el.dataset.id === id));
+  document.querySelectorAll("#gmap .gchip, #gmap .gmark[data-id]").forEach(el => el.classList.toggle("on", el.dataset.id === id));
   box.querySelector(".gcopen")?.addEventListener("click", () => goCard(id));
 }
 // 가중치를 바꾸면 추천 카드만 다시 그린다. 지도 강조와 카드도 같이 따라가게 한다.
 function syncMapPick(){
   const top = scored()[0];
-  document.querySelectorAll("#gmap .gchip, #gmap .gmark").forEach(el =>
+  document.querySelectorAll("#gmap .gchip, #gmap .gmark[data-id]").forEach(el =>
     el.classList.toggle("pick", !!top && el.dataset.id === top.r.id));
   gmDraw();
 }
 function wireMap(){
   const gm = document.getElementById("gmap"), svg = gm.querySelector(".gmcanvas svg");
   if (!svg) return;
-  const choose = id => { mapSel = id; gmDraw(); };
-  svg.addEventListener("click", e => { const el = e.target.closest("[data-id]"); if (el) choose(el.dataset.id); });
+  const choose = id => { mapSel = id; mapNbSel = null; gmDraw(); };
+  svg.addEventListener("click", e => {
+    const nb = e.target.closest("[data-nbk]");
+    if (nb){ mapNbSel = nb.dataset.nbk; gmDraw(); return; }
+    const el = e.target.closest("[data-id]"); if (el) choose(el.dataset.id);
+  });
   svg.querySelectorAll(".gchip").forEach(g => g.addEventListener("keydown", e => {
     if (e.key === "Enter" || e.key === " "){ e.preventDefault(); choose(g.dataset.id); }
   }));
