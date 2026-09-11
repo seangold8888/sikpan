@@ -567,11 +567,17 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
 .ghere text{fill:#151515;font:900 19px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central}
 .gsw.here{background:var(--accent)}
 .ltag.near{color:#111;background:var(--signal)}
+.ltag.score{color:var(--tray);background:var(--ink);font-weight:900}
+.ltag.score.none{color:var(--ink-3);background:var(--tray-inset);font-weight:800}
+.gchip .gsc{font-family:"Archivo",sans-serif;font-weight:900;letter-spacing:-.02em}
+.gcscore{display:flex;align-items:baseline;gap:5px;margin-top:7px;color:var(--ink-3);font:800 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.gcscore b{color:var(--ink);font:900 28px/1 "Archivo",sans-serif;letter-spacing:-.05em}
 @media (max-width:900px){
   .gmbody{grid-template-columns:1fr}
   .gmside{border-left:0;border-top:2px solid var(--outline)}
   .gmsticky{position:static}
   .gmcanvas svg{min-width:700px}
+  .gmbody.near .gmcanvas svg{min-width:0}
 }
 @media (max-width:720px){
   .gmap{border-radius:20px}.gmhead{min-height:48px;padding:12px 15px}.gmhead .h{font-size:10px}
@@ -646,7 +652,8 @@ const T = {
     mapSta:"가산디지털단지역", mapM:n=>`${n}m`, mapAttr:"지도 데이터",
     cardPick:"오늘의 추천", cardNone:"오늘 메뉴가 아직 올라오지 않았습니다",
     cardWalk:n=>`역에서 걸어서 약 ${n}분`, cardMenu:"오늘 메뉴 보기", cardDir:"길찾기",
-    nearTitle:n=>`${n}에서 가까운 순`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
+    nearTitle:(n,c)=>`${n}에서 가까운 ${c}곳`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
+    nearScore:s=>`점수 ${s}`, nearNoScore:"오늘 점수 없음", cardScore:"점",
     cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
@@ -696,7 +703,8 @@ const T = {
     mapSta:"Gasan Digital Complex Stn", mapM:n=>`${n}m`, mapAttr:"Map data",
     cardPick:"Today's pick", cardNone:"Today's menu is not up yet",
     cardWalk:n=>`about ${n} min walk from the station`, cardMenu:"See today's menu", cardDir:"Directions",
-    nearTitle:n=>`Nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
+    nearTitle:(n,c)=>`${c} nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
+    nearScore:s=>`score ${s}`, nearNoScore:"no score today", cardScore:"pts",
     cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
@@ -944,6 +952,7 @@ function fitRecName(){
   if (el.scrollWidth > el.clientWidth + 1) el.style.whiteSpace = "";   // 20px 로도 안 되면 줄바꿈 허용
 }
 addEventListener("resize", fitRecName);
+matchMedia("(max-width:900px)").addEventListener("change", () => render());
 
 function wireRec(){
   const box = document.getElementById("rec");
@@ -1096,11 +1105,22 @@ function findBuilding(nterm){
   return best ? { n: best.n, lat: best.p[0], lng: best.p[1] } : null;
 }
 
-function mapFrame(extra){
-  // 틀은 늘 전체 식당 기준이다. 검색으로 몇 곳만 남아도 지도가 튀지 않게.
+const NEAR_N = 5;                 // 건물 검색 때 보여 줄 가까운 식당 수
+let mapJustFocused = false;       // 방금 다른 건물을 찾았으면 화면을 지도로 옮긴다
+
+function mapFrame(focus, grow = 1){
+  if (focus){
+    // 건물 검색: 그 건물을 한가운데 두고, 가까운 곳들이 다 들어오게 확대한다
+    const far = Math.max(0, ...focus.pts.map(r => Math.max(
+      Math.abs(r.lng - focus.c.lng) * GM_MX, Math.abs(r.lat - focus.c.lat) * GM_MY)));
+    const R = Math.max(260, far * 1.35 + 90) * grow;
+    const W = Math.round(R * 2), H = Math.round(R * 2.1);
+    const lng0 = focus.c.lng - R / GM_MX, lat1 = focus.c.lat + (H / 2) / GM_MY;
+    return { W, H, X: lng => (lng - lng0) * GM_MX, Y: lat => (lat1 - lat) * GM_MY };
+  }
+  // 평소 틀은 전체 식당 기준이다. 검색으로 몇 곳만 남아도 지도가 튀지 않게.
   const pts = DATA.restaurants.filter(r => r.lat != null);
   const la = pts.map(r => r.lat), lo = pts.map(r => r.lng);
-  if (extra){ la.push(extra.lat); lo.push(extra.lng); }
   const lat1 = Math.max(...la), lng0 = Math.min(...lo);
   const W = Math.round((Math.max(...lo) - lng0) * GM_MX + GM_PAD * 2);
   const H = Math.round((lat1 - Math.min(...la)) * GM_MY + GM_PAD * 2);
@@ -1125,14 +1145,25 @@ const gmStation = () => {
 
 function mapHtml(shownList, near){
   const t = T[lang], S = DATA.streets;
-  // 검색한 건물이 바뀌면 전에 누른 식당 선택은 푼다
+  // 검색한 건물이 바뀌면 전에 누른 식당 선택은 풀고, 화면을 지도로 옮긴다
   const nk = near ? near.n : "";
-  if (nk !== mapNearKey){ mapSel = null; mapNearKey = nk; }
+  if (nk !== mapNearKey){ mapSel = null; mapNearKey = nk; mapJustFocused = !!near; }
   mapNear = near || null;
   const shown = shownList.filter(x => x.r.lat != null);
   if (!shown.length) return "";
-  const F = mapFrame(near), W = F.W, H = F.H;
+  // 좁은 화면은 평소 지도를 700px 로 그려 밀어 보게 한다. 건물 검색 때는 화면 폭에 맞춘다.
+  const narrow = matchMedia("(max-width:900px)").matches;
+  const F = near ? mapFrame({ c: near, pts: shown.map(x => x.r) }, narrow ? 1.3 : 1) : mapFrame(), W = F.W, H = F.H;
+  // 확대하면 viewBox 한 칸이 화면에서 커진다. 글자·점·선 굵기는 평소 전체 지도와 같은 크기로
+  // 보이도록 비율 K 를 곱한다 (평소 K = 1). 좁은 화면에서는 평소 지도가 700px, 건물 검색
+  // 지도는 화면 폭이라 그 차이까지 넣는다.
+  const FULLW = mapFrame().W;
+  const pxW = (document.querySelector("#gmap .gmcanvas") || {}).clientWidth || Math.max(280, innerWidth - 28);
+  const K = !near ? 1 : narrow ? 700 * W / (FULLW * pxW) : W / FULLW;
+  const at = (x, y, rot) => `translate(${x.toFixed(1)} ${y.toFixed(1)})${rot != null ? ` rotate(${rot.toFixed(1)})` : ""} scale(${K.toFixed(3)})`;
   const top = scored()[0], topId = top ? top.r.id : null;
+  const scoreOf = {}; for (const s of scored()) scoreOf[s.r.id] = s.score;
+  const inside = (x, y) => x > 0 && y > 0 && x < W && y < H;
   const obst = [];                                   // 이름표가 피해야 할 자리
 
   // 쇼핑몰 — 가산 사람이면 누구나 아는 기준점
@@ -1141,107 +1172,126 @@ function mapHtml(shownList, near){
     const nmk = GM_LANDMARK[m.n]; if (!nmk) continue;
     let cx, cy;
     if (m.poly){
-      malls += `<path class="gmall" d="${gmPath(m.poly, F)}Z"/>`;
+      malls += `<path class="gmall" style="stroke-width:${(2 * K).toFixed(2)}" d="${gmPath(m.poly, F)}Z"/>`;
       cx = m.poly.reduce((a, q) => a + F.X(q[1]), 0) / m.poly.length;
       cy = m.poly.reduce((a, q) => a + F.Y(q[0]), 0) / m.poly.length;
     } else { cx = F.X(m.p[1]); cy = F.Y(m.p[0]); }
-    const lb = nmk[lang === "ko" ? 0 : 1], w = gmTextW(lb, 17);
-    mallN += `<text class="gmalln" x="${cx.toFixed(0)}" y="${(cy + 5).toFixed(0)}">${esc(lb)}</text>`;
-    obst.push({ x: cx - w / 2 - 4, y: cy - 11, w: w + 8, h: 22 });
+    if (!inside(cx, cy)) continue;
+    const lb = nmk[lang === "ko" ? 0 : 1], w = gmTextW(lb, 17) * K;
+    mallN += `<text class="gmalln" transform="${at(cx, cy + 5 * K)}">${esc(lb)}</text>`;
+    obst.push({ x: cx - w / 2 - 4 * K, y: cy - 11 * K, w: w + 8 * K, h: 22 * K });
   }
 
   // 도로 — 테두리를 먼저 다 깔고 속을 칠해야 교차로가 이어져 보인다
   const byK = {};
   for (const rd of (S ? S.roads : [])) (byK[rd.k] = byK[rd.k] || []).push(gmPath(rd.p, F));
   let casing = "", fill = "";
-  for (const k of ["residential", "unclassified", "tertiary", "secondary", "primary", "trunk"]) if (byK[k]){
-    const d = byK[k].join(""), w = GM_ROAD_W[k];
-    casing += `<path class="grd-c" stroke-width="${w + 6}" d="${d}"/>`;
-    fill += `<path class="grd-f" stroke-width="${w}" d="${d}"/>`;
+  for (const cls of ["residential", "unclassified", "tertiary", "secondary", "primary", "trunk"]) if (byK[cls]){
+    const d = byK[cls].join(""), w = GM_ROAD_W[cls] * K;
+    casing += `<path class="grd-c" stroke-width="${(w + 6 * K).toFixed(2)}" d="${d}"/>`;
+    fill += `<path class="grd-f" stroke-width="${w.toFixed(2)}" d="${d}"/>`;
   }
   const railD = (S ? S.rails : []).map(r => gmPath(r.p, F)).join("");
-  const rails = railD ? `<path class="grail-b" d="${railD}"/><path class="grail-t" d="${railD}"/>` : "";
+  const rails = railD ? `<path class="grail-b" style="stroke-width:${(9 * K).toFixed(2)}" d="${railD}"/>`
+    + `<path class="grail-t" style="stroke-width:${(4 * K).toFixed(2)};stroke-dasharray:${(14 * K).toFixed(1)} ${(12 * K).toFixed(1)}" d="${railD}"/>` : "";
 
-  // 도로 이름 — 이름마다 화면 안의 가장 긴 곧은 구간 한가운데에 한 번만
-  const best = {};
+  // 도로 이름 — 이름마다 화면 안의 가장 긴 곧은 구간 한가운데에 한 번만.
+  // 확대했을 때는 자리가 넉넉하니 골목 이름도 다 적는다.
+  const best = {}, edge = 30 * K, nameAll = K < .8;
   for (const rd of (S ? S.roads : [])){
-    if (!rd.n || /지하/.test(rd.n) || !(GM_ROAD_NAMED.has(rd.k) || GM_ROAD_EXTRA.has(rd.n))) continue;
+    if (!rd.n || /지하/.test(rd.n) || !(nameAll || GM_ROAD_NAMED.has(rd.k) || GM_ROAD_EXTRA.has(rd.n))) continue;
     for (let i = 0; i < rd.p.length - 1; i++){
       const x1 = F.X(rd.p[i][1]), y1 = F.Y(rd.p[i][0]), x2 = F.X(rd.p[i + 1][1]), y2 = F.Y(rd.p[i + 1][0]);
-      if (![x1, x2].every(x => x > 30 && x < W - 30) || ![y1, y2].every(y => y > 30 && y < H - 30)) continue;
+      if (![x1, x2].every(x => x > edge && x < W - edge) || ![y1, y2].every(y => y > edge && y < H - edge)) continue;
       const L = Math.hypot(x2 - x1, y2 - y1);
       if (!best[rd.n] || L > best[rd.n].L) best[rd.n] = { L, x1, y1, x2, y2 };
     }
   }
   let roadN = "";
   for (const [n, s] of Object.entries(best)){
-    if (s.L < gmTextW(n, 17) + 30) continue;
+    if (s.L < (gmTextW(n, 17) + 30) * K) continue;
     let a = Math.atan2(s.y2 - s.y1, s.x2 - s.x1) * 180 / Math.PI;
     if (a > 90) a -= 180; if (a < -90) a += 180;      // 글자가 뒤집히지 않게
-    roadN += `<text class="groadn" transform="translate(${((s.x1 + s.x2) / 2).toFixed(0)} ${((s.y1 + s.y2) / 2).toFixed(0)}) rotate(${a.toFixed(1)})" dy="5">${esc(n)}</text>`;
+    roadN += `<text class="groadn" transform="${at((s.x1 + s.x2) / 2, (s.y1 + s.y2) / 2, a)}" dy="5">${esc(n)}</text>`;
   }
 
-  // 역
+  // 역 (확대 전 단위로 그리고 K 배)
   const stg = gmStation();
   let staEl = "";
   if (stg){
     const sx = F.X(stg.lng), sy = F.Y(stg.lat);
-    const lb = t.mapSta, w = gmTextW(lb, 18) + 24, bh = 34, bx = sx - w / 2, by = sy - bh - 18;
-    staEl = `<g class="gsta"><line x1="${sx.toFixed(0)}" y1="${(by + bh).toFixed(0)}" x2="${sx.toFixed(0)}" y2="${sy.toFixed(0)}"/>
-      <circle cx="${sx.toFixed(0)}" cy="${sy.toFixed(0)}" r="9"/>
-      <rect x="${bx.toFixed(0)}" y="${by.toFixed(0)}" width="${w.toFixed(0)}" height="${bh}" rx="9"/>
-      <text x="${sx.toFixed(0)}" y="${(by + bh / 2 + 1).toFixed(0)}">${esc(lb)}</text></g>`;
-    obst.push({ x: bx - 4, y: by - 4, w: w + 8, h: bh + 34 });
+    if (inside(sx, sy)){
+      const lb = t.mapSta, w = gmTextW(lb, 18) + 24, bh = 34;
+      // 지도 가장자리에 걸리면 이름표만 안쪽으로 민다 (점과 선은 제자리)
+      let bx = -w / 2;
+      const left = sx + bx * K, right = sx + (bx + w) * K;
+      if (left < 8 * K) bx += (8 * K - left) / K;
+      if (right > W - 8 * K) bx -= (right - (W - 8 * K)) / K;
+      staEl = `<g class="gsta" transform="${at(sx, sy)}"><line x1="0" y1="-18" x2="0" y2="0"/><circle r="9"/>
+        <rect x="${bx.toFixed(0)}" y="${-bh - 18}" width="${w.toFixed(0)}" height="${bh}" rx="9"/>
+        <text x="${(bx + w / 2).toFixed(0)}" y="${-bh / 2 - 17}">${esc(lb)}</text></g>`;
+      obst.push({ x: sx + (bx - 4) * K, y: sy - (bh + 22) * K, w: (w + 8) * K, h: (bh + 34) * K });
+    }
   }
 
   // 검색한 건물 — 식당 이름표가 이걸 가리지 않게 자리를 먼저 잡는다
   let hereEl = "";
   if (near){
     const hx = F.X(near.lng), hy = F.Y(near.lat), lb = near.n;
-    const w = gmTextW(lb, 19) + 26, bh = 36, bx = Math.max(8, Math.min(W - w - 8, hx - w / 2));
-    let by = hy - bh - 26; if (by < 8) by = hy + 26;
-    hereEl = `<g class="ghere"><circle class="ghere-ring" cx="${hx.toFixed(0)}" cy="${hy.toFixed(0)}" r="24"/>
-      <line x1="${hx.toFixed(0)}" y1="${(by < hy ? by + bh : by).toFixed(0)}" x2="${hx.toFixed(0)}" y2="${hy.toFixed(0)}"/>
-      <circle class="ghere-dot" cx="${hx.toFixed(0)}" cy="${hy.toFixed(0)}" r="11"/>
-      <rect x="${bx.toFixed(0)}" y="${by.toFixed(0)}" width="${w.toFixed(0)}" height="${bh}" rx="10"/>
-      <text x="${(bx + w / 2).toFixed(0)}" y="${(by + bh / 2 + 1).toFixed(0)}">${esc(lb)}</text></g>`;
-    obst.push({ x: bx - 4, y: by - 4, w: w + 8, h: bh + 8 }, { x: hx - 26, y: hy - 26, w: 52, h: 52 });
+    const w = gmTextW(lb, 19) + 26, bh = 36;
+    const above = hy - (bh + 26) * K > 8 * K;
+    const by = above ? -bh - 26 : 26;
+    let bx = -w / 2;
+    const left = hx + bx * K, right = hx + (bx + w) * K;
+    if (left < 8 * K) bx += (8 * K - left) / K;
+    if (right > W - 8 * K) bx -= (right - (W - 8 * K)) / K;
+    hereEl = `<g class="ghere" transform="${at(hx, hy)}"><circle class="ghere-ring" r="24"/>
+      <line x1="0" y1="${above ? by + bh : by}" x2="0" y2="0"/><circle class="ghere-dot" r="11"/>
+      <rect x="${bx.toFixed(0)}" y="${by}" width="${w.toFixed(0)}" height="${bh}" rx="10"/>
+      <text x="${(bx + w / 2).toFixed(0)}" y="${by + bh / 2 + 1}">${esc(lb)}</text></g>`;
+    obst.push({ x: hx + (bx - 4) * K, y: hy + (by - 4) * K, w: (w + 8) * K, h: (bh + 8) * K },
+              { x: hx - 26 * K, y: hy - 26 * K, w: 52 * K, h: 52 * K });
   }
 
   // 식당 점 — 같은 건물에 둘이면 옆으로 조금 벌린다
   const P = shown.map(({ r }) => ({ r, x: F.X(r.lng), y: F.Y(r.lat) }));
   const seen = {};
   for (const q of P){
-    const k = `${q.x.toFixed(0)},${q.y.toFixed(0)}`;
-    const n = seen[k] = (seen[k] || 0) + 1;
-    if (n > 1) q.x += (n - 1) * 22;
+    const key = `${q.x.toFixed(0)},${q.y.toFixed(0)}`;
+    const n = seen[key] = (seen[key] || 0) + 1;
+    if (n > 1) q.x += (n - 1) * 22 * K;
   }
-  const MR = 9;
-  for (const q of P) obst.push({ x: q.x - MR - 3, y: q.y - MR - 3, w: MR * 2 + 6, h: MR * 2 + 6 });
+  const MR = 9;                                       // 확대 전 단위
+  for (const q of P) obst.push({ x: q.x - (MR + 3) * K, y: q.y - (MR + 3) * K, w: (MR * 2 + 6) * K, h: (MR * 2 + 6) * K });
 
   // 이름표 — 추천을 먼저, 그다음 이웃이 많은 곳부터 자리를 잡는다
-  const crowd = q => P.filter(o => o !== q && Math.hypot(o.x - q.x, o.y - q.y) < 180).length;
+  const crowd = q => P.filter(o => o !== q && Math.hypot(o.x - q.x, o.y - q.y) < 180 * K).length;
   const ordered = [...P].sort((a, b) => (b.r.id === topId) - (a.r.id === topId) || crowd(b) - crowd(a));
   const FS = 21, CH = 37, PADX = 14, placed = [];
   for (const q of ordered){
-    const lb = gmShort(q.r), w = gmTextW(lb, FS) + PADX * 2;
+    const lb = gmShort(q.r);
+    // 건물 검색 때는 이름표에 추천 점수를 붙인다
+    const sc = near && scoreOf[q.r.id] != null ? scoreOf[q.r.id].toFixed(1) : "";
+    const wl = gmTextW(lb, FS) + (sc ? gmTextW(sc, FS) + 10 : 0) + PADX * 2;   // 확대 전 폭
+    const w = wl * K, h = CH * K;
     let chip = null, bestPen = Infinity;
-    search: for (const g of [10, 38, 72, 112, 158, 210]){
-      const d = MR + g, e = d * .72;
+    search: for (const g0 of [10, 38, 72, 112, 158, 210]){
+      const d = (MR + g0) * K, e = d * .72;
       for (const [x, y] of [
-        [q.x + d, q.y - CH / 2], [q.x - d - w, q.y - CH / 2],
-        [q.x - w / 2, q.y - d - CH], [q.x - w / 2, q.y + d],
-        [q.x + e, q.y - e - CH], [q.x + e, q.y + e],
-        [q.x - e - w, q.y - e - CH], [q.x - e - w, q.y + e]]){
-        if (x < 8 || y < 8 || x + w > W - 8 || y + CH > H - 8) continue;
-        const rc = { x, y, w, h: CH, g };
+        [q.x + d, q.y - h / 2], [q.x - d - w, q.y - h / 2],
+        [q.x - w / 2, q.y - d - h], [q.x - w / 2, q.y + d],
+        [q.x + e, q.y - e - h], [q.x + e, q.y + e],
+        [q.x - e - w, q.y - e - h], [q.x - e - w, q.y + e]]){
+        if (x < 8 * K || y < 8 * K || x + w > W - 8 * K || y + h > H - 8 * K) continue;
+        const rc = { x, y, w, h, g: g0 };
         const pen = placed.reduce((a, o) => a + gmArea(rc, o), 0) + obst.reduce((a, o) => a + gmArea(rc, o), 0);
         if (pen === 0){ chip = rc; break search; }
         if (pen < bestPen){ bestPen = pen; chip = rc; }
       }
     }
+    if (!chip) chip = { x: Math.max(4, Math.min(W - w - 4, q.x + (MR + 10) * K)), y: Math.max(4, Math.min(H - h - 4, q.y - h / 2)), w, h, g: 10 };
     placed.push(chip);
-    q.chip = chip; q.lb = lb;
+    Object.assign(q, { chip, lb, sc, wl });
   }
 
   const leads = [], marks = [], chips = [];
@@ -1249,20 +1299,22 @@ function mapHtml(shownList, near){
     const c = q.chip, cls = (q.r.id === topId ? " pick" : "") + (q.r.items.length ? "" : " none");
     if (c.g > 10){
       const ex = Math.max(c.x, Math.min(q.x, c.x + c.w)), ey = Math.max(c.y, Math.min(q.y, c.y + c.h));
-      leads.push(`<line class="glead" x1="${q.x.toFixed(0)}" y1="${q.y.toFixed(0)}" x2="${ex.toFixed(0)}" y2="${ey.toFixed(0)}"/>`);
+      leads.push(`<line class="glead" style="stroke-width:${(2.2 * K).toFixed(2)}" x1="${q.x.toFixed(1)}" y1="${q.y.toFixed(1)}" x2="${ex.toFixed(1)}" y2="${ey.toFixed(1)}"/>`);
     }
-    marks.push(`<circle class="gmark${cls}" data-id="${esc(q.r.id)}" cx="${q.x.toFixed(0)}" cy="${q.y.toFixed(0)}" r="${MR}"/>`);
+    marks.push(`<circle class="gmark${cls}" data-id="${esc(q.r.id)}" transform="${at(q.x, q.y)}" r="${MR}"/>`);
     chips.push(`<g class="gchip${cls}" data-id="${esc(q.r.id)}" tabindex="0" role="button" aria-label="${esc(nm(q.r))}">
-      <rect x="${c.x.toFixed(0)}" y="${c.y.toFixed(0)}" width="${c.w.toFixed(0)}" height="${CH}" rx="${CH / 2}"/>
-      <text x="${(c.x + c.w / 2).toFixed(0)}" y="${(c.y + CH / 2 + 1).toFixed(0)}">${esc(q.lb)}</text></g>`);
+      <g transform="${at(c.x + c.w / 2, c.y + c.h / 2)}"><rect x="${(-q.wl / 2).toFixed(1)}" y="${-CH / 2}" width="${q.wl.toFixed(1)}" height="${CH}" rx="${CH / 2}"/>
+      <text y="1">${esc(q.lb)}${q.sc ? `<tspan class="gsc" dx="10">${q.sc}</tspan>` : ""}</text></g></g>`);
   }
 
-  const scale = `<g class="gscale"><path d="M40 ${H - 44}v12h200v-12"/><text x="140" y="${H - 54}">${esc(t.mapM(200))}</text></g>`;
-  const north = `<g class="gnorth"><path d="M${W - 44} 26l9 24h-18z"/><text x="${W - 44}" y="70">N</text></g>`;
-  const attr = `<text class="gattrs" x="${W - 14}" y="${H - 14}">© OpenStreetMap</text>`;
+  // 축척 막대는 화면에서 200px 쯤 되는 딱 떨어지는 거리로
+  const Lm = [50, 100, 200, 300, 500].reduce((a, b) => Math.abs(b - 200 * K) < Math.abs(a - 200 * K) ? b : a);
+  const scale = `<g class="gscale" transform="${at(40 * K, H - 44 * K)}"><path d="M0 0v12h${(Lm / K).toFixed(1)}v-12"/><text x="${(Lm / K / 2).toFixed(1)}" y="-10">${esc(t.mapM(Lm))}</text></g>`;
+  const north = `<g class="gnorth" transform="${at(W - 44 * K, 26 * K)}"><path d="M0 0l9 24h-18z"/><text y="44">N</text></g>`;
+  const attr = `<text class="gattrs" transform="${at(W - 14 * K, H - 14 * K)}">© OpenStreetMap</text>`;
 
   return `<div class="gmhead"><span class="t">${esc(t.mapTitle)}</span><span class="h">${esc(t.mapHint)}</span></div>
-  <div class="gmbody">
+  <div class="gmbody${near ? " near" : ""}">
     <div class="gmcanvas"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.mapTitle)}">
       <g>${malls}</g><g>${casing}${fill}</g>${rails}<g>${roadN}</g><g>${mallN}</g>${staEl}
       <g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
@@ -1292,6 +1344,7 @@ function gmCurrentId(){
 }
 function mapCard(r){
   const t = T[lang], top = scored()[0], isPick = !!top && top.r.id === r.id;
+  const sc = scored().find(x => x.r.id === r.id);
   const fam = dishFamily(r);
   const mains = r.items.filter(i => i.main).slice(0, 2).map(i => lang === "ko" ? i.ko : i.en);
   const walk = mapNear ? Math.max(1, Math.round(gmDist(r, mapNear) * 1.3 / 75)) : gmWalk(r);
@@ -1303,6 +1356,7 @@ function mapCard(r){
     <div class="gcbody">
       ${isPick ? `<span class="gctag">${esc(t.cardPick)}</span>` : ""}
       <div class="gcname">${esc(nm(r))}</div>
+      ${sc ? `<div class="gcscore"><b>${sc.score.toFixed(1)}</b>${esc(t.cardScore)}</div>` : ""}
       ${r.address ? `<div class="gcaddr">${esc(shortAddr(r.address))}</div>` : ""}
       <div class="gcdish">${mains.length ? esc(mains.join(" · ")) : esc(t.cardNone)}</div>
       ${meta ? `<div class="gcmeta">${esc(meta)}</div>` : ""}
@@ -1338,10 +1392,22 @@ function wireMap(){
   }));
   gmDraw();
   // 좁은 화면에서는 지도를 가로로 밀어 보게 되니, 지금 보여 주는 식당을 가운데로
-  const cv = gm.querySelector(".gmcanvas"), c = svg.querySelector(".gchip.on rect");
-  if (c && cv.scrollWidth > cv.clientWidth + 4){
-    const b = c.getBoundingClientRect(), cb = cv.getBoundingClientRect();
-    cv.scrollLeft += (b.left + b.width / 2) - (cb.left + cb.width / 2);
+  // 건물 검색이면 그 건물이 지도 한가운데, 아니면 지금 보여 주는 식당이 가운데.
+  const cv = gm.querySelector(".gmcanvas");
+  if (cv.scrollWidth > cv.clientWidth + 4){
+    if (mapNear) cv.scrollLeft = (cv.scrollWidth - cv.clientWidth) / 2;
+    else {
+      const c = svg.querySelector(".gchip.on rect");
+      if (c){
+        const b = c.getBoundingClientRect(), cb = cv.getBoundingClientRect();
+        cv.scrollLeft += (b.left + b.width / 2) - (cb.left + cb.width / 2);
+      }
+    }
+  }
+  if (mapJustFocused){
+    mapJustFocused = false;
+    const y = gm.getBoundingClientRect().top;
+    if (y < 80 || y > innerHeight * .5) window.scrollTo({ top: y + scrollY - 96, behavior: "smooth" });
   }
 }
 
@@ -1350,9 +1416,14 @@ function rowHtml(r, idx, near){
   const mains = r.items.filter(i => i.main), sidesArr = r.items.filter(i => !i.main);
   const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
   const tags = [];
-  if (near && r.lat != null){
-    const m = gmDist(r, near);
-    tags.push(`<span class="ltag near">${esc(t.nearTag(Math.round(m / 10) * 10, Math.max(1, Math.round(m * 1.3 / 75))))}</span>`);
+  if (near){
+    // 건물 검색 때는 추천 점수와 거리를 맨 앞에 단다
+    const s = scored().find(x => x.r.id === r.id);
+    tags.push(`<span class="ltag score${s ? "" : " none"}">${esc(s ? t.nearScore(s.score.toFixed(1)) : t.nearNoScore)}</span>`);
+    if (r.lat != null){
+      const m = gmDist(r, near);
+      tags.push(`<span class="ltag near">${esc(t.nearTag(Math.round(m / 10) * 10, Math.max(1, Math.round(m * 1.3 / 75))))}</span>`);
+    }
   }
   if (r.pick) tags.push(`<span class="ltag pick">${esc(t.pick(r.pick))}</span>`);
   if (boardDate) tags.push(`<span class="ltag warn">${esc(t.offdate(boardDate))}</span>`);
@@ -1436,7 +1507,7 @@ function render(){
   // 식당 이름·주소·메뉴에 하나도 안 걸리면 건물 이름으로 보고, 그 건물에서 가까운 순으로 전부 보여 준다.
   const near = nterm && !DATA.restaurants.some(matchR) ? findBuilding(nterm) : null;
   let list = DATA.restaurants.filter(r => !nterm || near || matchR(r));
-  if (near) list = [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, near) - gmDist(b, near));
+  if (near) list = [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, near) - gmDist(b, near)).slice(0, NEAR_N);
 
   let shown = 0, rows = "";
   const shownList = [];
@@ -1447,7 +1518,7 @@ function render(){
   });
   document.getElementById("count").textContent = t.count(shown);
   document.getElementById("list").innerHTML =
-    `<div class="lhead"><span class="t">${esc(near ? t.nearTitle(near.n) : t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
+    `<div class="lhead"><span class="t">${esc(near ? t.nearTitle(near.n, list.length) : t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
 
   const gm = document.getElementById("gmap");
   const gmHtml = mapHtml(shownList, near);
