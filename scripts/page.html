@@ -9,637 +9,351 @@
 <meta property="og:description" content="가산디지털단지 구내식당 오늘의 메뉴 · Today's office-cafeteria menus, with English">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23DDFE52'/%3E%3Ccircle cx='32' cy='32' r='15' fill='%23FF5C3A'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Gothic+A1:wght@500;700;800;900&display=swap">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 :root{
-  --ground:#E8E9EC; --tray:#FDFDFD; --tray-edge:#C9CDD4; --tray-inset:#F2F3F5; --row-alt:#F7F8FA;
-  --ink:#191C21; --ink-2:#5B626D; --ink-3:#8B929C;
-  --accent:#1B4DD8; --accent-wash:#E7EDFD;
-  --heat:#C82A19; --heat-wash:#FBE9E6;
-  --rule:#D8DBE1; --pick:#0B7A55; --pick-wash:#E3F3EC;
-  --warn:#8A5A00; --warn-wash:#FBF0DC;
-  --shadow:0 1px 0 #FFF inset, 0 1px 2px rgba(16,20,28,.07), 0 8px 20px -12px rgba(16,20,28,.30);
+  color-scheme:light;
+  --bg:#F5F4F0; --card:#FFFFFF; --soft:#F2F0EB; --line:#E7E4DD; --line-2:#EFEDE8;
+  --ink:#18181B; --ink-2:#54545C; --ink-3:#8B8B93;
+  --accent:#EF5A2F; --accent-deep:#B83A12; --accent-wash:#FFEEE7;
+  --good:#0E8A60; --good-wash:#E3F5EC; --warn:#9A5507; --warn-wash:#FDF1D6;
+  --focus:#2F6BFF;
+  --shadow:0 1px 2px rgba(20,20,24,.05),0 12px 32px -20px rgba(20,20,24,.22);
+  --shadow-up:0 1px 2px rgba(20,20,24,.05),0 20px 44px -22px rgba(20,20,24,.32);
+  --map-ground:#ECE9E2; --map-road:#FFFFFF; --map-case:#D8D3C9; --map-rail:#A39E94;
+  --map-mall:#FBE4DA; --map-mall-line:#F0BCA7;
+  --radius:18px;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31; --row-alt:#20242A;
-  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
-  --accent:#7BA0FF; --accent-wash:#1E2A45;
-  --heat:#FF8A72; --heat-wash:#3A211B;
-  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
-  --warn:#E8B75E; --warn-wash:#332812;
-  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+  color-scheme:dark;
+  --bg:#0E0F11; --card:#17181B; --soft:#212226; --line:#2A2B30; --line-2:#222328;
+  --ink:#F3F3F4; --ink-2:#B5B5BD; --ink-3:#7E7E88;
+  --accent:#FF7A55; --accent-deep:#FFB39B; --accent-wash:#3A2019;
+  --good:#34D399; --good-wash:#13342A; --warn:#FBBF24; --warn-wash:#3A2E12;
+  --focus:#7AA2FF;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 36px -22px rgba(0,0,0,.9);
+  --shadow-up:0 1px 2px rgba(0,0,0,.4),0 22px 48px -22px rgba(0,0,0,1);
+  --map-ground:#1B1D21; --map-road:#2B2E34; --map-case:#34373E; --map-rail:#6B6F78;
+  --map-mall:#3A241D; --map-mall-line:#5A3326;
 }}
 :root[data-theme="dark"]{
-  --ground:#14171C; --tray:#1D2126; --tray-edge:#2E343C; --tray-inset:#252A31; --row-alt:#20242A;
-  --ink:#EDEFF2; --ink-2:#A2AAB5; --ink-3:#767E89;
-  --accent:#7BA0FF; --accent-wash:#1E2A45;
-  --heat:#FF8A72; --heat-wash:#3A211B;
-  --rule:#2E343C; --pick:#4FC79A; --pick-wash:#17322A;
-  --warn:#E8B75E; --warn-wash:#332812;
-  --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 2px 4px rgba(0,0,0,.4), 0 10px 24px -14px rgba(0,0,0,.7);
+  color-scheme:dark;
+  --bg:#0E0F11; --card:#17181B; --soft:#212226; --line:#2A2B30; --line-2:#222328;
+  --ink:#F3F3F4; --ink-2:#B5B5BD; --ink-3:#7E7E88;
+  --accent:#FF7A55; --accent-deep:#FFB39B; --accent-wash:#3A2019;
+  --good:#34D399; --good-wash:#13342A; --warn:#FBBF24; --warn-wash:#3A2E12;
+  --focus:#7AA2FF;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 14px 36px -22px rgba(0,0,0,.9);
+  --shadow-up:0 1px 2px rgba(0,0,0,.4),0 22px 48px -22px rgba(0,0,0,1);
+  --map-ground:#1B1D21; --map-road:#2B2E34; --map-case:#34373E; --map-rail:#6B6F78;
+  --map-mall:#3A241D; --map-mall-line:#5A3326;
 }
+
 *{box-sizing:border-box}
-body{margin:0;background:var(--ground);color:var(--ink);
-  font-family:"IBM Plex Sans KR","Apple SD Gothic Neo",system-ui,sans-serif;line-height:1.5;
-  padding:0 16px 72px}
-.wrap{max-width:1180px;margin:0 auto}
-.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;font-size:15px;line-height:1.5;
+  word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%}
+[hidden]{display:none!important}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px 64px}
 
-header{padding:34px 0 18px;border-bottom:2px solid var(--ink)}
-.topline{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
-h1{margin:0;font-family:"Gothic A1","Archivo",sans-serif;font-weight:900;
-  font-size:clamp(26px,4.4vw,38px);letter-spacing:-.02em;line-height:1.02;text-wrap:balance}
-h1 .en{display:block;font-family:"Archivo",sans-serif;font-weight:700;font-size:.42em;
-  letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:7px}
-.stamp{font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.08em;
-  color:var(--accent);border:1.5px solid var(--accent);border-radius:3px;padding:5px 9px;white-space:nowrap}
-.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:14px 0 20px}
-.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:4px;overflow:hidden}
-.seg button{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12.5px;letter-spacing:.08em;
-  background:transparent;color:var(--ink);border:0;padding:8px 14px;cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
-.seg button+button{border-left:1.5px solid var(--ink)}
-input[type=search]{flex:1;min-width:180px;background:var(--tray);border:1.5px solid var(--tray-edge);
-  border-radius:4px;padding:9px 12px;color:var(--ink);font:inherit;font-size:14px}
-input[type=search]::placeholder{color:var(--ink-3)}
-.count{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em}
-button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+/* 머리 */
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:28px 0 16px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.logo{flex:0 0 auto;display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--accent);font-size:22px;box-shadow:0 8px 20px -10px var(--accent)}
+h1{margin:0;font-size:22px;font-weight:800;letter-spacing:-.03em;line-height:1.2}
+.stamp{margin-top:3px;color:var(--ink-3);font-size:13px;font-weight:600}
+.langs{flex:0 0 auto;display:flex;padding:3px;background:var(--soft);border-radius:11px}
+.langs button{height:32px;padding:0 12px;border:0;border-radius:8px;background:transparent;color:var(--ink-3);font-size:13px;font-weight:700;cursor:pointer}
+.langs button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
 
-.banner{background:var(--warn-wash);border-left:4px solid var(--warn);border-radius:0 6px 6px 0;
-  padding:12px 16px;margin-bottom:18px;font-size:14px;color:var(--warn)}
+/* 검색줄 */
+.bar{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:10px;margin:0 -20px 8px;padding:10px 20px;
+  background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2)}
+.search{position:relative;flex:1;min-width:0}
+.search svg{position:absolute;left:15px;top:50%;width:18px;height:18px;color:var(--ink-3);transform:translateY(-50%);pointer-events:none}
+.search input{width:100%;height:46px;padding:0 16px 0 44px;background:var(--card);border:1px solid var(--line);border-radius:14px;
+  color:var(--ink);font:500 15px/1 "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;box-shadow:var(--shadow);-webkit-appearance:none;appearance:none}
+.search input::placeholder{color:var(--ink-3)}
+.tbtn{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;height:46px;padding:0 16px;background:var(--card);border:1px solid var(--line);
+  border-radius:14px;color:var(--ink);font-size:14px;font-weight:700;cursor:pointer;box-shadow:var(--shadow)}
+.tbtn svg{width:17px;height:17px}
+.tbtn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--card)}
+.count{flex:0 0 auto;min-width:40px;color:var(--ink-3);font-size:13px;font-weight:700;text-align:right;white-space:nowrap}
 
-.rec{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
-  margin-bottom:16px;overflow:hidden}
-.rechead{display:flex;align-items:center;gap:10px;padding:11px 18px;background:var(--ink);color:var(--ground)}
-.rechead .t{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.14em}
-.rechead .d{margin-left:auto;font-family:"JetBrains Mono",monospace;font-size:11px;opacity:.7}
-.recbody{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
-@media (max-width:820px){.recbody{grid-template-columns:1fr}}
-.recL{padding:18px;display:flex;flex-direction:column;gap:14px;border-right:1px solid var(--rule)}
-.recR{padding:18px;display:flex;flex-direction:column;gap:13px;background:var(--tray-inset)}
-@media (max-width:820px){.recL{border-right:0;border-bottom:1px solid var(--rule)}}
+/* 공통 */
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:22px 0 12px}
+.sechead h2{margin:0;font-size:18px;font-weight:800;letter-spacing:-.02em}
+.sechead .sub{color:var(--ink-3);font-size:13px;font-weight:600;text-align:right}
+.banner{margin:10px 0 0;padding:12px 16px;border-radius:12px;background:var(--warn-wash);color:var(--warn);font-size:13.5px;font-weight:600;line-height:1.55}
+.banner b{font-weight:800}
+.linkbtn{padding:4px 0;border:0;background:none;color:var(--ink-2);font-size:13px;font-weight:700;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.linkbtn:hover{color:var(--ink)}
 
-.recwho{display:flex;align-items:center;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:13px}
-.recwho img{width:76px;height:76px;border-radius:9px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0}
-.recname{font-family:"Gothic A1",sans-serif;font-weight:900;font-size:24px;line-height:1.1;letter-spacing:-.02em}
-.recdish{font-size:13.5px;color:var(--ink-2);margin-top:4px}
-.recmeta{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-3);margin-top:4px}
-.recbig{margin-left:auto;text-align:right;flex-shrink:0}
-.recbig .n{font-family:"Gothic A1",sans-serif;font-weight:900;font-size:30px;color:var(--accent);line-height:1}
-.recbig .u{font-family:"JetBrains Mono",monospace;font-size:9px;letter-spacing:.14em;color:var(--ink-3)}
+/* 오늘의 추천 Top 3 */
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.pk{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:14px;padding:16px 18px;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);color:inherit;text-align:left;cursor:pointer;
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.pk:hover{transform:translateY(-2px);box-shadow:var(--shadow-up)}
+.pk .rk{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--soft);color:var(--ink-2);font-size:15px;font-weight:800}
+.pk:first-child{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.pk:first-child .rk{background:var(--accent);color:#fff}
+.pkb{display:flex;flex-direction:column;min-width:0}
+.pk .nm{overflow:hidden;font-size:16px;font-weight:800;letter-spacing:-.02em;text-overflow:ellipsis;white-space:nowrap}
+.pk .ds{overflow:hidden;margin-top:2px;color:var(--ink-2);font-size:13px;text-overflow:ellipsis;white-space:nowrap}
+.pk .mt{overflow:hidden;margin-top:3px;color:var(--ink-3);font-size:12px;font-weight:600;text-overflow:ellipsis;white-space:nowrap}
+.pk .sc{font-size:26px;font-weight:800;letter-spacing:-.04em;line-height:1;text-align:right;font-variant-numeric:tabular-nums}
+.pk:first-child .sc{color:var(--accent)}
+.pk .sc small{display:block;margin-top:4px;color:var(--ink-3);font-size:10px;font-weight:700;letter-spacing:.06em}
+.tunebar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 14px;margin-top:10px;color:var(--ink-3);font-size:13px}
+.origin b{color:var(--ink);font-weight:800}
+.origin .linkbtn{margin-left:6px}
 
-.ledger{font-family:"JetBrains Mono",monospace;font-size:12px}
-.lghead{display:flex;justify-content:space-between;font-size:9.5px;letter-spacing:.1em;color:var(--ink-3);
-  padding-bottom:5px;border-bottom:1px solid var(--rule)}
-.lgrow{display:grid;grid-template-columns:1fr auto 54px;gap:10px;align-items:baseline;padding:5.5px 0;
-  border-bottom:1px dotted var(--rule)}
-.lgrow.zero{opacity:.42}
-.lgname{color:var(--ink)}
-.lgcalc{color:var(--ink-3);font-size:11px;white-space:nowrap}
-.lgc{text-align:right;font-weight:700}
-.lgtot{display:grid;grid-template-columns:1fr auto 54px;gap:10px;align-items:baseline;padding:9px 0 0;
-  border-top:2px solid var(--ink);margin-top:4px}
-.lgtot .lgc{font-family:"Gothic A1",sans-serif;font-size:19px;color:var(--accent)}
-.nabadge{font-size:8.5px;font-weight:700;color:var(--warn);background:var(--warn-wash);border-radius:3px;
-  padding:1px 4px;margin-left:4px;letter-spacing:0}
-
-.vshead{display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:"JetBrains Mono",monospace;
-  font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--ink-3)}
-.vshead b{color:var(--ink-2);font-weight:700;font-size:11.5px;letter-spacing:0;overflow:hidden;
-  text-overflow:ellipsis;white-space:nowrap}
-.vsrow{display:grid;grid-template-columns:1fr 58px 1fr;gap:7px;align-items:center;
-  font-family:"JetBrains Mono",monospace;font-size:10.5px;padding:3px 0}
-.vsL,.vsR{display:flex;align-items:center;gap:6px;min-width:0}
-.vsL{justify-content:flex-end}
-.vstrack{flex:1;height:6px;background:var(--tray-edge);border-radius:99px;overflow:hidden;display:flex;min-width:0}
+/* 추천 기준 서랍 */
+.tune{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:30px;margin-top:10px;padding:22px;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.tune h3{margin:0 0 10px;color:var(--ink-3);font-size:12.5px;font-weight:800;letter-spacing:.02em}
+.presets{display:flex;flex-wrap:wrap;gap:8px}
+.presets button{height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-2);font-size:13px;font-weight:700;cursor:pointer}
+.presets button:hover{border-color:var(--ink-3)}
+.presets button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--card)}
+.wrow{display:grid;grid-template-columns:84px minmax(0,1fr) 22px;align-items:center;gap:10px;min-height:34px}
+.wrow label{color:var(--ink-2);font-size:13px;font-weight:700}
+.cov{margin-left:5px;padding:1px 5px;border-radius:5px;background:var(--warn-wash);color:var(--warn);font-size:10px;font-weight:800}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.wv{font-size:13px;font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.ate{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:16px;color:var(--ink-3);font-size:12px}
+.ate button{height:32px;padding:0 12px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--ink-2);font-size:12px;font-weight:700;cursor:pointer}
+.ate button:hover{border-color:var(--ink-3);color:var(--ink)}
+.lghead,.lgrow,.lgtot{display:grid;grid-template-columns:minmax(0,1fr) auto 50px;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line-2);font-size:13px}
+.lghead{color:var(--ink-3);font-size:11px;font-weight:800;letter-spacing:.04em}
+.lgrow.zero{opacity:.45}
+.lgcalc{color:var(--ink-3);font-variant-numeric:tabular-nums}
+.lgc{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
+.lgtot{border-top:2px solid var(--ink);border-bottom:0;font-weight:800}
+.lgtot .lgc{color:var(--accent);font-size:16px}
+.nabadge{margin-left:6px;padding:1px 5px;border-radius:5px;background:var(--soft);color:var(--ink-3);font-size:10px;font-weight:700}
+.vshead{display:grid;grid-template-columns:auto minmax(0,1fr) auto minmax(0,1fr) auto;gap:8px;align-items:center;margin:20px 0 8px;color:var(--ink-3);font-size:12px}
+.vshead b{overflow:hidden;color:var(--ink);font-weight:800;text-overflow:ellipsis;white-space:nowrap}
+.vsrow{display:grid;grid-template-columns:minmax(0,1fr) 62px minmax(0,1fr);gap:8px;align-items:center;min-height:24px;font-size:12px}
+.vsL,.vsR{display:flex;align-items:center;gap:6px}
+.vstrack{flex:1;display:flex;height:6px;border-radius:3px;background:var(--soft);overflow:hidden}
 .vsL .vstrack{justify-content:flex-end}
-.vsfill{background:var(--ink-3);border-radius:99px}
+.vsfill{display:block;height:100%;border-radius:3px;background:var(--ink-3)}
 .vsfill.win{background:var(--accent)}
-.vsfill.win2{background:var(--heat)}
-.vsn{width:22px;flex-shrink:0}
-.vsL .vsn{text-align:left}
-.vsR .vsn{text-align:right}
-.vsname{text-align:center;font-size:9.5px;color:var(--ink-3);letter-spacing:.04em}
-.vsrow.na{opacity:.45}
-.vsna{font-size:9.5px;color:var(--ink-3)}
-.vsnote{font-size:11.5px;color:var(--ink-2);background:var(--tray);border:1px solid var(--rule);
-  border-radius:6px;padding:8px 10px;line-height:1.5}
+.vsfill.win2{background:var(--ink)}
+.vsname{color:var(--ink-2);font-weight:700;text-align:center}
+.vsn{width:24px;color:var(--ink-3);text-align:center;font-variant-numeric:tabular-nums}
+.vsna{color:var(--ink-3)}
+.vsnote{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--soft);color:var(--ink-2);font-size:12.5px;line-height:1.55}
 .vsnote b{color:var(--ink)}
 
-.presets{display:flex;gap:5px;flex-wrap:wrap}
-.presets button{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:700;letter-spacing:.03em;
-  background:var(--tray);color:var(--ink-2);border:1px solid var(--tray-edge);border-radius:99px;
-  padding:4px 10px;cursor:pointer}
-.presets button:hover{border-color:var(--accent);color:var(--accent)}
-.presets button[aria-pressed="true"]{background:var(--ink);color:var(--ground);border-color:var(--ink)}
-details.wt{border-top:1px solid var(--rule);padding-top:9px}
-details.wt summary{cursor:pointer;font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.12em;color:var(--ink-3);list-style:none}
-details.wt summary::-webkit-details-marker{display:none}
-details.wt summary::after{content:" ▾"}
-details.wt[open] summary::after{content:" ▴"}
-.wrow{display:grid;grid-template-columns:76px 1fr 20px;align-items:center;gap:7px;margin-top:7px}
-.wrow label{color:var(--ink-2);font-size:11px;display:flex;align-items:center;gap:3px}
-.wrow input[type=range]{width:100%;accent-color:var(--accent);height:16px}
-.wrow .wv{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--ink-3);text-align:right}
-.cov{font-family:"JetBrains Mono",monospace;font-size:8.5px;color:var(--warn);background:var(--warn-wash);
-  border-radius:3px;padding:1px 3px;cursor:help}
-.ate{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-size:11px;color:var(--ink-3);
-  border-top:1px solid var(--rule);padding-top:9px;margin-top:auto}
-.ate button{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;background:var(--tray);
-  border:1px solid var(--tray-edge);border-radius:4px;padding:4px 8px;cursor:pointer;color:var(--ink)}
-.ate button:hover{border-color:var(--accent);color:var(--accent)}
-.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:14px}
-.hcard{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);
-  padding:16px 18px;display:flex;flex-direction:column;gap:9px;border-top:4px solid var(--accent)}
-.hcard.heat{border-top-color:var(--heat)}
-.hcard.pick{border-top-color:var(--pick)}
-.hcard .hlbl{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;letter-spacing:.14em;color:var(--accent)}
-.hcard.heat .hlbl{color:var(--heat)}
-.hcard.pick .hlbl{color:var(--pick)}
-.hcard .hbody{display:flex;align-items:center;gap:13px}
-.hcard img{width:68px;height:68px;border-radius:8px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0}
-.hcard .hname{font-family:"Gothic A1",sans-serif;font-weight:900;font-size:18px;line-height:1.15}
-.hcard .hnum{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:14px;color:var(--accent);margin-top:2px}
-.hcard.heat .hnum{color:var(--heat)}
-.hcard.pick .hnum{color:var(--pick)}
-.hcard .hsub{font-size:12.5px;color:var(--ink-2)}
-.statline{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--ink-3);letter-spacing:.03em;
-  margin-bottom:18px;display:flex;gap:14px;flex-wrap:wrap}
-.statline b{color:var(--ink-2);font-weight:700}
+/* 식당 카드 */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(272px,1fr));gap:16px}
+.card{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:92px;transition:transform .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-up)}
+.card.flash{animation:flash 1.4s ease}
+@keyframes flash{0%,45%{box-shadow:0 0 0 3px var(--accent),var(--shadow-up)}100%{box-shadow:var(--shadow)}}
+.cimg{position:relative;display:block;width:100%;aspect-ratio:4/3;margin:0;padding:0;border:0;background:var(--soft);cursor:zoom-in;overflow:hidden}
+.cimg:disabled{cursor:default}
+.cimg img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform .35s ease}
+.card:hover .cimg img{transform:scale(1.03)}
+.cimg .art{display:none;width:100%;height:100%;place-items:center}
+.cimg.noimg .art{display:grid}
+.cimg .art svg{width:92px;height:92px}
+.cimg .art circle{fill:var(--card)}
+.cimg .art use{--i1:var(--accent-deep);--i2:var(--ink)}
+.cbadges{position:absolute;left:10px;top:10px;right:10px;display:flex;flex-wrap:wrap;gap:6px;pointer-events:none}
+.badge{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:999px;background:rgba(255,255,255,.95);color:#18181B;
+  font-size:11.5px;font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.badge.rank{background:var(--accent);color:#fff}
+.badge.dist{background:#18181B;color:#fff}
+.badge.ed{background:rgba(24,24,27,.82);color:#fff}
+.badge.warn{background:#FDF1D6;color:#8A4B05}
+.zoom{position:absolute;right:10px;bottom:10px;display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:999px;
+  background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-weight:700;opacity:0;transition:opacity .15s ease}
+.card:hover .zoom,.cimg:focus-visible .zoom{opacity:1}
+.cbody{flex:1;display:flex;flex-direction:column;gap:6px;padding:14px 16px 16px}
+.chead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.cname{margin:0;font-size:17px;font-weight:800;letter-spacing:-.025em;line-height:1.3}
+.cscore{flex:0 0 auto;font-size:22px;font-weight:800;letter-spacing:-.04em;line-height:1;text-align:right;font-variant-numeric:tabular-nums}
+.cscore small{display:block;margin-top:3px;color:var(--ink-3);font-size:9.5px;font-weight:700;letter-spacing:.06em}
+.cscore.top{color:var(--accent)}
+.cscore.na{max-width:84px;color:var(--ink-3);font-size:11.5px;font-weight:700;letter-spacing:0;line-height:1.3}
+.cplace{color:var(--ink-3);font-size:12.5px;font-weight:600}
+.cmains{margin-top:4px;font-size:14.5px;font-weight:700;line-height:1.45}
+.csides{display:-webkit-box;overflow:hidden;color:var(--ink-2);font-size:13px;line-height:1.5;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.cnone{color:var(--ink-3);font-size:13px}
+.cwarn{padding:8px 10px;border-radius:9px;background:var(--warn-wash);color:var(--warn);font-size:12px;line-height:1.5}
+.cmore{color:var(--ink-2);font-size:12.5px;line-height:1.6}
+.cmore summary{display:inline-block;color:var(--ink-3);font-weight:700;cursor:pointer;list-style:none}
+.cmore summary::-webkit-details-marker{display:none}
+.cmore summary::after{content:" ▾"}
+.cmore[open] summary::after{content:" ▴"}
+.cmore p{margin:6px 0 0}
+.cfoot{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:12px;border-top:1px solid var(--line-2)}
+.cprice{font-size:15px;font-weight:800;font-variant-numeric:tabular-nums}
+.cprice.na{color:var(--ink-3);font-size:12.5px;font-weight:700}
+.cstat{color:var(--ink-3);font-size:12px;font-weight:600}
+.cdir{margin-left:auto;display:inline-flex;align-items:center;height:30px;padding:0 11px;border:1px solid var(--line);border-radius:9px;
+  color:var(--ink-2);font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}
+.cdir:hover{border-color:var(--ink);color:var(--ink)}
+.card.dim .cimg img{filter:grayscale(.35) opacity(.85)}
+.empty{grid-column:1/-1;padding:40px 0;color:var(--ink-3);text-align:center}
 
-.list{background:var(--tray);border:1px solid var(--tray-edge);border-radius:10px;box-shadow:var(--shadow);overflow:hidden}
-.lhead{display:flex;align-items:center;gap:12px;padding:11px 18px;border-bottom:1.5px solid var(--ink);background:var(--tray-inset)}
-.lhead .t{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--ink-2)}
-.lhead .h{margin-left:auto;font-size:12px;color:var(--ink-3)}
-details.lrow{border-bottom:1px dashed var(--rule)}
-details.lrow:last-child{border-bottom:none}
-details.lrow:nth-child(even){background:var(--row-alt)}
-details.lrow.dim summary{opacity:.6}
-summary.lsum{display:flex;align-items:center;gap:13px;padding:12px 18px;cursor:pointer;list-style:none}
-summary.lsum::-webkit-details-marker{display:none}
-summary.lsum:hover{background:var(--accent-wash)}
-.lidx{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12px;color:var(--ink-3);width:18px;flex-shrink:0}
-.lwho{width:172px;flex-shrink:0;display:flex;flex-direction:column}
-.lwho .n{font-weight:700;font-size:14.5px;line-height:1.25}
-.lwho .b{font-size:11px;color:var(--ink-3)}
-.lpic{width:42px;height:42px;border-radius:6px;object-fit:cover;border:1px solid var(--tray-edge);flex-shrink:0;background:var(--tray-inset)}
-.lmain{flex:1;min-width:0;display:flex;flex-direction:column}
-.lmain .m{font-weight:700;font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.lmain .s{font-size:11.5px;color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.lnum{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--ink-2);width:104px;text-align:right;flex-shrink:0}
-.lwon{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:13.5px;width:52px;text-align:right;flex-shrink:0}
-.ltag{font-family:"JetBrains Mono",monospace;font-size:9.5px;font-weight:700;letter-spacing:.05em;
-  border-radius:3px;padding:2px 5px;white-space:nowrap}
-.ltag.pick{background:var(--pick-wash);color:var(--pick)}
-.ltag.warn{background:var(--warn-wash);color:var(--warn)}
-.ltag.stale{background:var(--tray-inset);color:var(--ink-3)}
+/* 바닥 */
+details.primer{margin-top:40px;padding:16px 18px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius)}
+details.primer summary{font-weight:800;cursor:pointer}
+details.primer p{color:var(--ink-2);font-size:13.5px;line-height:1.75}
+footer{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:22px;color:var(--ink-3);font-size:12px;line-height:1.6}
+dialog{max-width:min(94vw,860px);padding:0;border:0;background:transparent}
+dialog::backdrop{background:rgba(8,8,10,.84);backdrop-filter:blur(6px)}
+dialog img{display:block;max-width:100%;max-height:88vh;border-radius:14px}
+dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;border:0;border-radius:10px;background:rgba(255,255,255,.94);color:#111;font-weight:800;cursor:pointer}
 
-.ldetail{padding:4px 18px 18px 49px;display:flex;flex-direction:column;gap:13px}
-.where{font-size:13px;color:var(--ink-2)}
-.where a{color:var(--accent);text-decoration:none;font-weight:600;white-space:nowrap}
-.where a:hover{text-decoration:underline}
-.lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
-.mains{display:flex;flex-direction:column;border-top:1.5px solid var(--ink)}
-.mains .row{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dotted var(--rule)}
-.dpic{width:48px;height:48px;flex-shrink:0;border-radius:6px;object-fit:cover;
-  border:1px solid var(--tray-edge);background:var(--tray-inset)}
-.mains .dish{font-weight:700;font-size:14.5px}
-.mains .sec2{font-size:12px;color:var(--ink-2)}
-.hot{font-size:10px;font-weight:700;font-family:"JetBrains Mono",monospace;color:var(--heat);
-  background:var(--heat-wash);border-radius:3px;padding:2px 5px;letter-spacing:.05em;white-space:nowrap;margin-left:auto}
-.sides{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px}
-.sides li{font-size:12px;color:var(--ink-2);background:var(--tray-inset);border-radius:3px;padding:3px 8px}
-.note{font-size:12.5px;color:var(--ink-2);background:var(--tray-inset);border-radius:5px;padding:9px 11px}
-.shotbtn{display:inline-flex;align-items:center;gap:6px;font-family:"JetBrains Mono",monospace;font-size:11px;
-  font-weight:700;letter-spacing:.06em;color:var(--accent);background:none;border:1.5px solid var(--accent);
-  border-radius:4px;padding:6px 12px;cursor:pointer;align-self:flex-start}
-.shotbtn:hover{background:var(--accent-wash)}
-
-details.primer{background:var(--accent-wash);border-left:4px solid var(--accent);border-radius:0 6px 6px 0;
-  padding:13px 17px;margin-top:22px}
-details.primer summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--accent)}
-details.primer p{margin:11px 0 0;font-size:13.5px;color:var(--ink-2);max-width:70ch}
-
-dialog{border:0;padding:0;background:transparent;max-width:min(94vw,760px);max-height:92vh}
-dialog::backdrop{background:rgba(10,12,16,.86)}
-dialog img{width:100%;height:auto;display:block;border-radius:8px;background:#fff}
-dialog .close{position:sticky;top:0;margin-left:auto;display:block;background:var(--ink);color:var(--ground);
-  border:0;border-radius:4px;padding:7px 12px;font-family:"JetBrains Mono",monospace;font-size:12px;
-  font-weight:700;cursor:pointer;margin-bottom:8px}
-
-footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px;
-  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-
-@media (max-width:720px){
-  .lwho{width:118px}
-  .lnum{display:none}
-  .lmain .s{display:none}
-  .ldetail{padding-left:18px}
-}
-/* 2026 refresh — Seoul lunch editorial, not another grey dashboard. */
-:root{
-  color-scheme:light;
-  --ground:#F3F0E9; --tray:#FFFDF8; --tray-edge:#D9D4CA; --tray-inset:#EFEAE1; --row-alt:#F8F5EE;
-  --ink:#17181A; --ink-2:#55534E; --ink-3:#858077; --strong:#17181A; --outline:#17181A;
-  --accent:#FF5C3A; --accent-wash:#FFE2D8; --signal:#DDFE52; --cobalt:#3157FF;
-  --heat:#E84429; --heat-wash:#FFE1D8; --pick:#087B59; --pick-wash:#DDF5E9;
-  --warn:#9A5B00; --warn-wash:#FFF0C8; --rule:#D8D2C7;
-  --inverse:#17191F; --inverse-ink:#F8F5EE; --grid:rgba(23,24,26,.055);
-  --shadow:0 18px 48px -28px rgba(23,24,26,.36);
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  color-scheme:dark;
-  --ground:#0F1013; --tray:#191B20; --tray-edge:#363A43; --tray-inset:#24272E; --row-alt:#1D2026;
-  --ink:#F5F2EB; --ink-2:#B9B4AA; --ink-3:#7F7D78; --strong:#F5F2EB; --outline:#3A3E48;
-  --accent:#FF6B4B; --accent-wash:#3A211C; --signal:#DDFE52; --cobalt:#718DFF;
-  --heat:#FF785D; --heat-wash:#3C211C; --pick:#6DE0B0; --pick-wash:#18372D;
-  --warn:#F2C060; --warn-wash:#3A2D14; --rule:#343740;
-  --inverse:#111217; --inverse-ink:#F8F5EE; --grid:rgba(255,255,255,.045);
-  --shadow:0 22px 60px -34px rgba(0,0,0,.88);
-}}
-:root[data-theme="dark"]{
-  color-scheme:dark;
-  --ground:#0F1013; --tray:#191B20; --tray-edge:#363A43; --tray-inset:#24272E; --row-alt:#1D2026;
-  --ink:#F5F2EB; --ink-2:#B9B4AA; --ink-3:#7F7D78; --strong:#F5F2EB; --outline:#3A3E48;
-  --accent:#FF6B4B; --accent-wash:#3A211C; --signal:#DDFE52; --cobalt:#718DFF;
-  --heat:#FF785D; --heat-wash:#3C211C; --pick:#6DE0B0; --pick-wash:#18372D;
-  --warn:#F2C060; --warn-wash:#3A2D14; --rule:#343740;
-  --inverse:#111217; --inverse-ink:#F8F5EE; --grid:rgba(255,255,255,.045);
-  --shadow:0 22px 60px -34px rgba(0,0,0,.88);
-}
-
-html{scroll-behavior:smooth}
-body{
-  min-height:100vh;padding:0 22px 84px;overflow-x:hidden;
-  background:radial-gradient(circle at 7% 3%,rgba(255,92,58,.18),transparent 24rem),radial-gradient(circle at 92% 26%,rgba(49,87,255,.12),transparent 27rem),var(--ground);
-  font-family:"Gothic A1","Apple SD Gothic Neo",system-ui,sans-serif;font-weight:500;letter-spacing:-.012em;
-}
-body::before{
-  content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.7;
-  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
-  background-size:42px 42px;mask-image:linear-gradient(to bottom,#000,transparent 72%);
-}
-.wrap{max-width:1240px;margin:0 auto;position:relative}
-.mono{font-family:"Archivo","Gothic A1",sans-serif;font-variant-numeric:tabular-nums;letter-spacing:.02em}
-.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
-.mobile-break{display:none}
-
-header{
-  position:relative;isolation:isolate;overflow:hidden;margin:22px 0 24px;padding:38px 42px 34px;
-  color:#151515;background:var(--accent);border:2px solid #151515;border-radius:30px;box-shadow:10px 10px 0 #151515;
-}
-header::before{
-  content:"LUNCH";position:absolute;right:-16px;bottom:-38px;z-index:-1;
-  font:900 clamp(88px,15vw,190px)/.75 "Archivo",sans-serif;letter-spacing:-.09em;
-  color:transparent;-webkit-text-stroke:1.5px rgba(17,17,17,.19);transform:rotate(-4deg);
-}
-header::after{content:"";position:absolute;width:190px;height:190px;right:20%;top:-130px;z-index:-1;border:38px solid var(--signal);border-radius:50%;opacity:.9}
-.topline{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:42px}
-.mast-kicker{display:flex;align-items:center;gap:9px;margin-bottom:18px;font:800 11px/1 "Archivo",sans-serif;letter-spacing:.15em;text-transform:uppercase}
-.live-dot{width:9px;height:9px;border-radius:50%;background:var(--signal);border:2px solid #151515;box-shadow:0 0 0 4px rgba(221,254,82,.26)}
-h1{margin:0;color:#111;font-family:"Gothic A1","Archivo",sans-serif;font-weight:900;font-size:clamp(45px,7.3vw,88px);letter-spacing:-.075em;line-height:.9;text-wrap:balance}
-h1 .en{display:block;margin-top:15px;color:#111;font:800 clamp(11px,1.4vw,15px)/1 "Archivo",sans-serif;letter-spacing:.23em;text-transform:uppercase}
-.mast-deck{max-width:650px;margin:20px 0 0;color:rgba(17,17,17,.78);font-size:14px;font-weight:700;line-height:1.65}
-.mast-meta{position:relative;min-width:238px;padding:20px 20px 18px;background:rgba(255,253,248,.92);border:2px solid #151515;border-radius:18px;box-shadow:6px 6px 0 rgba(17,17,17,.9);transform:rotate(1.5deg)}
-.mast-code,.mast-note{display:block;font:800 10px/1.35 "Archivo",sans-serif;letter-spacing:.14em;text-transform:uppercase}
-.mast-note{margin-top:16px;color:#5A564E}
-.stamp{display:inline-flex;margin-top:12px;padding:8px 10px;color:#111;background:var(--signal);border:2px solid #151515;border-radius:0;font:800 12px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.04em;white-space:nowrap}
-
-.bar{
-  position:sticky;top:12px;z-index:20;display:grid;grid-template-columns:auto minmax(220px,1fr) auto;align-items:center;gap:12px;
-  margin:0 0 22px;padding:10px 12px;background:color-mix(in srgb,var(--tray) 88%,transparent);border:1px solid var(--tray-edge);border-radius:18px;
-  box-shadow:0 14px 40px -24px rgba(0,0,0,.55);backdrop-filter:blur(16px) saturate(1.25);
-}
-.seg{border:0;border-radius:12px;background:var(--tray-inset);padding:3px;overflow:visible}
-.seg button{min-height:39px;padding:8px 14px;color:var(--ink-2);border:0!important;border-radius:9px;font:800 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.08em;transition:.18s ease}
-.seg button[aria-pressed="true"]{color:#111;background:var(--signal);box-shadow:0 2px 10px rgba(0,0,0,.1)}
-.seg button:hover{color:var(--ink)}
-input[type=search]{
-  width:100%;min-width:0;height:45px;padding:10px 16px 10px 44px;color:var(--ink);background-color:var(--tray);border:1px solid var(--tray-edge);border-radius:12px;
-  font:600 14px/1.3 "Gothic A1",sans-serif;
-  background-image:linear-gradient(45deg,transparent 48%,var(--ink-3) 49% 52%,transparent 53%),radial-gradient(circle at 48% 45%,transparent 0 27%,var(--ink-3) 29% 37%,transparent 39%);
-  background-size:9px 9px,18px 18px;background-position:23px 25px,13px 13px;background-repeat:no-repeat;
-}
-input[type=search]::placeholder{color:var(--ink-3)}
-.count{min-width:52px;color:var(--ink-2);font:800 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.08em;text-align:center}
-button:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--cobalt);outline-offset:3px}
-.banner{margin-bottom:18px;padding:13px 16px;color:var(--warn);background:var(--warn-wash);border:1px solid color-mix(in srgb,var(--warn) 30%,transparent);border-left:6px solid var(--warn);border-radius:10px;font-size:13px;font-weight:700}
-
-.rec{margin-bottom:18px;background:var(--tray);border:2px solid var(--outline);border-radius:28px;box-shadow:var(--shadow);overflow:hidden}
-.rechead{padding:13px 22px;color:#111;background:var(--accent);border-bottom:2px solid #151515}
-.rechead .t{font:900 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.14em;text-transform:uppercase}
-.rechead .t::before{content:"\25CF";margin-right:8px;color:var(--signal)}
-.rechead .d{color:rgba(17,17,17,.65);font:800 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.06em}
-.recbody{display:grid;grid-template-columns:minmax(0,1.13fr) minmax(360px,.87fr)}
-.recL{
-  position:relative;min-height:310px;padding:28px;background:var(--signal);border:0;border-right:2px solid #151515;overflow:hidden;
-  --ink:#151515;--ink-2:#46473F;--ink-3:#68695F;--rule:rgba(21,21,21,.22);--accent:#151515;
-  /* 변수만 바꾸면 body에서 이미 계산된 글자색이 그대로 내려온다. 여기서 색을 다시 잡아준다. */
-  color:var(--ink);
-}
-.recL::after{content:"PICK 01";position:absolute;right:18px;bottom:-20px;color:rgba(21,21,21,.075);font:900 clamp(64px,8vw,104px)/1 "Archivo",sans-serif;letter-spacing:-.08em;pointer-events:none}
-.recR{
-  padding:28px;background:var(--inverse);color:var(--inverse-ink);border:0;
-  --ink:var(--inverse-ink);--ink-2:#C3C0B8;--ink-3:#888B93;--rule:#363A44;
-  --tray:#262930;--tray-inset:#202228;--tray-edge:#414650;--ground:#111318;
-  --accent:#FF7859;--accent-wash:#3A241F;--warn:#F2C060;--warn-wash:#392D15;
-  color:var(--ink);
-}
-.recwho{display:grid;grid-template-columns:112px minmax(0,1fr) auto;align-items:center;gap:20px;padding:0;border:0}
-.recwho img{width:112px;height:112px;border:2px solid #151515;border-radius:22px;box-shadow:5px 5px 0 #151515;transform:rotate(-1.5deg)}
-.recart svg{display:block;width:112px;height:112px;filter:drop-shadow(5px 5px 0 #151515);transform:rotate(-1.5deg)}
-.recart circle{fill:#FFFDF8;stroke:#151515;stroke-width:2.4}
-.recart use{--i1:#9A4A33;--i2:#151515}
-/* 사진 로딩이 실패해 칸이 비면 글자가 그 칸으로 밀려 들어간다. 그럴 땐 격자를 접는다. */
-.recwho:not(:has(img,.recart)){grid-template-columns:minmax(0,1fr) auto}
-/* 한글은 단어 중간에서 끊지 않는다. 너무 긴 한 단어만 넘칠 때 끊는다. */
-body{word-break:keep-all;overflow-wrap:break-word}
-.recname{font-size:clamp(25px,3.5vw,42px);line-height:1.02;letter-spacing:-.055em}
-.recdish{max-width:36ch;margin-top:8px;color:var(--ink-2);font-size:14px;font-weight:700;line-height:1.5}
-.recmeta{margin-top:9px;color:var(--ink-2);font:800 10.5px/1.5 "Archivo","Gothic A1",sans-serif;letter-spacing:.015em}
-.recbig{align-self:start;margin-left:0;padding-left:16px;text-align:right}
-.recbig .n{color:#151515;font:900 clamp(46px,6vw,74px)/.82 "Archivo",sans-serif;letter-spacing:-.07em}
-.recbig .u{margin-top:9px;color:#4B4C45;font:800 9px/1 "Archivo",sans-serif;letter-spacing:.2em}
-.why-now{display:flex;flex-direction:column;gap:15px}
-.why-label{color:var(--ink-3);font:800 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.16em;text-transform:uppercase}
-.reason-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.reason{min-width:0;padding:13px 10px;color:var(--inverse-ink);background:#23262D;border:1px solid #3A3E47;border-radius:12px;text-align:center}
-.reason b{display:block;margin-top:5px;color:var(--signal);font:900 18px/1 "Archivo",sans-serif}
-.reason span{display:block;overflow:hidden;color:#B8B5AD;font-size:10.5px;font-weight:700;text-overflow:ellipsis;white-space:nowrap}
-.quick-label{margin-top:22px;color:var(--ink-3);font:800 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.13em;text-transform:uppercase}
-.presets{gap:8px;margin-top:10px}
-.presets button{min-height:40px;padding:8px 12px;color:var(--ink-2);background:var(--tray);border:1px solid var(--tray-edge);border-radius:11px;font:800 10.5px/1 "Archivo","Gothic A1",sans-serif;transition:.18s ease}
-.presets button:hover{color:var(--inverse-ink);border-color:var(--accent);transform:translateY(-1px)}
-.presets button[aria-pressed="true"]{color:#111;background:var(--signal);border-color:var(--signal);box-shadow:0 7px 20px -12px var(--signal)}
-details.wt{margin-top:16px;padding:0;border:1px solid var(--rule);border-radius:13px;background:#1C1F25;overflow:hidden}
-details.wt summary{display:flex;align-items:center;justify-content:space-between;min-height:46px;padding:11px 14px;color:var(--inverse-ink);font:800 11px/1.25 "Archivo","Gothic A1",sans-serif;letter-spacing:.03em;list-style:none}
-details.wt summary::after{content:none}
-details.wt .plus{display:inline-grid;width:25px;height:25px;place-items:center;color:#111;background:var(--signal);border-radius:50%;font:900 18px/1 "Archivo",sans-serif;transition:transform .2s ease}
-details.wt[open] .plus{transform:rotate(45deg)}
-.analysis{display:flex;flex-direction:column;gap:20px;padding:4px 14px 16px}
-.ledger{color:var(--ink);font-family:"Archivo","Gothic A1",sans-serif}
-.lghead{color:var(--ink-3);border-bottom-color:var(--rule)}
-.lgrow{grid-template-columns:1fr auto 46px;padding:6px 0;border-bottom-color:var(--rule)}
-.lgname{font-size:11px}.lgcalc{font-size:10px}.lgc{font-size:11px}
-.lgtot{grid-template-columns:1fr auto 46px;border-top-color:var(--ink)}
-.lgtot .lgc{color:var(--signal)}
-.vshead{color:var(--ink-3)}.vshead b{color:var(--ink-2)}
-.vstrack{background:#333741}.vsfill.win{background:var(--signal)}.vsfill.win2{background:var(--accent)}
-.vsnote{color:var(--ink-2);background:var(--tray);border-color:var(--rule)}.vsnote b{color:var(--ink)}
-.weight-title{margin-top:2px;color:var(--ink-3);font:800 9.5px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.13em;text-transform:uppercase}
-.wrow{grid-template-columns:76px 1fr 20px;min-height:28px}.wrow label{color:var(--ink-2)}
-.ate{margin-top:16px;padding-top:14px;border-top-color:var(--rule);font-size:10.5px}
-.ate button{min-height:38px;padding:7px 10px;color:var(--inverse-ink);background:transparent;border:1px solid #4A4F59;border-radius:10px;font:800 10px/1 "Archivo","Gothic A1",sans-serif}
-.ate button:hover{color:#111;background:var(--signal);border-color:var(--signal)}
-
-.hero{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px;margin-bottom:14px}
-.hcard{position:relative;grid-column:span 4;min-height:185px;padding:22px;border:2px solid #151515;border-radius:22px;box-shadow:5px 5px 0 #151515;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease}
-.hcard:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 #151515}
-.hcard:nth-child(1){grid-column:span 5;color:#111;background:var(--signal);border-top:2px solid #151515}
-.hcard.heat{grid-column:span 4;color:#111;background:var(--accent);border-top:2px solid #151515}
-.hcard.pick{grid-column:span 3;color:#F8F5EE;background:#3157FF;border-top:2px solid #151515}
-.hcard .hlbl{color:inherit;font:900 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.14em;text-transform:uppercase;opacity:.72}
-.hcard.heat .hlbl,.hcard.pick .hlbl{color:inherit}
-.hcard .hbody{align-items:center;gap:15px;margin-top:auto}
-.hcard img{width:82px;height:82px;border:2px solid #151515;border-radius:18px;box-shadow:4px 4px 0 #151515;transform:rotate(2deg)}
-.hcard .hname{font-size:clamp(18px,2.1vw,25px);letter-spacing:-.045em}
-.hcard .hnum,.hcard.heat .hnum,.hcard.pick .hnum{color:inherit;font:900 13px/1.4 "Archivo","Gothic A1",sans-serif}
-.hcard .hsub{color:inherit;font-size:12px;font-weight:700;line-height:1.55;opacity:.78}
-.statline{margin:18px 0 18px;padding:13px 17px;color:#BDBAB2;background:var(--inverse);border-radius:14px;font:700 11px/1.4 "Archivo","Gothic A1",sans-serif;letter-spacing:.02em}
-.statline b{color:var(--signal);font-weight:900}
-
-.list{background:var(--tray);border:2px solid var(--outline);border-radius:26px;box-shadow:var(--shadow);overflow:hidden}
-.lhead{min-height:54px;padding:13px 20px;color:#fff;background:#3157FF;border:0}
-.lhead .t{color:#fff;font:900 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.14em;text-transform:uppercase}
-.lhead .h{color:rgba(255,255,255,.7);font-size:11px;font-weight:700}
-details.lrow{background:transparent;border-bottom:1px solid var(--rule)}
-details.lrow:nth-child(even){background:var(--row-alt)}
-details.lrow[open]{background:var(--accent-wash)}
-details.lrow.dim summary{opacity:.58}
-summary.lsum{position:relative;display:grid;grid-template-columns:28px minmax(0,1.15fr) 50px minmax(0,2fr) 150px 118px 66px;grid-template-areas:"idx who pic main tags num price";align-items:center;gap:14px;min-height:74px;padding:13px 54px 13px 18px;transition:background .18s ease}
-summary.lsum::after{content:"+";position:absolute;right:17px;top:50%;display:grid;width:27px;height:27px;place-items:center;color:var(--ink);background:var(--tray-inset);border-radius:50%;font:900 17px/1 "Archivo",sans-serif;transform:translateY(-50%);transition:.18s ease}
-details.lrow[open] summary.lsum::after{color:#111;background:var(--signal);transform:translateY(-50%) rotate(45deg)}
-summary.lsum:hover{background:color-mix(in srgb,var(--signal) 22%,transparent)}
-.lidx{grid-area:idx;width:auto;color:var(--ink-3);font:800 10px/1 "Archivo",sans-serif}
-.lwho{grid-area:who;width:auto;min-width:0}.lwho .n{font-size:14px;font-weight:900;letter-spacing:-.025em}.lwho .b{margin-top:3px;color:var(--ink-3);font-size:10.5px;line-height:1.35}
-.lpic{grid-area:pic;width:48px;height:48px;border:1px solid var(--tray-edge);border-radius:13px;background:var(--tray-inset)}
-.lmain{grid-area:main}.lmain .m{font-size:13px;font-weight:900}.lmain .s{margin-top:3px;color:var(--ink-2);font-size:11px}
-.ltags{grid-area:tags;display:flex;align-items:center;justify-content:flex-end;gap:5px;flex-wrap:wrap}
-.lnum{grid-area:num;width:auto;color:var(--ink-2);font:700 10.5px/1.45 "Archivo","Gothic A1",sans-serif;text-align:right}
-.lwon{grid-area:price;width:auto;font:900 13px/1 "Archivo",sans-serif;text-align:right}
-.lnop{color:var(--ink-3);font:700 10px/1.3 "Gothic A1",sans-serif;font-style:normal;letter-spacing:-.01em}
-.ltag{padding:4px 6px;border-radius:6px;font:800 8.5px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.02em}
-.ltag.pick{color:var(--pick);background:var(--pick-wash)}
-.ldetail{padding:8px 54px 24px 60px;gap:16px}
-.where{color:var(--ink-2);font-size:12.5px;font-weight:600;line-height:1.7}.where a{color:var(--cobalt)}
-.lbl{color:var(--ink-3);font:800 9.5px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.15em}
-.mains{border-top:2px solid var(--ink)}.mains .row{min-height:68px;padding:9px 0;border-bottom-color:var(--rule)}
-.dpic{width:52px;height:52px;border-radius:14px}.mains .dish{font-size:14px;font-weight:900}.mains .sec2{margin-top:2px;font-size:11.5px}
-.hot{padding:4px 6px;border-radius:6px}
-.sides{gap:7px}.sides li{padding:5px 9px;color:var(--ink-2);background:var(--tray-inset);border:1px solid var(--tray-edge);border-radius:8px;font-size:11.5px}
-.note{padding:11px 13px;background:var(--tray-inset);border-radius:10px;font-size:12px;line-height:1.65}
-.shotbtn{min-height:40px;padding:8px 13px;color:#111;background:var(--signal);border:2px solid #151515;border-radius:10px;box-shadow:3px 3px 0 #151515;font:900 10.5px/1 "Archivo","Gothic A1",sans-serif}
-.shotbtn:hover{background:var(--accent);transform:translate(-1px,-1px)}
-details.primer{margin-top:22px;padding:20px 22px;color:#111;background:var(--signal);border:2px solid #151515;border-radius:18px;box-shadow:5px 5px 0 #151515}
-details.primer summary{color:#111;font-size:14px;font-weight:900}
-details.primer p{color:#3C3D37;font-size:12.5px;font-weight:600;line-height:1.75}
-dialog{max-width:min(94vw,820px)}dialog::backdrop{background:rgba(7,8,10,.88);backdrop-filter:blur(8px)}
-dialog img{border:2px solid #fff;border-radius:18px}dialog .close{min-height:40px;padding:8px 13px;color:#111;background:var(--signal);border:2px solid #151515;border-radius:10px}
-footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-size:11.5px;line-height:1.65}
-
-/* 폰트 링크에서 JetBrains Mono가 빠졌는데 아래 선택자들이 아직 그 이름을 부르고 있어
-   시스템 고정폭 글꼴로 떨어진다. 이 디자인이 쓰는 얼굴로 되돌린다. */
-.cov,.hot,.vshead,.vsrow,.wrow .wv,dialog .close{font-family:"Archivo","Gothic A1",sans-serif}
-
-@keyframes rise-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-.rec{animation:rise-in .45s cubic-bezier(.2,.7,.2,1) both}.hero{animation:rise-in .45s .08s cubic-bezier(.2,.7,.2,1) both}.list{animation:rise-in .45s .14s cubic-bezier(.2,.7,.2,1) both}
-
-@media (max-width:980px){
-  .topline{gap:24px}.mast-meta{min-width:210px}
-  .recbody{grid-template-columns:1fr}.recL{border-right:0;border-bottom:2px solid #151515}.recR{min-height:auto}
-  .hero{grid-template-columns:repeat(3,minmax(0,1fr))}.hcard:nth-child(1),.hcard.heat,.hcard.pick{grid-column:span 1}
-  summary.lsum{grid-template-columns:24px minmax(0,1fr) 46px minmax(0,1.5fr) 130px 62px;grid-template-areas:"idx who pic main tags price"}
-  .lnum{display:none}
-}
-@media (max-width:720px){
-  body{padding:0 12px 56px;background:radial-gradient(circle at 10% 2%,rgba(255,92,58,.18),transparent 18rem),var(--ground)}
-  body::before{background-size:32px 32px}
-  header{margin:12px 0 16px;padding:27px 22px 24px;border-radius:22px;box-shadow:6px 6px 0 #151515}
-  header::before{right:-8px;bottom:-18px;font-size:82px}header::after{width:110px;height:110px;right:8%;top:-78px;border-width:22px}
-  .topline{grid-template-columns:1fr;gap:23px}.mast-kicker{margin-bottom:13px;font-size:9px}.mobile-break{display:block}.title-gap{display:none}h1{font-size:clamp(43px,15vw,65px)}h1 .en{margin-top:11px;font-size:10px}
-  .mast-deck{margin-top:15px;font-size:12px;line-height:1.6}.mast-meta{min-width:0;width:min(100%,270px);padding:14px 15px;box-shadow:4px 4px 0 #151515;transform:none}.mast-note{display:none}.stamp{margin-top:9px;font-size:10px}
-  .bar{top:8px;grid-template-columns:1fr auto;gap:8px;margin-bottom:16px;padding:8px;border-radius:15px}.seg{justify-self:start}.seg button{min-height:37px;padding:7px 11px;font-size:9.5px}input[type=search]{grid-column:1/-1;grid-row:2;height:43px;font-size:12px}.count{grid-column:2;grid-row:1;justify-self:end}
-  .rechead{padding:12px 16px}.rechead .d{display:none}.rec{border-radius:21px}.recL,.recR{padding:20px}
-  .recwho{grid-template-columns:82px minmax(0,1fr);gap:15px}.recwho img{width:82px;height:82px;border-radius:17px;box-shadow:4px 4px 0 #151515}.recart svg{width:82px;height:82px;filter:drop-shadow(4px 4px 0 #151515)}.recwho:not(:has(img,.recart)){grid-template-columns:minmax(0,1fr)}.recname{font-size:clamp(24px,8vw,34px)}.recdish{font-size:12px}.recmeta{font-size:9.5px}.recbig{grid-column:1/-1;display:flex;align-items:end;gap:8px;padding:10px 0 0;text-align:left}.recbig .n{font-size:52px}.recbig .u{margin:0 0 5px}
-  .reason-grid{gap:6px}.reason{padding:11px 6px}.reason b{font-size:16px}.reason span{font-size:9px}.presets button{flex:1;min-width:calc(50% - 4px)}
-  .hero{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(82vw,330px);gap:11px;margin-right:-12px;padding:1px 12px 11px 1px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}.hero::-webkit-scrollbar{display:none}.hcard:nth-child(1),.hcard.heat,.hcard.pick{grid-column:auto;scroll-snap-align:start}.hcard{min-height:176px;padding:19px;border-radius:19px;box-shadow:4px 4px 0 #151515}.hcard img{width:72px;height:72px}
-  .statline{margin:12px 0 16px;padding:12px 13px;gap:8px;font-size:9.5px}
-  .list{border-radius:20px}.lhead{min-height:48px;padding:12px 15px}.lhead .h{font-size:9.5px}
-  summary.lsum{grid-template-columns:23px 48px minmax(0,1fr) 58px;grid-template-areas:"idx pic who price" ". pic main main" ". . tags tags" ". . num num";gap:6px 10px;min-height:104px;padding:14px 48px 14px 13px}
-  summary.lsum::after{right:12px;width:25px;height:25px}.lidx{align-self:start;padding-top:4px}.lwho{align-self:start}.lwho .n{font-size:13px}.lwho .b{font-size:9.5px}.lpic{width:48px;height:48px}.lmain .m{font-size:12.5px;line-height:1.45;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.lmain .s{display:none}.ltags{justify-content:flex-start;margin-top:4px}.lnum{display:block;margin-top:3px;text-align:left;font-size:9.5px}.lwon{align-self:start;padding-top:4px;font-size:12px}
-  .ldetail{padding:4px 14px 20px;gap:14px}.where{font-size:11.5px}.mains .row{align-items:flex-start}.mains .dish{font-size:13px}.dpic{width:48px;height:48px}.sides li{font-size:10.5px}
-  details.primer{padding:17px 18px;border-radius:15px;box-shadow:4px 4px 0 #151515}footer{font-size:10.5px}
-}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-
-
-/* 식당 지도 — OSM 도로 위에 식당 이름표를 얹는다. SVG 한 칸 = 1m. */
-.gmap{margin:0 0 14px;background:var(--tray);border:2px solid var(--outline);border-radius:26px;box-shadow:var(--shadow);overflow:hidden;animation:rise-in .45s .1s cubic-bezier(.2,.7,.2,1) both}
-.gmhead{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:54px;padding:13px 20px;color:#111;background:var(--signal);border-bottom:2px solid var(--outline)}
-.gmhead .t{font:900 11px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.14em;text-transform:uppercase}
-.gmhead .h{color:#4B4C45;font-size:11px;font-weight:700}
+/* 지도 — 밑그림은 OSM, 좌표 1칸 = 1m */
+.gmap{margin:14px 0 0;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;scroll-margin-top:84px}
+.gmhead{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid var(--line-2)}
+.gmhead .t{font-size:15px;font-weight:800}
+.gmhead .h{color:var(--ink-3);font-size:12.5px;font-weight:600}
 .gmbody{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr)}
-.gmcanvas{position:relative;min-width:0;overflow-x:auto;background:var(--tray-inset);scrollbar-width:thin}
+.gmcanvas{position:relative;min-width:0;overflow-x:auto;background:var(--map-ground);scrollbar-width:thin}
 .gmcanvas svg{display:block;width:100%;height:auto}
-.gmside{padding:20px;border-left:2px solid var(--outline);background:var(--tray)}
-.gmsticky{position:sticky;top:92px}
-/* 오른쪽 카드 — 요리 일러스트는 여기서 크게 보여 준다 */
-.gcard{display:grid;grid-template-columns:104px minmax(0,1fr);gap:16px;align-items:start}
-.gcart svg{display:block;width:104px;height:104px;filter:drop-shadow(4px 4px 0 var(--outline))}
-.gcart circle{fill:var(--accent-wash);stroke:var(--outline);stroke-width:2.6}
-.gcart use{--i1:#9A4A33;--i2:#151515}
-.gcard.pick .gcart circle{fill:var(--signal)}
-.gcard.pick .gcart use{--i1:#4B5A15;--i2:#151515}
-.gcard.none .gcart circle{fill:var(--tray-inset);stroke-dasharray:4 3}
+.gmside{padding:18px;border-left:1px solid var(--line-2)}
+.gmsticky{position:sticky;top:84px}
+.gcard{display:grid;grid-template-columns:96px minmax(0,1fr);gap:16px;align-items:start}
+.gcart svg{display:block;width:96px;height:96px}
+.gcart circle{fill:var(--accent-wash)}
+.gcart use{--i1:var(--accent-deep);--i2:var(--ink)}
+.gcard.pick .gcart circle{fill:var(--accent)}
+.gcard.pick .gcart use{--i1:#FFD6C7;--i2:#fff}
+.gcard.none .gcart circle{fill:var(--soft)}
 .gcard.none .gcart use{--i1:var(--ink-3);--i2:var(--ink-3)}
-.gctag{display:inline-block;margin-bottom:7px;padding:4px 7px;color:#111;background:var(--signal);border:1.5px solid var(--outline);font:900 9.5px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.08em;text-transform:uppercase}
-.gcname{font-size:20px;font-weight:900;letter-spacing:-.045em;line-height:1.15}
-.gcaddr{margin-top:3px;color:var(--ink-3);font-size:11px;font-weight:700}
-.gcdish{margin-top:10px;color:var(--ink);font-size:13.5px;font-weight:800;line-height:1.45}
-.gcmeta{margin-top:5px;color:var(--ink-2);font:700 11px/1.45 "Archivo","Gothic A1",sans-serif}
-.gcbtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
-.gcopen,.gcdir{display:inline-flex;align-items:center;min-height:38px;padding:8px 13px;border:2px solid var(--outline);border-radius:10px;font:900 10.5px/1 "Archivo","Gothic A1",sans-serif;text-decoration:none;cursor:pointer}
-.gcopen{color:#111;background:var(--signal);box-shadow:3px 3px 0 var(--outline)}
-.gcopen:hover{background:var(--accent)}
-.gcdir{color:var(--ink);background:var(--tray)}
-.gmlegend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:20px;padding-top:14px;border-top:1px solid var(--rule)}
-.gmleg{display:flex;align-items:center;gap:6px;color:var(--ink-2);font-size:10.5px;font-weight:700}
-.gsw{display:inline-block;width:14px;height:14px;border:2px solid var(--outline);border-radius:5px;background:var(--tray)}
-.gsw.pick{background:var(--signal)}
-.gsw.none{background:var(--tray-inset);border-style:dashed}
-.gsw.sta{background:#3157FF;border-color:#3157FF}
-.gmattr{margin-top:10px;color:var(--ink-3);font-size:10px;font-weight:600}
+.gctag{display:inline-block;margin-bottom:6px;padding:3px 8px;border-radius:999px;background:var(--accent);color:#fff;font-size:11px;font-weight:800}
+.gcname{font-size:19px;font-weight:800;letter-spacing:-.03em;line-height:1.2}
+.gcscore{display:flex;align-items:baseline;gap:4px;margin-top:6px;color:var(--ink-3);font-size:11px;font-weight:700}
+.gcscore b{color:var(--ink);font-size:26px;font-weight:800;letter-spacing:-.04em}
+.gcaddr{margin-top:3px;color:var(--ink-3);font-size:12.5px;font-weight:600}
+.gcdish{margin-top:10px;font-size:14px;font-weight:700;line-height:1.45}
+.gcmeta{margin-top:4px;color:var(--ink-2);font-size:12.5px}
+.gcbtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.gcopen,.gcdir{display:inline-flex;align-items:center;height:36px;padding:0 13px;border-radius:10px;font-size:13px;font-weight:700;text-decoration:none;cursor:pointer}
+.gcopen{border:0;background:var(--ink);color:var(--card)}
+.gcdir{border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.gmlegend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:18px;padding-top:14px;border-top:1px solid var(--line-2)}
+.gmleg{display:flex;align-items:center;gap:6px;color:var(--ink-2);font-size:12px;font-weight:600}
+.gsw{display:inline-block;width:12px;height:12px;border:1.5px solid var(--ink);border-radius:4px;background:var(--card)}
+.gsw.pick{background:var(--accent);border-color:var(--accent)}
+.gsw.none{border-style:dashed;border-color:var(--ink-3)}
+.gsw.sta{background:#2F6BFF;border-color:#2F6BFF}
+.gsw.here{background:var(--ink);border-color:var(--ink)}
+.gmattr{margin-top:10px;color:var(--ink-3);font-size:11px}
 .gmattr a{color:inherit}
-/* 밑그림 */
-.gmall{fill:color-mix(in srgb,var(--accent) 16%,var(--tray-inset));stroke:color-mix(in srgb,var(--accent) 42%,var(--tray-inset));stroke-width:2}
-.gmalln{fill:color-mix(in srgb,var(--accent) 70%,var(--ink));font:800 17px "Gothic A1",sans-serif;text-anchor:middle;paint-order:stroke;stroke:var(--tray-inset);stroke-width:5px;stroke-linejoin:round}
-.grd-c{fill:none;stroke:var(--tray-edge);stroke-linecap:round;stroke-linejoin:round}
-.grd-f{fill:none;stroke:var(--tray);stroke-linecap:round;stroke-linejoin:round}
-.grail-b{fill:none;stroke:var(--ink-3);stroke-width:9}
-.grail-t{fill:none;stroke:var(--tray-inset);stroke-width:4;stroke-dasharray:14 12}
-.groadn{fill:var(--ink-3);font:700 17px "Gothic A1",sans-serif;text-anchor:middle;letter-spacing:.02em;paint-order:stroke;stroke:var(--tray);stroke-width:5px;stroke-linejoin:round}
-.gsta line{stroke:#3157FF;stroke-width:3}
-.gsta circle{fill:#3157FF;stroke:#fff;stroke-width:3.5}
-.gsta rect{fill:#3157FF;stroke:var(--outline);stroke-width:2.5}
-.gsta text{fill:#fff;font:800 18px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central}
-/* 식당 */
-.glead{stroke:var(--ink-3);stroke-width:2.2}
-.gmark{fill:var(--ink);stroke:var(--tray);stroke-width:3.5;cursor:pointer}
-.gmark.none{fill:var(--tray-inset);stroke:var(--ink-3);stroke-dasharray:3 2}
-.gmark.pick{fill:var(--signal);stroke:var(--outline);stroke-dasharray:none}
-.gmark.on{fill:var(--accent);stroke:var(--outline)}
+.gmall{fill:var(--map-mall);stroke:var(--map-mall-line)}
+.gmalln{fill:var(--accent-deep);font:700 17px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;paint-order:stroke;stroke:var(--map-ground);stroke-width:5px;stroke-linejoin:round}
+.grd-c{fill:none;stroke:var(--map-case);stroke-linecap:round;stroke-linejoin:round}
+.grd-f{fill:none;stroke:var(--map-road);stroke-linecap:round;stroke-linejoin:round}
+.grail-b{fill:none;stroke:var(--map-rail)}
+.grail-t{fill:none;stroke:var(--map-ground)}
+.groadn{fill:var(--ink-3);font:600 17px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;paint-order:stroke;stroke:var(--map-road);stroke-width:5px;stroke-linejoin:round}
+.gsta line{stroke:#2F6BFF;stroke-width:3}
+.gsta circle{fill:#2F6BFF;stroke:#fff;stroke-width:3.5}
+.gsta rect{fill:#2F6BFF}
+.gsta text{fill:#fff;font:700 18px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;dominant-baseline:central}
+.glead{stroke:var(--ink-3)}
+.gmark{fill:var(--ink);stroke:var(--card);stroke-width:3.5;cursor:pointer}
+.gmark.none{fill:var(--card);stroke:var(--ink-3);stroke-dasharray:3 2}
+.gmark.pick{fill:var(--accent);stroke:var(--card);stroke-dasharray:none}
+.gmark.on{fill:var(--accent);stroke:var(--ink)}
 .gchip{cursor:pointer}
 .gchip:focus{outline:none}
-.gchip rect{fill:var(--tray);stroke:var(--outline);stroke-width:2.6;transition:fill .15s}
-.gchip text{fill:var(--ink);font:800 21px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none;user-select:none}
-.gchip.none rect{fill:var(--tray-inset);stroke-dasharray:6 4}
+.gchip rect{fill:var(--card);stroke:var(--line);stroke-width:2}
+.gchip text{fill:var(--ink);font:700 21px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;dominant-baseline:central;pointer-events:none;user-select:none}
+.gchip .gsc{fill:var(--accent-deep);font-weight:800}
+.gchip.none rect{fill:var(--soft);stroke-dasharray:6 4}
 .gchip.none text{fill:var(--ink-3)}
-.gchip.pick rect{fill:var(--signal);stroke-dasharray:none}
-.gchip.pick text{fill:#151515}
-.gchip:hover rect,.gchip:focus-visible rect{fill:var(--accent)}
-.gchip:hover text,.gchip:focus-visible text{fill:#151515}
-.gchip:focus-visible rect{stroke-width:4}
-.gchip.on rect{fill:var(--ink);stroke:var(--outline);stroke-width:3.2}
-.gchip.on text{fill:var(--tray)}
-.gscale path{stroke:var(--ink-2);stroke-width:3;fill:none}
-.gscale text{fill:var(--ink-2);font:800 15px "Archivo",sans-serif;text-anchor:middle}
+.gchip.pick rect{fill:var(--accent);stroke:var(--accent);stroke-dasharray:none}
+.gchip.pick text,.gchip.pick .gsc{fill:#fff}
+.gchip:hover rect,.gchip:focus-visible rect{stroke:var(--ink);stroke-width:2.8}
+.gchip.on rect{fill:var(--ink);stroke:var(--ink)}
+.gchip.on text,.gchip.on .gsc{fill:var(--card)}
+.gscale path{fill:none;stroke:var(--ink-2);stroke-width:3}
+.gscale text{fill:var(--ink-2);font:700 15px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle}
 .gnorth path{fill:var(--ink-2)}
-.gnorth text{fill:var(--ink-2);font:800 16px "Archivo",sans-serif;text-anchor:middle}
-.gattrs{fill:var(--ink-3);font:600 13px "Gothic A1",sans-serif;text-anchor:end}
-/* 검색한 건물 */
-.ghere-ring{fill:color-mix(in srgb,var(--accent) 22%,transparent);stroke:var(--accent);stroke-width:2.5}
-.ghere-dot{fill:var(--accent);stroke:var(--outline);stroke-width:3}
-.ghere line{stroke:var(--outline);stroke-width:3}
-.ghere rect{fill:var(--accent);stroke:var(--outline);stroke-width:2.6}
-.ghere text{fill:#151515;font:900 19px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central}
-.gsw.here{background:var(--accent)}
-.ltag.near{color:#111;background:var(--signal)}
-.origin{margin-top:12px;color:var(--ink-2);font-size:11px;font-weight:700;line-height:1.55}
-.origin b{color:var(--signal);font-weight:900}
-.origin button{margin-left:8px;padding:4px 8px;color:var(--ink);background:transparent;border:1px solid var(--tray-edge);border-radius:8px;font:800 10px/1 "Archivo","Gothic A1",sans-serif;cursor:pointer}
-.origin button:hover{color:#111;background:var(--signal);border-color:var(--signal)}
-.ltag.score{color:var(--tray);background:var(--ink);font-weight:900}
-.ltag.score.none{color:var(--ink-3);background:var(--tray-inset);font-weight:800}
-.gchip .gsc{font-family:"Archivo",sans-serif;font-weight:900;letter-spacing:-.02em}
-.gcscore{display:flex;align-items:baseline;gap:5px;margin-top:7px;color:var(--ink-3);font:800 10px/1 "Archivo","Gothic A1",sans-serif;letter-spacing:.1em;text-transform:uppercase}
-.gcscore b{color:var(--ink);font:900 28px/1 "Archivo",sans-serif;letter-spacing:-.05em}
+.gnorth text{fill:var(--ink-2);font:800 16px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle}
+.gattrs{fill:var(--ink-3);font:500 13px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:end}
+.ghere-ring{fill:color-mix(in srgb,var(--ink) 12%,transparent);stroke:var(--ink);stroke-width:2.5}
+.ghere-dot{fill:var(--ink);stroke:var(--card);stroke-width:3}
+.ghere line{stroke:var(--ink);stroke-width:3}
+.ghere rect{fill:var(--ink)}
+.ghere text{fill:var(--card);font:800 19px "Pretendard Variable",Pretendard,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;text-anchor:middle;dominant-baseline:central}
+
 @media (max-width:900px){
   .gmbody{grid-template-columns:1fr}
-  .gmside{border-left:0;border-top:2px solid var(--outline)}
+  .gmside{border-top:1px solid var(--line-2);border-left:0}
   .gmsticky{position:static}
   .gmcanvas svg{min-width:700px}
   .gmbody.near .gmcanvas svg{min-width:0}
+  .tune{grid-template-columns:1fr;gap:22px}
+  .picks{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:min(82vw,320px);margin:0 -20px;padding:2px 20px 8px;
+    overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .picks::-webkit-scrollbar{display:none}
+  .pk{scroll-snap-align:start}
 }
-@media (max-width:720px){
-  .gmap{border-radius:20px}.gmhead{min-height:48px;padding:12px 15px}.gmhead .h{font-size:10px}
-  .gmside{padding:16px 15px}
-  .gcard{grid-template-columns:84px minmax(0,1fr);gap:13px}.gcart svg{width:84px;height:84px}
-  .gcname{font-size:17px}
+@media (max-width:600px){
+  .wrap{padding:0 14px 48px}
+  header.top{padding:18px 0 10px}
+  h1{font-size:19px}
+  .logo{width:38px;height:38px;border-radius:12px;font-size:19px}
+  .bar{flex-wrap:wrap;margin:0 -14px 6px;padding:8px 14px}
+  .search{flex-basis:100%}
+  .tbtn{height:40px}
+  .count{margin-left:auto}
+  .picks{margin:0 -14px;padding:2px 14px 8px}
+  .grid{grid-template-columns:1fr;gap:12px}
+  .cimg{aspect-ratio:16/10}
+  .gcard{grid-template-columns:78px minmax(0,1fr)}
+  .gcart svg{width:78px;height:78px}
 }
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header>
-  <div class="topline">
-    <div class="mast-copy">
-      <div class="mast-kicker"><span class="live-dot" aria-hidden="true"></span>SEOUL · GASAN DIGITAL COMPLEX</div>
-      <h1>가산<span class="title-gap"> </span><br class="mobile-break">런치보드<span class="en">Gasan Lunch Board</span></h1>
-      <p class="mast-deck">오늘 점심을 빠르게 고르는 가산의 실시간 메뉴판 · Your live guide to lunch in Gasan.</p>
-    </div>
-    <div class="mast-meta" aria-label="edition information">
-      <span class="mast-code">MIDDAY EDITION · 037</span>
-      <div class="stamp mono" id="stamp"></div>
-      <span class="mast-note">OPEN CAFETERIAS<br>KR / EN</span>
-    </div>
-  </div>
+<header class="top">
+  <div class="brand"><span class="logo" aria-hidden="true">🍱</span>
+    <div><h1 id="siteTitle">가산 런치보드</h1><div class="stamp" id="stamp"></div></div></div>
+  <div class="langs" role="group" aria-label="language">
+    <button id="btnKo" aria-pressed="true">한국어</button><button id="btnEn" aria-pressed="false">EN</button></div>
 </header>
-
 <div class="bar">
-  <div class="seg" role="group" aria-label="language">
-    <button id="btnKo" aria-pressed="true">한국어</button>
-    <button id="btnEn" aria-pressed="false">ENGLISH</button>
-  </div>
-  <label class="sr-only" for="q">메뉴·식당·건물 검색</label>
-  <input type="search" id="q" autocomplete="off">
-  <span class="count mono" id="count" aria-live="polite"></span>
+  <label class="search"><span class="sr-only" id="qLabel">검색</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.6-3.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <input type="search" id="q" autocomplete="off"></label>
+  <button class="tbtn" id="mapBtn" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6.5v13.5l6-2.5 6 2.5 6-2.5V4l-6 2.5z M9 4v13.5 M15 6.5V20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span id="mapBtnT">지도</span></button>
+  <span class="count" id="count" aria-live="polite"></span>
 </div>
-
 <div id="banner"></div>
-<div class="rec" id="rec"></div>
-<div class="hero" id="hero"></div>
-<div class="statline" id="statline"></div>
+<section id="picksBox"></section>
 <section class="gmap" id="gmap" hidden></section>
-<div class="list" id="list"></div>
-
+<section id="gridBox"></section>
 <details class="primer">
   <summary id="primerSum"></summary>
   <div id="primerBody"></div>
 </details>
-
 <footer>
   <span id="photoNote" style="flex-basis:100%"></span>
   <span id="foot1"></span>
   <span id="foot2"></span>
 </footer>
 </div>
-
-<dialog id="lb"><button class="close" id="lbClose">ESC ✕</button><img id="lbImg" alt=""></dialog>
-
+<dialog id="lb"><button class="close" id="lbClose">✕</button><img id="lbImg" alt=""></dialog>
 <script>
 const DATA = __PAYLOAD__;
 let lang = "ko";
@@ -660,6 +374,11 @@ const T = {
     nearTitle:(n,c)=>`${n}에서 가까운 ${c}곳`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
     nearScore:s=>`점수 ${s}`, nearNoScore:"오늘 점수 없음", cardScore:"점",
     cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물", noPrice:"가격 미확인", originOn:"가까움 기준", originClear:"기준 지우기",
+    siteTitle:"가산 런치보드", picksSub:"오늘 메뉴로 매긴 점수", tuneBtn:"추천 기준 조정", tuneClose:"접기",
+    mapBtn:"지도", gridTitle:"오늘의 구내식당", gridSub:"점수 높은 순", searchTitle:n=>`검색 결과 ${n}곳`,
+    nearSub:"가까운 순 · 점수는 오늘 추천 기준", topBadge:"오늘 1위", edPick:n=>`대표 추천 ${n}위`,
+    zoom:"메뉴판 크게", more:"자세히", empty:"맞는 식당이 없습니다", walkFrom:min=>`도보 약 ${min}분`,
+    boardAlt:n=>`${n} 메뉴판`,
     originOff:"건물을 검색하면 그 건물에서 가까운 곳일수록 가까움 점수를 더 줍니다",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
@@ -712,6 +431,11 @@ const T = {
     nearTitle:(n,c)=>`${c} nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
     nearScore:s=>`score ${s}`, nearNoScore:"no score today", cardScore:"pts",
     cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building", noPrice:"price n/a", originOn:"Distance from", originClear:"clear",
+    siteTitle:"Gasan Lunch Board", picksSub:"scored from today's menus", tuneBtn:"Tune ranking", tuneClose:"Hide",
+    mapBtn:"Map", gridTitle:"Today's cafeterias", gridSub:"highest score first", searchTitle:n=>`${n} results`,
+    nearSub:"nearest first · scores use today's ranking", topBadge:"#1 today", edPick:n=>`Staff pick #${n}`,
+    zoom:"View board", more:"More", empty:"No matching cafeteria", walkFrom:min=>`~${min} min walk`,
+    boardAlt:n=>`${n} menu board`,
     originOff:"Search a building to score places by how close they are to it",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
@@ -836,200 +560,135 @@ function coverage(){
   return c;
 }
 
-function recHtml(){
+// ── 오늘의 추천 Top 3 + 추천 기준 서랍 ─────────────────────────
+let tuneOpen = false;
+const won = pr => lang === "ko" ? `${pr.toLocaleString("ko-KR")}원` : `₩${pr.toLocaleString("en-US")}`;
+const walkFrom = (r, o) => Math.max(1, Math.round(gmDist(r, o) * 1.3 / 75));
+const scoreMap = () => { const m = {}; for (const s of scored()) m[s.r.id] = s.score; return m; };
+
+function picksListHtml(){
   const t = T[lang];
-  const list = scored();
-  if (!list.length) return "";
+  return scored().slice(0, 3).map((s, i) => {
+    const r = s.r;
+    const mains = r.items.filter(x => x.main).slice(0, 2).map(x => lang === "ko" ? x.ko : x.en).join(" · ");
+    const where = nearOrigin && r.lat != null
+      ? t.nearTag(Math.round(gmDist(r, nearOrigin) / 10) * 10, walkFrom(r, nearOrigin)) : shortAddr(r.address);
+    const meta = [r.price ? won(r.price) : t.noPrice, where].filter(Boolean).join(" · ");
+    return `<button type="button" class="pk" data-go="${esc(r.id)}"><span class="rk">${i + 1}</span>
+      <span class="pkb"><span class="nm">${esc(nm(r))}</span><span class="ds">${esc(mains || "—")}</span><span class="mt">${esc(meta)}</span></span>
+      <span class="sc">${s.score.toFixed(1)}<small>${esc(t.cardScore)}</small></span></button>`;
+  }).join("");
+}
+
+function tuneLiveHtml(){
+  const t = T[lang], list = scored();
+  if (!list.length) return `<p class="vsnote">${esc(t.onlyOne)}</p>`;
   const top = list[0], second = list[1];
   const W_SUM = AXES.reduce((a, x) => a + (W[x] || 0), 0);
-
   // 장부: 각 축의 기여도를 합하면 정확히 총점이 되도록 나눈다.
   const rows = top.parts.map(pt => {
     const v = pt.value === null ? 0.5 : pt.value;
-    const contrib = W_SUM ? (v * pt.weight / W_SUM) * 100 : 0;
-    return { ...pt, shown: Math.round(v * 100), contrib };
+    return { ...pt, shown: Math.round(v * 100), contrib: W_SUM ? (v * pt.weight / W_SUM) * 100 : 0 };
   });
-
-  const img = firstDishImg(top.r);
-  const mains = top.r.items.filter(i => i.main).slice(0, 2)
-    .map(i => lang === "ko" ? i.ko : i.en).join(" · ");
-  const st = top.r.stats || {};
-  const meta = [
-    top.r.price ? top.r.price.toLocaleString() + (lang === "ko" ? "원" : " KRW") : null,
-    st.count ? t.dishes(st.count) : null,
-    st.wonPerItem ? t.perItem(st.wonPerItem) : null,
-    top.r.walkMin ? (lang === "ko" ? `도보 ${top.r.walkMin}분` : `${top.r.walkMin} min`) : null,
-  ].filter(Boolean).join(" · ");
-
-  const ledger = `<div class="ledger">
+  const ledger = `<h3>${esc(t.whyTitle)} · ${esc(nm(top.r))}</h3><div class="ledger">
     <div class="lghead"><span>${esc(t.lgItem)}</span><span>${esc(t.lgCalc)}</span></div>
     ${rows.map(r => `<div class="lgrow${r.weight ? "" : " zero"}">
       <span class="lgname">${esc(t.axes[r.axis])}${r.value === null ? `<span class="nabadge">${esc(t.na)}</span>` : ""}</span>
-      <span class="lgcalc">${r.shown} × ${r.weight}</span>
-      <span class="lgc">${r.contrib.toFixed(1)}</span></div>`).join("")}
-    <div class="lgtot">
-      <span class="lgname" style="font-weight:700">${esc(t.lgTotal)}</span>
-      <span class="lgcalc">÷ ${W_SUM}</span>
-      <span class="lgc">${top.score.toFixed(1)}</span></div>
+      <span class="lgcalc">${r.shown} × ${r.weight}</span><span class="lgc">${r.contrib.toFixed(1)}</span></div>`).join("")}
+    <div class="lgtot"><span class="lgname">${esc(t.lgTotal)}</span><span class="lgcalc">÷ ${W_SUM}</span><span class="lgc">${top.score.toFixed(1)}</span></div>
   </div>`;
+  if (!second) return ledger + `<div class="vsnote">${esc(t.onlyOne)}</div>`;
+  // 대결: 1위와 2위를 축별로 마주 세운다. 값은 점수 계산에 쓴 것(가까움은 기준 위치 거리)을 그대로.
+  const val = (s, a) => s.parts.find(x => x.axis === a).value;
+  const gap = Math.round((top.score - second.score) * 10) / 10;
+  const versus = `<div class="vshead"><span>1</span><b>${esc(nm(top.r))}</b><span>vs</span><b style="text-align:right">${esc(nm(second.r))}</b><span>2</span></div>
+    ${AXES.map(a => {
+      const lv = val(top, a), rv = val(second, a);
+      if (lv === null && rv === null) return `<div class="vsrow"><span></span><span class="vsname">${esc(t.axes[a])}</span><span class="vsna">${esc(t.na)}</span></div>`;
+      const l = lv === null ? .5 : lv, r = rv === null ? .5 : rv, lw = l > r + .02, rw = r > l + .02;
+      return `<div class="vsrow">
+        <span class="vsL"><span class="vsn">${Math.round(l * 100)}</span><span class="vstrack"><span class="vsfill${lw ? " win" : ""}" style="width:${Math.round(l * 100)}%"></span></span></span>
+        <span class="vsname">${esc(t.axes[a])}</span>
+        <span class="vsR"><span class="vstrack"><span class="vsfill${rw ? " win2" : ""}" style="width:${Math.round(r * 100)}%"></span></span><span class="vsn">${Math.round(r * 100)}</span></span></div>`;
+    }).join("")}
+    <div class="vsnote">${t.vsNote(esc(nm(second.r)), gap)}</div>`;
+  return ledger + versus;
+}
 
-  // 대결: 1위와 2위를 축별로 마주 세운다.
-  let versus;
-  if (second){
-    const gap = Math.round((top.score - second.score) * 10) / 10;
-    versus = `<div class="vshead"><span>1</span><b>${esc(nm(top.r))}</b>
-        <span style="color:var(--ink-3)">vs</span><b style="text-align:right">${esc(nm(second.r))}</b><span>2</span></div>
-      ${AXES.map(a => {
-        // 양쪽 다 값을 모르면 무승부가 아니라 비교 불가다. 막대를 그리지 않는다.
-        if (top.ax[a] === null && second.ax[a] === null){
-          return `<div class="vsrow na"><span></span>
-            <span class="vsname">${esc(t.axes[a])}</span>
-            <span class="vsna">${esc(t.na)}</span></div>`;
-        }
-        const l = top.ax[a] === null ? 0.5 : top.ax[a];
-        const r = second.ax[a] === null ? 0.5 : second.ax[a];
-        const lw = l > r + 0.02, rw = r > l + 0.02;
-        return `<div class="vsrow">
-          <span class="vsL"><span class="vsn">${Math.round(l * 100)}</span>
-            <span class="vstrack"><span class="vsfill${lw ? " win" : ""}" style="width:${Math.round(l * 100)}%"></span></span></span>
-          <span class="vsname">${esc(t.axes[a])}</span>
-          <span class="vsR"><span class="vstrack"><span class="vsfill${rw ? " win2" : ""}" style="width:${Math.round(r * 100)}%"></span></span>
-            <span class="vsn">${Math.round(r * 100)}</span></span></div>`;
-      }).join("")}
-      <div class="vsnote">${t.vsNote(esc(nm(second.r)), gap)}</div>`;
-  } else {
-    versus = `<div class="vsnote">${esc(t.onlyOne)}</div>`;
-  }
-
-  const cov = coverage();
-  const sliders = AXES.map(a => {
-    const thin = cov[a] < cov._total;
-    return `<div class="wrow">
-      <label for="w-${a}">${esc(t.axes[a])}${thin ? `<span class="cov" title="${esc(t.covHelp)}">${cov[a]}/${cov._total}</span>` : ""}</label>
+function tuneHtml(){
+  const t = T[lang], cov = coverage();
+  const sliders = AXES.map(a => `<div class="wrow">
+      <label for="w-${a}">${esc(t.axes[a])}${cov[a] < cov._total ? `<span class="cov" title="${esc(t.covHelp)}">${cov[a]}/${cov._total}</span>` : ""}</label>
       <input type="range" id="w-${a}" data-axis="${a}" min="0" max="5" step="1" value="${W[a]}" aria-label="${esc(t.axes[a])}">
-      <span class="wv">${W[a]}</span></div>`;
-  }).join("");
-
-  const activePreset = Object.keys(PRESETS).find(k =>
-    AXES.every(a => PRESETS[k][a] === W[a]));
-
-  const reasons = [...rows].filter(r => r.weight > 0)
-    .sort((a, b) => b.contrib - a.contrib).slice(0, 3);
-
-  return `<div class="rechead"><span class="t">${esc(t.recTitle)}</span>
-      <span class="d">${esc(lang === "ko" ? DATA.dateKo : DATA.dateEn)}</span></div>
-    <div class="recbody">
-      <div class="recL">
-        <div class="recwho">
-          ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`
-                : `<span class="recart" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"></circle><use href="#i-${dishFamily(top.r)}" x="11" y="11" width="42" height="42"></use></svg></span>`}
-          <div style="min-width:0">
-            <div class="recname">${esc(nm(top.r))}</div>
-            ${mains ? `<div class="recdish">${esc(mains)}</div>` : ""}
-            <div class="recmeta">${esc(meta)}</div>
-          </div>
-          <div class="recbig"><div class="n">${top.score.toFixed(1)}</div><div class="u">SCORE</div></div>
-        </div>
-      </div>
-      <div class="recR">
-        <div class="why-now">
-          <div class="why-label">${esc(t.whyTitle)}</div>
-          <div class="reason-grid">${reasons.map(r => `<div class="reason">
-            <span>${esc(t.axes[r.axis])}</span><b>+${r.contrib.toFixed(1)}</b></div>`).join("")}</div>
-        </div>
-        <div class="quick-label">${esc(t.quick)}</div>
-        <div class="presets">${Object.keys(PRESETS).map(k =>
-          `<button data-preset="${k}" aria-pressed="${activePreset === k}">${esc(t.presets[k])}</button>`).join("")}</div>
-        <div class="origin">${nearOrigin
-          ? `${esc(t.originOn)} <b>${esc(nearOrigin.n)}</b><button type="button" id="originClear">${esc(t.originClear)}</button>`
-          : esc(t.originOff)}</div>
-        <details class="wt"><summary><span>${esc(t.recDetails)}</span><span class="plus" aria-hidden="true">+</span></summary>
-          <div class="analysis">${ledger}${versus}<div class="weight-title">${esc(t.weights)}</div><div>${sliders}</div></div>
-        </details>
-        <div class="ate">
-          <button id="ateBtn">${esc(t.ateBtn)}</button>
-          ${ate.length ? `<span>${esc(t.ateNote(ate.length))}</span>
-            <button id="ateClear">${esc(t.ateClear)}</button>` : ""}
-        </div>
-      </div>
-    </div>`;
+      <span class="wv">${W[a]}</span></div>`).join("");
+  return `<div><h3>${esc(t.quick)}</h3>
+      <div class="presets">${Object.keys(PRESETS).map(k =>
+        `<button type="button" data-preset="${k}" aria-pressed="${AXES.every(a => PRESETS[k][a] === W[a])}">${esc(t.presets[k])}</button>`).join("")}</div>
+      <h3 style="margin-top:20px">${esc(t.weights)}</h3>${sliders}
+      <div class="ate"><button type="button" id="ateBtn">${esc(t.ateBtn)}</button>${ate.length
+        ? `<span>${esc(t.ateNote(ate.length))}</span><button type="button" id="ateClear">${esc(t.ateClear)}</button>` : ""}</div>
+    </div>
+    <div id="tuneLive">${tuneLiveHtml()}</div>`;
 }
 
-// 추천 식당 이름이 칸보다 길면 글자를 줄인다. 한 단어짜리 긴 이름은 줄바꿈하면 중간이 끊긴다.
-function fitRecName(){
-  const el = document.querySelector("#rec .recname");
-  if (!el) return;
-  el.style.fontSize = ""; el.style.whiteSpace = "nowrap";
-  let fs = parseFloat(getComputedStyle(el).fontSize);
-  while (el.scrollWidth > el.clientWidth + 1 && fs > 20){ fs -= 1; el.style.fontSize = fs + "px"; }
-  if (el.scrollWidth > el.clientWidth + 1) el.style.whiteSpace = "";   // 20px 로도 안 되면 줄바꿈 허용
+function picksHtml(){
+  const t = T[lang];
+  if (!scored().length) return "";
+  const origin = nearOrigin
+    ? `${esc(t.originOn)} <b>${esc(nearOrigin.n)}</b><button type="button" class="linkbtn" id="originClear">${esc(t.originClear)}</button>`
+    : esc(t.originOff);
+  return `<div class="sechead"><h2>${esc(t.recTitle)}</h2><span class="sub">${esc(t.picksSub)}</span></div>
+    <div class="picks" id="picksList">${picksListHtml()}</div>
+    <div class="tunebar"><span class="origin">${origin}</span>
+      <button type="button" class="linkbtn" id="tuneBtn" aria-expanded="${tuneOpen}">${esc(tuneOpen ? t.tuneClose : t.tuneBtn)}</button></div>
+    <div class="tune" id="tune"${tuneOpen ? "" : " hidden"}>${tuneHtml()}</div>`;
 }
-addEventListener("resize", fitRecName);
-matchMedia("(max-width:900px)").addEventListener("change", () => render());
 
-function wireRec(){
-  const box = document.getElementById("rec");
-  const redraw = () => {
-    const openW = box.querySelector("details.wt")?.open;
-    box.innerHTML = recHtml();
-    if (openW){ const d = box.querySelector("details.wt"); if (d) d.open = true; }
-    wireRec();
-    syncMapPick();
-  };
-  box.querySelectorAll('input[type=range]').forEach(inp => {
-    inp.addEventListener("input", () => {
-      W[inp.dataset.axis] = +inp.value;
-      inp.nextElementSibling.textContent = inp.value;
-      keep(); redraw();
-    });
-  });
-  box.querySelectorAll("[data-preset]").forEach(b => {
-    b.onclick = () => { W = {...PRESETS[b.dataset.preset]}; keep(); redraw(); };
+function wirePicks(){
+  document.querySelectorAll("#picksList .pk").forEach(b => { b.onclick = () => goCard(b.dataset.go); });
+}
+function wireTune(){
+  wirePicks();
+  const tb = document.getElementById("tuneBtn");
+  if (tb) tb.onclick = () => { tuneOpen = !tuneOpen; renderPicks(); };
+  const oc = document.getElementById("originClear");
+  if (oc) oc.onclick = () => { nearOrigin = null; saveOrigin(); render(); };
+  document.querySelectorAll("#tune input[type=range]").forEach(inp => inp.addEventListener("input", () => {
+    W[inp.dataset.axis] = +inp.value;
+    inp.nextElementSibling.textContent = inp.value;
+    keep();
+    document.querySelectorAll("#tune [data-preset]").forEach(b =>
+      b.setAttribute("aria-pressed", AXES.every(a => PRESETS[b.dataset.preset][a] === W[a])));
+    refreshScores();          // 서랍은 그대로 두고(끌던 슬라이더가 안 끊기게) 점수 쪽만 다시 그린다
+  }));
+  document.querySelectorAll("#tune [data-preset]").forEach(b => {
+    b.onclick = () => { W = {...PRESETS[b.dataset.preset]}; keep(); renderPicks(); refreshScores(); };
   });
   const ab = document.getElementById("ateBtn");
   if (ab) ab.onclick = () => {
     const top = scored()[0];
     if (!top) return;
     ate = [top.r.id, ...ate.filter(x => x !== top.r.id)].slice(0, 5);
-    keep(); redraw();
+    keep(); renderPicks(); refreshScores();
   };
   const ac = document.getElementById("ateClear");
-  if (ac) ac.onclick = () => { ate = []; keep(); redraw(); };
-  const oc = document.getElementById("originClear");
-  if (oc) oc.onclick = () => { nearOrigin = null; saveOrigin(); render(); };
-  fitRecName();
+  if (ac) ac.onclick = () => { ate = []; keep(); renderPicks(); refreshScores(); };
 }
-
-function heroHtml(){
-  const t = T[lang], N = DATA.todayNumbers || {};
-  const by = k => DATA.restaurants.find(r => r.ko === k);
-  const cards = [];
-  if (N.bestPerItem){
-    const r = by(N.bestPerItem.ko), img = r && firstDishImg(r);
-    cards.push(`<div class="hcard"><div class="hlbl">${esc(t.heroValue)}</div><div class="hbody">
-      ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
-      <div><div class="hname">${esc(lang === "ko" ? N.bestPerItem.ko : (N.bestPerItem.en || N.bestPerItem.ko))}</div>
-      <div class="hnum">${esc(t.perItem(N.bestPerItem.won))}${r && r.stats ? ` · ${esc(t.dishes(r.stats.count))}` : ""}</div></div></div></div>`);
-  }
-  if (N.mostMains){
-    const r = by(N.mostMains.ko), img = r && firstDishImg(r);
-    const names = r ? r.items.filter(i => i.main).slice(0, 3).map(i => lang === "ko" ? i.ko : i.en).join(" · ") : "";
-    cards.push(`<div class="hcard heat"><div class="hlbl">${esc(t.heroMains)}</div><div class="hbody">
-      ${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
-      <div><div class="hname">${esc(lang === "ko" ? N.mostMains.ko : (N.mostMains.en || N.mostMains.ko))}</div>
-      <div class="hnum">${esc(t.mainsN(N.mostMains.n))}</div></div></div>
-      ${names ? `<div class="hsub">${esc(names)}</div>` : ""}</div>`);
-  }
-  const p1 = DATA.restaurants.find(r => r.pick === 1);
-  if (p1){
-    const tip = lang === "ko" ? p1.tipKo : p1.tipEn;
-    cards.push(`<div class="hcard pick"><div class="hlbl">${esc(t.heroPick)}</div><div class="hbody">
-      <div><div class="hname">${esc(nm(p1))}</div>
-      <div class="hnum">${p1.price ? p1.price.toLocaleString() + (lang === "ko" ? "원" : " KRW") : ""}</div></div></div>
-      ${tip ? `<div class="hsub">${esc(tip)}</div>` : ""}</div>`);
-  }
-  return cards.join("");
+function renderPicks(){
+  const pb = document.getElementById("picksBox");
+  pb.innerHTML = picksHtml();
+  wireTune();
 }
+function refreshScores(){
+  const pl = document.getElementById("picksList");
+  if (pl){ pl.innerHTML = picksListHtml(); wirePicks(); }
+  const tl = document.getElementById("tuneLive");
+  if (tl) tl.innerHTML = tuneLiveHtml();
+  renderGrid(true);
+  syncMapPick();
+}
+// 폭 경계를 넘나들면(회전 등) 다시 그린다 — 지도 배율이 화면 폭에 달려 있다
+matchMedia("(max-width:900px)").addEventListener("change", () => render());
 
 // 요리 키 43개를 아이콘 15개로 묶는다. 키가 늘어도 여기만 손대면 된다.
 const DISH_FAMILY = {
@@ -1398,12 +1057,7 @@ function gmDraw(){
   const id = gmCurrentId(), r = DATA.restaurants.find(x => x.id === id);
   box.innerHTML = r ? mapCard(r) : "";
   document.querySelectorAll("#gmap .gchip, #gmap .gmark").forEach(el => el.classList.toggle("on", el.dataset.id === id));
-  box.querySelector(".gcopen")?.addEventListener("click", () => {
-    const row = document.querySelector(`details.lrow[data-id="${CSS.escape(id)}"]`);
-    if (!row) return;
-    if (!row.open){ row.open = true; open.add(id); }
-    row.scrollIntoView({ behavior: "smooth", block: "center" });
-  });
+  box.querySelector(".gcopen")?.addEventListener("click", () => goCard(id));
 }
 // 가중치를 바꾸면 추천 카드만 다시 그린다. 지도 강조와 카드도 같이 따라가게 한다.
 function syncMapPick(){
@@ -1441,72 +1095,104 @@ function wireMap(){
   }
 }
 
-function rowHtml(r, idx, near){
+// ── 식당 카드 ─────────────────────────────────────────────────
+function cardHtml(r, score, isTop, near){
   const t = T[lang];
-  const mains = r.items.filter(i => i.main), sidesArr = r.items.filter(i => !i.main);
-  const boardDate = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
-  const tags = [];
-  if (near){
-    // 건물 검색 때는 추천 점수와 거리를 맨 앞에 단다
-    const s = scored().find(x => x.r.id === r.id);
-    tags.push(`<span class="ltag score${s ? "" : " none"}">${esc(s ? t.nearScore(s.score.toFixed(1)) : t.nearNoScore)}</span>`);
-    if (r.lat != null){
-      const m = gmDist(r, near);
-      tags.push(`<span class="ltag near">${esc(t.nearTag(Math.round(m / 10) * 10, Math.max(1, Math.round(m * 1.3 / 75))))}</span>`);
-    }
-  }
-  if (r.pick) tags.push(`<span class="ltag pick">${esc(t.pick(r.pick))}</span>`);
-  if (boardDate) tags.push(`<span class="ltag warn">${esc(t.offdate(boardDate))}</span>`);
-  if (!r.items.length) tags.push(`<span class="ltag stale">${esc(r.manual ? t.noMenu : t.stale)}</span>`);
+  const mains = r.items.filter(i => i.main), sides = r.items.filter(i => !i.main);
+  const bd = lang === "ko" ? r.boardDate : (r.boardDateEn || r.boardDate);
+  const badges = [];
+  if (isTop && !near) badges.push(`<span class="badge rank">${esc(t.topBadge)}</span>`);
+  if (near && r.lat != null) badges.push(`<span class="badge dist">${esc(t.nearTag(Math.round(gmDist(r, near) / 10) * 10, walkFrom(r, near)))}</span>`);
+  if (r.pick) badges.push(`<span class="badge ed">${esc(t.edPick(r.pick))}</span>`);
+  if (bd) badges.push(`<span class="badge warn">${esc(t.offdate(bd))}</span>`);
+  const img = r.img ? `<img src="${esc(r.img)}" alt="${esc(t.boardAlt(nm(r)))}" loading="lazy" referrerpolicy="no-referrer"
+      onerror="this.parentNode.classList.add('noimg');this.remove()">` : "";
+  const art = `<span class="art" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="30"></circle>
+      <use href="#i-${dishFamily(r)}" x="12" y="12" width="40" height="40"></use></svg></span>`;
+  const mainTxt = mains.slice(0, 3).map(i => lang === "ko" ? i.ko : i.en).join(" · ") + (mains.length > 3 ? t.etc(mains.length - 3) : "");
+  const sideTxt = sides.map(i => lang === "ko" ? i.ko : i.en).join(" · ");
+  const place = [shortAddr(r.address), !near && nearOrigin && r.lat != null ? t.walkFrom(walkFrom(r, nearOrigin)) : ""].filter(Boolean).join(" · ");
+  const stat = r.stats ? t.dishes(r.stats.count) + (r.stats.wonPerItem ? " · " + t.perItem(r.stats.wonPerItem) : "") : "";
+  const hours = lang === "ko" ? r.hoursKo : r.hoursEn, tip = lang === "ko" ? r.tipKo : r.tipEn;
+  const more = [hours ? `<p>🕐 ${esc(hours)}</p>` : "", tip ? `<p>${esc(tip)}</p>` : "",
+    mains.length ? `<p>${mains.map(i => esc(lang === "ko" ? `${i.ko} — ${i.en}` : `${i.en} — ${i.ko}`)).join("<br>")}</p>` : ""].join("");
+  return `<article class="card${r.items.length ? "" : " dim"}" data-id="${esc(r.id)}">
+    <button type="button" class="cimg${r.img ? "" : " noimg"}" data-img="${esc(r.img || "")}" aria-label="${esc(t.shot)}"${r.img ? "" : " disabled"}>
+      ${img}${art}<span class="cbadges">${badges.join("")}</span>${r.img ? `<span class="zoom">${esc(t.zoom)}</span>` : ""}</button>
+    <div class="cbody">
+      <div class="chead"><h3 class="cname">${esc(nm(r))}</h3>${score != null
+        ? `<span class="cscore${isTop ? " top" : ""}">${score.toFixed(1)}<small>${esc(t.cardScore)}</small></span>`
+        : `<span class="cscore na">${esc(t.nearNoScore)}</span>`}</div>
+      ${place ? `<div class="cplace">${esc(place)}</div>` : ""}
+      ${mainTxt ? `<div class="cmains">${esc(mainTxt)}</div>` : `<div class="cnone">${esc(r.manual ? t.noMenu : (r.notes || t.noItems))}</div>`}
+      ${sideTxt ? `<div class="csides">${esc(sideTxt)}</div>` : ""}
+      ${bd ? `<div class="cwarn">${t.offdateNote(esc(bd))}</div>` : ""}
+      ${more ? `<details class="cmore" data-id="${esc(r.id)}"${open.has(r.id) ? " open" : ""}><summary>${esc(t.more)}</summary>${more}</details>` : ""}
+      <div class="cfoot"><span class="cprice${r.price ? "" : " na"}">${esc(r.price ? won(r.price) : t.noPrice)}</span>
+        ${stat ? `<span class="cstat">${esc(stat)}</span>` : ""}
+        ${r.directions ? `<a class="cdir" href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}</div>
+    </div></article>`;
+}
+function wireCards(){
+  document.querySelectorAll(".card .cimg").forEach(b => {
+    if (!b.dataset.img) return;
+    b.onclick = () => { lbImg.src = b.dataset.img; lbImg.alt = b.getAttribute("aria-label"); lb.showModal(); };
+  });
+  document.querySelectorAll("details.cmore").forEach(d =>
+    d.addEventListener("toggle", () => { d.open ? open.add(d.dataset.id) : open.delete(d.dataset.id); }));
+}
+function goCard(id){
+  const c = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (!c) return;
+  c.scrollIntoView({ behavior: "smooth", block: "center" });
+  c.classList.remove("flash"); void c.offsetWidth; c.classList.add("flash");
+}
 
-  const thumb = firstDishImg(r);
-  const mainNames = mains.slice(0, 2).map(i => lang === "ko" ? i.ko : i.en).join(" · ")
-    + (mains.length > 2 ? t.etc(mains.length - 2) : "");
-  const sideNames = sidesArr.slice(0, 3).map(i => lang === "ko" ? i.ko : i.en).join(" · ")
-    + (sidesArr.length > 3 ? t.etc(sidesArr.length - 3) : "");
-  const addr = lang === "ko" ? r.address : (r.addressEn || r.address);
-  const tip = lang === "ko" ? r.tipKo : r.tipEn;
-  const hours = lang === "ko" ? r.hoursKo : r.hoursEn;
+// ── 화면 ──────────────────────────────────────────────────────
+let mapOn = false;          // 지도 버튼. 건물 검색 때는 이와 상관없이 지도를 띄운다
+try { mapOn = localStorage.getItem("glb-map") === "1"; } catch(e) {}
+const cur = { term: "", nterm: "", near: null, matchR: () => true };
 
-  const detail = `
-    <div class="ldetail">
-      ${boardDate ? `<div class="banner" style="margin:0">${t.offdateNote(esc(boardDate))}</div>` : ""}
-      ${addr ? `<div class="where">📍 ${esc(addr)}${r.directions ? ` · <a href="${esc(r.directions)}" target="_blank" rel="noopener">${esc(t.directions)} ↗</a>` : ""}${hours ? ` · <span class="mono" style="font-size:12px">${esc(hours)}</span>` : ""}</div>` : ""}
-      ${!r.items.length && !r.manual ? `<div class="note">${esc(r.notes || t.noItems)}</div>` : ""}
-      ${mains.length ? `<div><div class="lbl">${esc(t.mains)}</div><div class="mains">${mains.map(i => {
-        const di = i.dish && DATA.dishImages[i.dish];
-        return `<div class="row">${di ? `<img class="dpic" src="${esc(di.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer"
-          onerror="this.remove()" title="${esc((di.author ? di.author + " · " : "") + di.license + " · Wikimedia Commons")}">` : ""}
-          <div><div class="dish">${esc(lang === "ko" ? i.ko : i.en)}</div>
-          <div class="sec2">${esc(lang === "ko" ? i.en : i.ko)}</div></div>
-          ${i.spicy ? `<span class="hot">${esc(t.spicy)}</span>` : ""}</div>`;
-      }).join("")}</div></div>` : ""}
-      ${sidesArr.length ? `<div><div class="lbl">${esc(t.sides)}</div><ul class="sides">${sidesArr.map(i => `<li>${esc(lang === "ko" ? i.ko : i.en)}</li>`).join("")}</ul></div>` : ""}
-      ${tip ? `<div class="note">${esc(tip)}</div>` : ""}
-      ${r.img ? `<button class="shotbtn" data-id="${esc(r.id)}">${esc(t.shot)}</button>` : ""}
-    </div>`;
+function orderedList(){
+  const list = DATA.restaurants.filter(r => !cur.nterm || cur.near || cur.matchR(r));
+  if (cur.near) return [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, cur.near) - gmDist(b, cur.near)).slice(0, NEAR_N);
+  // 오늘 점수 높은 순. 점수가 없는 곳(메뉴 미게시)은 뒤로.
+  const sc = scoreMap();
+  return [...list].sort((a, b) => (sc[b.id] ?? -1) - (sc[a.id] ?? -1));
+}
 
-  return `<details class="lrow${r.items.length ? "" : " dim"}" data-id="${esc(r.id)}"${open.has(r.id) ? " open" : ""}>
-    <summary class="lsum">
-      <span class="lidx">${idx}</span>
-      <span class="lwho"><span class="n">${esc(nm(r))}</span><span class="b">${esc(shortAddr(r.address) || (lang === "ko" ? r.en || "" : r.ko))}</span></span>
-      ${thumb ? `<img class="lpic" src="${esc(thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : `<span class="lpic"></span>`}
-      <span class="lmain"><span class="m">${esc(mainNames || (r.manual ? "—" : ""))}</span><span class="s">${esc(sideNames)}</span></span>
-      <span class="ltags">${tags.join("")}</span>
-      <span class="lnum">${r.stats ? esc(t.dishes(r.stats.count)) + (r.stats.wonPerItem ? " · " + esc(t.perItem(r.stats.wonPerItem)) : "") : ""}</span>
-      <span class="lwon">${r.price ? r.price.toLocaleString() : `<i class="lnop">${esc(t.noPrice)}</i>`}</span>
-    </summary>
-    ${detail}
-  </details>`;
+function renderGrid(skipMap){
+  const t = T[lang], near = cur.near, list = orderedList();
+  const sc = scoreMap(), topId = scored()[0]?.r.id;
+  document.getElementById("count").textContent = t.count(list.length);
+  const head = near ? t.nearTitle(near.n, list.length) : cur.term ? t.searchTitle(list.length) : t.gridTitle;
+  const sub = near ? t.nearSub : t.gridSub;
+  document.getElementById("gridBox").innerHTML = `<div class="sechead"><h2>${esc(head)}</h2><span class="sub">${esc(sub)}</span></div>
+    <div class="grid">${list.map(r => cardHtml(r, sc[r.id], r.id === topId, near)).join("") || `<p class="empty">${esc(t.empty)}</p>`}</div>`;
+  wireCards();
+  if (skipMap) return;
+  const gm = document.getElementById("gmap");
+  const show = !!near || mapOn;
+  document.getElementById("mapBtn").setAttribute("aria-pressed", show);
+  const html = show ? mapHtml(list.map((r, i) => ({ r, idx: i + 1 })), near) : "";
+  gm.innerHTML = html;
+  gm.hidden = !html;
+  if (html) wireMap();
 }
 
 function render(){
   const t = T[lang];
   document.documentElement.lang = lang;
-  document.getElementById("stamp").textContent = lang === "ko" ? DATA.dateKo : DATA.dateEn;
-  document.getElementById("q").placeholder = t.search;
+  document.getElementById("siteTitle").textContent = t.siteTitle;
+  const N = DATA.todayNumbers || {};
+  document.getElementById("stamp").textContent =
+    [lang === "ko" ? DATA.dateKo : DATA.dateEn, N.places ? t.statPlaces(N.places) : ""].filter(Boolean).join(" · ");
+  const q = document.getElementById("q");
+  q.placeholder = t.search;
+  document.getElementById("qLabel").textContent = t.search;
+  document.getElementById("mapBtnT").textContent = t.mapBtn;
   document.getElementById("primerSum").textContent = t.primerSum;
-  document.getElementById("primerBody").innerHTML = t.primer.map(p => `<p>${p}</p>`).join("");
+  document.getElementById("primerBody").innerHTML = t.primer.map(x => `<p>${x}</p>`).join("");
   document.getElementById("photoNote").textContent = t.photoNote;
   document.getElementById("foot1").textContent = t.foot1;
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
@@ -1518,59 +1204,26 @@ function render(){
   document.getElementById("banner").innerHTML = isOld
     ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate), age)}</div>` : "";
 
-  const term = document.getElementById("q").value.trim().toLowerCase();
-  const nterm = normQ(term);
-  const matchR = r => normQ([r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ")).includes(nterm);
+  cur.term = q.value.trim().toLowerCase();
+  cur.nterm = normQ(cur.term);
+  cur.matchR = r => normQ([r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ")).includes(cur.nterm);
   // 식당 이름·주소·메뉴에 하나도 안 걸리면 건물 이름으로 보고, 그 건물에서 가까운 순으로 보여 준다.
-  const near = nterm && !DATA.restaurants.some(matchR) ? findBuilding(nterm) : null;
+  cur.near = cur.nterm && !DATA.restaurants.some(cur.matchR) ? findBuilding(cur.nterm) : null;
   // 검색한 건물이 가까움 점수의 기준이 된다. 기억해 두었다가 첫 화면 추천에도 쓴다.
-  if (near && (!nearOrigin || nearOrigin.n !== near.n)){ nearOrigin = near; saveOrigin(); }
-  const recBox = document.getElementById("rec");
-  recBox.innerHTML = term ? "" : recHtml();
-  recBox.style.display = term ? "none" : "";
-  if (!term) wireRec();
-  document.getElementById("hero").innerHTML = term ? "" : heroHtml();
+  if (cur.near && (!nearOrigin || nearOrigin.n !== cur.near.n)){ nearOrigin = cur.near; saveOrigin(); }
 
-  const N = DATA.todayNumbers || {};
-  const stats = [];
-  if (N.places) stats.push(`<b>${esc(t.statPlaces(N.places))}</b>`);
-  if (N.avgItems) stats.push(esc(t.statAvg(N.avgItems)));
-  if (N.overlap && N.overlap.length) stats.push(esc(t.statOverlap(N.overlap)));
-  document.getElementById("statline").innerHTML = term ? "" : stats.join('<span style="color:var(--rule)">|</span>');
-
-  let list = DATA.restaurants.filter(r => !nterm || near || matchR(r));
-  if (near) list = [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, near) - gmDist(b, near)).slice(0, NEAR_N);
-
-  let shown = 0, rows = "";
-  const shownList = [];
-  list.forEach(r => {
-    shown++;
-    shownList.push({ r, idx: shown });
-    rows += rowHtml(r, shown, near);
-  });
-  document.getElementById("count").textContent = t.count(shown);
-  document.getElementById("list").innerHTML =
-    `<div class="lhead"><span class="t">${esc(near ? t.nearTitle(near.n, list.length) : t.listTitle)}</span><span class="h">${esc(t.listHint)}</span></div>` + rows;
-
-  const gm = document.getElementById("gmap");
-  const gmHtml = mapHtml(shownList, near);
-  gm.innerHTML = gmHtml;
-  gm.hidden = !gmHtml;
-
-  document.querySelectorAll("details.lrow").forEach(d => {
-    d.addEventListener("toggle", () => { d.open ? open.add(d.dataset.id) : open.delete(d.dataset.id); });
-  });
-  wireMap();
-  document.querySelectorAll(".shotbtn").forEach(b => {
-    b.onclick = (e) => {
-      e.preventDefault();
-      const r = DATA.restaurants.find(x => x.id === b.dataset.id);
-      lbImg.src = r.img;
-      lbImg.alt = nm(r) + " menu board";
-      lb.showModal();
-    };
-  });
+  const pb = document.getElementById("picksBox");
+  pb.hidden = !!cur.term;
+  if (cur.term) pb.innerHTML = ""; else renderPicks();
+  renderGrid();
 }
+
+document.getElementById("mapBtn").onclick = () => {
+  mapOn = !mapOn;
+  try { localStorage.setItem("glb-map", mapOn ? "1" : "0"); } catch(e) {}
+  render();
+  if (mapOn && !cur.near) document.getElementById("gmap").scrollIntoView({ behavior: "smooth", block: "start" });
+};
 
 document.getElementById("btnKo").onclick = () => { lang = "ko"; save(); render(); };
 document.getElementById("btnEn").onclick = () => { lang = "en"; save(); render(); };
