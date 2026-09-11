@@ -160,35 +160,39 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .card:hover{transform:translateY(-2px);box-shadow:var(--shadow-up)}
 .card.flash{animation:flash 1.4s ease}
 @keyframes flash{0%,45%{box-shadow:0 0 0 3px var(--accent),var(--shadow-up)}100%{box-shadow:var(--shadow)}}
-.cimg{position:relative;display:block;width:100%;aspect-ratio:4/3;margin:0;padding:0;border:0;background:var(--soft);cursor:zoom-in;overflow:hidden}
-.cimg:disabled{cursor:default}
-.cimg img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform .35s ease}
-.card:hover .cimg img{transform:scale(1.03)}
-.cimg .art{display:none;width:100%;height:100%;place-items:center}
-.cimg.noimg .art{display:grid}
-.cimg .art svg{width:92px;height:92px}
-.cimg .art circle{fill:var(--card)}
-.cimg .art use{--i1:var(--accent-deep);--i2:var(--ink)}
-.cbadges{position:absolute;left:10px;top:10px;right:10px;display:flex;flex-wrap:wrap;gap:6px;pointer-events:none}
-.badge{display:inline-flex;align-items:center;height:24px;padding:0 9px;border-radius:999px;background:rgba(255,255,255,.95);color:#18181B;
-  font-size:11.5px;font-weight:800;box-shadow:0 2px 8px rgba(0,0,0,.14)}
+.cthumb{position:relative;flex:0 0 68px;width:68px;height:68px;margin:0;padding:0;border:1px solid var(--line);border-radius:12px;
+  background:var(--soft);cursor:zoom-in;overflow:hidden;transition:border-color .15s ease}
+.cthumb:disabled{cursor:default}
+.cthumb:hover:not(:disabled){border-color:var(--ink-3)}
+.cthumb img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform .3s ease}
+.cthumb:hover img{transform:scale(1.08)}
+.cthumb .art{display:none;width:100%;height:100%;place-items:center}
+.cthumb.noimg .art{display:grid}
+.cthumb .art svg{width:50px;height:50px}
+.cthumb .art circle{fill:var(--card)}
+.cthumb .art use{--i1:var(--accent-deep);--i2:var(--ink)}
+.cthumb .zoom{position:absolute;right:4px;bottom:4px;display:grid;place-items:center;width:22px;height:22px;border-radius:50%;
+  background:rgba(0,0,0,.62);color:#fff}
+.cthumb .zoom svg{width:12px;height:12px}
+.cbadges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:2px}
+.badge{display:inline-flex;align-items:center;height:22px;padding:0 9px;border-radius:999px;background:var(--soft);color:var(--ink-2);
+  font-size:11px;font-weight:800}
 .badge.rank{background:var(--accent);color:#fff}
-.badge.dist{background:#18181B;color:#fff}
-.badge.ed{background:rgba(24,24,27,.82);color:#fff}
-.badge.warn{background:#FDF1D6;color:#8A4B05}
-.zoom{position:absolute;right:10px;bottom:10px;display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:999px;
-  background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-weight:700;opacity:0;transition:opacity .15s ease}
-.card:hover .zoom,.cimg:focus-visible .zoom{opacity:1}
-.cbody{flex:1;display:flex;flex-direction:column;gap:6px;padding:14px 16px 16px}
-.chead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
-.cname{margin:0;font-size:17px;font-weight:800;letter-spacing:-.025em;line-height:1.3}
-.cscore{flex:0 0 auto;font-size:22px;font-weight:800;letter-spacing:-.04em;line-height:1;text-align:right;font-variant-numeric:tabular-nums}
-.cscore small{display:block;margin-top:3px;color:var(--ink-3);font-size:9.5px;font-weight:700;letter-spacing:.06em}
+.badge.dist{background:var(--ink);color:var(--card)}
+.badge.warn{background:var(--warn-wash);color:var(--warn)}
+.cbody{flex:1;display:flex;flex-direction:column;gap:8px;padding:18px 18px 16px}
+.chead{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+.ctitle{min-width:0}
+.cname{margin:0;font-size:21px;font-weight:800;letter-spacing:-.03em;line-height:1.25;word-break:keep-all;overflow-wrap:anywhere}
+.cscore{flex:0 0 auto;font-size:34px;font-weight:800;letter-spacing:-.045em;line-height:.95;text-align:right;font-variant-numeric:tabular-nums}
+.cscore small{display:block;margin-top:5px;color:var(--ink-3);font-size:10px;font-weight:700;letter-spacing:.06em}
 .cscore.top{color:var(--accent)}
 .cscore.na{max-width:84px;color:var(--ink-3);font-size:11.5px;font-weight:700;letter-spacing:0;line-height:1.3}
-.cplace{color:var(--ink-3);font-size:12.5px;font-weight:600}
-.cmains{margin-top:4px;font-size:14.5px;font-weight:700;line-height:1.45}
-.csides{display:-webkit-box;overflow:hidden;color:var(--ink-2);font-size:13px;line-height:1.5;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.cplace{margin-top:5px;color:var(--ink-3);font-size:13px;font-weight:600}
+.cmid{display:flex;align-items:flex-start;gap:12px;margin-top:4px}
+.cmenu{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.cmains{font-size:14px;font-weight:700;line-height:1.45}
+.csides{display:-webkit-box;overflow:hidden;color:var(--ink-2);font-size:12.5px;line-height:1.5;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .cnone{color:var(--ink-3);font-size:13px}
 .cwarn{padding:8px 10px;border-radius:9px;background:var(--warn-wash);color:var(--warn);font-size:12px;line-height:1.5}
 .cmore{color:var(--ink-2);font-size:12.5px;line-height:1.6}
@@ -204,7 +208,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .cdir{margin-left:auto;display:inline-flex;align-items:center;height:30px;padding:0 11px;border:1px solid var(--line);border-radius:9px;
   color:var(--ink-2);font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}
 .cdir:hover{border-color:var(--ink);color:var(--ink)}
-.card.dim .cimg img{filter:grayscale(.35) opacity(.85)}
+.card.dim .cthumb img{filter:grayscale(.35) opacity(.85)}
 .empty{grid-column:1/-1;padding:40px 0;color:var(--ink-3);text-align:center}
 
 /* 바닥 */
@@ -317,7 +321,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
   .count{margin-left:auto}
   .picks{margin:0 -14px;padding:2px 14px 8px}
   .grid{grid-template-columns:1fr;gap:12px}
-  .cimg{aspect-ratio:16/10}
+  .cname{font-size:20px}
   .gcard{grid-template-columns:78px minmax(0,1fr)}
   .gcart svg{width:78px;height:78px}
 }
@@ -1117,15 +1121,21 @@ function cardHtml(r, score, isTop, near){
   const more = [hours ? `<p>🕐 ${esc(hours)}</p>` : "", tip ? `<p>${esc(tip)}</p>` : "",
     mains.length ? `<p>${mains.map(i => esc(lang === "ko" ? `${i.ko} — ${i.en}` : `${i.en} — ${i.ko}`)).join("<br>")}</p>` : ""].join("");
   return `<article class="card${r.items.length ? "" : " dim"}" data-id="${esc(r.id)}">
-    <button type="button" class="cimg${r.img ? "" : " noimg"}" data-img="${esc(r.img || "")}" aria-label="${esc(t.shot)}"${r.img ? "" : " disabled"}>
-      ${img}${art}<span class="cbadges">${badges.join("")}</span>${r.img ? `<span class="zoom">${esc(t.zoom)}</span>` : ""}</button>
     <div class="cbody">
-      <div class="chead"><h3 class="cname">${esc(nm(r))}</h3>${score != null
+      <div class="chead"><div class="ctitle">
+        ${badges.length ? `<div class="cbadges">${badges.join("")}</div>` : ""}
+        <h3 class="cname">${esc(nm(r))}</h3>
+        ${place ? `<div class="cplace">${esc(place)}</div>` : ""}</div>${score != null
         ? `<span class="cscore${isTop ? " top" : ""}">${score.toFixed(1)}<small>${esc(t.cardScore)}</small></span>`
         : `<span class="cscore na">${esc(t.nearNoScore)}</span>`}</div>
-      ${place ? `<div class="cplace">${esc(place)}</div>` : ""}
-      ${mainTxt ? `<div class="cmains">${esc(mainTxt)}</div>` : `<div class="cnone">${esc(r.manual ? t.noMenu : (r.notes || t.noItems))}</div>`}
-      ${sideTxt ? `<div class="csides">${esc(sideTxt)}</div>` : ""}
+      <div class="cmid">
+        <button type="button" class="cthumb${r.img ? "" : " noimg"}" data-img="${esc(r.img || "")}"
+          aria-label="${esc(r.img ? t.zoom : t.shot)}" title="${esc(r.img ? t.zoom : "")}"${r.img ? "" : " disabled"}>
+          ${img}${art}${r.img ? `<span class="zoom"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.4 10.4 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>` : ""}</button>
+        <div class="cmenu">
+          ${mainTxt ? `<div class="cmains">${esc(mainTxt)}</div>` : `<div class="cnone">${esc(r.manual ? t.noMenu : (r.notes || t.noItems))}</div>`}
+          ${sideTxt ? `<div class="csides">${esc(sideTxt)}</div>` : ""}</div>
+      </div>
       ${bd ? `<div class="cwarn">${t.offdateNote(esc(bd))}</div>` : ""}
       ${more ? `<details class="cmore" data-id="${esc(r.id)}"${open.has(r.id) ? " open" : ""}><summary>${esc(t.more)}</summary>${more}</details>` : ""}
       <div class="cfoot"><span class="cprice${r.price ? "" : " na"}">${esc(r.price ? won(r.price) : t.noPrice)}</span>
@@ -1134,9 +1144,9 @@ function cardHtml(r, score, isTop, near){
     </div></article>`;
 }
 function wireCards(){
-  document.querySelectorAll(".card .cimg").forEach(b => {
+  document.querySelectorAll(".card .cthumb").forEach(b => {
     if (!b.dataset.img) return;
-    b.onclick = () => { lbImg.src = b.dataset.img; lbImg.alt = b.getAttribute("aria-label"); lb.showModal(); };
+    b.onclick = () => { lbImg.src = b.dataset.img; lbImg.alt = b.querySelector("img")?.alt || ""; lb.showModal(); };
   });
   document.querySelectorAll("details.cmore").forEach(d =>
     d.addEventListener("toggle", () => { d.open ? open.add(d.dataset.id) : open.delete(d.dataset.id); }));
