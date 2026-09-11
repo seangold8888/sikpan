@@ -139,6 +139,11 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .cate:hover,.nbate:hover{border-color:var(--ink-3);color:var(--ink)}
 .cate.on,.nbate.on{background:var(--accent);border-color:var(--accent);color:#fff}
 .cate + .cdir{margin-left:0}
+.cnow{color:#2FA36B;font-size:12.5px;font-weight:700}
+.cnow.warn{color:#E0701F}
+.cnow.off{color:var(--ink-3)}
+.lend{display:inline-flex;align-items:center;gap:6px;color:var(--ink-3);font-size:12px;font-weight:700;white-space:nowrap}
+.lend select{height:28px;padding:0 6px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;font-size:12px}
 .nbate{flex:0 0 auto;height:30px;padding:0 10px;border:1px solid var(--line);border-radius:9px;background:transparent;color:var(--ink-2);font:inherit;font-size:12px;font-weight:700;cursor:pointer;white-space:nowrap}
 .nbrecent{margin:-2px 0 12px;color:var(--ink-3);font-size:12.5px;line-height:1.6}
 .nbrecent b{color:var(--ink-2)}
@@ -483,7 +488,7 @@ const T = {
     nearSub:"가까운 순 · 점수는 오늘 추천 기준", topBadge:"오늘 1위", edPick:n=>`대표 추천 ${n}위`,
     zoom:"메뉴판 크게", more:"자세히", empty:"맞는 식당이 없습니다", walkFrom:min=>`도보 약 ${min}분`,
     boardAlt:n=>`${n} 메뉴판`,
-    originOff:"건물을 검색하면 그 건물에서 가까운 곳일수록 가까움 점수를 더 줍니다",
+    originOff:"건물을 검색하면 가까운 곳에 점수를 더 주고, 지금 가면 몇 시에 돌아오는지 알려 줍니다",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
     axes:{value:"가성비",variety:"반찬수",mains:"메인수",protein:"단백질",rarity:"희소성",near:"가까움"},
@@ -494,6 +499,9 @@ const T = {
     score:s=>`${s}점`, gap:(n,d)=>`2위 ${n}보다 ${d}점 앞섬`, onlyOne:"오늘 비교 가능한 곳이 하나뿐입니다",
     na:"정보 없음", ateQ:"여기서 먹었나요?", ateBtn:"오늘 여기 먹음", ateClear:"기록 지우기",
     ateTap:"먹었어요", ateOn:"✓ 오늘 먹음", ateTapShort:"먹음",
+    nowBefore:(at, m)=>`${at} 배식 시작 · ${m}분 뒤`, nowOpen:m=>`배식 마감까지 ${m}분`, nowDone:"오늘 배식 끝",
+    nowSoon:m=>`마감 ${m}분 전`, nowBack:at=>`지금 가면 ${at} 복귀`, nowTight:e=>`점심시간(${e}) 넘음`,
+    nowLate:"가는 사이 배식이 끝나요", lunchEnd:"점심 끝",
     lgTitle:"내 점심값", lgWeek:"이번 주", lgMonth:"이번 달", lgTimes:n=>`${n}번`, lgAvg:"평균",
     lgUnknown:n=>`가격 모름 ${n}번`, lgPrice:"가격", lgDel:"지우기",
     lgEmpty:"먹은 곳에서 ‘먹었어요’를 누르면 여기에 점심값이 쌓입니다",
@@ -555,7 +563,7 @@ const T = {
     nearSub:"nearest first · scores use today's ranking", topBadge:"#1 today", edPick:n=>`Staff pick #${n}`,
     zoom:"View board", more:"More", empty:"No matching cafeteria", walkFrom:min=>`~${min} min walk`,
     boardAlt:n=>`${n} menu board`,
-    originOff:"Search a building to score places by how close they are to it",
+    originOff:"Search your building to score places by distance and see when you'd be back",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
     axes:{value:"Value",variety:"Variety",mains:"Mains",protein:"Protein",rarity:"Rarity",near:"Distance"},
@@ -566,6 +574,9 @@ const T = {
     score:s=>`${s} pts`, gap:(n,d)=>`${d} pts ahead of ${n}`, onlyOne:"Only one place is comparable today",
     na:"no data", ateQ:"Ate here?", ateBtn:"I ate here today", ateClear:"Clear history",
     ateTap:"I ate here", ateOn:"✓ Ate here today", ateTapShort:"Ate",
+    nowBefore:(at, m)=>`serving starts ${at} · in ${m} min`, nowOpen:m=>`serving ends in ${m} min`, nowDone:"done serving today",
+    nowSoon:m=>`closes in ${m} min`, nowBack:at=>`leave now, back by ${at}`, nowTight:e=>`past your ${e} break end`,
+    nowLate:"serving ends before you get there", lunchEnd:"Lunch ends",
     lgTitle:"My lunch spend", lgWeek:"This week", lgMonth:"This month", lgTimes:n=>`${n}×`, lgAvg:"avg",
     lgUnknown:n=>`${n} without a price`, lgPrice:"Price", lgDel:"Delete",
     lgEmpty:"Tap ‘I ate here’ where you eat and your lunch spend adds up here",
@@ -677,6 +688,63 @@ function markAte(entry){
   syncAte();
 }
 const ateOnToday = (k, key) => { const e = todayEntry(); return !!e && e.k === k && e.id === key; };
+// ── 지금 갈 수 있나 ───────────────────────────────────────────
+// 배식 시간은 적힌 범위만 쓴다(추정 금지). 점심(11~14시)에 걸치는 구간, 토요일이면 '토' 구간.
+const EAT_MIN = 20;          // 줄 서기 + 먹기 어림(분)
+const LUNCH_ENDS = ["12:30", "13:00", "13:30", "14:00"];
+let lunchEnd = "13:00";
+try { const v = localStorage.getItem("glb-lunchend"); if (LUNCH_ENDS.includes(v)) lunchEnd = v; } catch(e) {}
+const kstNow = () => new Date(Date.now() + 9 * 3600e3);
+const kstNowMin = () => { const d = kstNow(); return d.getUTCHours() * 60 + d.getUTCMinutes(); };
+const hm = m => `${Math.floor(m / 60)}:${String(m % 60).padStart(2, "0")}`;
+const toMin = s => { const [a, b] = s.split(":").map(Number); return a * 60 + b; };
+function servingWindow(r){
+  const src = r.hoursKo || r.hoursEn || "";
+  if (!src) return null;
+  const segs = src.split(/[·,/]/).map(s => s.trim()).filter(Boolean);
+  const sat = kstNow().getUTCDay() === 6;
+  const seg = segs.find(s => sat ? /토|sat/i.test(s) : !/토|sat/i.test(s)) || (sat ? null : segs[0]);
+  if (!seg) return null;
+  const re = /(\d{1,2})\s*[:시]\s*(\d{2})?\s*분?\s*[~\-–]\s*(\d{1,2})\s*[:시]?\s*(\d{2})?/g;
+  for (let m; (m = re.exec(seg)); ){
+    const a = +m[1] * 60 + +(m[2] || 0), b = +m[3] * 60 + +(m[4] || 0);
+    if (b > a && a < 14 * 60 && b > 11 * 60) return [a, b];
+  }
+  return null;
+}
+function nowState(r){
+  const w = servingWindow(r); if (!w) return null;
+  const n = kstNowMin();
+  if (n < w[0]) return { code: "before", min: w[0] - n, at: w[0] };
+  if (n < w[1]) return { code: "open", min: w[1] - n, at: w[1] };
+  return { code: "done" };
+}
+const isDone = r => nowState(r)?.code === "done";
+// 지금 나가면 몇 시에 돌아오나. 사무실(가까움 기준)이 있고 10:30~점심 끝 사이일 때만.
+function roundTrip(r){
+  const o = nearOrigin, n = kstNowMin();
+  if (!o || r.lat == null || n < 10 * 60 + 30 || n > toMin(lunchEnd)) return null;
+  const walk = walkFrom(r, o), st = nowState(r);
+  let start = n + walk;
+  if (st && st.code === "before") start = Math.max(start, st.at);
+  const back = start + EAT_MIN + walk;
+  return { back, tight: back > toMin(lunchEnd), late: !!st && st.code === "open" && n + walk >= st.at };
+}
+function nowHtml(r){
+  const t = T[lang], st = nowState(r), rt = roundTrip(r), parts = [];
+  let cls = "";
+  if (st){
+    if (st.code === "before") parts.push(t.nowBefore(hm(st.at), st.min));
+    else if (st.code === "open"){ parts.push(t.nowOpen(st.min)); if (st.min <= 20) cls = "warn"; }
+    else { parts.push(t.nowDone); cls = "off"; }
+  }
+  if (rt && !(st && st.code === "done")){
+    if (rt.late){ parts.push(t.nowLate); cls = "off"; }
+    else { parts.push(t.nowBack(hm(rt.back))); if (rt.tight){ parts.push(t.nowTight(lunchEnd)); cls = cls || "warn"; } }
+  }
+  return parts.length ? `<div class="cnow${cls ? " " + cls : ""}">${esc(parts.join(" · "))}</div>` : "";
+}
+
 function ateBtnHtml(k, key, data){
   const t = T[lang], on = ateOnToday(k, key);
   const label = on ? (k === "c" ? t.ateOn : "✓ " + t.ateTapShort) : (k === "c" ? t.ateTap : t.ateTapShort);
@@ -728,12 +796,15 @@ const scoreMap = () => { const m = {}; for (const s of scored()) m[s.r.id] = s.s
 
 function picksListHtml(){
   const t = T[lang];
-  return scored().slice(0, 3).map((s, i) => {
+  const all = scored();
+  return [...all.filter(s => !isDone(s.r)), ...all.filter(s => isDone(s.r))].slice(0, 3).map((s, i) => {
     const r = s.r;
     const mains = r.items.filter(x => x.main).slice(0, 2).map(x => lang === "ko" ? x.ko : x.en).join(" · ");
     const where = nearOrigin && r.lat != null
       ? t.nearTag(Math.round(gmDist(r, nearOrigin) / 10) * 10, walkFrom(r, nearOrigin)) : shortAddr(r.address);
-    const meta = [r.price ? won(r.price) : t.noPrice, where].filter(Boolean).join(" · ");
+    const ns = nowState(r);
+    const nowS = !ns ? "" : ns.code === "done" ? t.nowDone : ns.code === "open" && ns.min <= 30 ? t.nowSoon(ns.min) : "";
+    const meta = [nowS, r.price ? won(r.price) : t.noPrice, where].filter(Boolean).join(" · ");
     return `<button type="button" class="pk" data-go="${esc(r.id)}"><span class="rk">${i + 1}</span>
       <span class="pkb"><span class="nm">${esc(nm(r))}</span><span class="ds">${esc(mains || "—")}</span><span class="mt">${esc(meta)}</span></span>
       <span class="sc">${s.score.toFixed(1)}<small>${esc(t.cardScore)}</small></span></button>`;
@@ -800,6 +871,8 @@ function picksHtml(){
   return `<div class="sechead"><h2>${esc(t.recTitle)}</h2><span class="sub">${esc(t.picksSub)}</span></div>
     <div class="picks" id="picksList">${picksListHtml()}</div>
     <div class="tunebar"><span class="origin">${origin}</span>
+      <label class="lend">${esc(t.lunchEnd)}<select id="lunchEnd">${LUNCH_ENDS.map(v =>
+        `<option value="${v}"${v === lunchEnd ? " selected" : ""}>${v}</option>`).join("")}</select></label>
       <button type="button" class="linkbtn" id="tuneBtn" aria-expanded="${tuneOpen}">${esc(tuneOpen ? t.tuneClose : t.tuneBtn)}</button></div>
     <div class="tune" id="tune"${tuneOpen ? "" : " hidden"}>${tuneHtml()}</div>`;
 }
@@ -813,6 +886,12 @@ function wireTune(){
   if (tb) tb.onclick = () => { tuneOpen = !tuneOpen; renderPicks(); };
   const oc = document.getElementById("originClear");
   if (oc) oc.onclick = () => { nearOrigin = null; saveOrigin(); render(); };
+  const le = document.getElementById("lunchEnd");
+  if (le) le.onchange = () => {
+    lunchEnd = le.value;
+    try { localStorage.setItem("glb-lunchend", lunchEnd); } catch(e) {}
+    refreshScores();
+  };
   document.querySelectorAll("#tune input[type=range]").forEach(inp => inp.addEventListener("input", () => {
     W[inp.dataset.axis] = +inp.value;
     inp.nextElementSibling.textContent = inp.value;
@@ -1391,6 +1470,7 @@ function cardHtml(r, score, isTop, near){
         ${place ? `<div class="cplace">${esc(place)}</div>` : ""}</div>${score != null
         ? `<span class="cscore${isTop ? " top" : ""}">${score.toFixed(1)}<small>${esc(t.cardScore)}</small></span>`
         : `<span class="cscore na">${esc(t.nearNoScore)}</span>`}</div>
+      ${nowHtml(r)}
       <div class="cmid">
         <button type="button" class="cthumb${r.img ? "" : " noimg"}" data-img="${esc(r.img || "")}"
           aria-label="${esc(r.img ? t.zoom : t.shot)}" title="${esc(r.img ? t.zoom : "")}"${r.img ? "" : " disabled"}>
@@ -1502,7 +1582,8 @@ function orderedList(){
   if (cur.near) return [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, cur.near) - gmDist(b, cur.near)).slice(0, NEAR_N);
   // 오늘 점수 높은 순. 점수가 없는 곳(메뉴 미게시)은 뒤로.
   const sc = scoreMap();
-  return [...list].sort((a, b) => (sc[b.id] ?? -1) - (sc[a.id] ?? -1));
+  // 오늘 배식이 끝난 곳(시간이 적힌 곳만)은 뒤로
+  return [...list].sort((a, b) => isDone(a) - isDone(b) || (sc[b.id] ?? -1) - (sc[a.id] ?? -1));
 }
 
 function renderGrid(skipMap){
@@ -1597,6 +1678,8 @@ document.getElementById("mapBtn").onclick = () => {
 document.getElementById("btnKo").onclick = () => { lang = "ko"; save(); render(); };
 document.getElementById("btnEn").onclick = () => { lang = "en"; save(); render(); };
 document.getElementById("q").addEventListener("input", render);
+// 배식 남은 시간·복귀 시각은 시계를 따라 바뀐다. 화면이 보일 때만 1분마다 다시 그린다.
+setInterval(() => { if (!document.hidden) refreshScores(); }, 60000);
 // "먹었어요" — 구내식당 카드·근처 목록 어디서 눌러도 여기서 받는다
 document.addEventListener("click", e => {
   const b = e.target.closest("[data-ate]"); if (!b) return;
