@@ -2,10 +2,9 @@ name: 오늘의 메뉴 갱신
 
 on:
   schedule:
-    # 식당마다 메뉴를 올리는 시각이 달라 오전에 세 번 확인한다 (KST 08:40 / 10:10 / 11:40).
-    - cron: "40 23 * * 0-5"
-    - cron: "10 1 * * 1-6"
-    - cron: "40 2 * * 1-6"
+    # 하루 한 번, 월~토 KST 10:00 (UTC 01:00). GitHub 예약 실행은 늦게 돌거나 건너뛸 수 있다 —
+    # 그런 날은 Actions 에서 수동 실행(workflow_dispatch)으로 돌린다.
+    - cron: "0 1 * * 1-6"
   workflow_dispatch:
 
 permissions:

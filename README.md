@@ -15,7 +15,7 @@
     scripts/ocr.py     사진을 읽어 한국어 원문과 영어 번역으로 바꾼다
     scripts/build.py   docs/index.html 을 만든다
 
-`.github/workflows/daily.yml` 이 평일 오전에 세 번 (한국시간 08:40 / 10:10 / 11:40) 이
+`.github/workflows/daily.yml` 이 월~토 오전 한 번 (한국시간 10:00) 이
 세 단계를 돌리고, 바뀐 것이 있을 때만 커밋한다. 식당마다 올리는 시각이 달라 한 번만
 확인해서는 늦게 올리는 곳을 놓친다.
 
