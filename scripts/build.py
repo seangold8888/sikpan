@@ -102,6 +102,42 @@ def match_dish(ko, kws):
     return None
 
 
+def nearby_payload(cafes):
+    """근처 일반식당(data/nearby.json, 서울시 인허가 공공데이터)을 페이지에 싣기 좋게 줄인다.
+
+    한 곳을 [이름, 업종 번호, 동쪽 m, 북쪽 m] 네 칸으로. m 는 기준 건물에서 잰 값이고, 환산 상수는
+    page.html 의 GM_MX·GM_MY 와 같아야 브라우저가 위경도로 정확히 되돌린다.
+    구내식당과 같은 곳(이름이 겹치고 80m 안)은 뺀다 — 이미 카드로 보인다.
+    """
+    import math
+    import re
+    f = ROOT / "data" / "nearby.json"
+    if not f.exists():
+        return None
+    nb = json.loads(f.read_text(encoding="utf-8"))
+    o = nb["origin"]
+    mx, my = 111320 * math.cos(math.radians(37.478)), 111000
+    key = lambda s: re.sub(r"[^0-9a-z가-힣]", "", (s or "").lower())
+    cafe_keys = [(key(c["ko"].split()[0]), c["lat"], c["lng"]) for c in cafes
+                 if c.get("ko") and c.get("lat") is not None]
+    groups, gi, rows, dropped = [], {}, [], 0
+    for p in nb["places"]:
+        pk = key(p["name"])
+        if any(len(k) >= 3 and (k in pk or pk in k)
+               and math.hypot((p["lng"] - lo) * mx, (p["lat"] - la) * my) < 80 for k, la, lo in cafe_keys):
+            dropped += 1
+            continue
+        g = p.get("group") or "기타"
+        if g not in gi:
+            gi[g] = len(groups)
+            groups.append(g)
+        rows.append([p["name"].replace(",", " "), gi[g],
+                     round((p["lng"] - o["lng"]) * mx), round((p["lat"] - o["lat"]) * my)])
+    return {"o": {"n": o["n"], "lat": o["lat"], "lng": o["lng"]}, "src": nb.get("source"),
+            "url": nb.get("sourceUrl"), "fetched": nb.get("fetched"), "dropped": dropped,
+            "g": groups, "p": rows}
+
+
 def main():
     src = json.loads((ROOT / "data" / "sources.json").read_text(encoding="utf-8"))
     places_file = json.loads((ROOT / "data" / "places.json").read_text(encoding="utf-8"))
@@ -238,6 +274,7 @@ def main():
         "dishImages": {k: v for k, v in dish_imgs.items() if k in used_dishes},
         "axes": axes,
         "restaurants": out,
+        "nearby": nearby_payload(out),
     }
 
     tpl = (ROOT / "scripts" / "page.html").read_text(encoding="utf-8")

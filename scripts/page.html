@@ -213,6 +213,29 @@ input[type=range]{width:100%;accent-color:var(--accent)}
 .card.dim .cthumb img{filter:grayscale(.35) opacity(.85)}
 .empty{grid-column:1/-1;padding:40px 0;color:var(--ink-3);text-align:center}
 
+/* 근처 일반식당 */
+.seg{display:inline-flex;flex:0 0 auto;padding:3px;background:var(--soft);border:1px solid var(--line);border-radius:12px}
+.seg button{height:38px;padding:0 12px;border:0;border-radius:9px;background:transparent;color:var(--ink-2);font:inherit;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.14)}
+.nbbox{margin-top:30px}
+.nbtools{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:14px}
+.nbtools .seg button{height:32px;padding:0 11px}
+.nbchips{display:flex;flex-wrap:wrap;gap:6px}
+.nbc{height:32px;padding:0 11px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink-2);font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
+.nbc b{margin-left:3px;color:var(--ink-3);font-weight:700}
+.nbc[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--card)}
+.nbc[aria-pressed="true"] b{color:inherit;opacity:.7}
+.nblist{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:8px;margin:0;padding:0;list-style:none}
+.nbrow{display:flex;align-items:center;gap:10px;padding:11px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.nbi{flex:1;min-width:0}
+.nbn{display:block;overflow:hidden;font-size:14.5px;font-weight:700;text-overflow:ellipsis;white-space:nowrap}
+.nbm{display:block;margin-top:4px;color:var(--ink-3);font-size:12px;font-weight:600}
+.nbg{margin-right:6px;padding:1px 7px;border-radius:999px;background:var(--soft);color:var(--ink-2);font-style:normal;font-weight:700}
+.nbk{flex:0 0 auto;display:inline-flex;align-items:center;height:30px;padding:0 10px;border:1px solid var(--line);border-radius:9px;color:var(--ink-2);font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}
+.nbk:hover{border-color:var(--ink);color:var(--ink)}
+.nbmore{display:block;margin:14px auto 0;height:40px;padding:0 18px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit;font-size:13.5px;font-weight:700;cursor:pointer}
+.nbnote{margin:12px 0 0;color:var(--ink-3);font-size:12.5px;line-height:1.6}
+
 /* 바닥 */
 details.primer{margin-top:40px;padding:16px 18px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius)}
 details.primer summary{font-weight:800;cursor:pointer}
@@ -259,6 +282,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
 .gsw.none{border-style:dashed;border-color:var(--ink-3)}
 .gsw.sta{background:#2F6BFF;border-color:#2F6BFF}
 .gsw.here{background:var(--ink);border-color:var(--ink)}
+.gsw.nb{width:8px;height:8px;border:0;border-radius:50%;background:var(--ink-2);opacity:.6}
 .gmattr{margin-top:10px;color:var(--ink-3);font-size:11px}
 .gmattr a{color:inherit}
 .gmall{fill:var(--map-mall);stroke:var(--map-mall-line)}
@@ -277,6 +301,8 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
 .gmark.none{fill:var(--card);stroke:var(--ink-3);stroke-dasharray:3 2}
 .gmark.pick{fill:var(--accent);stroke:var(--card);stroke-dasharray:none}
 .gmark.on{fill:var(--accent);stroke:var(--ink)}
+.gnb{fill:var(--ink-2);opacity:.5}
+.gradius{fill:var(--accent);fill-opacity:.05;stroke:var(--accent);stroke-opacity:.55}
 .gchip{cursor:pointer}
 .gchip:focus{outline:none}
 .gchip rect{fill:var(--card);stroke:var(--line);stroke-width:2}
@@ -319,6 +345,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
   .logo{width:38px;height:38px;border-radius:12px;font-size:19px}
   .bar{flex-wrap:wrap;margin:0 -14px 6px;padding:8px 14px}
   .search{flex-basis:100%}
+  .bar .seg button{padding:0 9px;font-size:12.5px}
   .tbtn{height:40px}
   .count{margin-left:auto}
   .picks{margin:0 -14px;padding:2px 14px 8px}
@@ -343,6 +370,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.6-3.6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
     <input type="search" id="q" autocomplete="off"></label>
   <button class="tbtn" id="mapBtn" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6.5v13.5l6-2.5 6 2.5 6-2.5V4l-6 2.5z M9 4v13.5 M15 6.5V20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg><span id="mapBtnT">지도</span></button>
+  <div class="seg" id="kindSeg" role="group"></div>
   <span class="count" id="count" aria-live="polite"></span>
 </div>
 <div id="banner"></div>
@@ -357,6 +385,7 @@ dialog .close{position:absolute;right:10px;top:10px;height:34px;padding:0 12px;b
   <span id="photoNote" style="flex-basis:100%"></span>
   <span id="foot1"></span>
   <span id="foot2"></span>
+  <span id="foot3" style="flex-basis:100%"></span>
 </footer>
 </div>
 <dialog id="lb"><button class="close" id="lbClose">✕</button><img id="lbImg" alt=""></dialog>
@@ -369,6 +398,12 @@ const T = {
   ko:{
     search:"메뉴·식당·건물 검색 (예: 치킨, 제육, 대륭)",
     count:n=>`${n}곳`,
+    kind:{all:"전체", caf:"구내식당", near:"일반식당"}, kindLabel:"보기",
+    nbTitle:n=>`${n} 근처 일반식당`, nbSub:"가까운 순 · 가격은 아직 모름", nbRadius:"걸어서",
+    nbMin:m=>`도보 ${m}분`, nbAll:"전체", nbSame:"같은 건물", nbKakao:"카카오맵", nbNone:"이 거리 안에 맞는 식당이 없습니다",
+    nbMore:(k, left)=>`${k}곳 더 보기 · 남은 ${left}곳`,
+    nbNote:"일반식당은 메뉴판 가격이 모이는 대로 추천 점수에 들어갑니다. 지금은 거리와 업종만 보여 줍니다.",
+    mapNb:"일반식당", nbAttr:"일반식당 목록: 서울 열린데이터광장 일반·휴게음식점 인허가 정보 (공공누리 제1유형)",
     recTitle:"오늘의 추천",
     whyTitle:"이 식당이 지금 1위인 이유", quick:"오늘의 기준 빠르게 바꾸기",
     recDetails:"추천 근거와 가중치 자세히 보기",
@@ -426,6 +461,14 @@ const T = {
   en:{
     search:"Search dishes, cafeterias or buildings",
     count:n=>`${n} places`,
+    kind:{all:"All", caf:"Cafeterias", near:"Restaurants"}, kindLabel:"Show",
+    nbTitle:n=>`Restaurants near ${n}`, nbSub:"nearest first · prices not collected yet", nbRadius:"Walking",
+    nbMin:m=>`${m} min walk`, nbAll:"All", nbSame:"same building", nbKakao:"Kakao Map", nbNone:"No restaurants in this range",
+    nbMore:(k, left)=>`Show ${k} more · ${left} left`,
+    nbNote:"Restaurants join the ranking as their menu prices are collected. For now they show distance and cuisine only.",
+    mapNb:"Restaurant", nbAttr:"Restaurant list: Seoul Open Data Plaza food-business licence data (KOGL Type 1)",
+    groups:{"한식":"Korean","카페":"Café","중식":"Chinese","일식":"Japanese","양식":"Western","분식":"Snacks","고기":"BBQ",
+      "아시아":"Asian","패스트푸드":"Fast food","치킨":"Chicken","뷔페":"Buffet","기타":"Other"},
     recTitle:"Today's pick",
     whyTitle:"Why this place ranks first", quick:"Tune today's pick",
     recDetails:"See ranking logic & weights",
@@ -1002,6 +1045,18 @@ function mapHtml(shownList, near){
       <text y="1">${esc(q.lb)}${q.sc ? `<tspan class="gsc" dx="10">${q.sc}</tspan>` : ""}</text></g></g>`);
   }
 
+  // 근처 일반식당 — 작은 점. 기준 건물 둘레에 지금 고른 도보 반경 원을 그린다
+  let nbEl = "";
+  if (kindF !== "caf" && NB.length && nbOrigin()){
+    const o = nbOrigin(), ox = F.X(o.lng), oy = F.Y(o.lat);
+    nbEl = `<circle class="gradius" cx="${ox.toFixed(1)}" cy="${oy.toFixed(1)}" r="${nbRadiusM().toFixed(1)}" style="stroke-width:${(2 * K).toFixed(2)};stroke-dasharray:${(10 * K).toFixed(1)} ${(8 * K).toFixed(1)}"/>`;
+    for (const { p } of nbList()){
+      const x = F.X(p.lng), y = F.Y(p.lat);
+      if (!inside(x, y)) continue;
+      nbEl += `<circle class="gnb" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(4.5 * K).toFixed(2)}"><title>${esc(p.n)} · ${esc(grpName(p.g))}</title></circle>`;
+    }
+  }
+
   // 축척 막대는 화면에서 200px 쯤 되는 딱 떨어지는 거리로
   const Lm = [50, 100, 200, 300, 500].reduce((a, b) => Math.abs(b - 200 * K) < Math.abs(a - 200 * K) ? b : a);
   const scale = `<g class="gscale" transform="${at(40 * K, H - 44 * K)}"><path d="M0 0v12h${(Lm / K).toFixed(1)}v-12"/><text x="${(Lm / K / 2).toFixed(1)}" y="-10">${esc(t.mapM(Lm))}</text></g>`;
@@ -1012,13 +1067,13 @@ function mapHtml(shownList, near){
   <div class="gmbody${near ? " near" : ""}">
     <div class="gmcanvas"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(t.mapTitle)}">
       <g>${malls}</g><g>${casing}${fill}</g>${rails}<g>${roadN}</g><g>${mallN}</g>${staEl}
-      <g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
+      <g>${nbEl}</g><g>${leads.join("")}</g><g>${marks.join("")}</g><g>${chips.join("")}</g>${hereEl}${scale}${north}${attr}</svg></div>
     <div class="gmside"><div class="gmsticky"><div id="gmcard"></div>
       <div class="gmlegend">
         <span class="gmleg"><i class="gsw pick"></i>${esc(t.mapPick)}</span>
         <span class="gmleg"><i class="gsw"></i>${esc(t.mapOpen)}</span>
         <span class="gmleg"><i class="gsw none"></i>${esc(t.mapNone)}</span>
-        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span>${near ? `<span class="gmleg"><i class="gsw here"></i>${esc(t.mapHere)}</span>` : ""}</div>
+        <span class="gmleg"><i class="gsw sta"></i>${esc(t.mapSta)}</span>${nbEl ? `<span class="gmleg"><i class="gsw nb"></i>${esc(t.mapNb)}</span>` : ""}${near ? `<span class="gmleg"><i class="gsw here"></i>${esc(t.mapHere)}</span>` : ""}</div>
       <div class="gmattr">${esc(t.mapAttr)} © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a></div>
     </div></div>
   </div>`;
@@ -1165,6 +1220,70 @@ let mapOn = false;          // 지도 버튼. 건물 검색 때는 이와 상관
 try { mapOn = localStorage.getItem("glb-map") === "1"; } catch(e) {}
 const cur = { term: "", nterm: "", near: null, matchR: () => true };
 
+// ── 근처 일반식당 (서울시 인허가 공공데이터) ──────────────────────
+// build.py 가 한 곳을 [이름, 업종 번호, 동쪽 m, 북쪽 m] 로 줄여 싣는다. 같은 GM_MX·GM_MY 로 되돌린다.
+const NB = (() => {
+  const d = DATA.nearby; if (!d) return [];
+  return d.p.map(([n, g, dx, dy], i) => ({ id: "nb" + i, n, g: d.g[g], lat: d.o.lat + dy / GM_MY, lng: d.o.lng + dx / GM_MX }));
+})();
+const NB_MIN = [5, 10, 15];
+let nbMin = 10, nbGroup = "", nbShow = 40, kindF = "all";
+try {
+  const m = +localStorage.getItem("glb-nbmin"); if (NB_MIN.includes(m)) nbMin = m;
+  const k = localStorage.getItem("glb-kind"); if (["all", "caf", "near"].includes(k)) kindF = k;
+} catch(e) {}
+// "도보 N분" 은 카드의 도보 시간(walkFrom)과 같은 셈 — 직선거리 × 1.3 ÷ 분당 75m — 이라야 목록과 어긋나지 않는다
+const nbRadiusM = () => nbMin * 75 / 1.3;
+const nbOrigin = () => cur.near || cur.nbBld || nearOrigin || (DATA.nearby && DATA.nearby.o);
+const grpName = g => lang === "ko" ? g : (T.en.groups[g] || g);
+function nbBase(){
+  const o = nbOrigin(); if (!o) return [];
+  const R = nbRadiusM();
+  let xs = NB.map(p => ({ p, d: gmDist(p, o) })).filter(x => x.d <= R);
+  // 건물 검색이 아닌 검색어는 가게 이름·업종에서도 찾는다
+  if (cur.nterm && !cur.near && !cur.nbBld) xs = xs.filter(x => normQ(x.p.n + x.p.g + (T.en.groups[x.p.g] || "")).includes(cur.nterm));
+  return xs.sort((a, b) => a.d - b.d);
+}
+function nbList(){ const b = nbBase(); return nbGroup ? b.filter(x => x.p.g === nbGroup) : b; }
+// 카카오맵 공개 링크 형식(지도에 이름과 위치를 찍어 보여 줌). API 호출·저장 없음.
+const kakaoLink = p => `https://map.kakao.com/link/map/${encodeURIComponent(p.n.replace(/,/g, " "))},${p.lat.toFixed(6)},${p.lng.toFixed(6)}`;
+function nbHtml(){
+  const t = T[lang], o = nbOrigin();
+  if (!NB.length || !o) return "";
+  const base = nbBase(), cnt = {};
+  for (const x of base) cnt[x.p.g] = (cnt[x.p.g] || 0) + 1;
+  if (nbGroup && !cnt[nbGroup]) nbGroup = "";
+  const list = nbGroup ? base.filter(x => x.p.g === nbGroup) : base;
+  const groups = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a]);
+  const seg = NB_MIN.map(m => `<button type="button" data-min="${m}" aria-pressed="${m === nbMin}">${esc(t.nbMin(m))}</button>`).join("");
+  const chips = [`<button type="button" class="nbc" data-g="" aria-pressed="${!nbGroup}">${esc(t.nbAll)}<b>${base.length}</b></button>`,
+    ...groups.map(g => `<button type="button" class="nbc" data-g="${esc(g)}" aria-pressed="${g === nbGroup}">${esc(grpName(g))}<b>${cnt[g]}</b></button>`)].join("");
+  const rows = list.slice(0, nbShow).map(({ p, d }) => `<li class="nbrow"><div class="nbi"><span class="nbn">${esc(p.n)}</span>
+      <span class="nbm"><i class="nbg">${esc(grpName(p.g))}</i>${d < 30 ? esc(t.nbSame) : `${esc(t.walkFrom(walkFrom(p, o)))} · ${Math.round(d / 10) * 10}m`}</span></div>
+      <a class="nbk" href="${kakaoLink(p)}" target="_blank" rel="noopener">${esc(t.nbKakao)} ↗</a></li>`).join("");
+  const left = list.length - nbShow;
+  const more = left > 0 ? `<button type="button" class="nbmore" id="nbMore">${esc(t.nbMore(Math.min(40, left), left))}</button>` : "";
+  return `<div class="nbbox" id="nbBox"><div class="sechead"><h2>${esc(t.nbTitle(o.n))}</h2><span class="sub">${esc(t.nbSub)}</span></div>
+    <div class="nbtools"><div class="seg" role="group" aria-label="${esc(t.nbRadius)}">${seg}</div><div class="nbchips">${chips}</div></div>
+    ${list.length ? `<ul class="nblist">${rows}</ul>${more}` : `<p class="empty">${esc(t.nbNone)}</p>`}
+    <p class="nbnote">${esc(t.nbNote)}</p></div>`;
+}
+function wireNb(){
+  const box = document.getElementById("nbBox"); if (!box) return;
+  box.querySelectorAll("[data-min]").forEach(b => b.onclick = () => {
+    nbMin = +b.dataset.min; nbShow = 40;
+    try { localStorage.setItem("glb-nbmin", String(nbMin)); } catch(e) {}
+    renderGrid();
+  });
+  box.querySelectorAll(".nbc").forEach(b => b.onclick = () => { nbGroup = b.dataset.g; nbShow = 40; renderGrid(); });
+  const m = document.getElementById("nbMore");
+  if (m) m.onclick = () => { nbShow += 40; renderGrid(true); };
+}
+function kindSegHtml(){
+  const t = T[lang];
+  return ["all", "caf", "near"].map(k => `<button type="button" data-kind="${k}" aria-pressed="${k === kindF}">${esc(t.kind[k])}</button>`).join("");
+}
+
 function orderedList(){
   const list = DATA.restaurants.filter(r => !cur.nterm || cur.near || cur.matchR(r));
   if (cur.near) return [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, cur.near) - gmDist(b, cur.near)).slice(0, NEAR_N);
@@ -1174,19 +1293,25 @@ function orderedList(){
 }
 
 function renderGrid(skipMap){
-  const t = T[lang], near = cur.near, list = orderedList();
+  const t = T[lang], near = cur.near, all = orderedList();
+  const showCaf = kindF !== "near", showNb = kindF !== "caf" && NB.length > 0;
+  const list = showCaf ? all : [];
   const sc = scoreMap(), topId = scored()[0]?.r.id;
-  document.getElementById("count").textContent = t.count(list.length);
+  const nbN = showNb ? nbList().length : 0;
+  document.getElementById("count").textContent = t.count(list.length + nbN);
   const head = near ? t.nearTitle(near.n, list.length) : cur.term ? t.searchTitle(list.length) : t.gridTitle;
   const sub = near ? t.nearSub : t.gridSub;
-  document.getElementById("gridBox").innerHTML = `<div class="sechead"><h2>${esc(head)}</h2><span class="sub">${esc(sub)}</span></div>
-    <div class="grid">${list.map(r => cardHtml(r, sc[r.id], r.id === topId, near)).join("") || `<p class="empty">${esc(t.empty)}</p>`}</div>`;
+  document.getElementById("gridBox").innerHTML = (showCaf ? `<div class="sechead"><h2>${esc(head)}</h2><span class="sub">${esc(sub)}</span></div>
+    <div class="grid">${list.map(r => cardHtml(r, sc[r.id], r.id === topId, near)).join("") || `<p class="empty">${esc(t.empty)}</p>`}</div>` : "")
+    + (showNb ? nbHtml() : "");
   wireCards();
+  wireNb();
   if (skipMap) return;
   const gm = document.getElementById("gmap");
   const show = !!near || mapOn;
   document.getElementById("mapBtn").setAttribute("aria-pressed", show);
-  const html = show ? mapHtml(list.map((r, i) => ({ r, idx: i + 1 })), near) : "";
+  // 일반식당만 볼 때도 지도에는 구내식당을 함께 둔다(길 찾는 기준점)
+  const html = show ? mapHtml(all.map((r, i) => ({ r, idx: i + 1 })), near) : "";
   gm.innerHTML = html;
   gm.hidden = !html;
   if (html) wireMap();
@@ -1209,6 +1334,17 @@ function render(){
   document.getElementById("photoNote").textContent = t.photoNote;
   document.getElementById("foot1").textContent = t.foot1;
   document.getElementById("foot2").textContent = t.foot2(DATA.builtAt);
+  document.getElementById("foot3").innerHTML = DATA.nearby
+    ? `${esc(t.nbAttr)} · <a href="${esc(DATA.nearby.url || "https://data.seoul.go.kr")}" target="_blank" rel="noopener">data.seoul.go.kr</a>` : "";
+  const ks = document.getElementById("kindSeg");
+  ks.hidden = !NB.length;
+  ks.setAttribute("aria-label", t.kindLabel);
+  ks.innerHTML = kindSegHtml();
+  ks.querySelectorAll("button").forEach(b => b.onclick = () => {
+    kindF = b.dataset.kind;
+    try { localStorage.setItem("glb-kind", kindF); } catch(e) {}
+    render();
+  });
   document.getElementById("btnKo").setAttribute("aria-pressed", lang === "ko");
   document.getElementById("btnEn").setAttribute("aria-pressed", lang === "en");
   const age = boardAgeDays();
@@ -1224,10 +1360,16 @@ function render(){
   cur.near = cur.nterm && !DATA.restaurants.some(cur.matchR) ? findBuilding(cur.nterm) : null;
   // 검색한 건물이 가까움 점수의 기준이 된다. 기억해 두었다가 첫 화면 추천에도 쓴다.
   if (cur.near && (!nearOrigin || nearOrigin.n !== cur.near.n)){ nearOrigin = cur.near; saveOrigin(); }
+  // 근처 일반식당: 가게 이름·업종에 안 걸리는 검색어는 건물 이름으로 보고 그 건물을 기준으로 삼는다.
+  // (구내식당 주소에 걸려 위의 건물 검색이 안 된 경우 — 예: '대륭포스트타워5차' — 도 여기서 잡힌다)
+  cur.nbBld = null;
+  if (cur.nterm && !cur.near && NB.length && !NB.some(p => normQ(p.n + p.g + (T.en.groups[p.g] || "")).includes(cur.nterm)))
+    cur.nbBld = findBuilding(cur.nterm);
 
   const pb = document.getElementById("picksBox");
-  pb.hidden = !!cur.term;
-  if (cur.term) pb.innerHTML = ""; else renderPicks();
+  const hidePicks = !!cur.term || kindF === "near";
+  pb.hidden = hidePicks;
+  if (hidePicks) pb.innerHTML = ""; else renderPicks();
   renderGrid();
 }
 
