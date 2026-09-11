@@ -109,6 +109,9 @@ def main():
     coords_file = ROOT / "data" / "coords.json"
     coords_all = json.loads(coords_file.read_text(encoding="utf-8")) if coords_file.exists() else {}
     coords = coords_all.get("places", {})
+    # 도로·철길·랜드마크(OSM). 지도 밑그림이라 없어도 페이지는 돈다.
+    streets_file = ROOT / "data" / "streets.json"
+    streets = json.loads(streets_file.read_text(encoding="utf-8")) if streets_file.exists() else None
     places = places_file.get("places", {})
     extras = places_file.get("extras", [])
     cache = ROOT / "cache" / "ocr"
@@ -227,6 +230,8 @@ def main():
         # 자동 갱신이 멈춘 동안 옛 메뉴판이 오늘 것처럼 보인다.
         "sourceDateIso": sdate.isoformat() if sdate else None,
         "station": coords_all.get("station"),
+        "streets": ({k: streets[k] for k in ("roads", "rails", "stations", "landmarks", "_attribution")}
+                    if streets else None),
         "sourceIsOld": bool(sdate and sdate != today),
         "builtAt": now.strftime("%Y-%m-%d %H:%M KST"),
         "todayNumbers": today_numbers,
