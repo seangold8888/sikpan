@@ -24,7 +24,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "dish_images.json"
 API = "https://commons.wikimedia.org/w/api.php"
-UA = "gasan-lunch/1.0 (dish reference images; contact: github.com/seangold8888)"
+UA = "sikpan/1.0 (dish reference images; contact: github.com/seangold8888)"
 THUMB = 320
 
 DISHES = [

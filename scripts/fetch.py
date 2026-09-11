@@ -19,7 +19,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC_URL = "https://koreaward-6.github.io/"
-UA = "Mozilla/5.0 (compatible; gasan-lunch/1.0; +https://github.com/seangold8888/gasan-lunch)"
+UA = "Mozilla/5.0 (compatible; sikpan/1.0; +https://github.com/seangold8888/sikpan)"
 
 CARD_RE = re.compile(
     r"<div class='cafeteria-card'>(.*?)</div>\s*(?=<div class='cafeteria-card'>|</div>)",
