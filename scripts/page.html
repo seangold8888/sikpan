@@ -568,6 +568,10 @@ footer{margin-top:40px;padding:22px 2px 0;border-top:1px solid var(--rule);font-
 .ghere text{fill:#151515;font:900 19px "Gothic A1",sans-serif;text-anchor:middle;dominant-baseline:central}
 .gsw.here{background:var(--accent)}
 .ltag.near{color:#111;background:var(--signal)}
+.origin{margin-top:12px;color:var(--ink-2);font-size:11px;font-weight:700;line-height:1.55}
+.origin b{color:var(--signal);font-weight:900}
+.origin button{margin-left:8px;padding:4px 8px;color:var(--ink);background:transparent;border:1px solid var(--tray-edge);border-radius:8px;font:800 10px/1 "Archivo","Gothic A1",sans-serif;cursor:pointer}
+.origin button:hover{color:#111;background:var(--signal);border-color:var(--signal)}
 .ltag.score{color:var(--tray);background:var(--ink);font-weight:900}
 .ltag.score.none{color:var(--ink-3);background:var(--tray-inset);font-weight:800}
 .gchip .gsc{font-family:"Archivo",sans-serif;font-weight:900;letter-spacing:-.02em}
@@ -655,7 +659,8 @@ const T = {
     cardWalk:n=>`역에서 걸어서 약 ${n}분`, cardMenu:"오늘 메뉴 보기", cardDir:"길찾기",
     nearTitle:(n,c)=>`${n}에서 가까운 ${c}곳`, nearTag:(m,min)=>`${m}m · 약 ${min}분`,
     nearScore:s=>`점수 ${s}`, nearNoScore:"오늘 점수 없음", cardScore:"점",
-    cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물", noPrice:"가격 미확인",
+    cardWalkFrom:(n,min)=>`${n}에서 걸어서 약 ${min}분`, mapHere:"검색한 건물", noPrice:"가격 미확인", originOn:"가까움 기준", originClear:"기준 지우기",
+    originOff:"건물을 검색하면 그 건물에서 가까운 곳일수록 가까움 점수를 더 줍니다",
     lgItem:"항 목", lgCalc:"점수 × 가중치 = 기여", lgTotal:"합계",
     vsNote:(n,g)=>`2위 <b>${n}</b>보다 <b>${g}점</b> 앞섭니다. 파란 쪽이 이긴 항목입니다.`,
     axes:{value:"가성비",variety:"반찬수",mains:"메인수",protein:"단백질",rarity:"희소성",near:"가까움"},
@@ -706,7 +711,8 @@ const T = {
     cardWalk:n=>`about ${n} min walk from the station`, cardMenu:"See today's menu", cardDir:"Directions",
     nearTitle:(n,c)=>`${c} nearest to ${n}`, nearTag:(m,min)=>`${m} m · ~${min} min`,
     nearScore:s=>`score ${s}`, nearNoScore:"no score today", cardScore:"pts",
-    cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building", noPrice:"price n/a",
+    cardWalkFrom:(n,min)=>`about ${min} min walk from ${n}`, mapHere:"searched building", noPrice:"price n/a", originOn:"Distance from", originClear:"clear",
+    originOff:"Search a building to score places by how close they are to it",
     lgItem:"ITEM", lgCalc:"SCORE × WEIGHT = SHARE", lgTotal:"TOTAL",
     vsNote:(n,g)=>`<b>${g} pts</b> ahead of <b>${n}</b>. Blue wins that row.`,
     axes:{value:"Value",variety:"Variety",mains:"Mains",protein:"Protein",rarity:"Rarity",near:"Distance"},
@@ -783,6 +789,8 @@ const PRESETS = {
 };
 let W = {...PRESETS.balanced};
 let ate = [];   // 최근 먹은 식당 id, 최신순
+let nearOrigin = null;   // 가까움 점수의 기준 위치 {n, lat, lng}. 건물을 검색하면 정해진다
+try { const o = JSON.parse(localStorage.getItem("glb-origin") || "null"); if (o && o.n && o.lat) nearOrigin = o; } catch(e) {}
 
 try { const w = JSON.parse(localStorage.getItem("glb-w") || "null"); if (w) W = {...W, ...w}; } catch(e) {}
 try { const a = JSON.parse(localStorage.getItem("glb-ate") || "null"); if (Array.isArray(a)) ate = a.slice(0, 5); } catch(e) {}
@@ -793,6 +801,7 @@ const keep = () => { try {
 
 function scored(){
   const out = [];
+  const NV = nearVals();                  // 기준 위치가 없으면 null — 모두 중립
   for (const r of DATA.restaurants){
     const ax = DATA.axes && DATA.axes[r.id];
     if (!ax) continue;                       // 오늘 메뉴가 제대로 올라온 곳만
@@ -800,7 +809,7 @@ function scored(){
     const parts = [];
     for (const a of AXES){
       const w = W[a] || 0;
-      const v = ax[a];
+      const v = a === "near" ? (NV ? (NV[r.id] ?? null) : null) : ax[a];
       parts.push({ axis:a, value:v, weight:w });
       if (!w) continue;
       sum += (v === null ? 0.5 : v) * w;     // 정보 없으면 중립
@@ -931,6 +940,9 @@ function recHtml(){
         <div class="quick-label">${esc(t.quick)}</div>
         <div class="presets">${Object.keys(PRESETS).map(k =>
           `<button data-preset="${k}" aria-pressed="${activePreset === k}">${esc(t.presets[k])}</button>`).join("")}</div>
+        <div class="origin">${nearOrigin
+          ? `${esc(t.originOn)} <b>${esc(nearOrigin.n)}</b><button type="button" id="originClear">${esc(t.originClear)}</button>`
+          : esc(t.originOff)}</div>
         <details class="wt"><summary><span>${esc(t.recDetails)}</span><span class="plus" aria-hidden="true">+</span></summary>
           <div class="analysis">${ledger}${versus}<div class="weight-title">${esc(t.weights)}</div><div>${sliders}</div></div>
         </details>
@@ -983,6 +995,8 @@ function wireRec(){
   };
   const ac = document.getElementById("ateClear");
   if (ac) ac.onclick = () => { ate = []; keep(); redraw(); };
+  const oc = document.getElementById("originClear");
+  if (oc) oc.onclick = () => { nearOrigin = null; saveOrigin(); render(); };
   fitRecName();
 }
 
@@ -1105,6 +1119,21 @@ function findBuilding(nterm){
   }
   return best ? { n: best.n, lat: best.p[0], lng: best.p[1] } : null;
 }
+
+// 기준 위치에서 잰 거리를 0~1 가까움으로 편다. 점수 대상 중 가장 가까운 곳 1, 가장 먼 곳 0.
+let nearCache = { key: "", vals: null };
+function nearVals(){
+  if (!nearOrigin) return null;
+  const key = `${nearOrigin.n}|${nearOrigin.lat}|${nearOrigin.lng}`;
+  if (nearCache.key === key) return nearCache.vals;
+  const pool = DATA.restaurants.filter(r => DATA.axes && DATA.axes[r.id] && r.lat != null);
+  const d = {}; for (const r of pool) d[r.id] = gmDist(r, nearOrigin);
+  const ds = Object.values(d), lo = Math.min(...ds), hi = Math.max(...ds);
+  const vals = {}; for (const id in d) vals[id] = hi > lo ? (hi - d[id]) / (hi - lo) : .5;
+  nearCache = { key, vals };
+  return vals;
+}
+function saveOrigin(){ try { nearOrigin ? localStorage.setItem("glb-origin", JSON.stringify(nearOrigin)) : localStorage.removeItem("glb-origin"); } catch(e) {} }
 
 const NEAR_N = 5;                 // 건물 검색 때 보여 줄 가까운 식당 수
 let mapJustFocused = false;       // 방금 다른 건물을 찾았으면 화면을 지도로 옮긴다
@@ -1490,6 +1519,12 @@ function render(){
     ? `<div class="banner">${t.oldWarn(esc(DATA.sourceDate), age)}</div>` : "";
 
   const term = document.getElementById("q").value.trim().toLowerCase();
+  const nterm = normQ(term);
+  const matchR = r => normQ([r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ")).includes(nterm);
+  // 식당 이름·주소·메뉴에 하나도 안 걸리면 건물 이름으로 보고, 그 건물에서 가까운 순으로 보여 준다.
+  const near = nterm && !DATA.restaurants.some(matchR) ? findBuilding(nterm) : null;
+  // 검색한 건물이 가까움 점수의 기준이 된다. 기억해 두었다가 첫 화면 추천에도 쓴다.
+  if (near && (!nearOrigin || nearOrigin.n !== near.n)){ nearOrigin = near; saveOrigin(); }
   const recBox = document.getElementById("rec");
   recBox.innerHTML = term ? "" : recHtml();
   recBox.style.display = term ? "none" : "";
@@ -1503,10 +1538,6 @@ function render(){
   if (N.overlap && N.overlap.length) stats.push(esc(t.statOverlap(N.overlap)));
   document.getElementById("statline").innerHTML = term ? "" : stats.join('<span style="color:var(--rule)">|</span>');
 
-  const nterm = normQ(term);
-  const matchR = r => normQ([r.ko, r.en, r.address || "", ...r.items.map(i => i.ko + " " + i.en)].join(" ")).includes(nterm);
-  // 식당 이름·주소·메뉴에 하나도 안 걸리면 건물 이름으로 보고, 그 건물에서 가까운 순으로 전부 보여 준다.
-  const near = nterm && !DATA.restaurants.some(matchR) ? findBuilding(nterm) : null;
   let list = DATA.restaurants.filter(r => !nterm || near || matchR(r));
   if (near) list = [...list].sort((a, b) => (a.lat == null) - (b.lat == null) || gmDist(a, near) - gmDist(b, near)).slice(0, NEAR_N);
 

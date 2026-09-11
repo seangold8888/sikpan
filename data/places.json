@@ -49,7 +49,9 @@
    "en": "The Food Sketch"
   },
   "0113b1a3": {
-   "en": "Bab[ON] Cafeteria"
+   "en": "Bab[ON] Cafeteria",
+   "price": 7500,
+   "priceSrc": "카카오채널 소개글 \"1인7,500원\" (2026-09-11 확인)"
   },
   "edd59332": {
    "en": "Ssing Ssing Food"
