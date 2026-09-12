@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 11일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑식북음밥",
+   "en": "Black rice bibimbap",
+   "main": true
+  },
+  {
+   "ko": "매운왕넘쳐지글밥지즈",
+   "en": "Spicy overflowing cheese rice",
+   "main": true
+  },
+  {
+   "ko": "피쉬엔칩스",
+   "en": "Fish and chips",
+   "main": true
+  },
+  {
+   "ko": "고추잡채냉작안두",
+   "en": "Cold spicy vegetable stir-fry",
+   "main": true
+  },
+  {
+   "ko": "비밀채소",
+   "en": "Secret vegetables",
+   "main": false
+  },
+  {
+   "ko": "메추리알곤약장조림",
+   "en": "Braised quail eggs with konnyaku",
+   "main": false
+  },
+  {
+   "ko": "조미구이김",
+   "en": "Seasoned roasted seaweed",
+   "main": false
+  },
+  {
+   "ko": "밥을토마토",
+   "en": "Rice with tomato",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭능 & 음료",
+   "en": "Dessert & beverage",
+   "main": false
+  }
+ ],
+ "notes": "Some menu items have unclear or possibly misspelled Korean text due to image quality",
+ "_model": "claude-haiku-4-5-20251001"
+}
