@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 14일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우삼겹김치볶음밥",
+   "en": "Spicy kimchi fried rice with pork belly (Usam-gyeop kimchi-bokkeum-bap)",
+   "main": true
+  },
+  {
+   "ko": "빨간콧! 불콕",
+   "en": "Red nose! Fire-roasted",
+   "main": true
+  },
+  {
+   "ko": "바싹돼지불쌕",
+   "en": "Crispy pork (Basak dwae-ji bul-ssaek)",
+   "main": true
+  },
+  {
+   "ko": "롯데리아치파이",
+   "en": "Lotteria chicken pie",
+   "main": true
+  },
+  {
+   "ko": "게란중라이",
+   "en": "Egg fried rice (Gye-ran jung-rai)",
+   "main": false
+  },
+  {
+   "ko": "메추리알소세지뭉음",
+   "en": "Quail egg sausage",
+   "main": false
+  },
+  {
+   "ko": "베이컨까르보나라",
+   "en": "Bacon carbonara (Bacon kareubonara)",
+   "main": false
+  },
+  {
+   "ko": "앙념�깨입지",
+   "en": "Sesame-seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "우삼우피를",
+   "en": "Pork belly vegetable side",
+   "main": false
+  },
+  {
+   "ko": "완강다면",
+   "en": "Sweet noodles (Wanggang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated beverages / Fresh drinks",
+   "main": false
+  }
+ ],
+ "notes": "Some menu item text appears unclear or possibly misspelled in the original; transcribed as printed. This appears to be a cafeteria menu board with self-serve options indicated at the bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

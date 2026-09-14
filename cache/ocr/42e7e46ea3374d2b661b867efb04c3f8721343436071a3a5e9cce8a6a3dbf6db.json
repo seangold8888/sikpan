@@ -1,0 +1,54 @@
+{
+ "date_shown": "2026년 09월 14일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰미밥/쌀미밥",
+   "en": "White rice / Brown rice",
+   "main": false
+  },
+  {
+   "ko": "쇠고랫지릿국니",
+   "en": "Beef rib soup",
+   "main": false
+  },
+  {
+   "ko": "곽지주재비",
+   "en": "Side dish",
+   "main": false
+  },
+  {
+   "ko": "마너켓치킨텐더",
+   "en": "Manner chicken tender",
+   "main": true
+  },
+  {
+   "ko": "중식마파두부",
+   "en": "Chinese mapo tofu",
+   "main": true
+  },
+  {
+   "ko": "닭차채전*초과장",
+   "en": "Dak-chachae-jeon with sauce",
+   "main": false
+  },
+  {
+   "ko": "고기래기우육중",
+   "en": "Beef side dish",
+   "main": false
+  },
+  {
+   "ko": "농니블우중",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드&쌀기ID포기김치",
+   "en": "Garden salad & rice kimchi",
+   "main": false
+  }
+ ],
+ "notes": "메뉴는 시장 상장에 따라 변경될 수 있습니다◇ (Menu may change due to market conditions); Origin labels shown: 쌀:국산 현미:국산 나치:우현산 자리렌드(닭):국산 두부(대두):우입산 고기:국산,돼지(우:돼지,쌀):우입산",
+ "_model": "claude-haiku-4-5-20251001"
+}

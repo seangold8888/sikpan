@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월14(월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "버팔로윙",
+   "en": "Buffalo wings",
+   "main": true
+  },
+  {
+   "ko": "바싹불고기",
+   "en": "Crispy bulgogi",
+   "main": true
+  },
+  {
+   "ko": "고소한김계란말이",
+   "en": "Savory kimchi and egg rolled omelet",
+   "main": false
+  },
+  {
+   "ko": "프리미엄갈치&불닭크로켓*콘타르s",
+   "en": "Premium cutlassfish & spicy chicken croquette with corn tartar",
+   "main": true
+  },
+  {
+   "ko": "바몬드카레라이스",
+   "en": "Almond curry rice",
+   "main": true
+  },
+  {
+   "ko": "해물뷔음우동",
+   "en": "Seafood udon",
+   "main": true
+  },
+  {
+   "ko": "브로콜리참깨소스우침",
+   "en": "Broccoli with sesame sauce",
+   "main": false
+  },
+  {
+   "ko": "양념무말랭이우침",
+   "en": "Seasoned radish strip side dish",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Napa kimchi / self-serve ramen / toast / beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9/14 월요일",
+ "price": null,
+ "hours": "11시 10분 ~ 1시 30분",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "빼앗는 매운 칼비찜",
+   "en": "Spicy braised short ribs (Kalbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "너겟. 가리비 스텍 & 매운소스",
+   "en": "Nuggets, scallop steak & spicy sauce",
+   "main": true
+  },
+  {
+   "ko": "가쓰오 두부 조림",
+   "en": "Bonito and tofu braised (Katsuo dubu jorim)",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 상금 오렌지",
+   "en": "Savory rice crisp / Premium orange",
+   "main": false
+  },
+  {
+   "ko": "카레 감자채 볶음",
+   "en": "Curry stir-fried potato strips",
+   "main": false
+  },
+  {
+   "ko": "어묵 다시마국",
+   "en": "Fish cake and kelp soup (Eomuk dasima-guk)",
+   "main": false
+  },
+  {
+   "ko": "떨치 마늘쫑 볶음 / 부추 겉절이",
+   "en": "Mackerel stir-fried with garlic scapes / Pickled Chinese chives",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌤러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국산 포기 김지",
+   "en": "Domestic kimchi (Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "\" 다사 음료 \"",
+   "en": "Dasa beverage",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Origin labels present for domestic ingredients.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 14일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "사골떡국",
+   "en": "Beef bone broth with rice cakes (Sagol-tteok-guk)",
+   "main": false
+  },
+  {
+   "ko": "돌은지볶음살쌈",
+   "en": "Stir-fried meat with vegetable wraps",
+   "main": true
+  },
+  {
+   "ko": "블랙알리오올냥닭치킨",
+   "en": "Black garlic oil chicken (Blacka-llio-ollang dak-chicken)",
+   "main": true
+  },
+  {
+   "ko": "떡사적스테이크",
+   "en": "Rice cake steak (Tteok-sajuk steak)",
+   "main": true
+  },
+  {
+   "ko": "해피터냥채",
+   "en": "Happy turnip vegetable (Haeppi-teo-nyang-chae)",
+   "main": false
+  },
+  {
+   "ko": "사각어묵볶음",
+   "en": "Stir-fried square fish cake (Sagak-eomuk bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "미나리오징어초무침",
+   "en": "Seasoned water dropwort with squid (Minari-ojinga cho-muchwim)",
+   "main": false
+  },
+  {
+   "ko": "늘봄무침.백김지",
+   "en": "Seasoned greens / White kimchi (Neulbom-muchwim, baek-gimji)",
+   "main": false
+  },
+  {
+   "ko": "찬지국수 / 삶깡라면",
+   "en": "Cold noodle soup / Boiled spicy ramen (Chanji-guksu / Salggang ramen)",
+   "main": false
+  },
+  {
+   "ko": "계란쌀라이 / 탄산음료",
+   "en": "Egg rice / Carbonated beverages (Gyeran-ssal-lai / Tansan-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드",
+   "en": "Green salad (Green-salad)",
+   "main": false
+  }
+ ],
+ "notes": "보드 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 있습니다. (Menu items may be substituted if sold out early)",
+ "_model": "claude-haiku-4-5-20251001"
+}

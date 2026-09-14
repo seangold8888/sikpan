@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 14일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/쌀미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "얼큰한김자탕",
+   "en": "Spicy kimchi soup (Eolkkeun-gim-jatang)",
+   "main": false
+  },
+  {
+   "ko": "오심새뵈옹",
+   "en": "O-sim-sae-bwe-ong",
+   "main": true
+  },
+  {
+   "ko": "훈제오리부추볶음고기&무쌈",
+   "en": "Smoked duck with Chinese chives & radish wrap (Hunsje-ori-buchu-bokkeum-gogi)",
+   "main": true
+  },
+  {
+   "ko": "화딩맨즈카츠&칠리s.",
+   "en": "Wha-ding mens cutlet & chili s. (Katsu)",
+   "main": true
+  },
+  {
+   "ko": "한식버섯장채",
+   "en": "Korean-style mushroom vegetable (Hanshik-beoseot-jangchae)",
+   "main": false
+  },
+  {
+   "ko": "단팥앙금바람떡",
+   "en": "Red bean pastry rice cake (Danpat-angkeum-baram-tteok)",
+   "main": false
+  },
+  {
+   "ko": "맛살숙주니물무침",
+   "en": "Imitation crab & bean sprout seasoned vegetables (Matsal-sukju-mul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "미나리무생채",
+   "en": "Water dropwort fresh vegetable (Minari-musaengchae)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-service Hangang ramen (Selfu-hangang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili / vegetable wraps & dipping sauce (Put-gochu/chaeso-ssam)",
+   "main": false
+  },
+  {
+   "ko": "가튼셀러드&키위드레싱",
+   "en": "Garden salad & kiwi dressing (Gateun-selleodeu)",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Juice / soft drinks (Song-neung/tansan-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "Target date matches board date. Bottom text indicates self-service options and origin information available.",
+ "_model": "claude-haiku-4-5-20251001"
+}

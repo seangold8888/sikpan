@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 14일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "어묵탕",
+   "en": "Fish cake soup (Eomuk-tang)",
+   "main": false
+  },
+  {
+   "ko": "직화고추장불고기",
+   "en": "Chargrilled gochujang beef (Jikwha gochujang bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "후라이드치킨/쌀리라자S",
+   "en": "Fried chicken/Sizzler rice S",
+   "main": true
+  },
+  {
+   "ko": "수제안두계란전",
+   "en": "Homemade egg pancake with red beans",
+   "main": false
+  },
+  {
+   "ko": "마살라커리",
+   "en": "Masala curry (Masalla curry)",
+   "main": false
+  },
+  {
+   "ko": "차돌묵은지파스타",
+   "en": "Beef aged kimchi pasta (Chadol mukeunji pasta)",
+   "main": true
+  },
+  {
+   "ko": "새우든부조림/바나나",
+   "en": "Braised shrimp/Banana",
+   "main": false
+  },
+  {
+   "ko": "도라지오이생채",
+   "en": "Seasoned bellflower root and cucumber (Doraji oi saengchae)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/Dressing",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이/음료",
+   "en": "Fresh napa kimchi/Beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 14일 월요일 (September 14, Monday), not the target date of 2026년 09월 14일 (월). Year 2026 is not shown on board. Restaurant name: 혼합정공방 (Honhap Jeong Gongbang). Marked as 더푸드스케치 (The Food Sketch). Menu board indicates 'MENU' on left side.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/14(월,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쇠고기쌀국수",
+   "en": "Beef rice noodle soup (Soegogie ssalguksu)",
+   "main": true
+  },
+  {
+   "ko": "등심돈까스",
+   "en": "Pork loin cutlet (Deungsim donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "메주러떙장",
+   "en": "Soybean paste stew (Meju-reotang jang)",
+   "main": true
+  },
+  {
+   "ko": "윤제오리부추무침",
+   "en": "Duck with leek seasoning (Yun-je ori buchu muChim)",
+   "main": true
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables (Gyejeol namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김지",
+   "en": "Domestic napa cabbage kimchi (Gungnae-san baechukimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage (Saelleodeu, gwail, eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "점심(lunch) service. Text at bottom indicates 정보의 식사 위험음** (Information meal risk warning)",
+ "_model": "claude-haiku-4-5-20251001"
+}

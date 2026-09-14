@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 14일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "�쌀리체소영양밥&양념장",
+   "en": "Ssalri che nutritious rice & sauce",
+   "main": true
+  },
+  {
+   "ko": "군대뒷장국",
+   "en": "Military back soup",
+   "main": false
+  },
+  {
+   "ko": "돈육김치두루치기(돈육:미국산)",
+   "en": "Pork kimchi stir-fry (Pork: US)",
+   "main": true
+  },
+  {
+   "ko": "온두릅",
+   "en": "Ondureum (Korean side dish)",
+   "main": false
+  },
+  {
+   "ko": "고지없는소묵소뻑(제목:국내산)",
+   "en": "Goji-less side dish (Origin: Domestic)",
+   "main": false
+  },
+  {
+   "ko": "천사체셀러드",
+   "en": "Angel salad",
+   "main": false
+  },
+  {
+   "ko": "콩나물파채무침",
+   "en": "Bean sprout and vegetable seasoned side dish",
+   "main": false
+  },
+  {
+   "ko": "가른셀러드&요거트D",
+   "en": "Garden salad & yogurt D",
+   "main": false
+  },
+  {
+   "ko": "깐두기",
+   "en": "Kkandugi (cubed radish kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve bibimbap / Hangang ramyeon",
+   "main": false
+  },
+  {
+   "ko": "간편식:그릴드치킨샐러드(제목:국내산)",
+   "en": "Convenient meal: Grilled chicken salad (Origin: Domestic)",
+   "main": true
+  }
+ ],
+ "notes": "Menu board shows 9월 14일 (월) [September 14 (Monday)]. Origin labels (제목:국내산, 돈육:미국산) are printed on the board. Self-serve options noted for bibimbap and ramyeon.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 14일(월요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus코너) 북중아아이스티",
+   "en": "Plus corner - Iced tea",
+   "main": false
+  },
+  {
+   "ko": "매콤콩나물뭇뭇고기",
+   "en": "Spicy seasoned sprouts with meat",
+   "main": true
+  },
+  {
+   "ko": "치킨텐더&옥니머스타트",
+   "en": "Chicken tenders & corn mustard start",
+   "main": true
+  },
+  {
+   "ko": "에그크림카레",
+   "en": "Egg cream curry",
+   "main": true
+  },
+  {
+   "ko": "깐뚱해물댕초슬",
+   "en": "Spicy seafood with vegetables",
+   "main": true
+  },
+  {
+   "ko": "브로골리&모듬버섯숙회",
+   "en": "Broccoli & assorted mushroom",
+   "main": false
+  },
+  {
+   "ko": "고구마순들�깨나뭇북음",
+   "en": "Sweet potato shoots with sesame",
+   "main": false
+  },
+  {
+   "ko": "무말랭이우침 / 쪽기김치",
+   "en": "Radish strips / leaf kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "감자수제비국",
+   "en": "Potato sujebi soup",
+   "main": false
+  }
+ ],
+ "notes": "Operating location: 플러스 코너 (우로). Staff names: 성심/쌍미소, 한정걸, 웰 도수, 한성준",
+ "_model": "claude-haiku-4-5-20251001"
+}

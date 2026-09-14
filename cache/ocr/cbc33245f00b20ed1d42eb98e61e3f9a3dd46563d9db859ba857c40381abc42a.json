@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월14일 월요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "돼지갈비목은지짐",
+   "en": "Pork short rib (Dwae-ji galbi mok-eun jjim)",
+   "main": true
+  },
+  {
+   "ko": "청파래오징어까스",
+   "en": "Green laver squid cutlet (Cheong-para-e ojing-eo kkas)",
+   "main": true
+  },
+  {
+   "ko": "철판메밀전병",
+   "en": "Iron plate buckwheat pancake (Cheol-pan mebil jeon-byeong)",
+   "main": true
+  },
+  {
+   "ko": "꽈리고추짐",
+   "en": "Shishito pepper stew (Kkwari gochu jjim)",
+   "main": false
+  },
+  {
+   "ko": "파래자반볶음",
+   "en": "Green laver side dish stir-fry (Para-e jaban bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad (Sing-sing salad)",
+   "main": false
+  },
+  {
+   "ko": "백김치",
+   "en": "White kimchi (Baek kimchi)",
+   "main": false
+  },
+  {
+   "ko": "북어해장국",
+   "en": "Dried cod hangover soup (Buk-eo hae-jang guk)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥, 탄산음료, 셀프라면",
+   "en": "Self-serve bibimbap, carbonated drinks, self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner indicated for bibimbap and ramen. Instagram handle: urbanworkdasbom. Operating hours show 오전10시 (10am). Additional notice mentions 다시붐 카톡채널 메뉴공지.",
+ "_model": "claude-haiku-4-5-20251001"
+}

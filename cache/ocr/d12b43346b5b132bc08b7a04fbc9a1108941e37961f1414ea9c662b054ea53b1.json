@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 14일 (월요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "콩나물불고기",
+   "en": "Seasoned beef with bean sprouts (Kongnamul bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "치킨텐더&허니머스터드",
+   "en": "Chicken tenders & honey mustard",
+   "main": true
+  },
+  {
+   "ko": "에그크림카레덮밥",
+   "en": "Egg cream curry rice bowl (Egg cream curry dobap)",
+   "main": true
+  },
+  {
+   "ko": "한풍해물떡초림",
+   "en": "Korean-style seafood rice cake (Han-pung haemul tteok chorim)",
+   "main": true
+  },
+  {
+   "ko": "브로콜리*모듬버섯숙회&초고추장",
+   "en": "Broccoli & assorted mushroom namul with chogochujang",
+   "main": false
+  },
+  {
+   "ko": "멀치시래기귀찬지짐",
+   "en": "Seasoned dried radish greens (Mulchi siragi gwicha-n jijim)",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침/포기김치",
+   "en": "Dried radish salad/kimchi portions (Mumalraengi-i muchim/pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "감자수제비국",
+   "en": "Potato sujebi soup (Gamja sujebi-guk)",
+   "main": false
+  },
+  {
+   "ko": "단호박죽(고객요청)",
+   "en": "Sweet pumpkin porridge (customer request) (Danho-bak juk)",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice/white rice",
+   "main": false
+  },
+  {
+   "ko": "깜채초&풋고추/간장허런&묵곱한팹토스트/구수한 숭늉&사원한 단산음료",
+   "en": "Seasoned perilla leaves & green pepper/soy sauce marinated & jelly toast/fragrant sweet rice drink & employee chilled beverage",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 2024년 09월 14일 (월요일), not 2026년. Menu transcribed as displayed. Last line contains self-serve options.",
+ "_model": "claude-haiku-4-5-20251001"
+}

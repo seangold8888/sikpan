@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월14일 (월) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "Rice selection (white rice/black rice mixed grain)",
+   "main": false
+  },
+  {
+   "ko": "고추장찌개",
+   "en": "Gochujang stew",
+   "main": true
+  },
+  {
+   "ko": "지하제유 볶음",
+   "en": "Stir-fried ground peanut",
+   "main": false
+  },
+  {
+   "ko": "순살우래이드치킨",
+   "en": "Fried chicken",
+   "main": true
+  },
+  {
+   "ko": "짜파게티",
+   "en": "Jjapagetti noodles",
+   "main": false
+  },
+  {
+   "ko": "비엔나에그스크랩볶음",
+   "en": "Vienna sausage and egg scramble",
+   "main": true
+  },
+  {
+   "ko": "참깨나물쿡리드부무침",
+   "en": "Seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "궁나물무침",
+   "en": "Palace-style vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이/김치",
+   "en": "Napa cabbage pickle/kimchi",
+   "main": false
+  },
+  {
+   "ko": "야배추샐러드/바나나",
+   "en": "Vegetable salad/banana",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date: 9월14일 (월) 점심. Some Korean text appears unclear or potentially misspelled in the original.",
+ "_model": "claude-haiku-4-5-20251001"
+}
