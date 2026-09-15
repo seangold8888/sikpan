@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월15(화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "숙쉘이북엇국",
+   "en": "Sukshell fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "청양삼겹살메추리알찜",
+   "en": "Spicy pork belly with quail egg steamed (Cheongyang samgyeopsal mechu-ri al-jjim)",
+   "main": true
+  },
+  {
+   "ko": "닭다리살우육이",
+   "en": "Chicken leg with beef (Dak-dari sal-u yugii)",
+   "main": true
+  },
+  {
+   "ko": "계란옷입은김치고기왓자전",
+   "en": "Egg-coated kimchi and meat vegetable pancake (Gyeran-ot-ibeun kimchi goggi wat-jajeon)",
+   "main": false
+  },
+  {
+   "ko": "쟁반묵음짜장면",
+   "en": "Jjangpan-muk with black bean noodles (Jjangpan-muk-eum jjajang-myeon)",
+   "main": false
+  },
+  {
+   "ko": "치즈게란찜",
+   "en": "Cheese egg steamed (Chijeu gyeran-jjim)",
+   "main": false
+  },
+  {
+   "ko": "터니평비엔나소세지구이*케챱,머스터드",
+   "en": "Terney plain Vienna sausage grilled with ketchup, mustard",
+   "main": false
+  },
+  {
+   "ko": "흑임자드보옆무나물",
+   "en": "Black sesame with radish side dish (Heukim-ja-deu bo-yeop mu-namul)",
+   "main": false
+  },
+  {
+   "ko": "동글이오이생채",
+   "en": "Round cucumber fresh salad (Dongguri oi saengchae)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi / self-serve ramen / toast / beverage",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

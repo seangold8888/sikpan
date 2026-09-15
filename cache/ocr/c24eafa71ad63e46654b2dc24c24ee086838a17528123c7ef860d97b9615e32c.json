@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월15일 화요일메뉴",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "매콤우리주물럭",
+   "en": "Spicy stir-fried beef (Maekkeum-uri-jumulluk)",
+   "main": true
+  },
+  {
+   "ko": "에그스크램블/계란",
+   "en": "Scrambled eggs / Eggs",
+   "main": false
+  },
+  {
+   "ko": "우제단호박튀김",
+   "en": "Fried butternut squash",
+   "main": false
+  },
+  {
+   "ko": "별치파리볶음",
+   "en": "Stir-fried anchovies (Byeolchi-pari-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵/양념장",
+   "en": "Acorn jelly / Seasoning sauce",
+   "main": false
+  },
+  {
+   "ko": "새조개살·못게탕",
+   "en": "Ark shell / Crab soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수콘·건포도",
+   "en": "Cabbage / Corn · Raisins",
+   "main": false
+  },
+  {
+   "ko": "상추쌈/젓갈류",
+   "en": "Lettuce wraps / Fermented seafood",
+   "main": false
+  },
+  {
+   "ko": "족석라면코너",
+   "en": "Instant noodle corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아이스트",
+   "en": "Beverages / Ice tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available for instant noodles. Text at bottom states: 제료공급에떨어메뉴바뀔수있습니다 (Menu may change if ingredients run out).",
+ "_model": "claude-haiku-4-5-20251001"
+}

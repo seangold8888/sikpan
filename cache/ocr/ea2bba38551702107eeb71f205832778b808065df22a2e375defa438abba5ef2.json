@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/15(화,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "콩나물국",
+   "en": "Soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "준천닭꼼박이/무쌈",
+   "en": "Prepared chicken with radish wraps",
+   "main": true
+  },
+  {
+   "ko": "만두구이",
+   "en": "Pan-fried dumplings",
+   "main": false
+  },
+  {
+   "ko": "맥국수무침",
+   "en": "Cold wheat noodles dressed",
+   "main": true
+  },
+  {
+   "ko": "미역줄기볶음",
+   "en": "Stir-fried sea mustard stems",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "원산지정보 확인 및 질문은 정왕원 식사 위해주소",
+ "_model": "claude-haiku-4-5-20251001"
+}

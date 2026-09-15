@@ -1,0 +1,59 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쇠미밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "톤마호크갈비찜",
+   "en": "Tomahawk galbi (short rib) braised",
+   "main": true
+  },
+  {
+   "ko": "무들어묵국",
+   "en": "Radish and muk (jelly) soup",
+   "main": false
+  },
+  {
+   "ko": "잘숨대*소금",
+   "en": "Seasoned vegetables with salt",
+   "main": false
+  },
+  {
+   "ko": "국물떡볶이",
+   "en": "Tteokbokki in broth",
+   "main": false
+  },
+  {
+   "ko": "김말이튀김",
+   "en": "Fried seaweed roll",
+   "main": false
+  },
+  {
+   "ko": "꼬막살야채무침",
+   "en": "Cockle salad with vegetables",
+   "main": false
+  },
+  {
+   "ko": "정양우이지",
+   "en": "Seasoned cucumber",
+   "main": false
+  },
+  {
+   "ko": "가르슬러드&쇡의자",
+   "en": "Garden salad & egg salad",
+   "main": false
+  },
+  {
+   "ko": "쇡기김지",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Menu items transcribed exactly as printed; some characters may be unclear or misspelled in original.",
+ "_model": "claude-haiku-4-5-20251001"
+}

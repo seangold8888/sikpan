@@ -1,0 +1,64 @@
+{
+ "date_shown": "정심 (9/15 화요일)",
+ "price": null,
+ "hours": "정심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "제육 직화 불고기",
+   "en": "Grilled marinated beef (Jeyuk bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "순살 돈까스 & 소스",
+   "en": "Pork cutlet & sauce (Donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "따끈한 찐순대 & 소금",
+   "en": "Steamed sundae & salt (Sundae)",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 북묵자 주스",
+   "en": "Crispy scorched rice / Buckwheat juice",
+   "main": false
+  },
+  {
+   "ko": "매콤 어묵 떡볶이",
+   "en": "Spicy fish cake tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "사골 우거지 해장국",
+   "en": "Beef bone spinach soup (Haejang-guk)",
+   "main": false
+  },
+  {
+   "ko": "숙주나물 무침 / 고들빼기 장아찌",
+   "en": "Bean sprout seasoning / Wild greens pickle",
+   "main": false
+  },
+  {
+   "ko": "앙배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "깍두기",
+   "en": "Cubed radish kimchi (Kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "\"닭 신 음료\"",
+   "en": "Special drink",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target (9/15 화요일). Footer contains allergen information and origin labels for ingredients.",
+ "_model": "claude-haiku-4-5-20251001"
+}

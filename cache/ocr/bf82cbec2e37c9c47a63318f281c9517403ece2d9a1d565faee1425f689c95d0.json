@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 15일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "김치종나물국",
+   "en": "Kimchi and vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "대패삼겹살볶음",
+   "en": "Stir-fried sliced pork belly (Daepae-samgyeop-sal-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "케이준치킨샐러드",
+   "en": "Cajun chicken salad",
+   "main": false
+  },
+  {
+   "ko": "토마토미트볼",
+   "en": "Tomato meatballs",
+   "main": false
+  },
+  {
+   "ko": "비빔막국수",
+   "en": "Mixed cold noodles (Bibim-makguksu)",
+   "main": true
+  },
+  {
+   "ko": "연근옥임자무침",
+   "en": "Seasoned lotus root",
+   "main": false
+  },
+  {
+   "ko": "유자청무생채무침",
+   "en": "Yuza citrus radish salad",
+   "main": false
+  },
+  {
+   "ko": "양배추★쌈장",
+   "en": "Cabbage with ssamjang sauce",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": true
+  },
+  {
+   "ko": "가드샐러드 / 포기김치",
+   "en": "Garden salad / Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated beverage / Plum tea / Seung-nong",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

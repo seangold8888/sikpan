@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 15일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "칼비양념철판묵살구이",
+   "en": "Grilled marinated short ribs on hot plate (Kalbi-yang-nyeom chulpan muk-sal gui)",
+   "main": true
+  },
+  {
+   "ko": "누룽지고추깨풍음",
+   "en": "Crispy rice with chili and sesame (Nurungji gochu kkae pung-eum)",
+   "main": false
+  },
+  {
+   "ko": "중하해물양장피",
+   "en": "Shrimp and seafood with spicy sauce (Jung-ha haemul yang-jang pi)",
+   "main": false
+  },
+  {
+   "ko": "정양장중어묵음",
+   "en": "Fish cake with sauce (Jeong-yang-jang jung-eo muk-eum)",
+   "main": false
+  },
+  {
+   "ko": "순천비빔박국수",
+   "en": "Suncheon mixed rice noodles (Suncheon bibim bak-guk su)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Bean sprout seasoned side dish (Kong-namul mu-chim)",
+   "main": false
+  },
+  {
+   "ko": "미니모나코&연유붕떠",
+   "en": "Mini Monaco & condensed milk dessert (Minimi Monaco & yeon-yu bbung-tteo)",
+   "main": false
+  },
+  {
+   "ko": "환강라면",
+   "en": "Hwangang ramen (Hwan-gang la-myeon)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi (Geurin saelleodeu / Baechu kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한차",
+   "en": "Carbonated beverages / Cold tea (Tansan-eum-ryo / Si-won-han cha)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items noted; origin labels and notices present but not fully legible in original text",
+ "_model": "claude-haiku-4-5-20251001"
+}

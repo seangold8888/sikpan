@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 15일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "맑은콩나물국",
+   "en": "Clear soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "블케이노불닭",
+   "en": "Spicy chicken (Blkeyno-buldak)",
+   "main": true
+  },
+  {
+   "ko": "생선까스&타르츠소스",
+   "en": "Fish cutlet & tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "베이컨로치즈오믈렛구이",
+   "en": "Bacon cheese omelette",
+   "main": true
+  },
+  {
+   "ko": "매콤부들어묵볶음",
+   "en": "Spicy stir-fried fish cake",
+   "main": false
+  },
+  {
+   "ko": "참나물유자청우침",
+   "en": "Herb and yuzu marinade",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드&애플D",
+   "en": "Garden salad & apple dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve bibimbap / Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "간편식: 훈제닭가슴살셀러드",
+   "en": "Convenience meal: Smoked chicken breast salad",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner noted for bibimbap and ramen. Origin labels mentioned in fine print.",
+ "_model": "claude-haiku-4-5-20251001"
+}

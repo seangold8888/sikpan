@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 15일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "월갈이된장국",
+   "en": "Seaweed miso soup",
+   "main": false
+  },
+  {
+   "ko": "소용.보쌈",
+   "en": "Beef brisket and wraps",
+   "main": true
+  },
+  {
+   "ko": "콜라먹는모둠튀김",
+   "en": "Cola-braised assorted fried items",
+   "main": true
+  },
+  {
+   "ko": "매콤우징어두부치기",
+   "en": "Spicy squid and tofu stir-fry",
+   "main": true
+  },
+  {
+   "ko": "포장마차꼬치어묵",
+   "en": "Street pojangmacha skewered fish cake",
+   "main": true
+  },
+  {
+   "ko": "참치.오이사라다",
+   "en": "Tuna and cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "쌈야채조림.참나물겉절이ㅣ배추겉절이",
+   "en": "Vegetable wraps, seasoned greens, and kimchi",
+   "main": false
+  },
+  {
+   "ko": "전주식비빔밥 / 그린샐러드",
+   "en": "Jeonju-style bibimbap / Green salad",
+   "main": false
+  },
+  {
+   "ko": "계란우라이 / 탁산들료",
+   "en": "Egg fried rice / Taksan drinks",
+   "main": false
+  },
+  {
+   "ko": "한깡라면",
+   "en": "Ramyeon noodles",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월 15일 (화) which matches target date. Additional notice at bottom mentions self-serve corner (모둠 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 - 'assorted menu may be substituted if sold out early').",
+ "_model": "claude-haiku-4-5-20251001"
+}

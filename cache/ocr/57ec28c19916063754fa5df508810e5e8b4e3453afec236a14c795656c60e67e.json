@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월15일 (화) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "부대찌개",
+   "en": "Budae-jjigae (Army stew)",
+   "main": true
+  },
+  {
+   "ko": "청파당깻잎볶음",
+   "en": "Stir-fried perilla leaves (Cheongpadang-kkaetnip-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "톤살제우까조*사우전s",
+   "en": "Ton-sal je-u-kka-jo*sa-u-cheon-s",
+   "main": false
+  },
+  {
+   "ko": "바베큐드 포크붐음밥",
+   "en": "Barbecued pork rice bowl",
+   "main": false
+  },
+  {
+   "ko": "청양간장채절임*어린장",
+   "en": "Spicy soy-marinated vegetables*young soy paste",
+   "main": false
+  },
+  {
+   "ko": "마늘쫑어묵아찌보음",
+   "en": "Garlic shoots and eomuk (fish cake) pickle",
+   "main": false
+  },
+  {
+   "ko": "미역줄기볶음",
+   "en": "Stir-fried seaweed stems",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김치",
+   "en": "Napa cabbage quick pickle kimchi",
+   "main": false
+  },
+  {
+   "ko": "아메추생런드/떡",
+   "en": "American salad/rice cake",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

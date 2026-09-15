@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 15일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합장육밥",
+   "en": "Mixed meat rice bowl",
+   "main": true
+  },
+  {
+   "ko": "시래기된장국",
+   "en": "Dried radish greens soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "로제쌈닭",
+   "en": "Rose sauce wrapped chicken",
+   "main": true
+  },
+  {
+   "ko": "도미카츠/레몬S",
+   "en": "Sea bream cutlet / Lemon sauce",
+   "main": true
+  },
+  {
+   "ko": "소세지전/계장",
+   "en": "Sausage pancake / Soy sauce",
+   "main": false
+  },
+  {
+   "ko": "곤뱅이쭈억무침",
+   "en": "Baby octopus seasoned side dish",
+   "main": false
+  },
+  {
+   "ko": "계란장조림",
+   "en": "Soy-braised eggs",
+   "main": false
+  },
+  {
+   "ko": "마라감자짜글이",
+   "en": "Mala potato stir-fry",
+   "main": false
+  },
+  {
+   "ko": "청포묵김가루무무침",
+   "en": "Mung bean jelly with seaweed powder salad",
+   "main": false
+  },
+  {
+   "ko": "\"스테비아요구르트\"",
+   "en": "Stevia yogurt",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad / Dressing",
+   "main": false
+  },
+  {
+   "ko": "배추김절이/음료",
+   "en": "Napa cabbage kimchi / Beverage",
+   "main": false
+  }
+ ],
+ "notes": "더푸드스퀘치 (The Food Squash) establishment. Date shown matches target date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 15일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "통마늘묵살쭈찜",
+   "en": "Steamed pork with garlic (Tong-maneul-muk-sal-jjim)",
+   "main": true
+  },
+  {
+   "ko": "한입톤까스&칠리소스",
+   "en": "Tonkatsu with chili sauce (Han-ip-ton-kkas)",
+   "main": true
+  },
+  {
+   "ko": "나쁜리타불닭부움면",
+   "en": "Spicy noodles with chicken (Na-bbun-rita-bul-dak-bu-um-myeon)",
+   "main": true
+  },
+  {
+   "ko": "콘크링미트볼",
+   "en": "Corn ring meatballs (Kon-keu-ring-mi-teu-bol)",
+   "main": true
+  },
+  {
+   "ko": "참치무초롱",
+   "en": "Tuna with radish (Cham-chi-mu-cho-rong)",
+   "main": false
+  },
+  {
+   "ko": "부추양파길성이",
+   "en": "Garlic chive and onion side (Bu-chu-yang-pa-gil-seong-i)",
+   "main": false
+  },
+  {
+   "ko": "모듬야채지/포기김치",
+   "en": "Assorted vegetables / Kimchi portions (Mo-deum-ya-chae-ji / Po-gi-kim-chi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing (Geu-rin-sael-leo-deu)",
+   "main": false
+  },
+  {
+   "ko": "중화부추계란국",
+   "en": "Chinese-style garlic chive and egg soup (Jung-hwa-bu-chu-gye-ran-guk)",
+   "main": false
+  },
+  {
+   "ko": "미니천빵튀김",
+   "en": "Mini corn bread fries (Mi-ni-cheon-bbang-twi-gim)",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice (Jap-gok-bbap / Baek-mi-bbap)",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 풋고추/앙장취면 & 된장한 깨 토스트/구수한 숭늉 & 시원한 탄산음료",
+   "en": "Ssam vegetables & green chili / Spicy noodles & soybean paste with sesame toast / Sweet rice drink & cold carbonated beverage (Ssam-chae-so & pul-go-chu / Ang-jang-chwi-myeon & doen-jang-han-kkae-to-seu-teu / Gu-su-han-sung-nyung & si-won-han-tan-san-eum-ryo)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 15일 (화요일) which corresponds to September 15 (Tuesday); the target date requested was 2026년 09월 15일 (화) but the board shows only the month/day/day-of-week without the year.",
+ "_model": "claude-haiku-4-5-20251001"
+}

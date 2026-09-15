@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월 15일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "토마늘목살숲잡구이",
+   "en": "Tomato garlic pork neck grilled",
+   "main": true
+  },
+  {
+   "ko": "한입돈까스&칠리소스",
+   "en": "Bite-sized pork cutlet with chili sauce",
+   "main": true
+  },
+  {
+   "ko": "나폴리탄불닭볶음면",
+   "en": "Neapolitan spicy chicken stir-fried noodles",
+   "main": true
+  },
+  {
+   "ko": "코코릿미트볼",
+   "en": "Croquette meatball",
+   "main": false
+  },
+  {
+   "ko": "참치우족림",
+   "en": "Tuna braised",
+   "main": false
+  },
+  {
+   "ko": "브숑양파,견정이",
+   "en": "Braised onion, seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "모듬야채지 / 포기김치",
+   "en": "Mixed vegetables / Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "중화누숑계란국",
+   "en": "Chinese egg soup",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월 15일 (화요일) which matches target date. Plus Corner (무료) indicated at bottom. Origin labels shown: 상심, 쌀제조, 양장김, 된 토츠, 방송중용.",
+ "_model": "claude-haiku-4-5-20251001"
+}

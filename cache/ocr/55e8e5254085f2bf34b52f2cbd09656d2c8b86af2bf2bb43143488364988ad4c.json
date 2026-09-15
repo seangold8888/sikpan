@@ -1,0 +1,29 @@
+{
+ "date_shown": "26년 9월 14일 ~ 26년9월 18일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "매콤제육볶음",
+   "en": "Spicy stir-fried pork (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "진정장된 두부조림",
+   "en": "Seasoned braised tofu",
+   "main": true
+  },
+  {
+   "ko": "가스오동통",
+   "en": "Gas stir-fried mushrooms",
+   "main": false
+  },
+  {
+   "ko": "라구모둠토스타",
+   "en": "Ragu mixed toast",
+   "main": false
+  }
+ ],
+ "notes": "Target date 2026년 09월 15일 (화) appears to be Tuesday in the weekly menu shown. Only items visible in the Tuesday column have been transcribed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

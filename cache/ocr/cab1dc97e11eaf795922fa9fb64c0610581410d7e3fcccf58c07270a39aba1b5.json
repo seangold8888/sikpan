@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월15일(화요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "사골계란떡국",
+   "en": "Beef bone egg rice cake soup (Sagol-gyeran-tteokguk)",
+   "main": false
+  },
+  {
+   "ko": "분모자성양찜닭",
+   "en": "Steamed chicken with sweet potato (Bun-moja-seong-yangjjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "대파듬까스스틱*바질콩마요s",
+   "en": "Leek katsu stick with basil bean mayo",
+   "main": true
+  },
+  {
+   "ko": "소시지케챁버터볶음면",
+   "en": "Sausage ketchup butter stir-fried noodles (Sosi-ji-kechap-beo-teo-bokkeum-myeon)",
+   "main": true
+  },
+  {
+   "ko": "매콤타코야기",
+   "en": "Spicy taco (Maekkom-taco-yagi)",
+   "main": true
+  },
+  {
+   "ko": "오징어오이초무침",
+   "en": "Squid and cucumber in spicy sauce (O-jing-eo-oi-cho-much'im)",
+   "main": false
+  },
+  {
+   "ko": "열무걸절이",
+   "en": "Young radish kimchi (Yeol-mu-geol-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Marked kimchi (Pyo-gi-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "그럼셀러드&드레싱",
+   "en": "Salad & dressing (Geu-reom-selrad & deu-re-sing)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-service Hangang ramen * Self-service toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*쌍고추*쌍장",
+   "en": "Double vegetables * Double peppers * Double sauce (Ssang-chae-so * Ssang-go-chu * Ssang-jang)",
+   "main": false
+  },
+  {
+   "ko": "는룽지*탑사음료*매실차",
+   "en": "Lung zi * Top beverage * Plum tea (Neu-rung-ji * Tob-sa-um-nyo * Maesil-cha)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Origin labels noted for some items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

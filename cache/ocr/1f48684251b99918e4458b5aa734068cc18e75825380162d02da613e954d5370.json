@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월15일 화요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "파채직하블제육",
+   "en": "Shredded radish beef",
+   "main": true
+  },
+  {
+   "ko": "진게다리튀김",
+   "en": "Fried crab legs",
+   "main": true
+  },
+  {
+   "ko": "소세지닭깎둘칩",
+   "en": "Sausage chicken chips",
+   "main": false
+  },
+  {
+   "ko": "새콤비빔쌈면",
+   "en": "Tangy bibim wrap noodles",
+   "main": false
+  },
+  {
+   "ko": "미늉중우침",
+   "en": "Mixed vegetables",
+   "main": false
+  },
+  {
+   "ko": "상상셀러드",
+   "en": "Imaginative salad",
+   "main": false
+  },
+  {
+   "ko": "직접담음걸절이",
+   "en": "House-made pickles",
+   "main": false
+  },
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "상추쌈·쌈장",
+   "en": "Lettuce wraps and ssamjang",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "셀프라면",
+   "en": "Self-service ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-service corner available. Instagram: urbanworkdasbom어바웍다스봄. Additional notice: 다시 올 카페채널 메뉴공식 - 오전10시",
+ "_model": "claude-haiku-4-5-20251001"
+}

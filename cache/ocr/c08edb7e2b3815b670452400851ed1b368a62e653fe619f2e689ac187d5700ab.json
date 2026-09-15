@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 15일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "짬뽕순두부찌개",
+   "en": "Spicy seafood soft tofu stew (Jjamppong sundubu-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "마늘듬뿍돼지갈비찜",
+   "en": "Garlic pork ribs braised (Maneul-dumulpeul dwaeji-galbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "돈까츠동",
+   "en": "Pork cutlet rice bowl (Donkatsu-dong)",
+   "main": true
+  },
+  {
+   "ko": "찰떡가마보쌀떡갈비",
+   "en": "Sticky rice cake and pork rib patties (Chaltteok-gama bosssal-tteok galbi)",
+   "main": true
+  },
+  {
+   "ko": "닭가슴살냥채",
+   "en": "Stir-fried chicken breast with vegetables (Dak-gaseumsal naengchae)",
+   "main": true
+  },
+  {
+   "ko": "베이컨까르보나까떡볶이",
+   "en": "Bacon carbonara tteokbokki (Bacon-kareubona-kka tteokbokki)",
+   "main": true
+  },
+  {
+   "ko": "짜장조림",
+   "en": "Black bean sauce braised (Jjajang-jorim)",
+   "main": true
+  },
+  {
+   "ko": "유부미역줄기볶음",
+   "en": "Fried tofu pouch and seaweed stem (Yubu-miyeok-julgi bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-service Hangang ramen (Selpeuh Hangang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "깻고추/양배추쌈&쌈장",
+   "en": "Sesame leaves & peppers / Cabbage wraps & sauce (Kkaetgochu / Yangbaechu-ssam & ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&참깨드레싱",
+   "en": "Garden salad & sesame dressing (Garden-saelleodeu & chamkkae-dureshing)",
+   "main": false
+  },
+  {
+   "ko": "송능/단산음료",
+   "en": "Songneung / Dansan beverages (Songneung / Dansan-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date. Bottom text states: 식기 메누는 회사 사정에 따라 일부 변경 될 수 있습니다. (Menu items may change in part depending on company circumstances.)",
+ "_model": "claude-haiku-4-5-20251001"
+}
