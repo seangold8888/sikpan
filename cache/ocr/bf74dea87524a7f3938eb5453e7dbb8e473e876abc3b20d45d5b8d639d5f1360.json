@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월16일 (수) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice and grain rice",
+   "main": false
+  },
+  {
+   "ko": "우거지된장찌개",
+   "en": "Vegetable greens soybean paste stew (Ugeoji-doenjang-jjigae)",
+   "main": false
+  },
+  {
+   "ko": "돼지고기수육보쌀",
+   "en": "Pork boiled meat with rice (Dwaeji-gogi-suyu-bosssal)",
+   "main": true
+  },
+  {
+   "ko": "우육우고르궤×타로타르츠",
+   "en": "Beef and taro tart (우육우고르궤×타로타르츠)",
+   "main": true
+  },
+  {
+   "ko": "매콤비빔내면",
+   "en": "Spicy mixed noodles (Maekkom-bibim-naemyeon)",
+   "main": true
+  },
+  {
+   "ko": "분식집숨대접×소금",
+   "en": "Korean street food with salt (분식집숨대접×소금)",
+   "main": false
+  },
+  {
+   "ko": "톡임자느룬자샐러드",
+   "en": "Spicy vegetable salad (톡임자느룬자샐러드)",
+   "main": false
+  },
+  {
+   "ko": "무생채닐정이",
+   "en": "Radish salad (무생채닐정이)",
+   "main": false
+  },
+  {
+   "ko": "배추절성이김치",
+   "en": "Napa cabbage kimchi (배추절성이김치)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵사발/묵상추쌈",
+   "en": "Acorn jelly soup / Acorn jelly with lettuce wrap (도토리묵사발/묵상추쌈)",
+   "main": false
+  }
+ ],
+ "notes": "Some menu item names are difficult to read with certainty and may contain transcription uncertainties.",
+ "_model": "claude-haiku-4-5-20251001"
+}

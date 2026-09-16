@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 16일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김밥볶음밥 / 백미밥",
+   "en": "Kimbap fried rice / White rice",
+   "main": true
+  },
+  {
+   "ko": "순살우거지감자탕",
+   "en": "Pure meat doenjang-jjim with vegetables and potatoes (Sunssal-ugeoji gamja-tang)",
+   "main": true
+  },
+  {
+   "ko": "소불고기숙주볶음",
+   "en": "Beef bulgogi with bean sprouts (So-bul goggi sukju-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "군맛두추김밥이",
+   "en": "Seasoned vegetable kimbap",
+   "main": false
+  },
+  {
+   "ko": "계란우라이",
+   "en": "Egg omelette (Gyeran-urai)",
+   "main": false
+  },
+  {
+   "ko": "메추리알떡볶이",
+   "en": "Quail egg tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "알마늘마늘쪽무침",
+   "en": "Garlic shoots seasoned side dish (Al-maneul-maneul jjok-muchim)",
+   "main": false
+  },
+  {
+   "ko": "청포채김가루무침",
+   "en": "Green seaweed noodles with laver powder (Cheongpo-chae kim-garu muchim)",
+   "main": false
+  },
+  {
+   "ko": "깍두기",
+   "en": "Diced radish kimchi (Kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "한깡라면",
+   "en": "Korean ramen (Han-kkang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "가드샐러드 / 포기김치",
+   "en": "Garden salad / Kimchi portions",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 숭능",
+   "en": "Carbonated beverages / Plum tea / Beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

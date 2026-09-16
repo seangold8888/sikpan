@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 16일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "표고버섯콘드레밥",
+   "en": "Shiitake mushroom and corn rice",
+   "main": true
+  },
+  {
+   "ko": "소고기무국",
+   "en": "Beef radish soup (Sogogi-muguk)",
+   "main": false
+  },
+  {
+   "ko": "칼비양념바싹불고기",
+   "en": "Marinated crispy beef bulgogi (Kalbi-yangnyeom bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "치킨난반",
+   "en": "Chicken namban (Chicken-nanban)",
+   "main": true
+  },
+  {
+   "ko": "깐 바사소세지구이&케챌",
+   "en": "Peeled sausage grilled with ketchup (Sausage-guyi & ketchup)",
+   "main": false
+  },
+  {
+   "ko": "참치마요숏파스타",
+   "en": "Tuna mayo short pasta",
+   "main": true
+  },
+  {
+   "ko": "구운파래김",
+   "en": "Grilled seaweed (Guun-parea-gim)",
+   "main": false
+  },
+  {
+   "ko": "김치부침개",
+   "en": "Kimchi pancake (Kimchi-buchimgae)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵상추무침",
+   "en": "Acorn jelly and lettuce seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang instant noodles (Ramen)",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili pepper / vegetable wraps & dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&참깨드레싱",
+   "en": "Garden salad with sesame dressing",
+   "main": false
+  },
+  {
+   "ko": "숭능/탄산음료",
+   "en": "Juice / carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Message at bottom states: 쌈기 메뉴는 회사 사정에 따라 일부 변경 될 수 있습니다. (Some menu items may change depending on company circumstances.)",
+ "_model": "claude-haiku-4-5-20251001"
+}

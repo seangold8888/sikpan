@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월 16일 수요일",
+ "price": 10000,
+ "hours": "오전 10시",
+ "items": [
+  {
+   "ko": "수제순살시킨/소이깔딕",
+   "en": "Homemade tender chicken/soy garlic",
+   "main": true
+  },
+  {
+   "ko": "리얼치즈함박",
+   "en": "Real cheese hamburger steak",
+   "main": true
+  },
+  {
+   "ko": "소고기미파두부",
+   "en": "Beef and tofu",
+   "main": true
+  },
+  {
+   "ko": "나폴리탄파스타",
+   "en": "Neapolitan pasta",
+   "main": true
+  },
+  {
+   "ko": "부추야채무침",
+   "en": "Seasoned garlic chive vegetables",
+   "main": false
+  },
+  {
+   "ko": "상상샐러드",
+   "en": "Imagination salad",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "유부장국",
+   "en": "Tofu pouch soup",
+   "main": false
+  },
+  {
+   "ko": "셀프토스트/제철과일/탄산음료·셀프과편",
+   "en": "Self-serve toast/seasonal fruit/carbonated drinks·self-serve dessert",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner (셀프토스트, 제철과일, 탄산음료, 셀프과편) available. Instagram handle: urbanworkdasbom. Kakao channel menu at Daenung-gil, Oseong-ro, 10am opening.",
+ "_model": "claude-haiku-4-5-20251001"
+}

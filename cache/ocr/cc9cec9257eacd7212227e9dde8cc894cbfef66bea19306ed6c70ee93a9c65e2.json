@@ -1,0 +1,59 @@
+{
+ "date_shown": "수 9월 16일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰미밥/쌀미밥",
+   "en": "White rice / Brown rice",
+   "main": false
+  },
+  {
+   "ko": "넓적당면염국수장김",
+   "en": "Wide noodle spicy cold noodles with seaweed",
+   "main": true
+  },
+  {
+   "ko": "황태미영국",
+   "en": "Hwangtae (dried pollock) soup",
+   "main": false
+  },
+  {
+   "ko": "새우망 중 징어릭김",
+   "en": "Shrimp and squid dish",
+   "main": true
+  },
+  {
+   "ko": "베이컨듬제 샤파게티",
+   "en": "Bacon tomato spaghetti",
+   "main": true
+  },
+  {
+   "ko": "깻잎쇠지절",
+   "en": "Sesame leaf side dish",
+   "main": false
+  },
+  {
+   "ko": "도톡마락·쌀쌀칠",
+   "en": "Mixed vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "국쌈·오·쌀칠",
+   "en": "Rice wraps and side vegetables",
+   "main": false
+  },
+  {
+   "ko": "가른셀러댁&귀워D",
+   "en": "Garden salad & kiwi D",
+   "main": false
+  },
+  {
+   "ko": "포기금치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 수 9월 16일 (Wednesday, September 16), which does not match the target date of 2026년 09월 16일 (수). Some menu item text is unclear or partially illegible due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

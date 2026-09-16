@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 16일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순살수제당콩닭강정",
+   "en": "Homemade soy bean chicken crackling",
+   "main": true
+  },
+  {
+   "ko": "물만두/간장소스",
+   "en": "Water dumplings/soy sauce",
+   "main": false
+  },
+  {
+   "ko": "베이컨로제스파게티",
+   "en": "Bacon rose pasta",
+   "main": true
+  },
+  {
+   "ko": "맛살오댓볶음",
+   "en": "Stir-fried imitation crab",
+   "main": true
+  },
+  {
+   "ko": "부추오이무침",
+   "en": "Seasoned garlic chives and cucumber",
+   "main": false
+  },
+  {
+   "ko": "황태미역국",
+   "en": "Dried pollack seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수/견포도",
+   "en": "Cabbage/corn/grape tomato",
+   "main": false
+  },
+  {
+   "ko": "양파,고추/젓갈류",
+   "en": "Onion, chili pepper/salted seafood",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아유르트",
+   "en": "Beverages/yogurt",
+   "main": false
+  }
+ ],
+ "notes": "재료공금에따메뉴바뀔수있습니다 (Menu may change according to ingredient availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

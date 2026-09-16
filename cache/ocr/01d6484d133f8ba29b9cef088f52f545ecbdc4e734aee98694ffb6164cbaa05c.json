@@ -1,0 +1,49 @@
+{
+ "date_shown": "9월 16일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "알깡자닭볶음탕",
+   "en": "Spicy stir-fried chicken (Alkkang-ja dak-bokkeum-tang)",
+   "main": true
+  },
+  {
+   "ko": "해물링&게맛살링",
+   "en": "Seafood rings & crab-flavored rings",
+   "main": false
+  },
+  {
+   "ko": "새우 개완자전",
+   "en": "Shrimp meatball pancake (Saeu gae-wan-ja-jeon)",
+   "main": false
+  },
+  {
+   "ko": "삼색소세지피맛붕음청포목명란우심",
+   "en": "Three-color sausage with fish cake and seasoned roe",
+   "main": false
+  },
+  {
+   "ko": "깐리고추장맛치붕음양년고추지 / 깐두기",
+   "en": "Spicy gochujang-flavored fish cake & radish kimchi (Kkandugi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "표고곰나블밥&양년장",
+   "en": "Shiitake mushroom rice & soy sauce",
+   "main": false
+  },
+  {
+   "ko": "건새우아욕딘장국",
+   "en": "Dried shrimp and vegetable soybean paste soup (Geon-saeu-yu ajjim-jang-guk)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (9월 16일 수요일 = September 16, Wednesday). Menu is from plus corner (plus 코너) 새우야채숙.",
+ "_model": "claude-haiku-4-5-20251001"
+}

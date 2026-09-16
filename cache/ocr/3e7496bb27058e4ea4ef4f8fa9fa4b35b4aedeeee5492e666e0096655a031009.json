@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 16일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "돼지고기김치찌개",
+   "en": "Pork and kimchi stew (Dwaeji-gogi kimchi-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "직화제육볶음",
+   "en": "Direct flame grilled meat stir-fry (Jikwha jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "대게나리살튀김",
+   "en": "King crab leg tempura (Daege-nari sal twigim)",
+   "main": true
+  },
+  {
+   "ko": "계란두릅젓/양념장",
+   "en": "Egg side dish / seasoning sauce (Gyeran-durup-jeot/yangnyeom-jang)",
+   "main": false
+  },
+  {
+   "ko": "메주리알감자매콤초림",
+   "en": "Soy sauce eggs, potato spicy seasoning (Mejuri-al gamja-maekkeom chorigim)",
+   "main": false
+  },
+  {
+   "ko": "화식잡채",
+   "en": "Japanese-style japchae (Hwashik japchae)",
+   "main": false
+  },
+  {
+   "ko": "취어채복음",
+   "en": "Loach vegetable (Chwi-eo-chae bokeum)",
+   "main": false
+  },
+  {
+   "ko": "우렁채",
+   "en": "Snail vegetable (Ureong-chae)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramyeon (Han-gang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / napa cabbage kimchi (Green salad / baechoo gimchi)",
+   "main": false
+  },
+  {
+   "ko": "탑산음료 / 사원한자",
+   "en": "Topsan beverage / employee Chinese characters (Topsan eumryo / sawon hanja)",
+   "main": false
+  }
+ ],
+ "notes": "자기 메뉴는 당일 식재료 수급 및 상황에 따라 변경될 수 있습니다.",
+ "_model": "claude-haiku-4-5-20251001"
+}

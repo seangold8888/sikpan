@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 16일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "어묵탕",
+   "en": "Fish cake soup",
+   "main": true
+  },
+  {
+   "ko": "고사리삼겹살소금구이",
+   "en": "Braised bracken fern with pork belly salt-grilled",
+   "main": true
+  },
+  {
+   "ko": "닭안심바비큐소스조림",
+   "en": "Chicken tenderloin braised in BBQ sauce",
+   "main": true
+  },
+  {
+   "ko": "핫도그/케첩",
+   "en": "Hot dog with ketchup",
+   "main": true
+  },
+  {
+   "ko": "철판두부구이",
+   "en": "Grilled tofu on hot plate",
+   "main": true
+  },
+  {
+   "ko": "들기름김지튀음",
+   "en": "Perilla oil kimchi fritters",
+   "main": false
+  },
+  {
+   "ko": "무생채",
+   "en": "Radish salad",
+   "main": false
+  },
+  {
+   "ko": "쌀제순 & 쌀 찹",
+   "en": "Rice and glutinous rice",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 도레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭능 & 음료",
+   "en": "Dessert & beverages",
+   "main": false
+  }
+ ],
+ "notes": "Menu board for office cafeteria dated 2026년 9월 16일 (Wednesday). Some characters appear unclear or may have transcription variations (e.g., 숭능, 도레싱).",
+ "_model": "claude-haiku-4-5-20251001"
+}

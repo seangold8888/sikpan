@@ -1,0 +1,64 @@
+{
+ "date_shown": "9/16 수요일",
+ "price": null,
+ "hours": "11시 10분 ~1시 30분",
+ "items": [
+  {
+   "ko": "잡곡밥 / 흰쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "소고기 야채 북융밥",
+   "en": "Beef and vegetable bibimbap",
+   "main": true
+  },
+  {
+   "ko": "직화 제육 불고기",
+   "en": "Chargrilled pork bulgogi (Jeyuk-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "메추리알 비엔나 조림",
+   "en": "Braised quail eggs and Vienna sausage",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 김가루 북음",
+   "en": "Savory scorched rice / Seaweed powder sprinkle",
+   "main": false
+  },
+  {
+   "ko": "들기름 막국수 / 브로커리,다시마쌈",
+   "en": "Perilla oil buckwheat noodles / Broccoli, seaweed wraps",
+   "main": false
+  },
+  {
+   "ko": "두부 김칫국",
+   "en": "Tofu kimchi soup",
+   "main": false
+  },
+  {
+   "ko": "김알이 뒤김 / 부추 무생채",
+   "en": "Seasoned fish roe / Korean leek salad",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "백 김 치",
+   "en": "White kimchi",
+   "main": false
+  },
+  {
+   "ko": "단산 음료",
+   "en": "Sweetened beverages",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9/16 수요일 (Wednesday, September 16). Menu appears to be for a Korean office cafeteria. Additional footnotes present regarding meal components and origin labeling.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 16일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "운합잡국밥",
+   "en": "Mixed seafood rice bowl (Unhap-jap-guk-bap)",
+   "main": true
+  },
+  {
+   "ko": "사골떡국",
+   "en": "Beef bone rice cake soup (Sagol-tteok-guk)",
+   "main": true
+  },
+  {
+   "ko": "소고기불고기",
+   "en": "Beef bulgogi (Sogogi-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "닭다리살치킨너겟",
+   "en": "Chicken nuggets (Dak-dari-sal-chicken-nugget)",
+   "main": true
+  },
+  {
+   "ko": "오곡-미아키전",
+   "en": "Five-grain and mia-ki-jeon pancakes (Ogok-mia-ki-jeon)",
+   "main": false
+  },
+  {
+   "ko": "청양떡갈비",
+   "en": "Spicy rice cake galbi (Cheongyang-tteok-galbi)",
+   "main": true
+  },
+  {
+   "ko": "훈제오리냉채",
+   "en": "Smoked duck cold dish (Hunje-ori-naengchae)",
+   "main": false
+  },
+  {
+   "ko": "연근음위자소스무침",
+   "en": "Lotus root with wasabi sauce (Yeongeun-umwi-jasoseuseu-muchim)",
+   "main": false
+  },
+  {
+   "ko": "양배추쌈/우렁쌈장",
+   "en": "Cabbage wraps / Shellfish sauce (Yangbaechu-ssam / Ureong-ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침",
+   "en": "Spicy dried radish strips (Mumal-laengi-muchim)",
+   "main": false
+  },
+  {
+   "ko": "가드샐러드/C렉싱",
+   "en": "Garden salad / C dressing (Gadeu-salleodeu / C-reksing)",
+   "main": false
+  },
+  {
+   "ko": "배추김절이/음료",
+   "en": "Kimchi pickles / Beverages (Baechu-gim-jeol-i / Eumryo)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 16일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Sogogi-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "치즈닭갈비",
+   "en": "Cheese chicken ribs (Chijeu-dakgalbi)",
+   "main": true
+  },
+  {
+   "ko": "경양식듬뿍튼까스",
+   "en": "Western-style breaded cutlet (Gyeongyang-sik teumeoppul-tun-kkas)",
+   "main": true
+  },
+  {
+   "ko": "소고기토로까튜카레덮밥",
+   "en": "Beef toro curry rice bowl (Sogogi-toro-katyû-kare-deopbap)",
+   "main": true
+  },
+  {
+   "ko": "김말이,손만두튀김",
+   "en": "Kimbap roll, hand-made fried dumplings (Kim-mali, sonmandu-tuigim)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵,왕남장",
+   "en": "Acorn jelly, large soy sauce (Dotori-muk, wang-namjang)",
+   "main": false
+  },
+  {
+   "ko": "미나리무생채",
+   "en": "Seasoned water parsley (Minari-mu-saengchae)",
+   "main": false
+  },
+  {
+   "ko": "파래튀김자반",
+   "en": "Fried seaweed side dish (Parea-tuigim-jaban)",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi (Baechu-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "김치우동 / 그린샐러드",
+   "en": "Kimchi udon / Green salad (Kimchi-udon / Geuren-salradeû)",
+   "main": false
+  },
+  {
+   "ko": "계란후라이/탄산음료",
+   "en": "Fried egg / Carbonated drinks (Gyeran-hura-i / Tansan-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen (Han-gang-ramen)",
+   "main": false
+  }
+ ],
+ "notes": "목요 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 있습니다 (Thursday menu may be replaced with alternative menu if sold out early)",
+ "_model": "claude-haiku-4-5-20251001"
+}

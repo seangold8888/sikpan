@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 16일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "표고콩나물밥&명란장",
+   "en": "Shiitake mushroom and soybean sprout rice with cod roe sauce",
+   "main": true
+  },
+  {
+   "ko": "알감자닭볶음탕",
+   "en": "Small potato and chicken stir-fried soup",
+   "main": true
+  },
+  {
+   "ko": "해물링·제맛살링&계란",
+   "en": "Seafood ring, seasoned squid ring, and egg",
+   "main": false
+  },
+  {
+   "ko": "새조개완자선",
+   "en": "New clam meatball",
+   "main": false
+  },
+  {
+   "ko": "삼색소세지피망볶음",
+   "en": "Tricolor sausage and bell pepper stir-fry",
+   "main": false
+  },
+  {
+   "ko": "청포묵멀라무침",
+   "en": "Green mung bean jelly with seasoning",
+   "main": false
+  },
+  {
+   "ko": "실곤약야채무침",
+   "en": "Thread konjac with vegetable seasoning",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "청국장찌개",
+   "en": "Soybean paste stew",
+   "main": false
+  },
+  {
+   "ko": "삼색김떡",
+   "en": "Tricolor laver and rice cake",
+   "main": false
+  },
+  {
+   "ko": "깍두기 / 백미밥",
+   "en": "Cubed radish kimchi / White rice",
+   "main": false
+  }
+ ],
+ "notes": "쌈채 & 풋고추 / 완강한면 & 된콩와 팥 토스트 / 수수한 숨 & 시판와 타사와 printed at bottom as additional options or notes",
+ "_model": "claude-haiku-4-5-20251001"
+}

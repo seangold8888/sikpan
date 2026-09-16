@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 16일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "감자김치짜글이",
+   "en": "Potato and kimchi stir-fry (Gamja-kimchi-jjageurimyi)",
+   "main": true
+  },
+  {
+   "ko": "돈등뼈방샘",
+   "en": "Pork ribs (Don-deung-bbeo-bang-saem)",
+   "main": true
+  },
+  {
+   "ko": "팟키마오면",
+   "en": "Pad Kra Pao noodles (Pat-ki-mao-myeon)",
+   "main": true
+  },
+  {
+   "ko": "아몬드멸치볶음",
+   "en": "Almond and anchovy stir-fry (Amondeu-myeolchi-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "미나리무말랭이우원",
+   "en": "Minari vegetable side dish (Minari-mumallengyi-uwon)",
+   "main": false
+  },
+  {
+   "ko": "기능셀러드&메실D",
+   "en": "Functional salad & Mesil D (Gineung-selleodeu & mesil D)",
+   "main": false
+  },
+  {
+   "ko": "국내산 배추컬정이",
+   "en": "Domestic napa cabbage kimchi (Guknesan baechu-keoljeongi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice (Baekmi-bap / Heukmi-bap)",
+   "main": false
+  },
+  {
+   "ko": "탕산음료",
+   "en": "Beverage (Tang-san-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve bibimbap / Hangang ramyeon (Selfu-bibimbap / Han-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "간편식:쉬림프셀러드",
+   "en": "Convenient meal: Shrimp salad (Ganpyeonsik: Shrimp-selleodeu)",
+   "main": false
+  }
+ ],
+ "notes": "This is a Thai food day menu (태국 음식의날) dated September 16, 2024 (Wednesday). The board indicates this is for a Korean office cafeteria with self-serve options (셀프) for certain items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

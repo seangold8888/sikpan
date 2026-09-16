@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월16일(수요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "베이컨계란북음밥/백미밥",
+   "en": "Bacon and egg fried rice / white rice",
+   "main": true
+  },
+  {
+   "ko": "열은순수우뜨깨",
+   "en": "?",
+   "main": false
+  },
+  {
+   "ko": "바비큐풍찜",
+   "en": "BBQ-style braised dish",
+   "main": true
+  },
+  {
+   "ko": "통살치킨까스*붕당마요s",
+   "en": "Whole chicken cutlet with mayo",
+   "main": true
+  },
+  {
+   "ko": "명란크림메추리알조림",
+   "en": "Cod roe cream quail eggs",
+   "main": false
+  },
+  {
+   "ko": "단오박크림치즈베이글",
+   "en": "Cream cheese bagel",
+   "main": false
+  },
+  {
+   "ko": "게맛살숙주나물무침",
+   "en": "Crab-flavored bean sprout seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "청경채겔절이",
+   "en": "Pickled green vegetable",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-service Hangang ramen & self-service toast",
+   "main": false
+  },
+  {
+   "ko": "쌀채소*풍고추*쌀장",
+   "en": "Rice noodles * peppers * ssamjang",
+   "main": false
+  },
+  {
+   "ko": "는룻지*탕사을묘*매식찬",
+   "en": "?",
+   "main": false
+  }
+ ],
+ "notes": "Some menu items are difficult to read clearly due to image quality. Self-serve items noted with asterisks.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월16(수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "사골우거지해장국",
+   "en": "Beef bone broth with vegetable soup (Sagol-ugeoji haejang-guk)",
+   "main": true
+  },
+  {
+   "ko": "우삼겹버섯소불고기",
+   "en": "Beef brisket with mushroom bulgogi (Usam-gyeop beoseot sobulgogi)",
+   "main": true
+  },
+  {
+   "ko": "무공합박스테이크",
+   "en": "Radish-infused box steak (Mugong-hab bakseu-teikeu)",
+   "main": true
+  },
+  {
+   "ko": "생선까스&램웨스턴질감장자*레몬타르트s",
+   "en": "Fish cutlet & ram-western textured sauce with lemon tart (Saengseon-kkaseu & raem-wes-teon jilgam-jangja lemon tart)",
+   "main": true
+  },
+  {
+   "ko": "계란우라이",
+   "en": "Egg fried rice (Gyeran-urai)",
+   "main": true
+  },
+  {
+   "ko": "삼색나물*참기름고추장",
+   "en": "Three-color seasoned vegetables with sesame oil and red chili paste (Samsaek-namul chamgirum-gochujang)",
+   "main": false
+  },
+  {
+   "ko": "궁중해물한식장채",
+   "en": "Royal-style seafood vegetable side dish (Gungjung-haemul hansik-jang-chae)",
+   "main": false
+  },
+  {
+   "ko": "온두부찜",
+   "en": "Soft tofu steamed dish (Ondu-bu-jjim)",
+   "main": false
+  },
+  {
+   "ko": "&묵음김치",
+   "en": "& chilled jelly kimchi (Muk-eum kimchi)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing (Gaden-saelleodeu gwail-dureshing)",
+   "main": false
+  },
+  {
+   "ko": "셀프라면/토스트/음료",
+   "en": "Self-serve ramen/toast/beverages (Selpeu-ramyeon/toseu/eumryo)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

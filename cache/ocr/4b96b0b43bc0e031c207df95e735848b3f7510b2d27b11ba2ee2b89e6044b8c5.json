@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/16(수,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "얍깡이토장국",
+   "en": "Yap-kkang-i tojangguk soup",
+   "main": false
+  },
+  {
+   "ko": "제육닭지튀김",
+   "en": "Jeyuk dak-ji fried (pork and chicken)",
+   "main": true
+  },
+  {
+   "ko": "두부께잠구이",
+   "en": "Dubu kkae-jam gui (tofu)",
+   "main": false
+  },
+  {
+   "ko": "중중풀봉면",
+   "en": "Jung-jung pul bong-myeon noodles",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Menu board for lunch (점심) on 9/16. Text at bottom indicates sourcing information and allergen notice.",
+ "_model": "claude-haiku-4-5-20251001"
+}
