@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 17일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "장터국밥",
+   "en": "Jangtteo Gukbap (market rice soup)",
+   "main": true
+  },
+  {
+   "ko": "고추장불고기",
+   "en": "Gochujang Bulgogi (spicy marinated beef)",
+   "main": true
+  },
+  {
+   "ko": "왕새우튀김,타르소스",
+   "en": "Fried king shrimp, tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "미트소스스파게티",
+   "en": "Meat sauce spaghetti",
+   "main": true
+  },
+  {
+   "ko": "먹시칸사라다",
+   "en": "Mexican salad",
+   "main": false
+  },
+  {
+   "ko": "햄.어묵볶음",
+   "en": "Ham and fish cake stir-fry",
+   "main": false
+  },
+  {
+   "ko": "추주나물.도라지초무침",
+   "en": "Seasoned vegetables and bellflower root",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "유부잡지국수 / 그린샐러드",
+   "en": "Tofu pouch mixed noodle soup / Green salad",
+   "main": false
+  },
+  {
+   "ko": "계란우라이 / 탑산들롱",
+   "en": "Egg omelet / Tapsandeullong",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve options available at corner. Date shown matches target date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

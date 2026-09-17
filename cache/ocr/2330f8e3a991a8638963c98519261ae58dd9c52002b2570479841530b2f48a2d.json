@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월17일 목요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "목살겹소금구이",
+   "en": "Double-layered pork neck salt grilled (Moksal-gyeop sogeumgui)",
+   "main": true
+  },
+  {
+   "ko": "쌔먹는불닭게터",
+   "en": "Spicy stir-fried chicken (Bul-dak-getter)",
+   "main": true
+  },
+  {
+   "ko": "바삭한돼지불명",
+   "en": "Crispy pork (Dwaeji-bul-myeong)",
+   "main": true
+  },
+  {
+   "ko": "모짜치즈감자전",
+   "en": "Mozzarella cheese potato pancake (Mocha-cheese gamja-jeon)",
+   "main": true
+  },
+  {
+   "ko": "야삭고추무침",
+   "en": "Spicy radish side dish (Yasak-gochu-muchim)",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad (Singsingsal-ledeu)",
+   "main": false
+  },
+  {
+   "ko": "직접담은김치결절이",
+   "en": "Homemade kimchi (Jikjeop-dameun gimchi-gyeoljeol-i)",
+   "main": false
+  },
+  {
+   "ko": "정양궁나물국",
+   "en": "Vegetable soup (Jeongyang-gung namul-guk)",
+   "main": false
+  },
+  {
+   "ko": "상추쌈·쌈장·꼬침이",
+   "en": "Lettuce wraps, sauce, and skewers (Sangchu-ssam, ssam-jang, kkochim-i)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료·셀프라면",
+   "en": "Carbonated beverage, self-serve ramen (Tansan-eumryo, self-ramen)",
+   "main": false
+  }
+ ],
+ "notes": "Instagram: @urbanworkdashbom. Kakao map and operating hours noted at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

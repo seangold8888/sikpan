@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 17일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "육깻잎",
+   "en": "Seasoned perilla leaves (Yukkaetip)",
+   "main": false
+  },
+  {
+   "ko": "고구마닭볶음당",
+   "en": "Sweet potato chicken stir-fry (Gogumadaq-bokkeum-dang)",
+   "main": true
+  },
+  {
+   "ko": "해물까스 / 생선까스",
+   "en": "Seafood cutlet / Fish cutlet (Haemul-kkas / Saengseon-kkas)",
+   "main": true
+  },
+  {
+   "ko": "중화마파두부",
+   "en": "Chinese mapo tofu (Junghwa-mapa-dubu)",
+   "main": true
+  },
+  {
+   "ko": "소덕소덕",
+   "en": "Soduk-soduk",
+   "main": false
+  },
+  {
+   "ko": "김치비빔국수",
+   "en": "Kimchi bibim noodles (Kimchi-bibim-guksu)",
+   "main": true
+  },
+  {
+   "ko": "건과류 멸치볶음",
+   "en": "Dried fruits and anchovy stir-fry (Gongwa-ryu-myeolchi-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "깍두기",
+   "en": "Cubed radish kimchi (Kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River ramen (Hangang-ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "카드샐러드 / 포기김치",
+   "en": "Card salad / Whole-leaf kimchi (Kadeu-saelreodeu / Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated beverage / Plum tea / Seungnong (Tansan-eumnyo / Maesil-cha / Seungnong)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

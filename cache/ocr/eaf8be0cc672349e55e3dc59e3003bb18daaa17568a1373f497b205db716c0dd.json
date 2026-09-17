@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월17일 (목) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "경상도식소고기무국",
+   "en": "Gyeongsang-style beef radish soup",
+   "main": false
+  },
+  {
+   "ko": "콘나물두릅묵고기",
+   "en": "Corn vegetable seasoned kelp jelly with meat",
+   "main": false
+  },
+  {
+   "ko": "순살도마스터밥(가츠동)",
+   "en": "Pork cutlet rice bowl (Katsudon)",
+   "main": true
+  },
+  {
+   "ko": "모듬어묵야채묵음",
+   "en": "Assorted fish cake and vegetable",
+   "main": false
+  },
+  {
+   "ko": "매콤감자조림",
+   "en": "Spicy braised potatoes",
+   "main": false
+  },
+  {
+   "ko": "열랑이겉정이",
+   "en": "Seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "보우김지",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/쌀음메임소바",
+   "en": "Cabbage salad / Rice noodle soba",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/17(목,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "가쯔오장국",
+   "en": "Bonito broth soup",
+   "main": false
+  },
+  {
+   "ko": "지킹미요묵밥",
+   "en": "Steamed rice bowl with vegetables",
+   "main": true
+  },
+  {
+   "ko": "뭄음우동",
+   "en": "Udon noodles",
+   "main": true
+  },
+  {
+   "ko": "베이컨김자채볶음",
+   "en": "Stir-fried bacon with kimchi",
+   "main": false
+  },
+  {
+   "ko": "게절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "원산지 표시 있음 / 영양성 정보 인쇄됨",
+ "_model": "claude-haiku-4-5-20251001"
+}

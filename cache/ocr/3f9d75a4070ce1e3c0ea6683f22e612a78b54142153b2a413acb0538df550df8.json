@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월17(목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "고깃집된장찌개",
+   "en": "Meat restaurant soybean paste stew (Gogit-jip doenjang-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "직화오삼불고기",
+   "en": "Direct flame grilled osambulgogi",
+   "main": true
+  },
+  {
+   "ko": "콘치즈돈까스*딜라운s",
+   "en": "Corn cheese pork cutlet with dill sauce (Kon cheezu don-kkastu)",
+   "main": true
+  },
+  {
+   "ko": "미트토마토스파게티",
+   "en": "Meat tomato spaghetti (Miteu tomato spaghetti)",
+   "main": true
+  },
+  {
+   "ko": "계란장조림",
+   "en": "Braised eggs in soy sauce (Gyeran jang-jorim)",
+   "main": false
+  },
+  {
+   "ko": "애호박&소세지전*양념감장/케찹",
+   "en": "Zucchini and sausage pancake with seasoned soy sauce/ketchup (Ae-hobak sosei jeon)",
+   "main": false
+  },
+  {
+   "ko": "매콤달콤비빔채소올린군만두",
+   "en": "Spicy-sweet mixed vegetable dumplings (Maekkeom dalkkeum bibim-chae dumpling)",
+   "main": false
+  },
+  {
+   "ko": "들깨숙주나물",
+   "en": "Perilla seed and bean sprout seasoned vegetables (Deulkkae sukju namul)",
+   "main": false
+  },
+  {
+   "ko": "쫏상추쌌*쌈장",
+   "en": "Lettuce wraps with ssamjang dipping sauce (Sangchu-ssam)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi (Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프라면/토스트/음료",
+   "en": "Self-service ramen, toast, and beverages (Selp-eu lamyeon/toseu/eumsuryo)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date: 9월17(목) = September 17, 2026 (Thursday)",
+ "_model": "claude-haiku-4-5-20251001"
+}

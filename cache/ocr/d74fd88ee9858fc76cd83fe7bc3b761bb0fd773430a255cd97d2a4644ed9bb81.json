@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 17일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "지리샤육돼지제육볶음",
+   "en": "Spicy stir-fried pork belly (Jiri-style)",
+   "main": true
+  },
+  {
+   "ko": "당수육/소스",
+   "en": "Sweet and sour pork / sauce",
+   "main": false
+  },
+  {
+   "ko": "아저에호박볶음",
+   "en": "Zucchini stir-fry",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Bean sprout seasoning",
+   "main": false
+  },
+  {
+   "ko": "깻맛살마른반찬",
+   "en": "Sesame-flavored dried side dish",
+   "main": false
+  },
+  {
+   "ko": "우거지된장국",
+   "en": "Vegetable miso soup (Ugeoji doenjang-guk)",
+   "main": false
+  },
+  {
+   "ko": "양배/숙수수콩·견포도",
+   "en": "Cabbage / cooked soybeans · raisins",
+   "main": false
+  },
+  {
+   "ko": "양파,고추/깻깔류",
+   "en": "Onion, chili / sesame-flavored items",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아쿠르트",
+   "en": "Beverages / yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "재료궁금에떠메뉴바뀔수있습니다 (Materials and menu may change upon inquiry)",
+ "_model": "claude-haiku-4-5-20251001"
+}

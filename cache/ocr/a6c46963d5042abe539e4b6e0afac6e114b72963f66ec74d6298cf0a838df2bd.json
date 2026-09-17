@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월17일(목요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "참치미역국",
+   "en": "Tuna and seaweed soup (Chamchi miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "단호박깡비찜",
+   "en": "Steamed sweet pumpkin (Danhobanag-kkang-bi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "앗치키카츠*칠리s",
+   "en": "Atchi cutlet with chili (Atchi kikachu)",
+   "main": true
+  },
+  {
+   "ko": "파채누들떡볶이",
+   "en": "Shredded radish noodle tteokbokki",
+   "main": true
+  },
+  {
+   "ko": "고구마쫄떡맛당",
+   "en": "Sweet potato chewy rice cake",
+   "main": false
+  },
+  {
+   "ko": "마늘종무침",
+   "en": "Garlic sprout side dish (Maneul-jong muchiim)",
+   "main": false
+  },
+  {
+   "ko": "부추적채겹절이",
+   "en": "Layered pickled leek (Buchu-jeok chaeggyeol-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Labeled kimchi (Pyogi gimchi)",
+   "main": false
+  },
+  {
+   "ko": "그릭샐러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * Self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*쌍고추*쌍장",
+   "en": "Double vegetables * Double peppers * Double sauce",
+   "main": false
+  },
+  {
+   "ko": "느룹지*탕사은료*매실차",
+   "en": "Neulupji * Tang saeun-ryo * Plum tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items indicated by asterisks. Origin labels mentioned in small print at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

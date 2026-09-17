@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 17일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우육된장국",
+   "en": "Beef soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "우제치킨&마늘간장소스",
+   "en": "Fried chicken & garlic soy sauce",
+   "main": true
+  },
+  {
+   "ko": "미트볼청양크림조림",
+   "en": "Meatball creamy stew",
+   "main": true
+  },
+  {
+   "ko": "바삭장자체전&초강장",
+   "en": "Crispy vegetable pancake & spicy sauce",
+   "main": false
+  },
+  {
+   "ko": "새우젓혼밥볶음",
+   "en": "Shrimp sauce mixed rice",
+   "main": false
+  },
+  {
+   "ko": "고촛잎우촌",
+   "en": "Red pepper leaf side dish",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&망고ID",
+   "en": "Garden salad & mango",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-serve bibimbap / Hangang ramyeon",
+   "main": false
+  },
+  {
+   "ko": "간편식: 윤제오리셀러드",
+   "en": "Convenience meal: Yunje duck salad",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner (오리:중국산) noted. Origin labels included for some items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

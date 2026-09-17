@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 17일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "참깨라면st떡만두국",
+   "en": "Sesame ramen with rice cakes and dumplings soup",
+   "main": true
+  },
+  {
+   "ko": "남작당면순살찜닭",
+   "en": "Steamed chicken with sweet potato noodles",
+   "main": true
+  },
+  {
+   "ko": "꿔바로우탕수육",
+   "en": "Sweet and sour pork (Guo bao you tang shu yu)",
+   "main": true
+  },
+  {
+   "ko": "들기름볶음김치&두부",
+   "en": "Perilla oil stir-fried kimchi & tofu",
+   "main": false
+  },
+  {
+   "ko": "한도육전",
+   "en": "Korean beef patties",
+   "main": false
+  },
+  {
+   "ko": "햄치즈모닝빵새드위치",
+   "en": "Ham cheese morning bread sandwich",
+   "main": false
+  },
+  {
+   "ko": "베이컨카레밥자볶음",
+   "en": "Bacon curry rice stir-fry",
+   "main": false
+  },
+  {
+   "ko": "우엉채초롱",
+   "en": "Burdock root sautéed",
+   "main": false
+  },
+  {
+   "ko": "백김치",
+   "en": "White kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Han River ramen",
+   "main": false
+  },
+  {
+   "ko": "쫓고추/앙배추쌈&쌈장",
+   "en": "Chili peppers / Cabbage wraps & ssamjang",
+   "main": false
+  },
+  {
+   "ko": "가르살러드&요거트드레싱",
+   "en": "Galbsal salad & yogurt dressing",
+   "main": false
+  },
+  {
+   "ko": "숭능/탄산음료",
+   "en": "Ginseng drink / Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "The date shown (9월 17일 목요일) does not match the target date (2026년 09월 17일 목요일), but 2026년 is not visible on the board. The board appears to be from 2024 or 2025 based on context.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (9/17 목요일)",
+ "price": null,
+ "hours": "점심.11시 10분 ~1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "삼겹 돼지 로스 구이",
+   "en": "Grilled pork belly slices",
+   "main": true
+  },
+  {
+   "ko": "닭가슴살 후라이드 & 마콘소스",
+   "en": "Fried chicken breast with corn sauce",
+   "main": true
+  },
+  {
+   "ko": "돈채 감자 조림",
+   "en": "Braised pork and potato",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 미숫가루",
+   "en": "Scorched rice / Misutgaru powder",
+   "main": false
+  },
+  {
+   "ko": "순두부찜 & 양념간장",
+   "en": "Steamed soft tofu & seasoned soy sauce",
+   "main": false
+  },
+  {
+   "ko": "소고기 무국 & 당면사리",
+   "en": "Beef radish soup & sweet potato noodles",
+   "main": false
+  },
+  {
+   "ko": "오징어 젓갈 무침 / 궁나물 무침",
+   "en": "Squid salted seasoning / Gung vegetable seasoning",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "깍 두 기",
+   "en": "Kkakdugi (radish kimchi)",
+   "main": false
+  },
+  {
+   "ko": "\" 담 산 음 료 \"",
+   "en": "Damsan beverages",
+   "main": false
+  }
+ ],
+ "notes": "맛있게 드세요 ♡ (Enjoy your meal ♡). Origin labels for ingredients noted at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

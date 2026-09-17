@@ -1,0 +1,54 @@
+{
+ "date_shown": "목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥/쌀밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "직화구우장돈까지",
+   "en": "Chargrilled pork belly",
+   "main": true
+  },
+  {
+   "ko": "슥시묵국",
+   "en": "Seasoned radish soup",
+   "main": false
+  },
+  {
+   "ko": "메우리야채조림",
+   "en": "Braised vegetables",
+   "main": false
+  },
+  {
+   "ko": "비빔풀썬",
+   "en": "Mixed greens salad",
+   "main": false
+  },
+  {
+   "ko": "브로콜리&삶은계란",
+   "en": "Broccoli & boiled egg",
+   "main": false
+  },
+  {
+   "ko": "알마늘&쌀코우지",
+   "en": "Garlic & rice koji",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드&묵곱자jD",
+   "en": "Fine salad & mushroom jelly",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 목요일 (Thursday) only, not the full target date 2026년 09월 17일 (목). Menu text contains some unclear or possibly misspelled items marked with best interpretation.",
+ "_model": "claude-haiku-4-5-20251001"
+}

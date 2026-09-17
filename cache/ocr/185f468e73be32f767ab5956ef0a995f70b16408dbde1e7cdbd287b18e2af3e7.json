@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월 17일 (목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "새우깐자*치킨불고기카츠&허니머스타드",
+   "en": "Shrimp and chicken bulgogi cutlet with honey mustard",
+   "main": true
+  },
+  {
+   "ko": "고기장뽕순두부덮밥",
+   "en": "Silken tofu rice bowl with meat sauce",
+   "main": true
+  },
+  {
+   "ko": "깔딕뷔추산적초림",
+   "en": "Grilled meat skewers with special sauce",
+   "main": true
+  },
+  {
+   "ko": "브로콜리연근육쇠무질파래무생채",
+   "en": "Broccoli, lotus root, and seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑왕마늉지/김치결절이그린샐러드&드레싱",
+   "en": "Seasoned garlic chives, kimchi, green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "얼큰왕태해장국",
+   "en": "Spicy seafood soup",
+   "main": false
+  },
+  {
+   "ko": "바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/한강라면&닭곰한팩토스트/구우한농&시원한단삼음료",
+   "en": "Lettuce wraps, instant noodles & egg pack toast, cold beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (9월 17일 목요일 = September 17, Thursday). Self-serve items and origin information listed at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

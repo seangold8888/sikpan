@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 17일 (목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너) 바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "데리야끼바싹불고기",
+   "en": "Teriyaki crispy bulgogi",
+   "main": true
+  },
+  {
+   "ko": "새우깐자카스 & 쉬머스타드",
+   "en": "Shrimp canji cutlets & Schemir mustard",
+   "main": true
+  },
+  {
+   "ko": "고기순우육요법",
+   "en": "Meat tender beef cooking method",
+   "main": true
+  },
+  {
+   "ko": "깔릭우추산적조림",
+   "en": "Garlic braised skewers",
+   "main": false
+  },
+  {
+   "ko": "브로콜리연근육입자무침",
+   "en": "Broccoli and lotus root mixed vegetables",
+   "main": false
+  },
+  {
+   "ko": "파래무생채",
+   "en": "Seaweed radish salad",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑알마늘지/김치 같은이",
+   "en": "Seasoned garlic shoots, kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 & 드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "옥수황태해장국",
+   "en": "Corn and pollack hangover soup",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 17일 (목요일); target date is 2026년 09월 17일 (목). Operating hours not printed. Restaurant name: 플러스 코너 (무료).",
+ "_model": "claude-haiku-4-5-20251001"
+}

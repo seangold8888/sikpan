@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 17일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쇠미밥 / 쌀미밥",
+   "en": "Mixed rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "신금치된장국",
+   "en": "Spinach soybean paste soup (Sigeumchi-doenjang-guk)",
+   "main": false
+  },
+  {
+   "ko": "돼지불고기",
+   "en": "Grilled pork (Dwaeji-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "통살지킨유린기",
+   "en": "Whole chicken pieces in sweet and sour sauce (Tongsal-jikkin-yurin-gi)",
+   "main": true
+  },
+  {
+   "ko": "오샘넘들게랏찌",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "김질맛양념곳깨장",
+   "en": "Seasoned seaweed with sesame sauce",
+   "main": false
+  },
+  {
+   "ko": "매운치즈떡볶이",
+   "en": "Spicy cheese tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "역묵된장나물",
+   "en": "Dark soy sauce seasoned vegetables (Yeok-muk-doenjang-namul)",
+   "main": false
+  },
+  {
+   "ko": "쌩크림두유버터법",
+   "en": "Fresh cream soy milk butter",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 사원한자",
+   "en": "Carbonated drinks / Employee beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-service items noted at bottom of board. Some menu item names are difficult to read with certainty due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

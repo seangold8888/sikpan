@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 9월 17일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "경상도식소고기미국",
+   "en": "Gyeongsan-style beef",
+   "main": true
+  },
+  {
+   "ko": "수제깻잎 닭강정",
+   "en": "Homemade sesame leaf chicken nuggets (Dakgangjeong)",
+   "main": true
+  },
+  {
+   "ko": "제육고추장볶음고기",
+   "en": "Pork with gochujang (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "모둠소시지10가채북음",
+   "en": "Assorted sausage medley",
+   "main": true
+  },
+  {
+   "ko": "소고기깨장라면",
+   "en": "Beef sesame sauce ramen (Kkaejang-ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "쭉파김치",
+   "en": "Jjukpa kimchi",
+   "main": false
+  },
+  {
+   "ko": "파프리카롯나물",
+   "en": "Paprika and carrot seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "국산포기김치",
+   "en": "Korean domestic napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭늉 & 음료",
+   "en": "Sungnyung (scorched rice drink) & beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}
