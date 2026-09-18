@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 18일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "돌깨가루미역국",
+   "en": "Seaweed soup with perilla seeds (Dolkkae-garu miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "돼지고기볶음",
+   "en": "Stir-fried pork (Dwaeji-gogi bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "매콤데리야끼 닭봉",
+   "en": "Spicy teriyaki chicken drumsticks (Maekkom-deriyadki dak-bong)",
+   "main": true
+  },
+  {
+   "ko": "떡초어묵볶음",
+   "en": "Stir-fried rice cake and fish cake (Tteok-cho eomuk bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "짬뽕순두부",
+   "en": "Spicy seafood soft tofu (Jjamppong sundubu)",
+   "main": true
+  },
+  {
+   "ko": "새콤간장고추지",
+   "en": "Sweet and salty soy sauce red chili (Saekkom-ganjang gochu-ji)",
+   "main": false
+  },
+  {
+   "ko": "콘나물오침",
+   "en": "Corn vegetable side dish (Korn-namul ochim)",
+   "main": false
+  },
+  {
+   "ko": "마카로니샐러드",
+   "en": "Macaroni salad",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": true
+  },
+  {
+   "ko": "가든샐러드 / 포기김치",
+   "en": "Garden salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated beverage / Plum tea / Seung-nong",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

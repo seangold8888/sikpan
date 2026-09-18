@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 18일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 쌀미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "사골떡국",
+   "en": "Beef bone rice cake soup (Sagol-tteokguk)",
+   "main": false
+  },
+  {
+   "ko": "목은지뭇뭇음탕",
+   "en": "Wood ear mushroom soup (Mogeun-ji soup)",
+   "main": true
+  },
+  {
+   "ko": "매콤둥다리오징어튀김",
+   "en": "Spicy fried squid legs (Fried squid)",
+   "main": true
+  },
+  {
+   "ko": "해물우충처",
+   "en": "Seafood stir-fry",
+   "main": true
+  },
+  {
+   "ko": "방울양배추소세지볶음",
+   "en": "Brussels sprouts and sausage stir-fry",
+   "main": false
+  },
+  {
+   "ko": "카레라이스",
+   "en": "Curry rice",
+   "main": true
+  },
+  {
+   "ko": "들기름마역죽기복음",
+   "en": "Perilla oil seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "쌈지밀반찬",
+   "en": "Wrapped lettuce side dishes",
+   "main": false
+  },
+  {
+   "ko": "완강라면",
+   "en": "Instant noodles (Ramen)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 사원한자",
+   "en": "Carbonated beverages / Staff complimentary drinks",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Bottom note indicates complimentary beverages for staff.",
+ "_model": "claude-haiku-4-5-20251001"
+}

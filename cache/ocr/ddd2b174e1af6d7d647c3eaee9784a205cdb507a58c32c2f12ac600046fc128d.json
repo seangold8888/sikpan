@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월18일 (금) 정식",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "유부미역장국",
+   "en": "Tofu and seaweed soup (Yubu-miyeok-jang-guk)",
+   "main": false
+  },
+  {
+   "ko": "돈제사삼겹야채볶음",
+   "en": "Stir-fried pork belly with vegetables",
+   "main": true
+  },
+  {
+   "ko": "우제도유불튀김×체다치즈S",
+   "en": "Fried item with cheddar cheese",
+   "main": false
+  },
+  {
+   "ko": "깐두기김치볶음은밥",
+   "en": "Stir-fried radish kimchi with rice",
+   "main": false
+  },
+  {
+   "ko": "매콘드브추징",
+   "en": "Corn and vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "우랑크새소이버션숭김",
+   "en": "Seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "아삭이코즉튀장무즉",
+   "en": "Crispy vegetable with sauce",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김칠",
+   "en": "Fresh kimchi (배추겉절이)",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/미니찐빵",
+   "en": "Cabbage salad / Mini steamed bread",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월18일(금요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "차돌된장찌개",
+   "en": "Beef brisket soybean paste stew (Chadol doenjang-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "우거지등떼찐*냉작당면사리",
+   "en": "Steamed vegetables with cold noodles",
+   "main": true
+  },
+  {
+   "ko": "간장불고기",
+   "en": "Soy sauce marinated grilled beef (Ganjang bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "새우까스*타르타르s",
+   "en": "Shrimp cutlet with tartar sauce (Saewu kkas)",
+   "main": true
+  },
+  {
+   "ko": "샌크림미니찐방튀김",
+   "en": "Cream mini fried item",
+   "main": false
+  },
+  {
+   "ko": "돌미나리초무침",
+   "en": "Water dropwort seasoned vegetable side (Dol minari cho-muchim)",
+   "main": false
+  },
+  {
+   "ko": "알배기부추겉절이",
+   "en": "Young Chinese chives pickled side (Albaegi buchoo geotjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "깐두기",
+   "en": "Diced radish kimchi (Kkandugi)",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럽드&드레싱",
+   "en": "Greek salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen and toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*풋고추*쌍장",
+   "en": "Twin vegetables, green peppers, twin sauce",
+   "main": false
+  },
+  {
+   "ko": "는롱지*탑사음료*매실차",
+   "en": "Beverage and plum tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Origin labels noted for some items (쌍기 메뉴는 청사 사정에 따라 일부 변동될 수 있습니다).",
+ "_model": "claude-haiku-4-5-20251001"
+}

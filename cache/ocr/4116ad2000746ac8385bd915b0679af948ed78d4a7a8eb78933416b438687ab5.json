@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 18일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "건새우깨탁볶음밥",
+   "en": "Dried shrimp and sesame fried rice",
+   "main": true
+  },
+  {
+   "ko": "미니어묵우동",
+   "en": "Mini eomuk udon",
+   "main": false
+  },
+  {
+   "ko": "�쉐바로우탕수육(돈육·미중산)",
+   "en": "Sweet and sour pork (Pork·US)",
+   "main": true
+  },
+  {
+   "ko": "흰치우조림",
+   "en": "Braised white fish",
+   "main": true
+  },
+  {
+   "ko": "미니핫도그&케찹(돈육·국내산)",
+   "en": "Mini hot dog & ketchup (Pork·Domestic)",
+   "main": false
+  },
+  {
+   "ko": "양념고추지",
+   "en": "Seasoned red pepper",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드&올리ID",
+   "en": "Garden salad & olive oil dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면",
+   "en": "Self-service bibimbap / Hangang ramyeon",
+   "main": true
+  },
+  {
+   "ko": "간편식·치킨텐더샐러드(계육·국내산)",
+   "en": "Convenient meal·Chicken tender salad (Chicken·Domestic)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Origin labels included for some items (돈육·미중산, 돈육·국내산, 계육·국내산)",
+ "_model": "claude-haiku-4-5-20251001"
+}

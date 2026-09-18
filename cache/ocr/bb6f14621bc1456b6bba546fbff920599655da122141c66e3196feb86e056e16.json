@@ -1,0 +1,49 @@
+{
+ "date_shown": "9월18일 금요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "깐풍소스닭구이",
+   "en": "Soy-garlic sauce chicken",
+   "main": true
+  },
+  {
+   "ko": "고구마치즈돈까스",
+   "en": "Sweet potato cheese pork cutlet",
+   "main": true
+  },
+  {
+   "ko": "인절미깥호떡",
+   "en": "Sweet red bean hotteok",
+   "main": false
+  },
+  {
+   "ko": "중화볶음두",
+   "en": "Chinese-style stir-fried noodles",
+   "main": false
+  },
+  {
+   "ko": "열무나물",
+   "en": "Seasoned young radish greens",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad",
+   "main": false
+  },
+  {
+   "ko": "직접담은김치걸절이어묵국",
+   "en": "Homemade kimchi and fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥,탄산음료,셀프라면",
+   "en": "Self-serve bibimbap, carbonated beverages, self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Target date is 2026년 09월 18일 (금), but board shows 9월18일 금요일 without year specified",
+ "_model": "claude-haiku-4-5-20251001"
+}

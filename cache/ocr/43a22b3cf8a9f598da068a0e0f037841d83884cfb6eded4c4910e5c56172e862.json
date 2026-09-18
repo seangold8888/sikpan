@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 18일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김밥/특육밥",
+   "en": "Kimbap / Special meat rice",
+   "main": true
+  },
+  {
+   "ko": "미나리전치국수",
+   "en": "Mina-ri jeon chi guk su",
+   "main": true
+  },
+  {
+   "ko": "소고기버섯볶음고기",
+   "en": "Beef mushroom stir-fry",
+   "main": true
+  },
+  {
+   "ko": "칠리새우치킹강정",
+   "en": "Chili shrimp chicken gangjeong",
+   "main": true
+  },
+  {
+   "ko": "한입떡갈비데리야끼",
+   "en": "Bite-sized tteok galbi teriyaki",
+   "main": true
+  },
+  {
+   "ko": "도토리묵무침",
+   "en": "Acorn jelly seasoned side dish",
+   "main": false
+  },
+  {
+   "ko": "야채스틱/초고추장",
+   "en": "Vegetable sticks / Super spicy gochujang",
+   "main": false
+  },
+  {
+   "ko": "오징어젓갈무침",
+   "en": "Squid fermented sauce seasoned radish",
+   "main": false
+  },
+  {
+   "ko": "쌈채 & 쌈 장",
+   "en": "Ssam vegetables & ssam sauce",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic pogi kimchi",
+   "main": false
+  },
+  {
+   "ko": "숭숭 & 음료",
+   "en": "Songsung & beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

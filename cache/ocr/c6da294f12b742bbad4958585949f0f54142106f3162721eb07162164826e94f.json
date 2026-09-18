@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월18일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "철판김치볶음밥/쌱미밥",
+   "en": "Kimchi fried rice on griddle / Ssaang-mi rice",
+   "main": true
+  },
+  {
+   "ko": "잔치국수",
+   "en": "Janchi guksu (celebration noodle soup)",
+   "main": true
+  },
+  {
+   "ko": "누룽지짬밥",
+   "en": "Nurungi jjamppab (crispy rice mixed rice)",
+   "main": true
+  },
+  {
+   "ko": "우삼겹파채무침",
+   "en": "Braised beef belly with julienned vegetable side",
+   "main": true
+  },
+  {
+   "ko": "수제새우깡아채튀김·초간장",
+   "en": "Homemade shrimp snack strips with deep-fried vegetables · gochujang sauce",
+   "main": false
+  },
+  {
+   "ko": "찹쌀대&순대내장",
+   "en": "Glutinous rice & sundae intestines",
+   "main": false
+  },
+  {
+   "ko": "메추리알명엽죽이",
+   "en": "Quail egg with mugwort rice porridge",
+   "main": false
+  },
+  {
+   "ko": "오색오미산적",
+   "en": "Five-color vegetable and meat skewers",
+   "main": false
+  },
+  {
+   "ko": "새송이버섯맛살북음/시래기나물",
+   "en": "King oyster mushroom with imitation crab / dried radish greens seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드·과일드레싱",
+   "en": "Garden salad · fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Napa cabbage kimchi / self-serve ramen / toast / beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

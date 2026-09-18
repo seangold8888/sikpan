@@ -1,0 +1,69 @@
+{
+ "date_shown": "정 심 (9/18 금요일)",
+ "price": null,
+ "hours": "정 심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡 곡 밥 / 햅 쌀 밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "유부 잔지국수 & 김가루",
+   "en": "Tofu broth noodles & seaweed powder",
+   "main": false
+  },
+  {
+   "ko": "매운 불 닭갈비",
+   "en": "Spicy stir-fried chicken (Dak-galbii)",
+   "main": true
+  },
+  {
+   "ko": "돈채 피망 볶음",
+   "en": "Stir-fried pork and bell pepper",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 달콤한 식혜",
+   "en": "Nutty scorched rice / Sweet rice drink",
+   "main": false
+  },
+  {
+   "ko": "해물 완자전 & 케챱",
+   "en": "Seafood meatballs & ketchup",
+   "main": false
+  },
+  {
+   "ko": "팍콘 몰아두 튀김",
+   "en": "Popcorn corn fried",
+   "main": false
+  },
+  {
+   "ko": "가지나물 무침 / 깻잎 결절이",
+   "en": "Seasoned eggplant / Sesame leaf nodule",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 포 기 김 치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 탄 산 음 료 \"",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "맛있게 드세요 ♡",
+   "en": "Enjoy your meal",
+   "main": false
+  }
+ ],
+ "notes": "Target date matches the board date (9/18 금요일). The last item is a greeting rather than a menu item.",
+ "_model": "claude-haiku-4-5-20251001"
+}

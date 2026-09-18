@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 18일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "손살안동찜닭",
+   "en": "Braised chicken with vegetables (Andong-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "한입도미카츠&타르소스",
+   "en": "Mini pork cutlet with tartar sauce (Domikatseu)",
+   "main": true
+  },
+  {
+   "ko": "새싹비빔밥국수",
+   "en": "Sprout bibimbap noodles (Saessak-bibimbap-guksu)",
+   "main": true
+  },
+  {
+   "ko": "오마니List 해양매쉬북음",
+   "en": "Ocean mash book (Haeyang-meshu-book)",
+   "main": true
+  },
+  {
+   "ko": "쌀게조림",
+   "en": "Braised small shrimp (Ssal-ge-jorim)",
+   "main": false
+  },
+  {
+   "ko": "청경채 겉절이",
+   "en": "Quick-pickled bok choy (Cheong-gyeong-chae)",
+   "main": false
+  },
+  {
+   "ko": "하늘초고추지/깍두기",
+   "en": "Sky chili pickles/Radish cubes (Haneul-cho-kkochu-ji/Kkakdu-gi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "소고기버섯찌개",
+   "en": "Beef mushroom stew (Sogogi-beoseot-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "알새우칩&요구르트",
+   "en": "Shrimp chips & yogurt",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice/White rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 풋고추 / 민장미면 & 된장 & 급금 쌈 토스트 / 고추야 송금 & 식혜와 닭사육",
+   "en": "Leafy vegetables & green chili / Mayo-garlic side / Ssamjang toast / Various condiments and beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 18일 (금요일), which corresponds to Friday, September 18, 2026 (target date matches). Menu includes multiple main dish options for selection.",
+ "_model": "claude-haiku-4-5-20251001"
+}

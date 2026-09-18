@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 18일 공휴일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "닭곰탕",
+   "en": "Chicken soup (Dak-gomtang)",
+   "main": true
+  },
+  {
+   "ko": "숯불돼지갈비구이",
+   "en": "Grilled pork ribs (Charcoal-grilled)",
+   "main": true
+  },
+  {
+   "ko": "고구마맛탕",
+   "en": "Sweet potato in syrup (Goguma-mattang)",
+   "main": true
+  },
+  {
+   "ko": "몬테크리스또",
+   "en": "Monte Cristo sandwich",
+   "main": true
+  },
+  {
+   "ko": "경장육즐",
+   "en": "Soy-braised meat",
+   "main": true
+  },
+  {
+   "ko": "김치완두",
+   "en": "Kimchi with peas",
+   "main": false
+  },
+  {
+   "ko": "치즈떡볶이",
+   "en": "Cheese tteokbokki (spicy rice cakes)",
+   "main": false
+  },
+  {
+   "ko": "유자우쌈",
+   "en": "Yuzu wrap/sauce",
+   "main": false
+  },
+  {
+   "ko": "마늉쑥무침",
+   "en": "Mugwort seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/Dressing",
+   "main": false
+  },
+  {
+   "ko": "배추김절임/음료",
+   "en": "Pickled cabbage/Beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 18일 공휴일 (September 18, holiday); target date was 2026년 09월 18일 (금). Header indicates '새우유동밥' (shrimp rice bowl) as the featured item.",
+ "_model": "claude-haiku-4-5-20251001"
+}

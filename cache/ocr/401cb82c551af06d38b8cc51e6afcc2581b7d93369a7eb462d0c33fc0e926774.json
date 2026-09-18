@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 18일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/쌀미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "사골뭇대찌개",
+   "en": "Beef bone stew (Sagol-muchim-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "통마늘복살고추장구이",
+   "en": "Whole garlic pork belly with gochujang (Tonmaneul-boksal-gochujang-gui)",
+   "main": true
+  },
+  {
+   "ko": "치즈돈까스",
+   "en": "Cheese pork cutlet (Chijeeu-donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "마제소바",
+   "en": "Mazesoba noodles",
+   "main": true
+  },
+  {
+   "ko": "스모크뼈계란말이",
+   "en": "Smoked bone egg roll (Seumokeeu-ppyeo-gyeran-mari)",
+   "main": false
+  },
+  {
+   "ko": "옥수수콘크림스프&식빵",
+   "en": "Corn cream soup & bread (Oksusu-kon-keurim-seupereu & sikppang)",
+   "main": false
+  },
+  {
+   "ko": "닭가슴살콩나물국자냉채",
+   "en": "Chicken breast with bean sprout cold soup (Dak-gaseum-sal-kong-namul-guk-ja-naeng-chae)",
+   "main": false
+  },
+  {
+   "ko": "가지나물무침",
+   "en": "Seasoned eggplant (Gaji-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen (Selpeeu-Han-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "쌀고추/채소쌀&쌀장",
+   "en": "Rice chili pepper / Vegetable rice & rice paste (Ssal-gochu / Chaeso-ssal & ssal-jang)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&참깨드레싱",
+   "en": "Garden salad & sesame dressing (Gadeun-saelleodeu & chamkkae-deuressing)",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Persimmon / Carbonated beverage (Song-neung / Tansan-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "심기 메뉴는 회사 식당에 따라 일부 변경될 수 있습니다. (Some printed text at bottom noting menu may vary by company cafeteria)",
+ "_model": "claude-haiku-4-5-20251001"
+}

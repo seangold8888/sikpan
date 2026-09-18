@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 18일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너 ) 마카로니과자",
+   "en": "Plus corner - Macaroni pasta",
+   "main": false
+  },
+  {
+   "ko": "순살안동찜닭",
+   "en": "Andong braised chicken (Andong-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "미니도미카츠&타르츠",
+   "en": "Mini domi cutlet & tarts",
+   "main": false
+  },
+  {
+   "ko": "새싹비빔밥국수",
+   "en": "Sprout bibimbap noodles",
+   "main": true
+  },
+  {
+   "ko": "오꼬노미st행양배추볶음",
+   "en": "Okonomiyaki-style cabbage stir-fry",
+   "main": false
+  },
+  {
+   "ko": "매콤명엽채초림",
+   "en": "Spicy vegetable strips",
+   "main": false
+  },
+  {
+   "ko": "청경채겹절이",
+   "en": "Double-pickled bok choy",
+   "main": false
+  },
+  {
+   "ko": "간장고추지 / 맛두기",
+   "en": "Soy sauce red pepper / seasoned radish",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "쌀채스 / 완장락면 / 토스트 / 슬능돈산음료",
+   "en": "Rice / sweet rice noodles / toast / various beverages",
+   "main": false
+  }
+ ],
+ "notes": "쌀채스 및 사정 때 마다 알 변동을 있습니다 (Rice and side dish selections may vary by situation)",
+ "_model": "claude-haiku-4-5-20251001"
+}

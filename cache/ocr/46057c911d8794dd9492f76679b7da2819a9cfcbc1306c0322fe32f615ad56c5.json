@@ -1,0 +1,64 @@
+{
+ "date_shown": "금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "햄김치볶음밥",
+   "en": "Ham and kimchi fried rice",
+   "main": true
+  },
+  {
+   "ko": "백미밥",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "훈제오리미트볶음을",
+   "en": "Smoked duck meat stir-fry",
+   "main": true
+  },
+  {
+   "ko": "바지락국수",
+   "en": "Clam noodle soup",
+   "main": true
+  },
+  {
+   "ko": "게맛우동",
+   "en": "Crab-flavored udon",
+   "main": true
+  },
+  {
+   "ko": "애플파슈타르스슈스",
+   "en": "Apple pasta starch sauce",
+   "main": true
+  },
+  {
+   "ko": "두만두*좋아장",
+   "en": "Dumplings with sauce",
+   "main": false
+  },
+  {
+   "ko": "진미채·야채우엉",
+   "en": "Seasoned squid strips, vegetables, burdock root",
+   "main": false
+  },
+  {
+   "ko": "야채달걀이",
+   "en": "Vegetable egg",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&포모D",
+   "en": "Garden salad & pomegranate",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 금요일 (Friday) but target date was 2026년 09월 18일 (금). Origin labels shown at bottom for various ingredients and suppliers.",
+ "_model": "claude-haiku-4-5-20251001"
+}

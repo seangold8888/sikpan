@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월18일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기국",
+   "en": "Beef soup (Sogogi-guk)",
+   "main": false
+  },
+  {
+   "ko": "대패무삼소금구이",
+   "en": "Sliced radish with salt grilled",
+   "main": false
+  },
+  {
+   "ko": "교촌강정치킨",
+   "en": "Gyochon crispy fried chicken",
+   "main": true
+  },
+  {
+   "ko": "햄굼치볶음우육밥",
+   "en": "Ham and beef rice bowl",
+   "main": true
+  },
+  {
+   "ko": "은 두 볶",
+   "en": "Stir-fried vegetables",
+   "main": false
+  },
+  {
+   "ko": "kfc코울슬로",
+   "en": "KFC coleslaw",
+   "main": false
+  },
+  {
+   "ko": "우육초밥",
+   "en": "Beef sushi",
+   "main": false
+  },
+  {
+   "ko": "우 샐 채",
+   "en": "Vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "잔치국수 / 쌀강라면",
+   "en": "Celebration noodles / Rice ramyeon",
+   "main": true
+  },
+  {
+   "ko": "게란후라이 ' 탄살들로",
+   "en": "Egg fried / Charred meat",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드",
+   "en": "Green salad",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9월18일 (목) [September 18, Thursday] but target date requested is 9월18일 (금) [September 18, Friday]. Date mismatch noted. Bottom text indicates menu items are subject to change and should be checked in advance.",
+ "_model": "claude-haiku-4-5-20251001"
+}

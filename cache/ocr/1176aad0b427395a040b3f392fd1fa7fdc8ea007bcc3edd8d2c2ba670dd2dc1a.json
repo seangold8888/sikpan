@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/18(금,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "매운역묵탕",
+   "en": "Spicy muk soup",
+   "main": true
+  },
+  {
+   "ko": "토마토스파게티",
+   "en": "Tomato spaghetti",
+   "main": true
+  },
+  {
+   "ko": "바삭새우튀틀렛",
+   "en": "Crispy shrimp cutlet",
+   "main": true
+  },
+  {
+   "ko": "콘치즈버터구이",
+   "en": "Corn cheese butter grilled",
+   "main": true
+  },
+  {
+   "ko": "시저샐러드/오이피클",
+   "en": "Caesar salad / Cucumber pickle",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "과일,음료",
+   "en": "Fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "영업인시 위치료",
+ "_model": "claude-haiku-4-5-20251001"
+}
