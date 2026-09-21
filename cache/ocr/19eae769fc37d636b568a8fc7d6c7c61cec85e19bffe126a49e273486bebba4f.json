@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 21일 (월요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "만두카츠&실리소스",
+   "en": "Mandu Cutlet & Silli Sauce",
+   "main": true
+  },
+  {
+   "ko": "중화비빔쌈면",
+   "en": "Chinese Mixed Noodles with Sauce",
+   "main": true
+  },
+  {
+   "ko": "양송이떡갈비폭찹",
+   "en": "Mushroom Tteokgalbi Cutlet",
+   "main": true
+  },
+  {
+   "ko": "훼훼훼st 암깜자쌈러드",
+   "en": "Fresh Salad",
+   "main": false
+  },
+  {
+   "ko": "속주나몸무칩",
+   "en": "Roasted Vegetable Chips",
+   "main": false
+  },
+  {
+   "ko": "해초무침/포기김치",
+   "en": "Seaweed & Kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green Salad & Dressing",
+   "main": false
+  },
+  {
+   "ko": "돈사돈우까지해장국",
+   "en": "Pork Hangover Soup",
+   "main": true
+  },
+  {
+   "ko": "춘곤튀김&실리소스",
+   "en": "Spring Fried & Silli Sauce",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed Grain Rice / White Rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/한장키면 & 달콤한 깻 토스트/구수한 숭 & 시원한 단산음료",
+   "en": "Lettuce & Vegetables / Sweet Sesame Toast / Cool Beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Menu board from Korean office cafeteria (샘기메는 의식 사정에 따라 일일 변동 수 있습니다 - Items may change daily depending on circumstances).",
+ "_model": "claude-haiku-4-5-20251001"
+}

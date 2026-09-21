@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 21일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "참치자장 & 미지개",
+   "en": "Tuna jajang & miji-gae",
+   "main": true
+  },
+  {
+   "ko": "차돌박이 숙주볶음",
+   "en": "Beef brisket with bean sprout stir-fry",
+   "main": true
+  },
+  {
+   "ko": "고추마치즈돈까스 / 테미스",
+   "en": "Red chili cheese pork cutlet / Temis",
+   "main": true
+  },
+  {
+   "ko": "현장마요너마니",
+   "en": "Hyunjang mayo nermani",
+   "main": true
+  },
+  {
+   "ko": "엔젤혜이설러더파수타",
+   "en": "Angel hye i-seol-leo-deo pa-su-ta",
+   "main": true
+  },
+  {
+   "ko": "청포묵가루무침",
+   "en": "Cheongpo muk with seasoned sauce",
+   "main": false
+  },
+  {
+   "ko": "오이생채",
+   "en": "Fresh cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "백미밥 & 잡곡밥",
+   "en": "White rice & mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "쌀채소 & 쌀 잡",
+   "en": "Rice vegetables & rice side",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드래싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "한강카나면",
+   "en": "Hangang kana noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "능능 & 플튀",
+   "en": "Fruit & beverage",
+   "main": false
+  }
+ ],
+ "notes": "Some menu items are difficult to read or appear to contain unclear characters. Transcribed as accurately as possible from the image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (9/21 월요일)",
+ "price": null,
+ "hours": "점심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "불고기맛 목살구이",
+   "en": "Bulgogi-flavored pork neck grilled",
+   "main": true
+  },
+  {
+   "ko": "해물 오징어까스 & 정양약사비",
+   "en": "Seafood squid cutlet & Jung-yang medicinal sauce",
+   "main": true
+  },
+  {
+   "ko": "들어묵 과하고추 조림",
+   "en": "Seasoned aralia shoots with red peppers",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 상금 우렁지",
+   "en": "Crispy rice / Premium snail",
+   "main": false
+  },
+  {
+   "ko": "중화 볶음 잡채",
+   "en": "Chinese-style stir-fried mixed vegetables",
+   "main": false
+  },
+  {
+   "ko": "바지락 소고기 미역국",
+   "en": "Clam and beef seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "아삭이 고추 무침 / 양념 깻잎지",
+   "en": "Crunchy pepper seasoning / Perilla leaf kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국산 표기 김 지",
+   "en": "Domestic seaweed",
+   "main": false
+  },
+  {
+   "ko": "\" 탄산 음료 \"",
+   "en": "Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-service corner available. Product origin labels indicated.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월21일 (월) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "Mixed rice / Black rice with grains",
+   "main": false
+  },
+  {
+   "ko": "부추계란탕",
+   "en": "Chinese chive and egg soup (Buchu Gyeran-tang)",
+   "main": false
+  },
+  {
+   "ko": "김치제육두루치기",
+   "en": "Kimchi stir-fried pork (Kimchi Jeyuk Duru-chigi)",
+   "main": true
+  },
+  {
+   "ko": "수제떡당육라이드치킨",
+   "en": "Homemade rice cake and pork fried chicken",
+   "main": true
+  },
+  {
+   "ko": "튀김바미트붓파스타",
+   "en": "Fried meat boot pasta",
+   "main": true
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned soybean sprouts (Kong-namul muchim)",
+   "main": false
+  },
+  {
+   "ko": "배추김정이김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad",
+   "main": false
+  },
+  {
+   "ko": "얼음식혜/추억의라면딱",
+   "en": "Iced sikhye / Nostalgic ramyeon",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 9월21일(월) which appears to be September 21, 2024 (Monday), not 2026 as requested. Transcribed the board as shown. Menu item \"수제떡당육라이드치킨\" and \"튀김바미트붓파스타\" are unclear/potentially misspelled in original. \"튠부\" appears at top but context unclear.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 21일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "부대찌개",
+   "en": "Budae-jjigae (Army stew)",
+   "main": true
+  },
+  {
+   "ko": "제육볶음",
+   "en": "Jeyuk-bokkeum (Spicy stir-fried pork)",
+   "main": true
+  },
+  {
+   "ko": "한입만두카츠&소스",
+   "en": "Hanip mandu katsu & sauce (Mini dumpling cutlet)",
+   "main": true
+  },
+  {
+   "ko": "매콤해물볶음우동",
+   "en": "Spicy seafood stir-fried udon",
+   "main": true
+  },
+  {
+   "ko": "유자청연금조림",
+   "en": "Yujajeong yum-geum jorim (Yuzu citron braised dish)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Kongnamul-muchim (Bean sprout side dish)",
+   "main": false
+  },
+  {
+   "ko": "가는셀러드&매실D",
+   "en": "Fine salad & plum D",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Pyo-gi kimchi (Labeled kimchi)",
+   "main": false
+  },
+  {
+   "ko": "쌱미밥 / 흑미밥",
+   "en": "Ssangmi rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 탄산음료",
+   "en": "Self-serve bibimbap / Hangang ramen / Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "칸팜식;그릴도치킨샐러드",
+   "en": "Canfarm-style grilled chicken salad",
+   "main": false
+  }
+ ],
+ "notes": "자료 사업장 운영사, 촬영사, 칠성미,국기자(매주,고기류,중국산) 육공 된장,미역수,고추가(동국산) 두 명 태동,미국산 - Origin and allergen information printed at bottom",
+ "_model": "claude-haiku-4-5-20251001"
+}

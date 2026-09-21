@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월21(월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "사골손만두국",
+   "en": "Beef bone broth dumpling soup (Sagol-sonmandu-guk)",
+   "main": true
+  },
+  {
+   "ko": "고추장삼겹살도라지구이",
+   "en": "Gochujang-marinated pork belly with bellflower root (Gochujang-samgyeop-sal-doraji-gui)",
+   "main": true
+  },
+  {
+   "ko": "우라이드치킨*스노웹치즈s",
+   "en": "Wuraide chicken with snow web cheese (Uraide-chikin-snow-web-cheezu)",
+   "main": true
+  },
+  {
+   "ko": "테리야끼볶고구마&치즈잡밥볶음",
+   "en": "Teriyaki stir-fried sweet potato and cheese mixed rice (Teriyaki-goguma-chijeul-jap-bap)",
+   "main": true
+  },
+  {
+   "ko": "팽이버섯계란전*치참",
+   "en": "King oyster mushroom and egg pancake (Paengi-beoseot-gyeran-jeon)",
+   "main": false
+  },
+  {
+   "ko": "열무김치비빔국수",
+   "en": "Young radish kimchi bibim noodles (Yeolmu-kimchi-bibim-guksu)",
+   "main": false
+  },
+  {
+   "ko": "찹옥수수마카로니샐러드",
+   "en": "Sticky corn macaroni salad (Chapok-susu-makaro-ni-saelleodeu)",
+   "main": false
+  },
+  {
+   "ko": "새우젓에호박볶음",
+   "en": "Salted shrimp with zucchini stir-fry (Saeuwjeot-e-hobak-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Bean sprout seasoned side dish (Kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "꿀상추&앙배추숙삼*쌈장",
+   "en": "Honey lettuce and cabbage with sauce (Kkul-sangchu-ang-baechu-ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "셀프라면/토스트/음료",
+   "en": "Self-serve ramyeon, toast, beverages (Self-serve corner)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

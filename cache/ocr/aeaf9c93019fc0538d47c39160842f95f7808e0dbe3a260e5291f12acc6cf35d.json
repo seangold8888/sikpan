@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월21일(월요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉메밥",
+   "en": "White rice with mixed grains / Cold mixed rice",
+   "main": false
+  },
+  {
+   "ko": "열큰부대찌개",
+   "en": "Spicy budae jjigae (army stew)",
+   "main": true
+  },
+  {
+   "ko": "토제앙밥스테이크",
+   "en": "Tomato-based rice steak",
+   "main": true
+  },
+  {
+   "ko": "고구마닭강비",
+   "en": "Sweet potato and chicken gangbi",
+   "main": false
+  },
+  {
+   "ko": "느꼬불고기파스타",
+   "en": "Chewy beef pasta",
+   "main": true
+  },
+  {
+   "ko": "곤치즈오은구이",
+   "en": "Cheese baked konchi",
+   "main": false
+  },
+  {
+   "ko": "두부깻잎무침",
+   "en": "Seasoned tofu with perilla leaves",
+   "main": false
+  },
+  {
+   "ko": "열무걸정이",
+   "en": "Young radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Marked kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-service Hangang ramen * Self-service toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*쌍고추*쌍장",
+   "en": "Double vegetables * Double peppers * Double sauce",
+   "main": false
+  },
+  {
+   "ko": "느름지*탕사음료*매식찬",
+   "en": "Slow cooked * Soup drink * Side dishes",
+   "main": false
+  }
+ ],
+ "notes": "Self-service corner items marked with asterisks (*). Origin labels indicated for certain items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

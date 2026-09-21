@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월21일 월요일",
+ "price": null,
+ "hours": "매뉴공지- 오전10시",
+ "items": [
+  {
+   "ko": "한도중 보수우옥",
+   "en": "Han-do-jung bosu u-ok",
+   "main": false
+  },
+  {
+   "ko": "비산치킨까스",
+   "en": "Chicken cutlet (Bissan-chicken-kkas)",
+   "main": true
+  },
+  {
+   "ko": "철판군만두",
+   "en": "Pan-fried dumplings (Cheolpan-gun-mandu)",
+   "main": false
+  },
+  {
+   "ko": "학교앙떡볶이",
+   "en": "School-style spicy rice cakes (Hakgyo-ang-tteokbokki)",
+   "main": false
+  },
+  {
+   "ko": "미나리새콤무침",
+   "en": "Water dropwort namul (Minari-saekom-muchim)",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad (Singsingssaelleodeu)",
+   "main": false
+  },
+  {
+   "ko": "직접담은걸정이",
+   "en": "Homemade pickled vegetables",
+   "main": false
+  },
+  {
+   "ko": "얼큰콩나물국",
+   "en": "Spicy bean sprout soup (Eolkkeun-kong-namul-guk)",
+   "main": false
+  },
+  {
+   "ko": "모둠샘·새우젓·탄산음료·셀프라면",
+   "en": "Assorted sides · Salted shrimp · Carbonated beverages · Self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (9월21일 월요일 = September 21, Monday)",
+ "_model": "claude-haiku-4-5-20251001"
+}

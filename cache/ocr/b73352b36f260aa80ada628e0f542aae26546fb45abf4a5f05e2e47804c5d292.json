@@ -1,0 +1,29 @@
+{
+ "date_shown": "26년 9월 21일 ~ 26년9월 23일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "돼지갈비찜 & 쌀나물",
+   "en": "Steamed pork short ribs & seasoned rice vegetables",
+   "main": true
+  },
+  {
+   "ko": "카레아게튀김 & 칠리소스",
+   "en": "Curry fried chicken & chili sauce",
+   "main": true
+  },
+  {
+   "ko": "쌀",
+   "en": "Rice",
+   "main": false
+  },
+  {
+   "ko": "된장국",
+   "en": "Soybean paste soup (Doenjang-guk)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows week of Sept 21-23, 2026. Transcribed only Sept 21 (Monday) column as requested.",
+ "_model": "claude-haiku-4-5-20251001"
+}

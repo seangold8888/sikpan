@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 21일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "사골떡국",
+   "en": "Beef bone broth rice cake soup (Sagol-tteokguk)",
+   "main": false
+  },
+  {
+   "ko": "소코기시브샤브",
+   "en": "Beef shabu-shabu (Sokogi-sibu-syabu)",
+   "main": true
+  },
+  {
+   "ko": "톨살새우깡스",
+   "en": "Shrimp crackers (Tolsal-saewu-kkang-seu)",
+   "main": false
+  },
+  {
+   "ko": "고구마떡복이",
+   "en": "Sweet potato rice cake stir-fry (Goguma-tteokboki)",
+   "main": false
+  },
+  {
+   "ko": "칼집비엔나소세지",
+   "en": "Scored Vienna sausage (Kalsip-bienna-sosseji)",
+   "main": false
+  },
+  {
+   "ko": "사과어묵볶음",
+   "en": "Apple and fish cake stir-fry (Sagwa-eomuk-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "건새우마늘쫑조림",
+   "en": "Dried shrimp and garlic scape braised (Geonsaewu-mareul-jjong-jorim)",
+   "main": false
+  },
+  {
+   "ko": "깍두기.백김치",
+   "en": "Diced radish kimchi / White kimchi (Kkakdugi.baek-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "잔지국수 / 칡칼라면",
+   "en": "Arrowroot noodles soup / Arrowroot ramen (Janji-guksu / Chit-kkal-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "계랑능라이 / 탄산음료",
+   "en": "Beverage selection / Carbonated drinks (Gyerang-neung-lai / Tansan-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드",
+   "en": "Green salad (Geurin-salad)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9월 21일 (월) which is September 21 (Monday); target date was 2026년 09월 21일 (월) - matches. Bottom text indicates this is a self-serve corner menu with notes about portion selection.",
+ "_model": "claude-haiku-4-5-20251001"
+}

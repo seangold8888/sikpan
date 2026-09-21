@@ -1,0 +1,59 @@
+{
+ "date_shown": "2026년 09월 21일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥/쌀밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "닭볶음탕",
+   "en": "Spicy braised chicken (Dak-bokkeum-tang)",
+   "main": true
+  },
+  {
+   "ko": "순두부국/청국",
+   "en": "Silken tofu soup / Clear soup",
+   "main": false
+  },
+  {
+   "ko": "우골자돈까스/돈까스",
+   "en": "Pork cutlet (Donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "크림밥/볶음밥",
+   "en": "Cream rice / Fried rice",
+   "main": true
+  },
+  {
+   "ko": "크린치킨까스",
+   "en": "Crispy chicken cutlet",
+   "main": true
+  },
+  {
+   "ko": "군자채/맛살샐러드",
+   "en": "Mixed vegetable salad / Imitation crab salad",
+   "main": false
+  },
+  {
+   "ko": "꼬들깨나물",
+   "en": "Seasoned vegetable side",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드&쌀기D",
+   "en": "Garden salad & Rice ID",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board includes notice about time-sensitive ordering and ingredient origin labels for pork, chicken, and seafood products.",
+ "_model": "claude-haiku-4-5-20251001"
+}

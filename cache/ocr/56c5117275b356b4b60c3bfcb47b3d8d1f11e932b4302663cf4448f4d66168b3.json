@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 22일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "후리가께붓음밥 / 백미밥",
+   "en": "Furikake mixed rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "김지국",
+   "en": "Kimchi soup",
+   "main": false
+  },
+  {
+   "ko": "야농찜닭",
+   "en": "Steamed chicken (Yanaong-jjimdak)",
+   "main": true
+  },
+  {
+   "ko": "탈우육",
+   "en": "Stir-fried beef",
+   "main": true
+  },
+  {
+   "ko": "토마토스파게티",
+   "en": "Tomato spaghetti",
+   "main": false
+  },
+  {
+   "ko": "양념두부조림",
+   "en": "Seasoned braised tofu",
+   "main": false
+  },
+  {
+   "ko": "탕평채",
+   "en": "Tang pyeongchae (vegetable dish)",
+   "main": false
+  },
+  {
+   "ko": "콩다물우침",
+   "en": "Bean side dish",
+   "main": false
+  },
+  {
+   "ko": "생야채걸절이",
+   "en": "Fresh vegetable pickles",
+   "main": false
+  },
+  {
+   "ko": "한깡라면",
+   "en": "Han-kang ramen",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탁숨음료 / 시원한차 / 충등",
+   "en": "Carbonated drink / cold tea / etc.",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 2026년 9월 22일 (Tuesday) but target date requested was 2026년 9월 21일 (Monday). Transcribed the date shown on the board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

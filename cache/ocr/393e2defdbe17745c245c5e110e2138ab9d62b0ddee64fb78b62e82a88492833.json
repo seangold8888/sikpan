@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 21일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합장국밥",
+   "en": "Mixed soup rice (Honhap-janguk-bap)",
+   "main": true
+  },
+  {
+   "ko": "참치김치찌개",
+   "en": "Tuna kimchi stew (Chamchi-gimchi-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "제육볶음",
+   "en": "Spicy stir-fried pork (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "후라이드치킨/와사비마요S",
+   "en": "Fried chicken / Wasabi mayo S",
+   "main": true
+  },
+  {
+   "ko": "크래미게란말이",
+   "en": "Crab and egg roll (Kuraemi-geran-mali)",
+   "main": true
+  },
+  {
+   "ko": "소고기하이라이스",
+   "en": "Beef fried rice (Sogogi-hai-raisu)",
+   "main": true
+  },
+  {
+   "ko": "버섯비빔국수",
+   "en": "Mushroom bibim noodles (Beoseot-bibim-guksu)",
+   "main": false
+  },
+  {
+   "ko": "비엔나소세지볶음",
+   "en": "Vienna sausage stir-fry (Bienña-sosoji-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Bean sprout seasoned side (Kong-namul-muchiim)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad / Dressing",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이/음료",
+   "en": "Napa cabbage kimchi / Beverage",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

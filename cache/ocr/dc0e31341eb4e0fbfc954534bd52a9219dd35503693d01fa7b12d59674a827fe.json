@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월21일 월요일메뉴",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑돼지고추장두루치기",
+   "en": "Spicy stir-fried black pork (Gochujang-twruchigi)",
+   "main": true
+  },
+  {
+   "ko": "클링치감자튀김/계란",
+   "en": "Crispy potato fries / eggs",
+   "main": false
+  },
+  {
+   "ko": "미더덕콘나물전",
+   "en": "Seasquirt and corn pancake (Midoduk-jeun)",
+   "main": false
+  },
+  {
+   "ko": "중추제감자채볶음",
+   "en": "Stir-fried potato strips",
+   "main": false
+  },
+  {
+   "ko": "청경채나물",
+   "en": "Seasoned bok choy",
+   "main": false
+  },
+  {
+   "ko": "소코기무우국",
+   "en": "Beef and radish soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/묵수수콘 건포도",
+   "en": "Cabbage / jelly, corn, raisins",
+   "main": false
+  },
+  {
+   "ko": "암파.고추/썬갈류",
+   "en": "Green onion, red pepper / sliced radish",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아이스크림",
+   "en": "Beverages / ice cream",
+   "main": false
+  }
+ ],
+ "notes": "자료공급에따메뉴바뀔수있습니다 (Menu may change depending on supply availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/21(월,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "똑배기닭곡국수",
+   "en": "Dakgokguksu (chicken noodle soup)",
+   "main": true
+  },
+  {
+   "ko": "메주팜밥버터장조림",
+   "en": "Meju bibimbap with butter-braised soy beans",
+   "main": true
+  },
+  {
+   "ko": "곱지부침개",
+   "en": "Gobji-buchim (vegetable pancake)",
+   "main": false
+  },
+  {
+   "ko": "산고즉지무침",
+   "en": "San-go seasoned radish",
+   "main": false
+  },
+  {
+   "ko": "게절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배주권지",
+   "en": "Domestic pear jelly",
+   "main": false
+  },
+  {
+   "ko": "샐러드 과일 음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "정원의 식사 위정요",
+ "_model": "claude-haiku-4-5-20251001"
+}

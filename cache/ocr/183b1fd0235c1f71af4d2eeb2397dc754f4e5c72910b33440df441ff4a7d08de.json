@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 21일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "김새우근대국",
+   "en": "Seaweed and shrimp soup",
+   "main": false
+  },
+  {
+   "ko": "불쌍고추장바싹불고기",
+   "en": "Spicy gochujang beef jerky",
+   "main": true
+  },
+  {
+   "ko": "멀리즈청파래생선까스",
+   "en": "Fish cutlet with seaweed",
+   "main": true
+  },
+  {
+   "ko": "같떡같떡교치",
+   "en": "Tteok (rice cake) dish",
+   "main": false
+  },
+  {
+   "ko": "버터럭스틱메쉬드",
+   "en": "Butter stick mashed potatoes",
+   "main": false
+  },
+  {
+   "ko": "직화우니파장",
+   "en": "Grilled vegetable side",
+   "main": false
+  },
+  {
+   "ko": "단무지",
+   "en": "Pickled radish (danmuji)",
+   "main": false
+  },
+  {
+   "ko": "어묵채숙우육음",
+   "en": "Fish cake and vegetable side",
+   "main": false
+  },
+  {
+   "ko": "통배추걸절이",
+   "en": "Whole cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili / vegetable wraps & dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&블루베리드레싱",
+   "en": "Garden salad & blueberry dressing",
+   "main": false
+  },
+  {
+   "ko": "숭능/탄산음료",
+   "en": "Juice / carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Bottom text states: '심기 예뜨는 외서 사정에 따라 일부 변경 될 수 있습니다.' (Menu subject to change due to circumstances.)",
+ "_model": "claude-haiku-4-5-20251001"
+}

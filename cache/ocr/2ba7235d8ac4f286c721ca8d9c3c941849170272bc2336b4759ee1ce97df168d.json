@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 21일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 쌀미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "배추된장국",
+   "en": "Napa cabbage soybean soup (Baechu-doenjang-guk)",
+   "main": false
+  },
+  {
+   "ko": "한방깔비찜",
+   "en": "Herbal braised beef short ribs (Hanbang-kalbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "야채비빔안두",
+   "en": "Vegetable bibimbap with egg (Yachae-bibim-andu)",
+   "main": false
+  },
+  {
+   "ko": "짜장숨드는밥덮밥",
+   "en": "Black bean sauce rice bowl (Jjajang-sumdeuneun-bap-doebap)",
+   "main": true
+  },
+  {
+   "ko": "오징어브로콜리숙회",
+   "en": "Squid and broccoli seasoned salad (Ojingeo-beurokoli-sukwhoe)",
+   "main": false
+  },
+  {
+   "ko": "돼지고기김치부침개",
+   "en": "Pork and kimchi pancake (Dwaeji-gogi-kimchi-buchimgae)",
+   "main": true
+  },
+  {
+   "ko": "겨자콩영근추즈밥",
+   "en": "Mustard bean and vegetable rice (Gyeoja-kong-yeong-geun-chu-jeuz-bap)",
+   "main": false
+  },
+  {
+   "ko": "생야채절절이",
+   "en": "Fresh vegetable salad (Saeng-yachae-jeoljeoli)",
+   "main": false
+  },
+  {
+   "ko": "환강라면",
+   "en": "Noodle soup (Hwan-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 사원한자",
+   "en": "Carbonated beverages / Employee beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Some menu item text is unclear or may contain OCR errors due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}
