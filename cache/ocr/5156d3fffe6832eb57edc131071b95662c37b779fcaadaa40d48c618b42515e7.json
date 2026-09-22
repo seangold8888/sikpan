@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/22(화,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순두부찌개",
+   "en": "Soft tofu stew (Sundubu-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "옛날우롱롱이장남픔",
+   "en": "Old-style dish",
+   "main": true
+  },
+  {
+   "ko": "생선구름밟",
+   "en": "Fish dish",
+   "main": true
+  },
+  {
+   "ko": "당평채",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetable",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Image shows two-day menu board. Transcribed only 9/22(화,점심) column as requested. Some menu items have unclear or non-standard Korean text.",
+ "_model": "claude-haiku-4-5-20251001"
+}

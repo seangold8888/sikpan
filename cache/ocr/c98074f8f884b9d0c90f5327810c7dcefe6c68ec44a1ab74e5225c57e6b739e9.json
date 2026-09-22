@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 22일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "궁나물밥 / 백미밥",
+   "en": "Seasoned vegetable rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "어묵우국",
+   "en": "Fish cake soup (Eomuk-uguk)",
+   "main": false
+  },
+  {
+   "ko": "돼지고기김치북음",
+   "en": "Pork and kimchi stir-fry (Dwaeji-gogi kimchi-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치킨너겟",
+   "en": "Chicken nuggets (Chicken nugget)",
+   "main": true
+  },
+  {
+   "ko": "깻잎부추야채전",
+   "en": "Perilla and Chinese chive vegetable pancake (Kkaenip-buchu yachae-jeon)",
+   "main": false
+  },
+  {
+   "ko": "브로콜리들깨가루무침",
+   "en": "Broccoli with sesame powder (Broccoli sesamum preparation)",
+   "main": false
+  },
+  {
+   "ko": "멸치고추장볶음",
+   "en": "Anchovy and red chili paste stir-fry (Myeolchi-gochujang bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "간장고추지",
+   "en": "Soy sauce and red chili (Ganjang-gochu-ji)",
+   "main": false
+  },
+  {
+   "ko": "생야채겔절이",
+   "en": "Fresh vegetable pickle (Saeng yachae gel-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River ramen (Han-gang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "카드샐러드 / 포기김치",
+   "en": "Card salad / Napa kimchi (Card salad / Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated beverage / Plum tea / Seungnong (Carbonated drink / Plum tea / Seungnong)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

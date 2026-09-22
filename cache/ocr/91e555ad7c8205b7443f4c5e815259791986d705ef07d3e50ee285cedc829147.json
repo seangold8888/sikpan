@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 22일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "황태해장국",
+   "en": "Dried pollack soup (Hwangtae-haejang-guk)",
+   "main": false
+  },
+  {
+   "ko": "양념돼지갈비찜",
+   "en": "Braised seasoned pork short ribs (Yangnyeom-dwae-ji-galbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "깻잎후라이드치킨/치솜래s",
+   "en": "Perilla leaf fried chicken/Chisomrae (Kkaennip-hura-idea-chikin)",
+   "main": true
+  },
+  {
+   "ko": "분식접모둘튀김/조각참",
+   "en": "Assorted fried snacks/Jogak-cham (Bunsik-jeop-modu-ttwim)",
+   "main": true
+  },
+  {
+   "ko": "매콤어묵떡볶이",
+   "en": "Spicy fish cake and rice cake stir-fry (Maekomm-eomuk-tteok-bokki)",
+   "main": false
+  },
+  {
+   "ko": "브로콜리숙히/매실초장",
+   "en": "Steamed broccoli/Plum sauce (Beulokoli-sukhi/Maesil-chojang)",
+   "main": false
+  },
+  {
+   "ko": "알마늘종지우침",
+   "en": "Garlic clove side dish (Al-maneul-jong-ji-u-chim)",
+   "main": false
+  },
+  {
+   "ko": "쌱미나 & 잡곡밥",
+   "en": "Seasoned rice & mixed grain rice (Ssangmina & Japgok-bap)",
+   "main": false
+  },
+  {
+   "ko": "비빔밥나물 & 고추장",
+   "en": "Bibimbap vegetables & gochujang (Bibimbap-namul & Gochujang)",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드래싱",
+   "en": "Salad & dressing (Saelleodeu & Deuraessing)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hanggang ramen (Han-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "국내산쇠고기찜찌",
+   "en": "Domestic beef steamed (Gungnae-san-soe-gogi-jjim)",
+   "main": false
+  },
+  {
+   "ko": "숭숭 & 음료",
+   "en": "Ssungsung & beverages (Ssungsung & Eumryo)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

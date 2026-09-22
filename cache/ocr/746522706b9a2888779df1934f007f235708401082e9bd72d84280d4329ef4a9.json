@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 22일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥",
+   "en": "Mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "들깨미역국",
+   "en": "Perilla leaf seaweed soup (Deulgae-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "수제탕수육",
+   "en": "Homemade sweet and sour pork (Sujae-tangsuyuk)",
+   "main": true
+  },
+  {
+   "ko": "닭볶음탕",
+   "en": "Spicy braised chicken (Dakbokkeum-tang)",
+   "main": true
+  },
+  {
+   "ko": "옥수수깁치전",
+   "en": "Corn and kimchi pancake (Oksusu-gimchi-jeon)",
+   "main": false
+  },
+  {
+   "ko": "중식해물볶음우동",
+   "en": "Chinese-style seafood stir-fried udon",
+   "main": true
+  },
+  {
+   "ko": "메추리알어묵조림",
+   "en": "Braised quail eggs and fish cake (Metcuri-al-eomuk-jorim)",
+   "main": false
+  },
+  {
+   "ko": "고들빼기무침",
+   "en": "Seasoned wild greens (Godeul-bbaeegi-muchim)",
+   "main": false
+  },
+  {
+   "ko": "상추겹절이",
+   "en": "Layered lettuce kimchi (Sangchu-gyeop-jeori)",
+   "main": false
+  },
+  {
+   "ko": "\"�쪽쑥피칫쪽도죠스\"",
+   "en": "Special sauce/dressing",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/dressing",
+   "main": false
+  },
+  {
+   "ko": "배추겯정이/음료",
+   "en": "Kimchi/beverage",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date as 9월 22일 (September 22) without year specified; matches target date 2026년 09월 22일 (화). Menu board from an office cafeteria.",
+ "_model": "claude-haiku-4-5-20251001"
+}

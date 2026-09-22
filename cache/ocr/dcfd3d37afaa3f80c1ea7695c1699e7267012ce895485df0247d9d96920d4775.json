@@ -1,0 +1,49 @@
+{
+ "date_shown": "9월 22일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "해틀수제비",
+   "en": "Haetteul Sujebi (handmade noodle soup)",
+   "main": true
+  },
+  {
+   "ko": "수육.보쌈",
+   "en": "Suyu and Bossam (boiled pork)",
+   "main": true
+  },
+  {
+   "ko": "사천식깻바루우",
+   "en": "Sichuan-style sesame dish",
+   "main": true
+  },
+  {
+   "ko": "토로케투카레덮밥",
+   "en": "Toroko Tuna Curry Rice Bowl",
+   "main": true
+  },
+  {
+   "ko": "포장하차쇠지어족",
+   "en": "Braised beef",
+   "main": true
+  },
+  {
+   "ko": "쩔포묵김가루무침",
+   "en": "Seasoned arrowroot and seaweed",
+   "main": false
+  },
+  {
+   "ko": "로이조우침.숙주나물 배추깔쌈이",
+   "en": "Bean sprouts, cabbage wraps",
+   "main": false
+  },
+  {
+   "ko": "유부김지우동 / 그릴썰깍드 / 게랑후라이 / 탁산들료 / 한깜라덤",
+   "en": "Udon / Grilled vegetables / Fried items / Soup / Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Date shown (9월 22일) does not match target date (2026년 09월 22일). The menu appears to have some transcription challenges due to image quality and font styling.",
+ "_model": "claude-haiku-4-5-20251001"
+}

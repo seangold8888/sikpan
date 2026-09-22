@@ -1,0 +1,64 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기무국",
+   "en": "Beef broth (Sogogi-muguk)",
+   "main": false
+  },
+  {
+   "ko": "묵은지짬닭",
+   "en": "Aged kimchi with chicken (Mukeunji-jjamdak)",
+   "main": true
+  },
+  {
+   "ko": "깐쇠새우&(bibigo)왕교자만두깐쭁",
+   "en": "Peeled shrimp & (bibigo) king dumplings (Kkan-soe-saeu & wang-gyoja-mandu)",
+   "main": false
+  },
+  {
+   "ko": "중화고추잡채&꽈배기",
+   "en": "Chinese-style mixed vegetables & twisted fried pastry (Jung-hwa-gochu-japchae & kkwabaegi)",
+   "main": false
+  },
+  {
+   "ko": "추억의소세지계란전*케챈",
+   "en": "Nostalgic sausage and egg pancake with ketchup (Chu-eok-ui-sosegi-gyeran-jeon & ketchup)",
+   "main": false
+  },
+  {
+   "ko": "짜장떡볶이(feat.메추리알)",
+   "en": "Black bean sauce tteokbokki with quail eggs (Jjajang-tteokbokki)",
+   "main": true
+  },
+  {
+   "ko": "파래구이김",
+   "en": "Grilled seaweed (Parea-gui-gim)",
+   "main": false
+  },
+  {
+   "ko": "총무식오징어묵무침",
+   "en": "Administrative office-style seasoned squid and black jelly (Chongmu-sik-ojingeо-mukmuching)",
+   "main": false
+  },
+  {
+   "ko": "고구마별벽/열강이명무겹절이",
+   "en": "Sweet potato side / spicy vegetable pickle (Goguma-byeolbyeok / yeolgang-i-myeong-mu-gyeobjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드*과일드레싱",
+   "en": "Garden salad with fruit dressing (Garden salad)",
+   "main": false
+  },
+  {
+   "ko": "셀프라면/토스트/음료",
+   "en": "Self-serve ramen, toast, and drinks (Self-serve corner)",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Target date (2026년 09월 22일 화) not visible. This appears to be a single day's menu from a Korean office cafeteria.",
+ "_model": "claude-haiku-4-5-20251001"
+}

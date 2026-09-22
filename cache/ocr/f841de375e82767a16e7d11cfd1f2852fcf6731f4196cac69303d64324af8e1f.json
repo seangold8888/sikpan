@@ -1,0 +1,49 @@
+{
+ "date_shown": "2026년 09월 22일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/쌀보리밥",
+   "en": "White rice / Barley rice",
+   "main": false
+  },
+  {
+   "ko": "김지제육음즉&두릅찜",
+   "en": "Kimchi braised pork & steamed vegetables",
+   "main": true
+  },
+  {
+   "ko": "닭다리살치킹까스",
+   "en": "Chicken leg cutlet",
+   "main": true
+  },
+  {
+   "ko": "나뭇잎&호입자D",
+   "en": "Leaf vegetables & side dish D",
+   "main": false
+  },
+  {
+   "ko": "귀파래톳매복음",
+   "en": "Seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "오이/어젊것/달걀",
+   "en": "Cucumber / young radish / egg",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&흥입자D",
+   "en": "Garden salad & side dish D",
+   "main": false
+  },
+  {
+   "ko": "열무릅지",
+   "en": "Young radish kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Additional text at bottom regarding self-serve stations and allergen information is present but not fully legible in the image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

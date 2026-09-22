@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 22일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "청파래오징어가스&우야사태를스숨",
+   "en": "Seaweed squid cutlet & beef shank stew",
+   "main": true
+  },
+  {
+   "ko": "부산식비빔닭면",
+   "en": "Busan-style bibimbap chicken noodles",
+   "main": true
+  },
+  {
+   "ko": "네기타코야끼",
+   "en": "Scallion takoyaki",
+   "main": false
+  },
+  {
+   "ko": "목이오이냉채",
+   "en": "Wood ear & cucumber cold salad",
+   "main": false
+  },
+  {
+   "ko": "들깨고구마순나물",
+   "en": "Perilla seed sweet potato sprouts",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑모칠/깍두기",
+   "en": "Seasoned garlic scapes/radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "바나나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  }
+ ],
+ "notes": "Date shown (9월 22일 화요일) does not match target date (2026년 09월 22일). Additional information: 쌍채소 / 한강차면 & 된콩맨 토스트 / 구우안 승능 & 시원한 단삼음료 (self-serve items and beverage information)",
+ "_model": "claude-haiku-4-5-20251001"
+}

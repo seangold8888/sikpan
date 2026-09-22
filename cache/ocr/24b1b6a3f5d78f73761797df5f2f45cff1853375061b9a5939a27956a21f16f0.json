@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 22일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "바지락살미역국",
+   "en": "Clam and seaweed soup (Bajirak-sal miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "안동찜닭",
+   "en": "Braised chicken Andong-style (Andong jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "표고버섯당우&소스",
+   "en": "Shiitake mushroom with sauce (Pyogo beoseot-tang-wu & saus)",
+   "main": false
+  },
+  {
+   "ko": "동그랑땅전&케찹",
+   "en": "Round potato pancake & ketchup (Dong-geulang-ttang-jeon & ketchup)",
+   "main": false
+  },
+  {
+   "ko": "게맛살브로콜리묵음",
+   "en": "Crab-flavored vegetables with broccoli (Gae-mat-sal breukoli muk-eum)",
+   "main": false
+  },
+  {
+   "ko": "오복지실파무침",
+   "en": "Green onion namul side dish (O-bok-ji silpa mu-chim)",
+   "main": false
+  },
+  {
+   "ko": "가는셀러드&기위D",
+   "en": "Thin salad & kimchi D (Ganeun selleo-deu & ki-wi D)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Po-gi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 측미밥",
+   "en": "White rice / Mixed grain rice (Baek-mi bap / Cheuk-mi bap)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 탄산음료",
+   "en": "Self-serve bibimbap / Hangang ramen / Carbonated beverages (Selp-eu bibim-bap / Hangang ramyeon / Tansan eumryo)",
+   "main": false
+  },
+  {
+   "ko": "간편식·슈제타카슬살셀러드",
+   "en": "Simple meal with thinly sliced pork salad (Ganpyeon-sik·syu-je ta-ka seul-sal selleo-deu)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 2024년 09월 22일 (화), not 2026년 09월 22일 (화) as requested. Menu transcribed as displayed on board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

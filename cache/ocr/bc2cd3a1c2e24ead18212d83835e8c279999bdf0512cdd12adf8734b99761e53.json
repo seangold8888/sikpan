@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월22일 화요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "불커티제육",
+   "en": "Bulgogi-style beef",
+   "main": true
+  },
+  {
+   "ko": "등등심탕수육",
+   "en": "Sweet and sour pork",
+   "main": true
+  },
+  {
+   "ko": "남자떡갈비",
+   "en": "Tteokgalbi (beef short rib patty)",
+   "main": false
+  },
+  {
+   "ko": "새콤비빔국수",
+   "en": "Tangy bibim noodles",
+   "main": true
+  },
+  {
+   "ko": "열무된장나물",
+   "en": "Young radish leaf with soybean paste",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad",
+   "main": false
+  },
+  {
+   "ko": "직접담은걸정이어묵국",
+   "en": "Homemade eomuk (fish cake) soup",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥",
+   "en": "Self-serve bibimbap",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "셀프라면",
+   "en": "Self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Operating hours show 오전10시 (10 AM). Target date matches board date (2026년 09월 22일 화요일).",
+ "_model": "claude-haiku-4-5-20251001"
+}

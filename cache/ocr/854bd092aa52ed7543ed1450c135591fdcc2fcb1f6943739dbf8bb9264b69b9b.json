@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월22일(화요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "소고기무국",
+   "en": "Beef radish soup (Sogogi-muguk)",
+   "main": false
+  },
+  {
+   "ko": "쭈꾸미삼겹돼지",
+   "en": "Spicy octopus with pork belly",
+   "main": true
+  },
+  {
+   "ko": "돈치까스*치즈플레이S",
+   "en": "Pork cutlet with cheese plate",
+   "main": true
+  },
+  {
+   "ko": "고추마요알감자",
+   "en": "Potatoes with mayo and pepper",
+   "main": false
+  },
+  {
+   "ko": "시리얼그래놀라요거트",
+   "en": "Cereal granola yogurt",
+   "main": false
+  },
+  {
+   "ko": "우엉채자장조림",
+   "en": "Burdock root with soy sauce (Ueongsaek-jajang-jorim)",
+   "main": false
+  },
+  {
+   "ko": "부추겟절이",
+   "en": "Pickled Korean chives",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Labeled kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-service instant noodles * Self-service toast",
+   "main": false
+  },
+  {
+   "ko": "쌈채소*쌈고추*쌈장",
+   "en": "Wrap vegetables * wrap peppers * wrap sauce",
+   "main": false
+  },
+  {
+   "ko": "느름지*탁사은료*매실차",
+   "en": "Various beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items noted. Origin labels and self-service options indicated with asterisks.",
+ "_model": "claude-haiku-4-5-20251001"
+}

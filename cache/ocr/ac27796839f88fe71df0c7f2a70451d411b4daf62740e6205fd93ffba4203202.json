@@ -1,0 +1,64 @@
+{
+ "date_shown": "정심 (9/22 화요일)",
+ "price": null,
+ "hours": "정심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "집 곡밥 / 렘 쌀 밥",
+   "en": "Rice (home-style/linseed rice)",
+   "main": false
+  },
+  {
+   "ko": "직화 제육 불고기",
+   "en": "Direct-flame grilled pork bulgogi (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "칼바사. 수제소세지",
+   "en": "Kielbasa / homemade sausage",
+   "main": true
+  },
+  {
+   "ko": "소고기 육전",
+   "en": "Beef jeon (fried patties)",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 삼색 꿀떡",
+   "en": "Crispy scorched rice / three-color honey rice cakes",
+   "main": false
+  },
+  {
+   "ko": "모둠 강자 튀김 & 캐첨",
+   "en": "Assorted vegetable tempura & condiments",
+   "main": false
+  },
+  {
+   "ko": "두부 된죽 김치 찌개",
+   "en": "Tofu congee kimchi stew",
+   "main": false
+  },
+  {
+   "ko": "도도미죽 무침 / 우어 무 무침",
+   "en": "Seasoned greens (multiple varieties)",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "빽 김 치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 단 산 음 료 \"",
+   "en": "Sweet beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-service corner (맛있게 드세요) indicated. Origin labels and dietary information notices printed at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 22일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "김지공나물국",
+   "en": "Kimchi vegetable soup (Kimchi-gong-namul-guk)",
+   "main": false
+  },
+  {
+   "ko": "한방보쌈",
+   "en": "Herbal pork wraps (Han-bang-bo-ssam)",
+   "main": true
+  },
+  {
+   "ko": "통삼등심도까스&브라운s.",
+   "en": "Beef loin cutlet with brown sauce (Tong-sam-deung-shim-do-kka-seu & brown s.)",
+   "main": true
+  },
+  {
+   "ko": "칼릭크림소스미트볼",
+   "en": "Garlic cream sauce meatballs (Kallik-keurim-so-seu-mi-teu-bol)",
+   "main": true
+  },
+  {
+   "ko": "비빔막국수",
+   "en": "Mixed buckwheat noodles (Bibim-mak-guk-su)",
+   "main": true
+  },
+  {
+   "ko": "비에나쏘야물음",
+   "en": "Vienna sausage with soy sauce (Bi-e-na-ssoya-muleul)",
+   "main": false
+  },
+  {
+   "ko": "스위트콘잔자배쳐드",
+   "en": "Sweet corn and bacon (Seu-wi-teu-kon-jan-ja-bae-chyeo-deu)",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침",
+   "en": "Seasoned dried radish (Mu-mal-laeng-i-mu-chim)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Po-gi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen (Selp-peu-han-gang-la-myeon)",
+   "main": false
+  },
+  {
+   "ko": "쌧고추/채소쌈&쌈장",
+   "en": "Red pepper / vegetable wraps & wrap sauce (Ssaet-go-chu / chae-so-ssam & ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&블루베리드레싱",
+   "en": "Garden salad & blueberry dressing (Ga-deun-sael-leor-deu & blue-berry-deu-re-sing)",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Drink / carbonated beverages (Song-neung / tan-san-eum-ryo)",
+   "main": false
+  }
+ ],
+ "notes": "Image shows menu for 2026년 09월 22일 (Tuesday), which matches the target date. Bottom text states: 심기 메뉴는 회사 사정에 따라 임의 변경 될 수 있습니다 (Menu items may change at company discretion).",
+ "_model": "claude-haiku-4-5-20251001"
+}

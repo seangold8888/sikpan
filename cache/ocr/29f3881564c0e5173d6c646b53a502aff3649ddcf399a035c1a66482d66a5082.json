@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 22일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "돼지백작구이",
+   "en": "Grilled pork (Dwae-ji-baek-jak-gui)",
+   "main": true
+  },
+  {
+   "ko": "수제우라이드치킨",
+   "en": "Homemade fried chicken (Suje-uraid-chiken)",
+   "main": true
+  },
+  {
+   "ko": "�까풍해물동크랑땅",
+   "en": "Seafood dish (Kka-pung-haemul-dong-kerang-ddang)",
+   "main": true
+  },
+  {
+   "ko": "양중이아이이라이스",
+   "en": "Rice dish (Yang-jung-i-aiai-rais)",
+   "main": false
+  },
+  {
+   "ko": "칠리포크볶음우동",
+   "en": "Chili pork stir-fried udon (Chilli-pok-bokkeum-udon)",
+   "main": true
+  },
+  {
+   "ko": "마는쫑무말랭이무침",
+   "en": "Seasoned radish sprouts (Ma-neun-jjong-mu-mal-raeng-i-muchim)",
+   "main": false
+  },
+  {
+   "ko": "쇠등",
+   "en": "Beef back (Soe-deung)",
+   "main": false
+  },
+  {
+   "ko": "완강라면",
+   "en": "Wangang ramen (Wan-gang-ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi (Geurin-saelleodeu / Baechu-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한차",
+   "en": "Carbonated beverages / Refreshing tea (Tansan-eumryo / Siwonhan-cha)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner notice at bottom: (상기 메뉴는 당일 식재료 수급 및 상태에 따라 메뉴 변경이 수 있습니다)",
+ "_model": "claude-haiku-4-5-20251001"
+}

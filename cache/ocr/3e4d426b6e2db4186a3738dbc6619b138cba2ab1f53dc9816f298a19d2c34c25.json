@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월22일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "닭·봉·웅후라이드치킨",
+   "en": "Chicken (fried chicken)",
+   "main": true
+  },
+  {
+   "ko": "스모크햄계란전",
+   "en": "Smoked ham and egg jeon (pan-fried)",
+   "main": true
+  },
+  {
+   "ko": "야채비빔쌀면",
+   "en": "Vegetable bibim rice noodles",
+   "main": true
+  },
+  {
+   "ko": "양파건재우호박볶음",
+   "en": "Onion and pumpkin stir-fry",
+   "main": false
+  },
+  {
+   "ko": "사과견로도마카로니",
+   "en": "Apple macaroni",
+   "main": false
+  },
+  {
+   "ko": "열콩콩나물국",
+   "en": "Bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수콘·김포도",
+   "en": "Cabbage / corn and seaweed",
+   "main": false
+  },
+  {
+   "ko": "양파·고추/젓갈류",
+   "en": "Onion, red pepper / fermented condiments",
+   "main": false
+  },
+  {
+   "ko": "족적라면코너",
+   "en": "Spicy ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아쿠르트",
+   "en": "Beverage / yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "자료공금에따메뉴바뀔수있습니다 (Menu may change depending on materials availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

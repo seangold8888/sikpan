@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월22일 (화) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑쌀밥/검은쌀잡곡밥",
+   "en": "Black rice / Mixed grain black rice",
+   "main": false
+  },
+  {
+   "ko": "사골순대국",
+   "en": "Beef bone and sundae soup (Sagol-sundae-guk)",
+   "main": false
+  },
+  {
+   "ko": "매콤닭볶음탕",
+   "en": "Spicy stir-fried chicken (Maekkeom-dak-bokkeum-tang)",
+   "main": true
+  },
+  {
+   "ko": "수제교구마카레튀김",
+   "en": "Homemade sweet potato and mackerel fries (Sulje-gogu-makare-twigim)",
+   "main": false
+  },
+  {
+   "ko": "곱배기버빅소면",
+   "en": "Extra portion thin noodles with sauce (Gop-baegi-beovik-somyeon)",
+   "main": false
+  },
+  {
+   "ko": "케랄니비아니구이*케찹",
+   "en": "Kerala-style grilled vegetables with ketchup",
+   "main": false
+  },
+  {
+   "ko": "팡코코중김",
+   "en": "Panko-breaded fried item (Pangko-ko-jung-kim)",
+   "main": false
+  },
+  {
+   "ko": "무생채/달걀장이",
+   "en": "Radish salad / Egg sauce (Musaengcae/dalgyalJang-i)",
+   "main": false
+  },
+  {
+   "ko": "배추김김성이/김치",
+   "en": "Napa cabbage kimchi / Kimchi (Baechu-kim-gimseong-i/kimchi)",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/거떠튀김",
+   "en": "Cabbage salad / Fried item (Yangbaechu-salleodeu/geotteo-twigim)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

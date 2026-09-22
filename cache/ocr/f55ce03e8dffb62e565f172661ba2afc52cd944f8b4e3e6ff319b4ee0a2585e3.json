@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 22일 (화요일)메뉴",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "무우지청닭",
+   "en": "Mustard-glazed chicken",
+   "main": true
+  },
+  {
+   "ko": "청파래오징어까스&와사비타르타르소스",
+   "en": "Green seaweed squid cutlet with wasabi tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "부산식비빔당면",
+   "en": "Busan-style bibim dangmyeon (spicy mixed noodles)",
+   "main": true
+  },
+  {
+   "ko": "네기타코야끼",
+   "en": "Negi takoyaki (scallion octopus balls)",
+   "main": false
+  },
+  {
+   "ko": "묵이오이냉채",
+   "en": "Muk and cucumber cold salad",
+   "main": false
+  },
+  {
+   "ko": "들깨고사리숨나물",
+   "en": "Perilla seed bracken fern",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑우침/깍두기",
+   "en": "Seasoned garlic scapes/diced radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "플러스 코너 (무료)",
+   "en": "Plus corner (free)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9월 22일 (화요일) which matches target date 2026년 09월 22일 (화). Self-serve items and origins listed at bottom: 쌀밥 (rice), 양념란 (seasoned egg), 밀 (wheat), 두릅 (soy), 방선풍 (?).",
+ "_model": "claude-haiku-4-5-20251001"
+}
