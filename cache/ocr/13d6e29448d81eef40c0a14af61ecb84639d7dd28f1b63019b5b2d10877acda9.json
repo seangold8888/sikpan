@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월23일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "시리산묵돼지김치제육",
+   "en": "Shirisan black pork with kimchi (Shirisan-muk-dwae-ji-kimchi-jeyuk)",
+   "main": true
+  },
+  {
+   "ko": "모듬튀김/타르소스",
+   "en": "Assorted fried items / Tar sauce (Modeumtuigim/Tareu-soseuseu)",
+   "main": false
+  },
+  {
+   "ko": "베밀튀기름막국수",
+   "en": "Fried buckwheat noodles with oil (Bemil-tuigi-reum-mak-guksu)",
+   "main": true
+  },
+  {
+   "ko": "맛살오댕뷔음",
+   "en": "Imitation crab stick with rice cake (Matsal-odaeng-bwieum)",
+   "main": false
+  },
+  {
+   "ko": "오이부추무침",
+   "en": "Cucumber and Chinese chives seasoned vegetables (Oi-buchu-muchiim)",
+   "main": false
+  },
+  {
+   "ko": "팽이미소된장국",
+   "en": "Enoki mushroom miso soup (Paengi-miso-doenjangguk)",
+   "main": false
+  },
+  {
+   "ko": "양배추/오숙수콘·견포도",
+   "en": "Cabbage / Corn and grapes (Yangbaechu/Osuksusukorn·gyeonpodo)",
+   "main": false
+  },
+  {
+   "ko": "양파,고추/쳇갈류",
+   "en": "Onion, red chili / Other vegetable strips (Yangpa,gochu/Chetgal-ryu)",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner (Jeukseok-ramyeon-koneo)",
+   "main": false
+  },
+  {
+   "ko": "음료/아이스콘트",
+   "en": "Beverages / Ice products (Eumryo/Aiseukonteu)",
+   "main": false
+  }
+ ],
+ "notes": "제료공급에따메뉴는바뀔수있습니다 - Menu may change depending on ingredient availability",
+ "_model": "claude-haiku-4-5-20251001"
+}

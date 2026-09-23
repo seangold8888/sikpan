@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 23일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기무국",
+   "en": "Beef broth (Sogogimu-guk)",
+   "main": false
+  },
+  {
+   "ko": "빼앗는돼지갈비찜",
+   "en": "Braised pork short ribs (Dwaejigalbi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "바랑떡",
+   "en": "Barang tteok (rice cake)",
+   "main": false
+  },
+  {
+   "ko": "도라지오이무침",
+   "en": "Seasoned bellflower root and cucumber (Doraji-oimuching)",
+   "main": false
+  },
+  {
+   "ko": "고구마튀김&초간장",
+   "en": "Sweet potato fries & soy dipping sauce (Goguma-twigim)",
+   "main": false
+  },
+  {
+   "ko": "건취나물볶음",
+   "en": "Seasoned vegetable stir-fry (Geoncui-namuul-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드&요거트D",
+   "en": "Fine salad & yogurt D",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Pyo-gi kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 단산음료",
+   "en": "Self-serve bibimbap / Hangang ramyeon / Dansan beverage",
+   "main": false
+  },
+  {
+   "ko": "간편식:쉬림프셀러드",
+   "en": "Convenience meal: Shrimp salad (Gwanpyeonsik)",
+   "main": false
+  }
+ ],
+ "notes": "Origin labels printed: 저희 사정상 문구적심, 칠레미역산림 표기생략(메추리,궁궁이종중국산) 목장 단유과육산",
+ "_model": "claude-haiku-4-5-20251001"
+}

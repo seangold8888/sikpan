@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월23일(수요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉/메밥",
+   "en": "White rice with mixed grains / Cold / Rolled rice",
+   "main": false
+  },
+  {
+   "ko": "돼지 고추장찌개",
+   "en": "Pork red chili stew (Doeji gochujang-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "간장돈사태떡전",
+   "en": "Soy-braised pork shank and rice cake (Ganjang don satae tteok-jeon)",
+   "main": true
+  },
+  {
+   "ko": "일식가츠동덮밥",
+   "en": "Japanese-style katsu donburi (Ilsik gatsu-dong)",
+   "main": true
+  },
+  {
+   "ko": "치즈계란찜",
+   "en": "Cheese and egg steamed dish (Chijeu gyeran-jjim)",
+   "main": false
+  },
+  {
+   "ko": "꿀떡꿀떡",
+   "en": "Honey rice cakes (Kkul tteok kkul tteok)",
+   "main": false
+  },
+  {
+   "ko": "무말랭이 무침",
+   "en": "Seasoned dried radish (Mumalraengi muchim)",
+   "main": false
+  },
+  {
+   "ko": "미나리 겉절이",
+   "en": "Quick-pickled water dropwort (Minari geotjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그릭 샐러드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프 한강라면*셀프 토스트",
+   "en": "Self-serve Hangang ramen * Self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌀채소*쌀포추*쌀장",
+   "en": "Rice vegetables * Rice gochujang * Rice sauce",
+   "main": false
+  },
+  {
+   "ko": "느릅지*탑사은료*매실차",
+   "en": "Zelkova leaf * Top sauce drink * Plum tea",
+   "main": false
+  }
+ ],
+ "notes": "사기 메뉴는 식사 사정에 따라 일부 변동될 수 있습니다. (Some menu items may change depending on dining circumstances.)",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 23일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "육부채돈부장국",
+   "en": "Yubu Chae Don Boujang-guk (soup)",
+   "main": false
+  },
+  {
+   "ko": "지뢰바st불닭볶음",
+   "en": "Spicy stir-fried chicken (Jilae Ba-st Buldak-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치즈돈까스&브라운S",
+   "en": "Cheese pork cutlet & Brown sauce (Cheese Don-kkas & Braun-S)",
+   "main": true
+  },
+  {
+   "ko": "청양마요미트불조림",
+   "en": "Cheongyang mayo meat braised (Cheongyang mayo Mit-bul-jorim)",
+   "main": true
+  },
+  {
+   "ko": "스모그햄어묵볶음",
+   "en": "Smog ham fish cake stir-fry (Seumogeuh-haem eomuk-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "유니뷔음싸장연",
+   "en": "Uni-buf with ssamjang (Uni-byeok-eum-ssa-jang-yeon)",
+   "main": false
+  },
+  {
+   "ko": "파채콩나물무침",
+   "en": "Shredded leek, bean sprouts seasoned (Pachae-kong namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "열대과일샐러드",
+   "en": "Tropical fruit salad (Yeoldae-gwail salad)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen (noodle soup)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated beverage / Cold drink",
+   "main": false
+  }
+ ],
+ "notes": "Date on board matches target date. Last two lines appear to be self-serve options or beverage/condiment notes.",
+ "_model": "claude-haiku-4-5-20251001"
+}

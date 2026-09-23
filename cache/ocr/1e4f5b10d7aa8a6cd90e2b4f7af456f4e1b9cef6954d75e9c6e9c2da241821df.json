@@ -1,0 +1,59 @@
+{
+ "date_shown": "9/23 수요일",
+ "price": null,
+ "hours": "11시 10분 ~ 1시 30분",
+ "items": [
+  {
+   "ko": "잡곡밥 / 쌀쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "버섯돼지 불고기",
+   "en": "Mushroom pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "훈제오리 부추 무침",
+   "en": "Smoked duck with Chinese chives",
+   "main": false
+  },
+  {
+   "ko": "치킨너겟 & 매운소스",
+   "en": "Chicken nuggets & spicy sauce",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 김가루 북음",
+   "en": "Crispy rice / seaweed powder",
+   "main": false
+  },
+  {
+   "ko": "미트볼 우부 조림",
+   "en": "Meatball braised dish",
+   "main": true
+  },
+  {
+   "ko": "쇠고기 떡국",
+   "en": "Beef tteokguk (rice cake soup)",
+   "main": false
+  },
+  {
+   "ko": "궁채 모듬 피클 / 생야채 겨절이",
+   "en": "Mixed pickles / fresh vegetable seasoned dish",
+   "main": false
+  },
+  {
+   "ko": "앙배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 사 푸 기 김 치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9/23 (수요일/Wednesday), not matching target 2026년 09월 23일. Footer contains small text regarding self-service corner and origin labels that is partially illegible in the image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

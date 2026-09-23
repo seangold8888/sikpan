@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 23일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "모듬카츠&계밥",
+   "en": "Assorted cutlet (Katsu) & chicken rice bowl",
+   "main": true
+  },
+  {
+   "ko": "비프하이라이스덮밥",
+   "en": "Beef highlight rice bowl (Beef don)",
+   "main": true
+  },
+  {
+   "ko": "브로콜리두부버무리",
+   "en": "Broccoli and tofu stir-fry",
+   "main": true
+  },
+  {
+   "ko": "붉닭새송이볶음",
+   "en": "Red chicken and king trumpet mushroom stir-fry",
+   "main": false
+  },
+  {
+   "ko": "궁나물북추무침",
+   "en": "Palace vegetable and radish seasoned side dish",
+   "main": false
+  },
+  {
+   "ko": "고추잎무말랭이무침/포기김치",
+   "en": "Red pepper leaf and radish side dish / wrapped kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "투더리역근우동",
+   "en": "Two-dashi cold udon noodles",
+   "main": false
+  },
+  {
+   "ko": "미니전빵튀김",
+   "en": "Mini fried bread",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌤제소 / 한강라면 & 닭곰한 웹 토스트 / 구우반 숭능 & 사원한 탄산음료",
+   "en": "Soup selection, noodles, toast and carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 23일 (수요일) which corresponds to September 23rd, Wednesday, but the year shown is not 2026. Image shows a Korean office cafeteria menu board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

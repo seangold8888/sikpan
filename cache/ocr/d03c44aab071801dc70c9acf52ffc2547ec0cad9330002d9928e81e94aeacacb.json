@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 23일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥",
+   "en": "Mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "우부게란국",
+   "en": "Ubu gye-ran soup",
+   "main": false
+  },
+  {
+   "ko": "불향정양우리훈제�뷔응",
+   "en": "Smoked beef",
+   "main": true
+  },
+  {
+   "ko": "치즈돈까스/데미글라소스",
+   "en": "Cheese pork cutlet with demi-glace sauce",
+   "main": true
+  },
+  {
+   "ko": "애호박전",
+   "en": "Zucchini pancake",
+   "main": false
+  },
+  {
+   "ko": "콩나물잡채",
+   "en": "Bean sprout japchae",
+   "main": false
+  },
+  {
+   "ko": "동그랑땅쪽조림",
+   "en": "Braised round taro",
+   "main": false
+  },
+  {
+   "ko": "들기름깍두이",
+   "en": "Perilla oil seasoned cubed radish",
+   "main": false
+  },
+  {
+   "ko": "궁성채(모닝글로리)볶음",
+   "en": "Stir-fried morning glory",
+   "main": false
+  },
+  {
+   "ko": "오징어젓갈무청",
+   "en": "Squid salted seafood with radish greens",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "배추결절이/음료",
+   "en": "Napa cabbage kimchi / Beverage",
+   "main": false
+  }
+ ],
+ "notes": "더푸드스케치 (The Food Sketch) cafeteria menu. Target date matches board date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

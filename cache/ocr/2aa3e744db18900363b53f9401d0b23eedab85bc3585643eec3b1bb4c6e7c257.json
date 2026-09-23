@@ -1,0 +1,64 @@
+{
+ "date_shown": "26년 9월 21일 ~ 26일 9월 23일",
+ "price": 9500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쌀밥",
+   "en": "Rice",
+   "main": false
+  },
+  {
+   "ko": "가닥미역국",
+   "en": "Wakame soup (Gadak-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "돼지장미회",
+   "en": "Pork with rose sauce (Dwae-ji-jangmi-hoe)",
+   "main": true
+  },
+  {
+   "ko": "구성보리밥",
+   "en": "Barley rice bowl (Guseong-bori-bap)",
+   "main": true
+  },
+  {
+   "ko": "우육국",
+   "en": "Beef soup (Uryuk-guk)",
+   "main": false
+  },
+  {
+   "ko": "한식잔채",
+   "en": "Korean side vegetables (Han-sik-jancae)",
+   "main": false
+  },
+  {
+   "ko": "예슬박",
+   "en": "Yeasul-bak",
+   "main": false
+  },
+  {
+   "ko": "단호도두유국",
+   "en": "Sweet potato and soy milk soup (Dan-ho-do-duyuguk)",
+   "main": false
+  },
+  {
+   "ko": "잔지육수",
+   "en": "Janju broth (Janju-yuksu)",
+   "main": false
+  },
+  {
+   "ko": "양상추야채",
+   "en": "Lettuce and vegetables (Yangseangchu-yacae)",
+   "main": false
+  },
+  {
+   "ko": "한식잔채",
+   "en": "Korean side vegetables (Han-sik-jancae)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows week 26년 9월 21일 ~ 26일; transcribing 9월 23일 column as requested. Image quality makes some text difficult to read with certainty.",
+ "_model": "claude-haiku-4-5-20251001"
+}

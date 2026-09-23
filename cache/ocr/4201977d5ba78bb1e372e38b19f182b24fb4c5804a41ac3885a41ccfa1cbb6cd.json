@@ -1,0 +1,69 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "철판닭강미뵤음밥/백미밥",
+   "en": "Teppanyaki chicken fried rice / white rice",
+   "main": true
+  },
+  {
+   "ko": "우거지된장국",
+   "en": "Sesame leaf soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "기사식당st간장불고기",
+   "en": "Soy sauce beef bulgogi (Gisasikdang style)",
+   "main": true
+  },
+  {
+   "ko": "등심돈까스&생선까스*브라운/달걀",
+   "en": "Pork loin cutlet & fish cutlet with brown or egg sauce",
+   "main": true
+  },
+  {
+   "ko": "세블락포크쇼세지스크랩붕에그",
+   "en": "Sable pork sausage crisp sandwich egg",
+   "main": true
+  },
+  {
+   "ko": "녹두누룽지",
+   "en": "Mung bean crispy rice",
+   "main": false
+  },
+  {
+   "ko": "&양파장아찌",
+   "en": "Pickled onion",
+   "main": false
+  },
+  {
+   "ko": "꿀유자청오리엘탄샐러드파스타",
+   "en": "Honey citron jelly duck-style oriental salad pasta",
+   "main": true
+  },
+  {
+   "ko": "도토리묵*양념간장",
+   "en": "Acorn jelly with seasoned soy sauce",
+   "main": false
+  },
+  {
+   "ko": "상추겹절이",
+   "en": "Layered lettuce pickle",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/ 셀프라면/토스트/음료",
+   "en": "Kimchi / self-serve ramen / toast / beverage",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Target date 2026년 09월 23일 (수) not visible.",
+ "_model": "claude-haiku-4-5-20251001"
+}

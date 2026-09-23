@@ -1,0 +1,59 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기덮밥국",
+   "en": "Beef rice bowl soup",
+   "main": true
+  },
+  {
+   "ko": "고추장볶음고기",
+   "en": "Gochujang stir-fried meat",
+   "main": true
+  },
+  {
+   "ko": "새싹나물스,해물까스",
+   "en": "Sprout vegetable cutlet, seafood cutlet",
+   "main": true
+  },
+  {
+   "ko": "궁중 우삼겹채",
+   "en": "Palace-style pork belly",
+   "main": true
+  },
+  {
+   "ko": "쌕나깻스테이크",
+   "en": "Sesame steak",
+   "main": true
+  },
+  {
+   "ko": "볼어묵초림",
+   "en": "Fish cake side dish",
+   "main": false
+  },
+  {
+   "ko": "영양갈채달걸이,연근초림",
+   "en": "Nutritious vegetable side, lotus root side",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "계란후라이 / 탁산음료",
+   "en": "Fried egg, carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "함감라면",
+   "en": "Hamkam ramen",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Menu items transcribed as printed with some characters difficult to read with certainty. Target date 2026년 09월 23일 (수) not visible on board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

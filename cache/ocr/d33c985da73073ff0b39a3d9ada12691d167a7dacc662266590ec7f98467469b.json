@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월23일 수요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "쌈쌍불고기",
+   "en": "Grilled beef (Ssam-ssang bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "화닭카츠",
+   "en": "Spicy chicken cutlet (Hwa-dak katsu)",
+   "main": true
+  },
+  {
+   "ko": "비엔나뭉음",
+   "en": "Vienna sausage stir-fry (Bienna-meung-eum)",
+   "main": true
+  },
+  {
+   "ko": "꿈떡",
+   "en": "Dream rice cake (Kkum-tteok)",
+   "main": false
+  },
+  {
+   "ko": "오이쫑파무침",
+   "en": "Cucumber and green onion seasoned side (Oi-jjong-pa-muchim)",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad (Sing-sing salad)",
+   "main": false
+  },
+  {
+   "ko": "직접담은달걀이",
+   "en": "Homemade egg (Jik-jeop-dam-eun dal-gyal-i)",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Sogogi miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "찹치마요비빔밥바나나",
+   "en": "Chapchi mayo bibimbap with banana (Chapchi mayo bibimbap banana)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료·셀프라면",
+   "en": "Carbonated beverages·Self-service ramen (Tansan-eum-ryo·Self ramen)",
+   "main": false
+  }
+ ],
+ "notes": "Instagram handle: urbanworkdasbom. Board indicates self-service corner and ramen availability.",
+ "_model": "claude-haiku-4-5-20251001"
+}

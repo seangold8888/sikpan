@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/23(수,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "콩나물해장국",
+   "en": "Bean sprout hangover soup (Kongnamul-haejangguk)",
+   "main": false
+  },
+  {
+   "ko": "쇠고기볶음",
+   "en": "Stir-fried beef (Soegogi-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "메밀김지전병",
+   "en": "Buckwheat and kimchi pancake (Memil-kimji-jeonbyeong)",
+   "main": false
+  },
+  {
+   "ko": "비림냉면",
+   "en": "Cold noodles (Birim-naengmyeon)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables (Gyejeol-namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김지",
+   "en": "Domestic napa cabbage kimchi (Gungnaesang-baechoo-kimji)",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage (Saelleodeu,gwail,eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "점심식 밥,국입니다",
+ "_model": "claude-haiku-4-5-20251001"
+}

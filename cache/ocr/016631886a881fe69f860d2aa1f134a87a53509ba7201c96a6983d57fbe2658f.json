@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월23일 (수) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "Mixed rice / Black rice with grains",
+   "main": false
+  },
+  {
+   "ko": "소고기무국",
+   "en": "Beef radish soup (Sogogi-muguk)",
+   "main": false
+  },
+  {
+   "ko": "돈제오리야채볶음",
+   "en": "Stir-fried duck with vegetables",
+   "main": true
+  },
+  {
+   "ko": "닭리탕수육우동",
+   "en": "Chicken sweet and sour noodles (Dak-lritang-suryuk-udon)",
+   "main": true
+  },
+  {
+   "ko": "중화마파두부덮밥",
+   "en": "Chinese mapo tofu rice bowl (Junghwa-mapatdu-bobbap)",
+   "main": true
+  },
+  {
+   "ko": "고기교자미두튀김+쇠갈장",
+   "en": "Meat dumplings and mung bean fritters with soy dipping sauce",
+   "main": true
+  },
+  {
+   "ko": "비에너지육묵야채볶음",
+   "en": "Energy meat and vegetable stir-fry",
+   "main": false
+  },
+  {
+   "ko": "치커리겉절이",
+   "en": "Chicory quick pickle (Chicory-geotjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/바나나",
+   "en": "Cabbage salad / Banana",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

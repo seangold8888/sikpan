@@ -1,0 +1,59 @@
+{
+ "date_shown": "수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "숭아일",
+   "en": "Sungwail",
+   "main": false
+  },
+  {
+   "ko": "흑미밥/백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "데리○미블고기",
+   "en": "Deli mini bulgogi",
+   "main": true
+  },
+  {
+   "ko": "얼큰숭늉뚜껑개",
+   "en": "Spicy broth",
+   "main": false
+  },
+  {
+   "ko": "궁바특우",
+   "en": "Gungba special",
+   "main": false
+  },
+  {
+   "ko": "동태적*구중장채왕자전",
+   "en": "Dongtae with vegetables",
+   "main": false
+  },
+  {
+   "ko": "막○밥빌공증",
+   "en": "Mixed rice bowl",
+   "main": false
+  },
+  {
+   "ko": "여름표무를응",
+   "en": "Summer vegetables",
+   "main": false
+  },
+  {
+   "ko": "여름중즉",
+   "en": "Summer side dish",
+   "main": false
+  },
+  {
+   "ko": "가는샐러드&치워D포카금치",
+   "en": "Salad & pickled radish",
+   "main": false
+  }
+ ],
+ "notes": "Date shown on board is 수요일 (Wednesday), not matching target date 2026년 09월 23일 (수). Several characters are unclear or possibly misprinted in the original image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

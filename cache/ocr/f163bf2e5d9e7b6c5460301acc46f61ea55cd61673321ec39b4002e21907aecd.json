@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 23일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기우거지해장국",
+   "en": "Beef and vegetable soup (Sogogi-ugeoji-haejang-guk)",
+   "main": false
+  },
+  {
+   "ko": "수제베짱는도지깐/마늘간장s",
+   "en": "Homemade side dish with soy sauce",
+   "main": false
+  },
+  {
+   "ko": "제육곡우장볶고기",
+   "en": "Spicy pork stir-fry (Je-yuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "고기전병, 김치전병",
+   "en": "Meat and kimchi pancakes (Jeon)",
+   "main": false
+  },
+  {
+   "ko": "베이컨에그스크랩볼",
+   "en": "Bacon and egg scraps",
+   "main": false
+  },
+  {
+   "ko": "쟁밥닭국수",
+   "en": "Chicken noodle soup (Dak-guksu)",
+   "main": true
+  },
+  {
+   "ko": "바람떡",
+   "en": "Wind rice cake (Baram-tteok)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 & 잡곡밥",
+   "en": "White rice & mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "육식오렌지",
+   "en": "Meat orange",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "한강기면",
+   "en": "Han River noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산공기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "총농 & 음료",
+   "en": "Dessert & beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

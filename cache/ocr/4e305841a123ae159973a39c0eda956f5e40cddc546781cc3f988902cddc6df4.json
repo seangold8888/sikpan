@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 23일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너)아이스 매실차",
+   "en": "Plus corner - Iced plum tea",
+   "main": false
+  },
+  {
+   "ko": "고추장제육볶음",
+   "en": "Gochujang braised pork (Gochujang-jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "모듬카츠&케쌈",
+   "en": "Assorted katsu & lettuce wraps",
+   "main": true
+  },
+  {
+   "ko": "비프하이라이스덮밥",
+   "en": "Beef fried rice bowl",
+   "main": true
+  },
+  {
+   "ko": "브로콜리두부버섯무침",
+   "en": "Broccoli, tofu & mushroom seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "불닭새송이버섯",
+   "en": "Spicy chicken with king oyster mushrooms",
+   "main": false
+  },
+  {
+   "ko": "코나콩무침",
+   "en": "Kona bean seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "부추겹절이 / 포기김치",
+   "en": "Chinese chive pickles / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "투다리열무우동",
+   "en": "Two-leg yeolmu udon (spicy cold noodles)",
+   "main": true
+  }
+ ],
+ "notes": "Board shows 9월 23일 (수요일) which matches target date 2026년 09월 23일 (수). Restaurant name: 플러스 코나 (우묵). Origin labels shown: 쌀/쌀미소, 양갈김면, 땅 두스돈, 방상옹표.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 23일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰미밥 / 백미밥",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "우거지된장국",
+   "en": "우거지 soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "돼지불백",
+   "en": "Pork bulgogi (Dwaeji-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "함박스테이크",
+   "en": "Hamburg steak",
+   "main": true
+  },
+  {
+   "ko": "생선까스",
+   "en": "Fish cutlet (Saengson-kkas)",
+   "main": true
+  },
+  {
+   "ko": "해물계란전",
+   "en": "Seafood and egg pancake",
+   "main": true
+  },
+  {
+   "ko": "한식잡채",
+   "en": "Korean stir-fried vegetables with glass noodles",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침",
+   "en": "Seasoned dried radish",
+   "main": false
+  },
+  {
+   "ko": "알배추쌈*쌈장",
+   "en": "Cabbage wrap with ssamjang sauce",
+   "main": false
+  },
+  {
+   "ko": "한깃라면",
+   "en": "Hankkil ramen",
+   "main": false
+  },
+  {
+   "ko": "가는셀러드 / 포기김치",
+   "en": "Shredded salad / Kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 메실차 / 숭능",
+   "en": "Carbonated drinks / Plum tea / Barley tea",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

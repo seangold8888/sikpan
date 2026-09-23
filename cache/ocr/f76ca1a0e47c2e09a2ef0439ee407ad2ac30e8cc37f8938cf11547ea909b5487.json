@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 23일 우요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "떡갈비야채볶음밥",
+   "en": "Tteokgalbi with vegetable fried rice",
+   "main": true
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "단호박돼지갈비찜",
+   "en": "Steamed pork ribs with sweet pumpkin (Galbijjim)",
+   "main": true
+  },
+  {
+   "ko": "케이준치킨&허니머스s.",
+   "en": "Cajun chicken & honey mustard",
+   "main": true
+  },
+  {
+   "ko": "두부햄그릴구이",
+   "en": "Grilled tofu and ham",
+   "main": false
+  },
+  {
+   "ko": "모둠버섯장채",
+   "en": "Mixed mushroom side dish",
+   "main": false
+  },
+  {
+   "ko": "꿀떡꿀떡",
+   "en": "Honey rice cakes",
+   "main": false
+  },
+  {
+   "ko": "애플민트레몬소다",
+   "en": "Apple mint lemon soda",
+   "main": false
+  },
+  {
+   "ko": "새품우주오이생채",
+   "en": "Fresh cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Poggi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili peppers/vegetable wraps & ssamjang",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&키워드레싱",
+   "en": "Garden salad & keyword dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Beverage selection",
+   "main": false
+  }
+ ],
+ "notes": "Date shown as '9월 23일 우요일' (appears to be a typo for 수요일/Wednesday); target date was 2026년 09월 23일 (수). Self-serve corner and beverage station indicated on menu.",
+ "_model": "claude-haiku-4-5-20251001"
+}
