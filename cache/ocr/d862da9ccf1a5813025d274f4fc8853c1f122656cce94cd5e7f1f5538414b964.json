@@ -1,0 +1,14 @@
+{
+ "date_shown": "24",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "추석 연휴에는 영업을 하지 않습니다.",
+   "en": "Closed during Chuseok holiday",
+   "main": false
+  }
+ ],
+ "notes": "The board shows a Chuseok holiday notice. The target date 2026년 09월 24일 (목) falls during the Chuseok holiday period (dates 24, 25, 26 are highlighted in pink as 공휴일 - public holidays). The message states the restaurant will not be operating during the Chuseok holidays.",
+ "_model": "claude-haiku-4-5-20251001"
+}

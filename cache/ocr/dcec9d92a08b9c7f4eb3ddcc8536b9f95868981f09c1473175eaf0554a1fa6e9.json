@@ -1,0 +1,14 @@
+{
+ "date_shown": "9월 24일(목)~25일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "저희 구내식당이",
+   "en": "Our in-house cafeteria",
+   "main": false
+  }
+ ],
+ "notes": "This is a notice board, not a standard menu. The board announces cafeteria closure on September 24-25, 2026, with normal operations resuming September 28 (Wednesday). It requests understanding regarding the temporary closure and asks to refrain from leaving heavy food waste. Target date matches the board's announcement dates.",
+ "_model": "claude-haiku-4-5-20251001"
+}

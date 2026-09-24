@@ -1,0 +1,24 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": "점심: 11시 10분 ~ 2시 00분 / 저녁: 5시 10분 ~ 6시 30분",
+ "items": [
+  {
+   "ko": "식사 신청 안내",
+   "en": "Meal request information",
+   "main": false
+  },
+  {
+   "ko": "토,일,공휴일: 휴무",
+   "en": "Saturday, Sunday, holidays: Closed",
+   "main": false
+  },
+  {
+   "ko": "같 사 함 니 다~ ♡",
+   "en": "Thank you",
+   "main": false
+  }
+ ],
+ "notes": "This is a general cafeteria information board, not a menu for a specific date. No menu items for the target date (2026년 09월 24일) are displayed. The board only shows operating hours and closure information.",
+ "_model": "claude-haiku-4-5-20251001"
+}

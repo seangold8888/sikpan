@@ -1,0 +1,14 @@
+{
+ "date_shown": "9월 24일(목) ~ 25일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "추석 휴무",
+   "en": "Chuseok Holiday (Closed)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows Chuseok holiday closure notice for September 24-25. Regular operations resume September 28 (정상 영업). The target date falls within the holiday closure period.",
+ "_model": "claude-haiku-4-5-20251001"
+}

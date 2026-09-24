@@ -1,0 +1,24 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "행복한 한끼",
+   "en": "Happy meal",
+   "main": false
+  },
+  {
+   "ko": "건강한 한끼",
+   "en": "Healthy meal",
+   "main": false
+  },
+  {
+   "ko": "영양가 있는 음식",
+   "en": "Nutritious food",
+   "main": false
+  }
+ ],
+ "notes": "This is a branding/slogan board for Raon Food cafeteria, not a specific daily menu. No menu items, date, price, or hours are displayed. The three lines appear to be company slogans about providing happy, healthy, and nutritious meals.",
+ "_model": "claude-haiku-4-5-20251001"
+}
