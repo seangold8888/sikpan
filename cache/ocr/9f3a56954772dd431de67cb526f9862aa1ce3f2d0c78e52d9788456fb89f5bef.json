@@ -1,0 +1,14 @@
+{
+ "date_shown": "9월 24일(목), 25일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "추석연휴",
+   "en": "Chuseok holiday",
+   "main": false
+  }
+ ],
+ "notes": "Board shows September 24-25, 2026. September 28 (Monday) noted as regular operations resume. Message states 'Sorry for the inconvenience during the holiday period. Thank you.'",
+ "_model": "claude-haiku-4-5-20251001"
+}
