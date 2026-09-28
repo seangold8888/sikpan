@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월28(월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "들깨미역국",
+   "en": "Perilla seed seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "직화쭈샘불고기",
+   "en": "Direct-flame grilled beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "후라이드&맛초킹반반치킨",
+   "en": "Half fried & half spicy chicken",
+   "main": true
+  },
+  {
+   "ko": "바몬드카레라이스",
+   "en": "Almond curry rice",
+   "main": true
+  },
+  {
+   "ko": "메추리알장조림",
+   "en": "Braised quail eggs",
+   "main": false
+  },
+  {
+   "ko": "두부계란부침&묵음김치",
+   "en": "Tofu & egg pan-fried & jelly kimchi",
+   "main": false
+  },
+  {
+   "ko": "세볏락소세지소떡소떡",
+   "en": "Sausage and rice cake skewers",
+   "main": false
+  },
+  {
+   "ko": "화덕토마토피자",
+   "en": "Wood-fired tomato pizza",
+   "main": true
+  },
+  {
+   "ko": "한식아욕잡채/오이부추생채",
+   "en": "Korean japchae / cucumber & chive fresh salad",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드*과일드레싱",
+   "en": "Fine rice salad * fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프라면/토스트/음료",
+   "en": "Self-serve ramen / toast / beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

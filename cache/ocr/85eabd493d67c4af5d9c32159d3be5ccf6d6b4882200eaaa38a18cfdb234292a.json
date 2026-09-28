@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월28일(월요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/보리밥",
+   "en": "White rice with mixed grains / barley rice",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Sogogi-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "허니갈릭순살치킨",
+   "en": "Honey garlic tender chicken",
+   "main": true
+  },
+  {
+   "ko": "묵은지제육볶음",
+   "en": "Aged kimchi with pork stir-fry (Muk-eun-ji-jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "베이컨팟타이볶음덮",
+   "en": "Bacon pad thai stir-fry bowl",
+   "main": true
+  },
+  {
+   "ko": "자색고구마생크림와플",
+   "en": "Purple sweet potato whipped cream waffle",
+   "main": false
+  },
+  {
+   "ko": "달시마�쭈유묵무침",
+   "en": "Sweet sea cucumber and jelly side dish",
+   "main": false
+  },
+  {
+   "ko": "유자열갈이결절이",
+   "en": "Yuzu citrus side",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럿드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌀채소*쌀고추*쌀장",
+   "en": "Rice vegetables * rice red pepper * rice sauce",
+   "main": false
+  },
+  {
+   "ko": "는물지*탕사은료*매실차",
+   "en": "Rice water * broth tea * plum tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items marked with asterisk (*). Origin labels and meal notices may apply as indicated.",
+ "_model": "claude-haiku-4-5-20251001"
+}

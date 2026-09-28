@@ -1,0 +1,59 @@
+{
+ "date_shown": "26년 9월 28일 ~ 26년 10월 2일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "제육볶음·우육아카츠·오니기리무소",
+   "en": "Spicy stir-fried pork, beef cutlet, onigiri with filling",
+   "main": true
+  },
+  {
+   "ko": "안동닭볶음·타타르튀김소스",
+   "en": "Andong-style spicy chicken, tartar fried sauce",
+   "main": true
+  },
+  {
+   "ko": "버섯소불고기·김치고기만두",
+   "en": "Mushroom beef bulgogi, kimchi meat dumplings",
+   "main": true
+  },
+  {
+   "ko": "폼파디스킨·김치고기만두",
+   "en": "Pompadis skin, kimchi meat dumplings",
+   "main": true
+  },
+  {
+   "ko": "숭늉·우육까스·고등어김치찜",
+   "en": "Barley tea, beef cutlet, mackerel with kimchi stew",
+   "main": false
+  },
+  {
+   "ko": "영양닭죽",
+   "en": "Nutritious chicken congee",
+   "main": true
+  },
+  {
+   "ko": "참치국수",
+   "en": "Tuna noodles",
+   "main": true
+  },
+  {
+   "ko": "짜장우동면",
+   "en": "Jjajang udon noodles",
+   "main": true
+  },
+  {
+   "ko": "순대야채볶음",
+   "en": "Sundae with vegetable stir-fry",
+   "main": true
+  },
+  {
+   "ko": "열콩닭찜",
+   "en": "Hot bean chicken stew",
+   "main": true
+  }
+ ],
+ "notes": "Menu board shows weekly schedule (Sept 28 - Oct 2, 2026). Transcribed only Monday (월) column as requested. Target date matches the first day shown on board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

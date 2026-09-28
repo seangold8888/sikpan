@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 28일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합장국밥",
+   "en": "Mixed soup rice (Honghap jangukbap)",
+   "main": true
+  },
+  {
+   "ko": "어묵국",
+   "en": "Fish cake soup (Eomuk guk)",
+   "main": false
+  },
+  {
+   "ko": "파채불고기",
+   "en": "Shredded radish bulgogi (Pachae bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "후라이드치킨/어니언옹커ES",
+   "en": "Fried chicken/Onion wings ES",
+   "main": true
+  },
+  {
+   "ko": "스크랩블에그",
+   "en": "Scrambled eggs (Scrambled egg)",
+   "main": true
+  },
+  {
+   "ko": "치즈토마토파스타",
+   "en": "Cheese tomato pasta (Chizu tomato pasta)",
+   "main": true
+  },
+  {
+   "ko": "양송이떡갈비",
+   "en": "Mushroom rice cake galbi (Yangsongi tteokgalbi)",
+   "main": true
+  },
+  {
+   "ko": "명란버터드브우조림",
+   "en": "Cod roe butter braised vegetables (Myeongran butter braised)",
+   "main": false
+  },
+  {
+   "ko": "오이생채",
+   "en": "Cucumber salad (Oi saengchae)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/Dressing",
+   "main": false
+  },
+  {
+   "ko": "배추김절이/음료",
+   "en": "Pickled napa cabbage/Beverage",
+   "main": false
+  }
+ ],
+ "notes": "Employee cafeteria menu (혼합장군밥 더푸드스쿠어치). Date shown matches target date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

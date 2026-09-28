@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월28일 월요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "냉삼소금구이",
+   "en": "Cold beef brisket with salt (Naeng-sam sogeum-gui)",
+   "main": true
+  },
+  {
+   "ko": "순쌀마니커텐더깟",
+   "en": "Rice noodle tender cut",
+   "main": true
+  },
+  {
+   "ko": "사천미트볼합박조림",
+   "en": "Sichuan meatball braised dish",
+   "main": true
+  },
+  {
+   "ko": "부산오뎅북음",
+   "en": "Busan odeng broth",
+   "main": false
+  },
+  {
+   "ko": "새콩미역나물",
+   "en": "Fresh bean and seaweed salad",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "바지락궁나물국",
+   "en": "Clam and vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥",
+   "en": "Self-serve bibimbap",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "셀프라면",
+   "en": "Self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Instagram: urbanworkdasbom. Operating hours shown as 오전10시 (10 AM). Additional contact: 다시봄 카톡채널 메뉴공지-오전10시",
+ "_model": "claude-haiku-4-5-20251001"
+}

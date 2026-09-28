@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월 28일 (월요일)에만",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너)상색풍격",
+   "en": "Plus corner special",
+   "main": false
+  },
+  {
+   "ko": "숯불고추장제육볶음",
+   "en": "Charcoal-grilled gochujang pork stir-fry",
+   "main": true
+  },
+  {
+   "ko": "한입치킨까스&머스타드",
+   "en": "Bite-sized chicken cutlet with mustard",
+   "main": true
+  },
+  {
+   "ko": "사천마파두부볶법",
+   "en": "Sichuan mapo tofu stir-fry",
+   "main": true
+  },
+  {
+   "ko": "참치오이셀러드",
+   "en": "Tuna and cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "옥수수안마이트볼",
+   "en": "Corn maitake ball",
+   "main": false
+  },
+  {
+   "ko": "파래무생채",
+   "en": "Green laver and radish salad",
+   "main": false
+  },
+  {
+   "ko": "모둠야채지/김치걸절이",
+   "en": "Mixed vegetables/pickled kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린셀러드&드레싱",
+   "en": "Green salad and dressing",
+   "main": false
+  },
+  {
+   "ko": "목살 김치찌개",
+   "en": "Pork neck and kimchi stew",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date as 9월 28일 (월요일) which matches target date 2026년 09월 28일 (월). Bottom text shows restaurant name: 플러스 코너 (우동)",
+ "_model": "claude-haiku-4-5-20251001"
+}

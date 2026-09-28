@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월28일 (월) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑쌀밥/검은쌀잡곡밥",
+   "en": "Black rice / Mixed black grain rice",
+   "main": false
+  },
+  {
+   "ko": "북어채장국",
+   "en": "Dried pollock soup (Bugeo-chae-jang-guk)",
+   "main": false
+  },
+  {
+   "ko": "기사식당돼지불고기",
+   "en": "Pork bulgogi (Dwaeji-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "수제숨삼파닭",
+   "en": "Homemade chicken (Su-je-sum-sam-pa-dak)",
+   "main": true
+  },
+  {
+   "ko": "바지락양미우리오파스타",
+   "en": "Clam and squid pasta (Bajilak-oilpasta)",
+   "main": true
+  },
+  {
+   "ko": "당면야채무국강정",
+   "en": "Sweet potato noodle and vegetable radish soup gangjung (Dangmyeon-yachae-mu-guk-gangjung)",
+   "main": false
+  },
+  {
+   "ko": "비엔나녹둘뭉음",
+   "en": "Vienna sausage with greens",
+   "main": false
+  },
+  {
+   "ko": "무생채컹정이",
+   "en": "Raw radish salad (Mu-saengchae)",
+   "main": false
+  },
+  {
+   "ko": "배추김정이깻치",
+   "en": "Cabbage kimchi with sesame",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad (Yangbaechu-saelleodeu)",
+   "main": false
+  },
+  {
+   "ko": "냉도토리묵사밥",
+   "en": "Cold acorn jelly with rice",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

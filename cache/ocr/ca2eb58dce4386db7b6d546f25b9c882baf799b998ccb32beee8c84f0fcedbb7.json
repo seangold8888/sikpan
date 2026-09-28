@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 28일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "콩나물김치국",
+   "en": "Soybean sprout kimchi soup",
+   "main": false
+  },
+  {
+   "ko": "간장돈불고기",
+   "en": "Soy-braised pork (Ganjang-don-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "미트볼치즈그라탕",
+   "en": "Meatball cheese gratin",
+   "main": true
+  },
+  {
+   "ko": "순대&김말이강정",
+   "en": "Sundae & rolled kimchi crispy snack",
+   "main": false
+  },
+  {
+   "ko": "고구마줄기볶음",
+   "en": "Sweet potato stem stir-fry",
+   "main": false
+  },
+  {
+   "ko": "미나리무말랭이우춤",
+   "en": "Seasoned aralia shoots salad",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드&허니유자D",
+   "en": "Fine salad & honey yuzu dressing",
+   "main": false
+  },
+  {
+   "ko": "�깡두기",
+   "en": "Kkakdugi (radish cube kimchi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한갈라면 / 탄산음료",
+   "en": "Self-service bibimbap / Korean ramyeon / Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "카페식·그릭드절김셀러드",
+   "en": "Cafe-style Greek-style salad",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 28일 (월) which corresponds to September 28 (Monday). The target date requested was 2026년 09월 28일 (월), but the board only shows '9월 28일 (월)' without the year. Self-serve options and origin labels are included as noted on the board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

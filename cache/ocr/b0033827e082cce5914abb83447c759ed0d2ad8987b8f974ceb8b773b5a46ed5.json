@@ -1,0 +1,64 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우육",
+   "en": "Beef",
+   "main": false
+  },
+  {
+   "ko": "홍미밥/쌀미밥",
+   "en": "Brown rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "직화구증장돌미",
+   "en": "Direct-fired stone pot vegetable",
+   "main": true
+  },
+  {
+   "ko": "꼬지여름국",
+   "en": "Summer skewer soup",
+   "main": false
+  },
+  {
+   "ko": "파닭",
+   "en": "Green onion chicken",
+   "main": true
+  },
+  {
+   "ko": "미트승러크&팟게티",
+   "en": "Meat sauce & pasta",
+   "main": true
+  },
+  {
+   "ko": "여름우중",
+   "en": "Summer salad",
+   "main": false
+  },
+  {
+   "ko": "김가루우른느끼중",
+   "en": "Seaweed powder side",
+   "main": false
+  },
+  {
+   "ko": "야채날음이",
+   "en": "Fresh vegetable",
+   "main": false
+  },
+  {
+   "ko": "가른쌀러크&팟기ID",
+   "en": "Side salad & pasta ID",
+   "main": false
+  },
+  {
+   "ko": "쪽기김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "No specific date shown on board. Text at bottom indicates this is for a Korean office cafeteria. Some menu item text appears unclear or possibly misprinted in source image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

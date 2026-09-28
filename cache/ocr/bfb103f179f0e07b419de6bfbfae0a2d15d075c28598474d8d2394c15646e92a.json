@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/28(월,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "근대된장국",
+   "en": "Seasoned greens soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "돈까스김자나베",
+   "en": "Pork cutlet (Donkkaseu) with kimchi hot pot",
+   "main": true
+  },
+  {
+   "ko": "토마토될깻볶음",
+   "en": "Tomato and sesame seed stir-fry",
+   "main": false
+  },
+  {
+   "ko": "잔딜저격마늘음",
+   "en": "Garlic side dish",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Left column of menu board showing lunch (점심) menu for Monday 9/28",
+ "_model": "claude-haiku-4-5-20251001"
+}

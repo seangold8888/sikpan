@@ -1,0 +1,64 @@
+{
+ "date_shown": "9/28 월요일",
+ "price": null,
+ "hours": "11시 10분 ~ 1시 30분",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "돈육 불고기 볶음",
+   "en": "Stir-fried pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "너비아니 산적구이",
+   "en": "Grilled beef and vegetable skewers (Neobiani-sanjuk)",
+   "main": true
+  },
+  {
+   "ko": "닭갈 야채찜",
+   "en": "Steamed chicken with vegetables",
+   "main": true
+  },
+  {
+   "ko": "구수한 느룽지 / 미쇗가루",
+   "en": "Rice crispy / Barley powder",
+   "main": false
+  },
+  {
+   "ko": "생선가숨 & 타르타르",
+   "en": "Fish fillet & tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "얼근한 소고기 해장국",
+   "en": "Spicy beef soup (Haejangguk)",
+   "main": false
+  },
+  {
+   "ko": "콩나물 무침 / 부추 무생채",
+   "en": "Seasoned bean sprouts / Raw leek salad",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "깍 두 기",
+   "en": "Kkakdugi (cubed radish kimchi)",
+   "main": false
+  },
+  {
+   "ko": "\" 탄 산 음 료 \"",
+   "en": "Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9/28 월요일 (Monday, September 28), which corresponds to 2026년 09월 28일 (월). Operating hours appear to be 11시 10분 ~ 1시 30분. Note at bottom includes '맛있게 드세요 ♡' (Enjoy your meal)",
+ "_model": "claude-haiku-4-5-20251001"
+}

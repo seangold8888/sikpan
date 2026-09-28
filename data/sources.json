@@ -1,6 +1,6 @@
 {
  "sourceUrl": "https://koreaward-6.github.io/",
- "sourceDate": "2026년 09월 25일 (금)",
+ "sourceDate": "2026년 09월 28일 (월)",
  "restaurants": [
   {
    "id": "7d927ea8",
@@ -8,8 +8,8 @@
    "channel": "https://pf.kakao.com/_xgxlXKG",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdQSp,2AIqjX,%EC%9D%B4%EC%95%A4%EC%94%A8%EB%93%9C%EB%A6%BC%ED%83%80%EC%9B%8C7%EC%B0%A8,18976980,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 디지털로9길 46 이앤씨드림타워7차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/bNp1Yj/dJMcajcHCw5/6nStkBKt9yOzag4dIwZ3L0/img_m.jpg",
-   "sha": "edd5f2d724893645e65a725b02bdc6a997049595cd7be55b45cf04818afb042e",
+   "imgUrl": "https://k.kakaocdn.net/dn/bozc4k/dJMcadDrLVL/JAs9ktqqODLlZKb5ZvGii1/img_m.jpg",
+   "sha": "bfb103f179f0e07b419de6bfbfae0a2d15d075c28598474d8d2394c15646e92a",
    "img": "7d927ea8.jpg"
   },
   {
@@ -18,8 +18,8 @@
    "channel": "https://pf.kakao.com/_xhNExmn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdtkV,2AIq3l,%EA%B0%80%EC%82%B0%EC%96%B4%EB%B0%98%EC%9B%8C%ED%81%AC,1823111605,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털2로 135 가산어반워크 2층",
-   "imgUrl": "https://k.kakaocdn.net/dn/dAoEoQ/dJMcaafT5yG/iDdUkh8HK3Ok23TFmGYUo0/img_m.jpg",
-   "sha": "b369c80d9237474e5f8e2e09d359992065b12fae54a04b4760d6200fb1a6e9a3",
+   "imgUrl": "https://k.kakaocdn.net/dn/bFmgBM/dJMcaafV1dC/OWOZXeZjVVaW4x1weUEV0K/img_m.jpg",
+   "sha": "296b9923b7a728aecd06dd6f65c6c22d134d2f6d26ac524ea1510e86ba2a9345",
    "img": "5e54a17a.jpg"
   },
   {
@@ -28,8 +28,8 @@
    "channel": "https://pf.kakao.com/_iyscG",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdqxQ,2AIpVf,%EB%94%94%ED%8F%B4%EB%A6%AC%EC%8A%A4%EC%A7%80%EC%8B%9D%EC%82%B0%EC%97%85%EC%84%BC%ED%84%B0,18979316,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 서부샛길 606 대성디폴리스 지식산업센터 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/0lZJZ/dJMcaikEq3t/25XuVcr9BIU26GFLN6NrJK/img_m.jpg",
-   "sha": "b95531fe9fbbfa78302ea773db8d950d687783e4f14e778b31bb61470cdee913",
+   "imgUrl": "https://k.kakaocdn.net/dn/J7Hzr/dJMcagtBRxd/IKgw4zGspcZ4CtSQG4Ladk/img_m.jpg",
+   "sha": "ea8720bd3d1aec10f3037fa2b4c438320f573b24678ade58b0fb20c833d1e60b",
    "img": "a79716e1.jpg"
   },
   {
@@ -38,8 +38,8 @@
    "channel": "https://pf.kakao.com/_NHxgEn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdFkC,2AIqhz,%EC%9A%B0%EB%A6%BC%EB%9D%BC%EC%9D%B4%EC%98%A8%EC%8A%A4%EB%B0%B8%EB%A6%ACB%EB%8F%99,18981946,PLACE_POI/-/walk?c=19.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 168 우림라이온스밸리 B동 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/E7QQC/dJMcaaNKm7e/M6LMn4KXc9LsVauO7kKpD0/img_m.jpg",
-   "sha": "947ddb05ab55069554e37b6414f1948092d1a69d0f5746b9eeafb6f93e2aecd4",
+   "imgUrl": "https://k.kakaocdn.net/dn/AMusV/dJMcaaNM4YE/aq6IS1iwZ9Un1B1GAqLWy0/img_m.jpg",
+   "sha": "67580336ba0827a6b0d666c9e6a972bc6f894b4ea0e5092f1cb8c2d55d1d14a3",
    "img": "e023a81d.jpg"
   },
   {
@@ -48,8 +48,8 @@
    "channel": "https://pf.kakao.com/_nFfwj",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdByS,2AIxEJ,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B81%EB%A1%9C%20196,09545101,ADDRESS_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 196 에이스테크노타워10차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/djW1Sc/dJMcacEQ8nI/dKhD3Yy1VB5FMkFXLaHb31/img_m.jpg",
-   "sha": "2c8d510f7a1fb55a1d389ed2b636b15e57331f9c369c96ebcc98767c6b3134f4",
+   "imgUrl": "https://k.kakaocdn.net/dn/bCE10k/dJMcaf2sIaK/vJcceKjW6s8rmoDkf8LX30/img_m.jpg",
+   "sha": "f2e8af4f511dd560152798867934e5e5ef17a750cfe0973923fd61b9e33be3aa",
    "img": "fd1d0038.jpg"
   },
   {
@@ -58,8 +58,8 @@
    "channel": "https://pf.kakao.com/_Rxkrxfn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdAKO,2AIqx9,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B81%EB%A1%9C%20165,09545101,ADDRESS_POI/-/walk?c=18.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 165 가산비즈니스센터 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/zDtQe/dJMb99ODomK/lAtL4TXsGMJIXr1QNG0I6k/img_m.jpg",
-   "sha": "07473df3538e34f5b3510349ac9be1ab8d4db0aa68728e255c67b09b296c2fba",
+   "imgUrl": "https://k.kakaocdn.net/dn/bCn2UR/dJMcag78jCJ/5JPJk0sCVgJT7HnLPmtqOk/img_m.jpg",
+   "sha": "9e1e1e5199fe9c7123fc889f99863f6d8f7e47317c72de97be33ba08a1afba7e",
    "img": "5aeba71b.jpg"
   },
   {
@@ -68,8 +68,8 @@
    "channel": "https://pf.kakao.com/_xaAvxlG",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdNjq,2AIh9q,%EB%B2%BD%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%B0%B8%EB%A6%AC5%EC%B0%A8,18981320,PLACE_POI/-/walk?c=16.00,0,0,0,dh",
    "address": "서울 금천구 벚꽃로 244 벽산 디지털 밸리 5차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/qcjmJ/dJMcaiLBY3h/y8Mo5YM1RYW7OvKUHTYOC1/img_m.jpg",
-   "sha": "39cbd701dd9061dae2da675fb765c52dadfeb620ea85a066bfad623a8ab3e53c",
+   "imgUrl": "https://k.kakaocdn.net/dn/brggFT/dJMcabMLsj6/JFBFQiBOKFs7zcNjGwxMk1/img_m.jpg",
+   "sha": "5462527957afcaded2e86e27c2b9409fbced3f1d9331837ef10836d36b323235",
    "img": "55165eba.jpg"
   },
   {
@@ -78,8 +78,8 @@
    "channel": "https://pf.kakao.com/_DWnxlxj",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdIof,2AIiGg,STXV%ED%83%80%EC%9B%8C,19575296,PLACE_POI/-/walk?c=16.00,0,0,0,dh",
    "address": "서울특별시 금천구 가산디지털1로 128 STX V-TOWER 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/bboXtV/dJMcag1g8Dj/Fs3QQeQkOeVcAKkdgnWVl1/img_m.jpg",
-   "sha": "f76ca1a0e47c2e09a2ef0439ee407ad2ac30e8cc37f8938cf11547ea909b5487",
+   "imgUrl": "https://k.kakaocdn.net/dn/50QRK/dJMcafBt5Dg/lQzLUHWkKzKgLDSeBUEgD0/img_m.jpg",
+   "sha": "49437a1dbc1841f6f32116f24752aaa38b2ad2eb6069ccadd148113794f9fb19",
    "img": "stx_e4c8b703.jpg"
   },
   {
@@ -88,8 +88,8 @@
    "channel": "https://pf.kakao.com/_yTbHb",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdEij,2AIcc2,%EC%84%9C%EC%9A%B8%EC%8B%9C%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EB%8C%80%EB%A5%AD%ED%85%8C%ED%81%AC%EB%85%B8%ED%83%80%EC%9A%B419%EC%B0%A8%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%86%8C,1671568566,PLACE_POI/-/walk?c=16.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털2로 70 대륭테크노타운19차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/dEcVgr/dJMcadwFSNd/CkKbJnYUd0uXkKgMCu9Ln0/img_m.jpg",
-   "sha": "af42d65f570eb19a8a973c9400e33ed2f6511b04b7e32f22f8146754a2f7b25c",
+   "imgUrl": "https://k.kakaocdn.net/dn/cKYjc9/dJMcabsh601/FqGDzOd8Ozn5YzBVWOk9Kk/img_m.jpg",
+   "sha": "fe55af5425376b8b33b5f99609689c6acd61c3f2391e82dfd5e4de15927bfab0",
    "img": "19_63ef1327.jpg"
   },
   {
@@ -98,8 +98,8 @@
    "channel": "https://pf.kakao.com/_icxfpxj",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdMDB,2AI8Tz,%EC%84%9C%EC%9A%B8%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EC%97%90%EC%9D%B4%EC%8A%A4%ED%95%98%EC%9D%B4%EC%97%94%EB%93%9C%ED%83%80%EC%9B%8C8%EC%B0%A8%20%EC%B0%A8%EC%A7%80%EB%B9%84%201%20%EC%A0%84%EA%B8%B0%EC%B0%A8%EC%B6%A9%EC%A0%84%EC%86%8C,1418802357,PLACE_POI/-/walk?c=15.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 84 에이스하이엔드타워8차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/pjKR4/dJMcahzf0Qs/ashaAjUttSytNFPe0KkBLk/img_m.jpg",
-   "sha": "c0efcfcdc8c730214cafbb965078c7e0e6a45135fd68f92610ca7e844d31b30c",
+   "imgUrl": "https://k.kakaocdn.net/dn/bdssUH/dJMcahlR9tE/9tRtMxbMuhGLiC3LxkwUak/img_m.jpg",
+   "sha": "60a4a1f7c42edc3bf5c2073b75d2e5daa6475eb6ff92a811c9aa34fe3533fa29",
    "img": "8_6d16e754.jpg"
   },
   {
@@ -108,8 +108,8 @@
    "channel": "https://pf.kakao.com/_bXxkxhb",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdDwV,2AIi3K,BYC%ED%95%98%EC%9D%B4%EC%8B%9C%ED%8B%B0,18979666,PLACE_POI/-/walk?c=16.91,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 131 BYC하이시티 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/k6PQe/dJMcaiEXE0w/KktzWdQJEO29vp7gFtaPVk/img_m.jpg",
-   "sha": "877099adf9cabec19512dd162a1b1c3d9b9905b584c31bc3b2808d87fbbc6e5b",
+   "imgUrl": "https://k.kakaocdn.net/dn/REeJ7/dJMcagtBQjD/fvGUzHqNLuMgatkmhpqib1/img_m.jpg",
+   "sha": "85eabd493d67c4af5d9c32159d3be5ccf6d6b4882200eaaa38a18cfdb234292a",
    "img": "d9380783.jpg"
   },
   {
@@ -118,8 +118,8 @@
    "channel": "https://pf.kakao.com/_mYxfen",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdspP,2AIrCm,%EA%B0%80%EC%82%B0%EC%96%B4%EB%B0%98%EC%9B%8C%ED%81%AC2,1003114149,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털2로 143 가산어반워크2 2층",
-   "imgUrl": "https://k.kakaocdn.net/dn/bBheDV/dJMcagf0fcn/TvrZj5vPBZgG23ll26gi60/img_m.jpg",
-   "sha": "d862da9ccf1a5813025d274f4fc8853c1f122656cce94cd5e7f1f5538414b964",
+   "imgUrl": "https://k.kakaocdn.net/dn/mveQg/dJMcaaNM400/47nYFTQ2ZriWtrhx9ocuuk/img_m.jpg",
+   "sha": "34a6fa7b90cefd7893c5b1df0a43235e9a4ce6b27211961029c3e0c779b85906",
    "img": "0113b1a3.jpg"
   },
   {
@@ -128,8 +128,8 @@
    "channel": "https://pf.kakao.com/_axkixdn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdKQV,2AIuaL,%EC%8A%A4%ED%83%80%EB%B0%B8%EB%A6%AC,18976994,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 디지털로9길 99 스타밸리 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/IWYEx/dJMcaafRWah/WlbK2sVEFFPv0JNFzsc6A0/img_m.jpg",
-   "sha": "dcec9d92a08b9c7f4eb3ddcc8536b9f95868981f09c1473175eaf0554a1fa6e9",
+   "imgUrl": "https://k.kakaocdn.net/dn/dgwyzP/dJMcadXZYbh/1DHl4ZKMKJSImnXks3BbVK/img_m.jpg",
+   "sha": "b0033827e082cce5914abb83447c759ed0d2ad8987b8f974ceb8b773b5a46ed5",
    "img": "ed47092f.jpg"
   },
   {
@@ -138,8 +138,8 @@
    "channel": "https://pf.kakao.com/_gdqxdn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdFHm,2AImfD,%EB%8C%80%EB%A5%AD%ED%85%8C%ED%81%AC%EB%85%B8%ED%83%80%EC%9A%B422%EC%B0%A8,1175928783,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털1로 146 대륭테크노타운 22차 1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/bewDgm/dJMcajw8f54/MigIaooDC3IqjStRX0L2qk/img_m.jpg",
-   "sha": "13d6e29448d81eef40c0a14af61ecb84639d7dd28f1b63019b5b2d10877acda9",
+   "imgUrl": "https://k.kakaocdn.net/dn/dgI7gF/dJMcaf9aaIn/BvUig3qD2uHJryPxdMuDhK/img_m.jpg",
+   "sha": "a4798bafac0f2eef29c4300683b74538bc5c2453612a64ae6aff88d1c4327306",
    "img": "edd59332.jpg"
   },
   {
@@ -148,8 +148,8 @@
    "channel": "https://pf.kakao.com/_vygYn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdwpt,2AIssX,%ED%98%84%EB%8C%80%ED%85%8C%EB%9D%BC%ED%83%80%EC%9B%8C%20%EA%B0%80%EC%82%B0DK,1276717932,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 가산디지털2로 144 현대테라타워 가산DK 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/p59eu/dJMcacLCKCQ/gvSxASHPZq1YOfceRApYpk/img_m.jpg",
-   "sha": "9f3a56954772dd431de67cb526f9862aa1ce3f2d0c78e52d9788456fb89f5bef",
+   "imgUrl": "https://k.kakaocdn.net/dn/yDuDl/dJMcaaUqD6x/NCumUiZUqYk6ZcGHGimrkk/img_m.jpg",
+   "sha": "ca2eb58dce4386db7b6d546f25b9c882baf799b998ccb32beee8c84f0fcedbb7",
    "img": "81444959.jpg"
   },
   {
@@ -158,8 +158,8 @@
    "channel": "https://pf.kakao.com/_xnBzGn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOFI,2AIsCE,%EB%8C%80%EB%A5%AD%ED%8F%AC%EC%8A%A4%ED%8A%B8%ED%83%80%EC%9B%8C5%EC%B0%A8,18977159,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 디지털로9길 68 대륭포스트타워5차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/cTE9UA/dJMcaamrUwe/d0mViP1iv3ms1cMpgXcQQ0/img_m.jpg",
-   "sha": "c2f72a428e4e231c2f60b49a8c76cfedd0afbf7bb2597c980798e21eb365d950",
+   "imgUrl": "https://k.kakaocdn.net/dn/g4hri/dJMcadjtdpi/NBfxUik5JH3CSaSNZaKQ4K/img_m.jpg",
+   "sha": "bee4ad560c703d466713c3101cd023bb20a72015026ebf29f3c426726fd6c347",
    "img": "c7f1a82c.jpg"
   },
   {
@@ -168,8 +168,8 @@
    "channel": "https://pf.kakao.com/_XBiQxj",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOFI,2AIsCE,%EB%8C%80%EB%A5%AD%ED%8F%AC%EC%8A%A4%ED%8A%B8%ED%83%80%EC%9B%8C5%EC%B0%A8,18977159,PLACE_POI/-/walk?c=17.00,0,0,0,dh",
    "address": "서울 금천구 디지털로9길 68 대륭포스트타워5차 지하1층",
-   "imgUrl": "https://k.kakaocdn.net/dn/rPPTS/dJMcackmDAq/WnVkN6dXVdUfYKOhRkxLX1/img_m.jpg",
-   "sha": "39cbd701dd9061dae2da675fb765c52dadfeb620ea85a066bfad623a8ab3e53c",
+   "imgUrl": "https://k.kakaocdn.net/dn/cLU1ac/dJMcacY3ups/T1moTxZoJnwp2dop4wKO6K/img_m.jpg",
+   "sha": "e6041156d15f7f39f1c4331f45464b07bb9c64e0e99eb8e81670e3815b06a165",
    "img": "cb0176ed.jpg"
   },
   {
@@ -178,8 +178,8 @@
    "channel": "https://pf.kakao.com/_ECNfn",
    "directions": "https://map.naver.com/p/directions/3zdEZf,2AIqV7,%EA%B0%80%EC%82%B0%EB%94%94%EC%A7%80%ED%84%B8%EB%8B%A8%EC%A7%80%EC%97%AD%207%ED%98%B8%EC%84%A0,746,SUBWAY_STATION/3zdOF3,2AIcZ4,%ED%8D%BC%EB%B8%94%EB%A6%AD%EA%B0%80%EC%82%B0C%EB%8F%99,1713072974,PLACE_POI/-/walk?c=15.00,0,0,0,dh",
    "address": "서울 금천구 디지털로 178 퍼블릭가산 c동 3층",
-   "imgUrl": "https://k.kakaocdn.net/dn/cDIdC2/dJMcah7bjES/mQMkicGFZYmzesKYaoGB51/img_m.jpg",
-   "sha": "2aa3e744db18900363b53f9401d0b23eedab85bc3585643eec3b1bb4c6e7c257",
+   "imgUrl": "https://k.kakaocdn.net/dn/5iw7c/dJMb99OFau2/a8SzGS1dso19DXgI0OoTkk/img_m.jpg",
+   "sha": "d258783a57afb4ada7e4476643a47de9f585258954da6c7f9b84fc0a87c2cda2",
    "img": "a117b56a.jpg"
   }
  ]

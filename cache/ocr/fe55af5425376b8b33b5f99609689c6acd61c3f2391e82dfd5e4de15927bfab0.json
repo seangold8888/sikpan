@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 28일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쪽미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "북어콩나물해장국",
+   "en": "Dried cod and bean sprout soup (Bugeor-kongnamul-haejangguk)",
+   "main": false
+  },
+  {
+   "ko": "고추장제육볶음",
+   "en": "Gochujang braised pork (Gochujang-jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "해물오징어까스",
+   "en": "Seafood squid cutlet (Haemul-ojingeor-kkas)",
+   "main": true
+  },
+  {
+   "ko": "떡산적매콤강정",
+   "en": "Spicy tteok and meat skewer (Tteok-sanjjeok-maekkeom-gangjeong)",
+   "main": true
+  },
+  {
+   "ko": "양념두부조림",
+   "en": "Seasoned braised tofu (Yangnyeom-dubu-jorim)",
+   "main": false
+  },
+  {
+   "ko": "부추숙주나물무침",
+   "en": "Garlic chive and bean sprout salad (Buchu-sukju-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "매실간장고추지",
+   "en": "Plum soy sauce pickled peppers (Maesil-ganjang-gochu-ji)",
+   "main": false
+  },
+  {
+   "ko": "맛나김구이",
+   "en": "Roasted seasoned seaweed (Matna-gim-gui)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드 / 포기김치",
+   "en": "Fine rice salad / Napa cabbage kimchi (Ganeun-ssal-reodeu / Pogi-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승능",
+   "en": "Carbonated beverages / Plum tea / Seung-neung",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

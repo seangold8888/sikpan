@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월28일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑돼지고추작팜리제을",
+   "en": "Black pork with chili (Heukdwaeji-gochu-jjim)",
+   "main": true
+  },
+  {
+   "ko": "돈까스.치킨너겟/소스",
+   "en": "Pork cutlet/Chicken nuggets with sauce",
+   "main": true
+  },
+  {
+   "ko": "새금닭곰비밥국수",
+   "en": "Sweet chicken bibimbap noodles",
+   "main": true
+  },
+  {
+   "ko": "햄.감자조림",
+   "en": "Ham and braised potatoes",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "우겨지된자국",
+   "en": "Seasoned greens",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수.견포도",
+   "en": "Cabbage/corn with raisins",
+   "main": false
+  },
+  {
+   "ko": "양파.고추/멸갈류",
+   "en": "Onion, chili, and dried fish",
+   "main": false
+  },
+  {
+   "ko": "족석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/아쿠르트",
+   "en": "Beverages/Yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9월28일 월요일메뉴 (September 28 Monday menu). Final line states 재료음금에따메뉴바뀔수있습니다 (menu may change depending on ingredient availability).",
+ "_model": "claude-haiku-4-5-20251001"
+}

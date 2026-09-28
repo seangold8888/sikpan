@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 28일 (월)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "롱나들해장국",
+   "en": "Long noodle hangover soup",
+   "main": true
+  },
+  {
+   "ko": "목은시제육두릅치키",
+   "en": "Mok-eun style beef skewers (Jeyuk-twi-chi-ki)",
+   "main": true
+  },
+  {
+   "ko": "수제마늘감장치킹",
+   "en": "Homemade garlic soy sauce chicken",
+   "main": true
+  },
+  {
+   "ko": "잡채전병",
+   "en": "Japchae pancake (Jab-chae jeon)",
+   "main": true
+  },
+  {
+   "ko": "깨리고추두부조림",
+   "en": "Sesame red pepper tofu braised",
+   "main": false
+  },
+  {
+   "ko": "취어자조림",
+   "en": "Pickled vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "우이초무침",
+   "en": "Cucumber vinegar seasoned side",
+   "main": false
+  },
+  {
+   "ko": "숙주나물.무생채",
+   "en": "Bean sprouts / Radish shreds",
+   "main": false
+  },
+  {
+   "ko": "유부우동 / 담강라면",
+   "en": "Tofu udon / Spicy ramen",
+   "main": false
+  },
+  {
+   "ko": "계란우라이 / 닭샤들료",
+   "en": "Egg fried rice / Chicken fried rice",
+   "main": false
+  },
+  {
+   "ko": "그릴살러드",
+   "en": "Grilled salad",
+   "main": false
+  }
+ ],
+ "notes": "Text at bottom states: '모든 메뉴는 조기 소진 시 다른 메뉴로 대체될 수 있습니다' (All menu items may be replaced with other items if sold out early). Page 1 of 9 shown.",
+ "_model": "claude-haiku-4-5-20251001"
+}

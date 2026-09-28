@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 28일 (월요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "숯불고추장제육볶음",
+   "en": "Charcoal-grilled gochujang beef stir-fry",
+   "main": true
+  },
+  {
+   "ko": "한입치킨까스&허니머스타드",
+   "en": "Bite-sized chicken cutlet with honey mustard",
+   "main": true
+  },
+  {
+   "ko": "사천마파두부볶음법",
+   "en": "Sichuan mapo tofu stir-fry",
+   "main": true
+  },
+  {
+   "ko": "잡치오이셀러드",
+   "en": "Mixed vegetable and cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "몽골리안미트볼",
+   "en": "Mongolian meatballs",
+   "main": true
+  },
+  {
+   "ko": "파래무생채",
+   "en": "Sea lettuce and radish salad",
+   "main": false
+  },
+  {
+   "ko": "모둠야채지/김치결절이",
+   "en": "Mixed vegetables/kimchi assortment",
+   "main": false
+  },
+  {
+   "ko": "그린셀러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "목살김치찌개",
+   "en": "Pork neck and kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "경양식수프",
+   "en": "Western-style soup",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 / 한강야채 & 달콤한 팜 토스트 / 구우반 송등 & 사현한 현신음료",
+   "en": "Ssam vegetables / Han River vegetables & sweet palm toast / Various beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (9월 28일 월요일 = September 28, Monday). Last line appears to have some transcription difficulty due to image quality but transcribed as printed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

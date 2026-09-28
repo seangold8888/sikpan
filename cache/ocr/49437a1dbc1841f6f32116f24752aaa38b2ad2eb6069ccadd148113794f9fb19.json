@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 28일 월요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "대파소고기육개장",
+   "en": "Beef and scallion soup (Daepa sogogi yukgaejang)",
+   "main": false
+  },
+  {
+   "ko": "목살두루치기",
+   "en": "Grilled pork neck (Mokssal duruchigi)",
+   "main": true
+  },
+  {
+   "ko": "수제인절미방추육",
+   "en": "Homemade injeolmi-style preparation",
+   "main": false
+  },
+  {
+   "ko": "비빔만두",
+   "en": "Mixed dumplings (Bibim mandu)",
+   "main": false
+  },
+  {
+   "ko": "스모크햄스크램블에그",
+   "en": "Smoked ham scrambled eggs",
+   "main": false
+  },
+  {
+   "ko": "매추리알을어묵조림",
+   "en": "Braised fish cake with quail eggs",
+   "main": false
+  },
+  {
+   "ko": "12곡미숙가루",
+   "en": "12-grain flour preparation",
+   "main": false
+  },
+  {
+   "ko": "열무두루나물",
+   "en": "Young radish leaf side dish (Yeolmu durunamu)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve ramyeon",
+   "main": false
+  },
+  {
+   "ko": "붓고추/채소쌈&쌈장",
+   "en": "Perilla leaves & vegetable wraps with ssamjang",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&키워드레싱",
+   "en": "Garden salad & keyword dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/단산음료",
+   "en": "Beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9월 28일 월요일 (September 28, Monday) which appears to be the target date. Bottom text states: 식기 메뉴는 회사 사정에 따라 일부 변경 될 수 있습니다. (Menu may be partially changed depending on company circumstances.)",
+ "_model": "claude-haiku-4-5-20251001"
+}

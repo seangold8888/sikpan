@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 28일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "후라이드치킨/블랙올리브s",
+   "en": "Fried chicken with black olives",
+   "main": true
+  },
+  {
+   "ko": "얍탕우육창롱고기",
+   "en": "Braised beef dish",
+   "main": true
+  },
+  {
+   "ko": "깻잎없는소족소쩍",
+   "en": "Seasoned beef without perilla leaves",
+   "main": true
+  },
+  {
+   "ko": "야채비빔국수",
+   "en": "Vegetable bibimbap noodles",
+   "main": true
+  },
+  {
+   "ko": "메추리알어묵볶음",
+   "en": "Stir-fried quail eggs and fish cake",
+   "main": false
+  },
+  {
+   "ko": "쇡우나물우림",
+   "en": "Seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "백미밥 & 잡곡밥",
+   "en": "White rice & mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채 & 쌈 장",
+   "en": "Lettuce wraps & ssamjang sauce",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "한강강면",
+   "en": "Cold noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산쇠기김치",
+   "en": "Domestic beef kimchi",
+   "main": false
+  },
+  {
+   "ko": "증증 & 금묘",
+   "en": "Steamed items & pickled vegetables",
+   "main": false
+  }
+ ],
+ "notes": "정식 메뉴 (Set menu) header present at top. Some menu item text appears unclear or possibly contains OCR errors.",
+ "_model": "claude-haiku-4-5-20251001"
+}
