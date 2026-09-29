@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 29일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "계란볶음밥 / 백미밥",
+   "en": "Fried rice with egg / White rice",
+   "main": true
+  },
+  {
+   "ko": "가쓰오어묵국",
+   "en": "Bonito fish cake soup (Gatsuo-eomuk-guk)",
+   "main": false
+  },
+  {
+   "ko": "안동찜닭",
+   "en": "Steamed chicken Andong style (Andong-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "등심돈까스",
+   "en": "Pork loin cutlet (Deungsim-donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "스모그켈라햄전",
+   "en": "Smoked kelp ham cutlet (Seumogeukella-haem-jeon)",
+   "main": true
+  },
+  {
+   "ko": "비림국수",
+   "en": "Cold noodles (Birim-guksu)",
+   "main": true
+  },
+  {
+   "ko": "청포묵김가루무침",
+   "en": "Seasoned green bean jelly with seaweed powder (Cheongpo-muk-gim-garu-muchim)",
+   "main": false
+  },
+  {
+   "ko": "귀파래볶음",
+   "en": "Stir-fried sea lettuce (Gwi-ppalae-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned bean sprouts (Kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": true
+  },
+  {
+   "ko": "가드샐러드 / 포기김치",
+   "en": "Garden salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 숭늉",
+   "en": "Carbonated beverages / Plum tea / Grain tea",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

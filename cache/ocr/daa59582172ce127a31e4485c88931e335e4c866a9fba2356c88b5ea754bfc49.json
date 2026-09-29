@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월29일 (화) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "휘쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice and grain rice",
+   "main": false
+  },
+  {
+   "ko": "부대찌개",
+   "en": "Budae jjigae (Army base stew)",
+   "main": true
+  },
+  {
+   "ko": "치즈닭갈비볶음",
+   "en": "Cheese dakgalbi (Spicy stir-fried chicken with cheese)",
+   "main": true
+  },
+  {
+   "ko": "순살돈까스*스테미§",
+   "en": "Pork cutlet / Steak",
+   "main": true
+  },
+  {
+   "ko": "중화고기볶음쌀밥",
+   "en": "Chinese-style stir-fried meat with rice",
+   "main": true
+  },
+  {
+   "ko": "케랄두부전*야채장",
+   "en": "Tofu jeon (Pan-fried tofu) with vegetable sauce",
+   "main": false
+  },
+  {
+   "ko": "콘마카로니샐러드",
+   "en": "Corn macaroni salad",
+   "main": false
+  },
+  {
+   "ko": "치커리겯정이",
+   "en": "Chicory",
+   "main": false
+  },
+  {
+   "ko": "배추겻정이김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/과일",
+   "en": "Cabbage salad / Fruit",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

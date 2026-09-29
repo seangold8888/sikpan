@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월29일 화",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "감자듬뿍닭도리탕",
+   "en": "Potato-rich chicken stew (Dak-doritang)",
+   "main": true
+  },
+  {
+   "ko": "유니짜장/중화면",
+   "en": "Uni jjajang / Chinese noodles",
+   "main": true
+  },
+  {
+   "ko": "수제단호박튀김",
+   "en": "Homemade sweet pumpkin tempura",
+   "main": false
+  },
+  {
+   "ko": "양파까지볶음",
+   "en": "Stir-fried onions",
+   "main": false
+  },
+  {
+   "ko": "청경채나물",
+   "en": "Seasoned bok choy",
+   "main": false
+  },
+  {
+   "ko": "얍른오댕국",
+   "en": "Light rice cake soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/옥수수콘.건포도",
+   "en": "Cabbage / corn kernels, raisins",
+   "main": false
+  },
+  {
+   "ko": "상추.고추/젓갈류",
+   "en": "Lettuce, red pepper / salted seafood",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차.아쿠르트",
+   "en": "Beverages / plum tea, acurt",
+   "main": false
+  }
+ ],
+ "notes": "자료공금에따메뉴바뀔수있습니다 (Menu may change according to ingredient availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

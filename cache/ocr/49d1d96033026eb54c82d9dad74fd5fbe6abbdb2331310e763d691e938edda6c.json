@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월29일 화요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "통삼겹김치찜",
+   "en": "Kimchi-braised pork belly (Tongsamgyeop-kimchi-jjim)",
+   "main": true
+  },
+  {
+   "ko": "진게다리튀김",
+   "en": "Fried crab legs (Jin-ge-dari-twigim)",
+   "main": true
+  },
+  {
+   "ko": "고소한소두부우부침",
+   "en": "Savory soft tofu and vegetables (Gosohahan-sodubu-ubu-chim)",
+   "main": false
+  },
+  {
+   "ko": "냉메밀",
+   "en": "Cold buckwheat noodles (Naeng-memil)",
+   "main": false
+  },
+  {
+   "ko": "파래자반뭇음",
+   "en": "Sea lettuce side dish (Parae-jaban-mut-eum)",
+   "main": false
+  },
+  {
+   "ko": "싱싱쌀러드",
+   "en": "Fresh salad (Singsingssalleodeu)",
+   "main": false
+  },
+  {
+   "ko": "직접담은깍두기",
+   "en": "Homemade radish cubes (Jikjeop-dam-eun-kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "황태계란국",
+   "en": "Dried pollack and egg soup (Hwangtae-gyeran-guk)",
+   "main": false
+  },
+  {
+   "ko": "치즈젬토스트",
+   "en": "Cheese jam toast (Chijeu-jem-toseu-teu)",
+   "main": false
+  },
+  {
+   "ko": "바나나",
+   "en": "Banana",
+   "main": false
+  },
+  {
+   "ko": "탄산음료*셀프라면",
+   "en": "Carbonated beverage*Self-serve ramen (Tansan-eumryo*Selpheu-ramyeon)",
+   "main": false
+  }
+ ],
+ "notes": "Operating hours show 오전10시 (10 AM). Self-serve corner mentioned for carbonated beverages and ramen. Instagram handle: urbanworkdasbom. Appears to be a cafeteria menu with self-service options.",
+ "_model": "claude-haiku-4-5-20251001"
+}

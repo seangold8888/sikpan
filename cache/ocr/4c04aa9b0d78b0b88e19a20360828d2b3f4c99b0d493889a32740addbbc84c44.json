@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월 29일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "깃티어묵국",
+   "en": "Gittieo-muk soup",
+   "main": false
+  },
+  {
+   "ko": "수육.보쌈",
+   "en": "Boiled pork (Suuk, Bossam)",
+   "main": true
+  },
+  {
+   "ko": "시천식탕수육",
+   "en": "Sichuan-style sweet and sour pork",
+   "main": true
+  },
+  {
+   "ko": "유니짜장면",
+   "en": "Uni jajangmyeon noodles",
+   "main": true
+  },
+  {
+   "ko": "칠지오이사라다",
+   "en": "Chilji cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "시깝어묵조림.부추초무침",
+   "en": "Stewed muk, seasoned garlic chives",
+   "main": false
+  },
+  {
+   "ko": "앙념깨윳지",
+   "en": "Sesame seed dish",
+   "main": false
+  },
+  {
+   "ko": "배추결쌈이",
+   "en": "Napa cabbage wrap",
+   "main": false
+  },
+  {
+   "ko": "전주식비법밥 / 그릇샐러드 게탄우타미 / 탄산음료 한강라면",
+   "en": "Jeonju-style special rice / Bowl salad / Carbonated drinks / Hangang ramen",
+   "main": false
+  }
+ ],
+ "notes": "The date shown is 9월 29일 (화) which corresponds to September 29 (Tuesday). The target date was 2026년 09월 29일 (화), but the year is not printed on this board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

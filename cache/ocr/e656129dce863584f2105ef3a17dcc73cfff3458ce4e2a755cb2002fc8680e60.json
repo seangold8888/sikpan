@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/28(목,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "황태미역국",
+   "en": "Dried pollack and seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "밥비버먹는쌈랍도러탕",
+   "en": "Rice with wrap vegetables and soup",
+   "main": false
+  },
+  {
+   "ko": "블라주튀김",
+   "en": "Fried dish",
+   "main": true
+  },
+  {
+   "ko": "연두부&얌탕장",
+   "en": "Soft tofu & sweet potato sauce",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김지",
+   "en": "Domestic cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9/28 (Wednesday lunch), not the target date 9/29 (Tuesday). Left column transcribed as requested.",
+ "_model": "claude-haiku-4-5-20251001"
+}

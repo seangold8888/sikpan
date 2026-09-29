@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 29일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순두부찌개",
+   "en": "Soft tofu stew (Sundubu-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "닭데리야끼볶음",
+   "en": "Teriyaki chicken stir-fry (Dak-teriyaki bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "매콤오징어야채볶음",
+   "en": "Spicy squid vegetable stir-fry (Ohjinuh yachae bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "소댕사리",
+   "en": "Small beef (Sodaeng-sari)",
+   "main": true
+  },
+  {
+   "ko": "미니돈까스&케찹",
+   "en": "Mini pork cutlet with ketchup (Mini-donkkaseu & ketchup)",
+   "main": true
+  },
+  {
+   "ko": "숙주거자냉채",
+   "en": "Chilled bean sprout salad (Sukju-geo-ja naengchae)",
+   "main": false
+  },
+  {
+   "ko": "치커리유자청무침",
+   "en": "Chicory yuzu vinegar side (Chikkeori yuja-cheong muchiм)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&망고D",
+   "en": "Garden salad & mango dressing (Gaaden-saelleodeu & manggo D)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / black rice (Baekmi-bap / heungmi-bap)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 탄산음료",
+   "en": "Self-service bibimbap / Hangang ramen / carbonated beverage (Selp-bibimbap / Hangang-ramen / tansa-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "간편식:윤제타카습샐러드",
+   "en": "Convenient meal: Yun-je taco salad (Ganpyeonsik: Yunje-taka-sseup saelleodeu)",
+   "main": false
+  }
+ ],
+ "notes": "Menu is for September 29 (Tuesday), which does not match target date 2026년 09월 29일. The board shows 9월 29일 (화) without year specification. Restaurant name: Unmeal (언밀)",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 29일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/쌀미밥",
+   "en": "Mixed grain rice/White rice",
+   "main": false
+  },
+  {
+   "ko": "순살묵은지감자탕",
+   "en": "Pork bone soup with aged kimchi and potatoes (Sunsalmuk-eun-ji-gamja-tang)",
+   "main": true
+  },
+  {
+   "ko": "분모자고추장닭갈비",
+   "en": "Spicy chicken ribs with red chili paste (Bun-mo-ja-gochujang-dak-galbi)",
+   "main": true
+  },
+  {
+   "ko": "치즈돈까스",
+   "en": "Cheese pork cutlet (Chijeu-don-kkas)",
+   "main": true
+  },
+  {
+   "ko": "파채엉양식너비아니구이",
+   "en": "Pan-fried vegetable and meat skewers (Pa-chae-eung-yang-shik nebi-anigu-i)",
+   "main": true
+  },
+  {
+   "ko": "미트토마토스파게티",
+   "en": "Meat tomato spaghetti (Miteu-tomato-seupageti)",
+   "main": true
+  },
+  {
+   "ko": "마늘바게트",
+   "en": "Garlic baguette (Ma-neul-bagetu)",
+   "main": false
+  },
+  {
+   "ko": "병아리콩야보카드셀러드",
+   "en": "Chickpea and avocado salad (Byeong-ari-kong-yabo-kadeu-selleo-deu)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Bean sprout side dish (Kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Kimchi (Pyo-gi-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-service Hangang ramen (Selpi-u-han-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "푸고추/양배추쌌&쌌장",
+   "en": "Green chili/Cabbage wraps & dipping sauce (Pu-gochu/yangbae-chu-ssaem & ssaem-jang)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&블루베리드레싱",
+   "en": "Garden salad & blueberry dressing (Gaden-selleo-deu & beullu-beri-deureshing)",
+   "main": false
+  },
+  {
+   "ko": "중중/당산음료",
+   "en": "Medium/Dansan beverages (Jung-jung/dangsan-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (2026년 09월 29일 화요일). Last line appears to be: 쌀기 메뉴는 왼쪽 서정점 따라 알뭇 변경될 수 있습니다.",
+ "_model": "claude-haiku-4-5-20251001"
+}

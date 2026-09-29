@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 29일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "언양식파채불고기",
+   "en": "Eonyang-style bulgogi with julienned radish",
+   "main": true
+  },
+  {
+   "ko": "한입도미카츠&타르소스",
+   "en": "Bite-sized pork cutlet with tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "�쭈꾸미칠리파스타",
+   "en": "Spicy baby octopus chili pasta",
+   "main": true
+  },
+  {
+   "ko": "산채도토리묵무침",
+   "en": "Acorn jelly salad with wild vegetables",
+   "main": false
+  },
+  {
+   "ko": "데리야끼참채어묵조림",
+   "en": "Teriyaki fish cake with greens",
+   "main": false
+  },
+  {
+   "ko": "호박새우젓볶음",
+   "en": "Stir-fried zucchini with salted shrimp",
+   "main": false
+  },
+  {
+   "ko": "오이지무침/풋기김치",
+   "en": "Pickled cucumber/fresh kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "얼큰콩나물해장국",
+   "en": "Spicy soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "법짐감자튀김&계란",
+   "en": "French fries and egg",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice/white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/한잣곡면&닭국물 풀 토스트/국수한&시원한 타르소스",
+   "en": "Lettuce wraps and side vegetables; noodles with various broths",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Self-serve items noted at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

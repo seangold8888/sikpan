@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월29일(화요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "얼큰새우웅나물못국",
+   "en": "Spicy shrimp and vegetable soup (Eolkeun saewu-guk)",
+   "main": false
+  },
+  {
+   "ko": "불맛가득제육볶음",
+   "en": "Flavorful braised pork belly stir-fry (Je-yuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "카레치킨까스",
+   "en": "Curry chicken cutlet (Karae-chikin-kkas)",
+   "main": true
+  },
+  {
+   "ko": "매콤두부조림",
+   "en": "Spicy braised tofu (Maekkom-dubu-jorim)",
+   "main": false
+  },
+  {
+   "ko": "쇠보로크림약과",
+   "en": "Butter cream pastry (Soe-boro-keurim-yakgwa)",
+   "main": false
+  },
+  {
+   "ko": "우랑크마는�쭝볶음",
+   "en": "Stir-fried vegetables",
+   "main": false
+  },
+  {
+   "ko": "열무김절이",
+   "en": "Young radish kimchi (Yeolmu-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Labeled kimchi (Pyo-gi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그릇샐러드&드레싱",
+   "en": "Bowl salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * Self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*풋고추*쌍장",
+   "en": "Paired vegetables * Green chili * Paired sauce",
+   "main": false
+  },
+  {
+   "ko": "는릉지*탕사은묘*매실차",
+   "en": "Various accompaniments and beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items marked with asterisks (*). Some characters may be unclear due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

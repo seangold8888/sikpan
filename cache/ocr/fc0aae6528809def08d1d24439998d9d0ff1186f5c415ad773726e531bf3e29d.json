@@ -1,0 +1,54 @@
+{
+ "date_shown": "화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/쌀미밥",
+   "en": "White rice / Mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "톤즈우*청오*샛우*징",
+   "en": "Tonzu sauce with vegetables",
+   "main": true
+  },
+  {
+   "ko": "언근우거지찌",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "붓나이피식니구케",
+   "en": "Pickled vegetables",
+   "main": false
+  },
+  {
+   "ko": "햄케타찌",
+   "en": "Ham side dish",
+   "main": false
+  },
+  {
+   "ko": "구무미밥여",
+   "en": "Mixed rice dish",
+   "main": false
+  },
+  {
+   "ko": "왕배중*쑥삭*쌀*싸장",
+   "en": "Pumpkin and seasoning paste",
+   "main": false
+  },
+  {
+   "ko": "느무맥 이드증찌",
+   "en": "Seaweed side dish",
+   "main": false
+  },
+  {
+   "ko": "가른샐럭느&음음이차D 포기깜찌",
+   "en": "Salad, drink & side dish with kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows '화요일' (Tuesday) but target date was 2026년 09월 29일 (화). Many menu items appear to have transcription errors or unclear text in the original image; transcribed exactly as printed. Bottom text contains notices about self-serve areas and origin labels.",
+ "_model": "claude-haiku-4-5-20251001"
+}

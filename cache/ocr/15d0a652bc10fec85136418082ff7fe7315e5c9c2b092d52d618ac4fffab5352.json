@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 29일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "대파증개장",
+   "en": "Beef broth soup with scallions (Dae-pa-jeung-gae-jang)",
+   "main": false
+  },
+  {
+   "ko": "보쌈수육/새우젓",
+   "en": "Steamed pork belly with shrimp sauce (Bo-ssam-su-yuk/Saeu-jeot)",
+   "main": true
+  },
+  {
+   "ko": "매콤불닭볶음",
+   "en": "Spicy stir-fried chicken (Mae-kkom-bul-dak-bok-eum)",
+   "main": true
+  },
+  {
+   "ko": "고구마, 감자옥수수, 아채고로케",
+   "en": "Sweet potato, corn, potato croquette (Go-gu-ma, gam-ja-ok-su-su, a-chae-go-ro-ke)",
+   "main": false
+  },
+  {
+   "ko": "어묵잡채",
+   "en": "Fish cake stir-fried noodles (Eo-muk-jab-chae)",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/쌈장",
+   "en": "Lettuce wraps with dipping sauce (Ssam-chae-so/Ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "모둠야채올임",
+   "en": "Mixed vegetable pickles (Mo-dum-ya-chae-ol-lim)",
+   "main": false
+  },
+  {
+   "ko": "깍미냥 & 잡곡밥",
+   "en": "Seasoned anchovies & mixed grain rice (Kkak-mi-nyang & jab-gok-bap)",
+   "main": false
+  },
+  {
+   "ko": "후식야구르트",
+   "en": "Yogurt drink dessert (Hu-sik-ya-gu-ru-tu)",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing (Sael-leo-deu & deu-re-sing)",
+   "main": false
+  },
+  {
+   "ko": "한깐라면",
+   "en": "Ramyeon noodles (Han-kkan-ra-myeon)",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi (Guk-nae-san-po-gi-gim-chi)",
+   "main": false
+  },
+  {
+   "ko": "충동 & 음료",
+   "en": "Snacks & beverages (Chung-dong & eum-ryo)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

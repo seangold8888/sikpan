@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 29일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "우깨장",
+   "en": "Sesame broth soup",
+   "main": false
+  },
+  {
+   "ko": "칼비양념묵실철판구이",
+   "en": "Grilled seasoned kalbi (short rib) jelly on hot plate",
+   "main": true
+  },
+  {
+   "ko": "오징어튀김&쌀리소스",
+   "en": "Fried squid & rice sauce",
+   "main": false
+  },
+  {
+   "ko": "보드삭샌 제라찐",
+   "en": "Board salad selection steamed",
+   "main": false
+  },
+  {
+   "ko": "네비아니육전",
+   "en": "Navy bean vegetable pancake",
+   "main": false
+  },
+  {
+   "ko": "해물야끼우동",
+   "en": "Seafood yakki udon",
+   "main": false
+  },
+  {
+   "ko": "깻잎무말랭이무침",
+   "en": "Perilla leaf radish banchan",
+   "main": false
+  },
+  {
+   "ko": "상추쌈&쌈장",
+   "en": "Lettuce wraps & ssamjang",
+   "main": false
+  },
+  {
+   "ko": "환강라면",
+   "en": "Hwanggang ramen",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 사원한자",
+   "en": "Carbonated beverages / Employee beverage",
+   "main": false
+  }
+ ],
+ "notes": "Some menu items have unclear or non-standard Korean text. Self-service corner and origin labels mentioned at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 29일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우거지된장국",
+   "en": "우거지 soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "삼겹 쌈수육",
+   "en": "Samgyeop pork belly with sauce",
+   "main": true
+  },
+  {
+   "ko": "통살대구까스/머스타ES",
+   "en": "Whole-cut pollack cutlet / Mustache ES",
+   "main": true
+  },
+  {
+   "ko": "고추장채완자전",
+   "en": "Gochujang-flavored meatball pancake",
+   "main": true
+  },
+  {
+   "ko": "쌔방약국수",
+   "en": "Spicy noodle soup",
+   "main": true
+  },
+  {
+   "ko": "해강자나채볶음",
+   "en": "Stir-fried vegetables",
+   "main": false
+  },
+  {
+   "ko": "상추/알배기/쌈장",
+   "en": "Lettuce / Korean cabbage / ssamjang sauce",
+   "main": false
+  },
+  {
+   "ko": "우말랭이미나리우충",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "떡기맛콩버터빠",
+   "en": "Tteok with bean butter",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad / dressing",
+   "main": false
+  },
+  {
+   "ko": "보쌈김치/음료",
+   "en": "Bossam kimchi / beverage",
+   "main": false
+  }
+ ],
+ "notes": "Menu board shows date as \"9월 29일 화요일\" (September 29, Wednesday). Restaurant name: 혼합집곡방 (appears to be a cafeteria). 더푸드스퀘처 noted at top right.",
+ "_model": "claude-haiku-4-5-20251001"
+}

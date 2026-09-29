@@ -1,0 +1,64 @@
+{
+ "date_shown": "9/29 화요일",
+ "price": null,
+ "hours": "점심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 쌀쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "매운 순살 치즈 불닭",
+   "en": "Spicy boneless chicken with cheese (Bul-dak)",
+   "main": true
+  },
+  {
+   "ko": "돈까스 & 데미그라 소스",
+   "en": "Pork cutlet with demi-glace sauce",
+   "main": true
+  },
+  {
+   "ko": "새콤달콤 쭈면 무침",
+   "en": "Sweet and sour squid noodle salad",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 오렌지",
+   "en": "Fragrant crispy rice / Orange",
+   "main": false
+  },
+  {
+   "ko": "비엔나 야채 볶음",
+   "en": "Vienna sausage with vegetables",
+   "main": false
+  },
+  {
+   "ko": "어묵 다시마국",
+   "en": "Fish cake and kelp soup",
+   "main": false
+  },
+  {
+   "ko": "우정어 무침 / 고들빼기 무침",
+   "en": "Seasoned fish / Seasoned high-rooted greens",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage and vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 포 기 김 치",
+   "en": "Korean domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 탄 산 음 료 \"",
+   "en": "Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-service drinks and side dishes available. Origin of ingredients noted in fine print.",
+ "_model": "claude-haiku-4-5-20251001"
+}

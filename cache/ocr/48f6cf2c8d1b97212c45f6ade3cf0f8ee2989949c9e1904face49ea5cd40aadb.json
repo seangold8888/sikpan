@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월29(화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "생고기김치찌개",
+   "en": "Raw meat kimchi stew (Saenggogi-kimchi-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "안동찜닭(feat.넙적당면)",
+   "en": "Andong braised chicken with wide noodles (Andong-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "수제애플망고당수육",
+   "en": "Homemade apple mango sweet pork (Sujae-appel-mango-dang-suyuk)",
+   "main": true
+  },
+  {
+   "ko": "모짜치즈계란말이*케찹",
+   "en": "Mozzarella cheese egg roll with ketchup (Mojja-chi-cheese-gyeran-mari)",
+   "main": true
+  },
+  {
+   "ko": "해물쌓타이",
+   "en": "Seafood stacked Thai (Haemul-ssab-thai)",
+   "main": true
+  },
+  {
+   "ko": "미트볼폭찹",
+   "en": "Meatball pork chop (Miteu-bol-pok-chap)",
+   "main": true
+  },
+  {
+   "ko": "청포묵김가루무침",
+   "en": "Clear jelly with seaweed powder (Cheongpo-muk-kim-garu-muchim)",
+   "main": false
+  },
+  {
+   "ko": "포드쿡쥬스",
+   "en": "Pod cook juice (Pod-cook-juice)",
+   "main": false
+  },
+  {
+   "ko": "오징어젓깔무말랭이",
+   "en": "Squid jeot with dried radish (Ojing-eo-jeot-kkal-mumal-raengi)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일*드레싱",
+   "en": "Garden salad, fruit, dressing (Garden-salad*gwail*dressing)",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi/self-serve ramen/toast/beverages (Pogi-kimchi/self-ramyeon/toast/eumryo)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}
