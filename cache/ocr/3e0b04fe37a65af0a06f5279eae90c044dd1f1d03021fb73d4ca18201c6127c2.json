@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월30일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훈제오리주물럭/소스",
+   "en": "Smoked duck stir-fry (Hunsje-ori-jumulluk) with sauce",
+   "main": true
+  },
+  {
+   "ko": "청양고추부추전/양념장",
+   "en": "Blue chili and Chinese chive pancake (Bulgogi-jeon) with seasoning sauce",
+   "main": false
+  },
+  {
+   "ko": "오징어구스/타르트소스",
+   "en": "Squid with tartar sauce",
+   "main": false
+  },
+  {
+   "ko": "건제우엉호박볶음",
+   "en": "Dried beef, burdock and pumpkin stir-fry",
+   "main": false
+  },
+  {
+   "ko": "베이컨크림스파게티",
+   "en": "Bacon cream spaghetti",
+   "main": true
+  },
+  {
+   "ko": "부대찌개",
+   "en": "Army stew (Budae-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "양배추/옥수수콘,견포도",
+   "en": "Cabbage, corn, grapes",
+   "main": false
+  },
+  {
+   "ko": "상추,고추/젓갈류",
+   "en": "Lettuce, peppers, salted fish roe",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차_아루로트",
+   "en": "Beverages, plum tea, arrowroot",
+   "main": false
+  }
+ ],
+ "notes": "제료공금에따메뉴바뀔수있습니다 - Menu may change depending on ingredient availability",
+ "_model": "claude-haiku-4-5-20251001"
+}

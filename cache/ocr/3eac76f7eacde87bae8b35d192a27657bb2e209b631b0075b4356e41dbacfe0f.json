@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 30일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "육개장",
+   "en": "Spicy beef soup (Yukgaejang)",
+   "main": false
+  },
+  {
+   "ko": "고추장상큼경살",
+   "en": "Gochujang marinated meat",
+   "main": true
+  },
+  {
+   "ko": "치킨크리스피/유자S",
+   "en": "Crispy chicken/Yuzu S",
+   "main": true
+  },
+  {
+   "ko": "팩이계란전",
+   "en": "Egg pancake (Gyeran-jeon)",
+   "main": false
+  },
+  {
+   "ko": "간짜장/면",
+   "en": "Noodles with black bean sauce (Jjajangmyeon)",
+   "main": false
+  },
+  {
+   "ko": "운두부/김치볶음",
+   "en": "Soft tofu/Kimchi stir-fry",
+   "main": false
+  },
+  {
+   "ko": "국물떡볶이",
+   "en": "Tteokbokki with broth",
+   "main": false
+  },
+  {
+   "ko": "모듬깐지",
+   "en": "Assorted pickles (Modeum-kkanji)",
+   "main": false
+  },
+  {
+   "ko": "파인애플스틱바",
+   "en": "Pineapple stick bar",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/Dressing",
+   "main": false
+  },
+  {
+   "ko": "음료",
+   "en": "Beverages",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date as 9월 30일 수요일 (September 30, Wednesday), not the target date of 2026년 09월 30일. This appears to be from 2024 or 2025.",
+ "_model": "claude-haiku-4-5-20251001"
+}

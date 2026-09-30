@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 9월 30일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "보리밥&고추장",
+   "en": "Barley rice & gochujang (red chili paste)",
+   "main": false
+  },
+  {
+   "ko": "청국된장찌개",
+   "en": "Soybean paste stew (Doenjang-jjigae)",
+   "main": false
+  },
+  {
+   "ko": "소고기양념불고기",
+   "en": "Marinated beef bulgogi (Sogogi-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "생선까스/타르타르s",
+   "en": "Fish cutlet with tartare sauce (Saengson-kkas)",
+   "main": true
+  },
+  {
+   "ko": "데미소스닭볶음스테이크",
+   "en": "Demi-sauce chicken stir-fried steak (Demi-sauseu-dak-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "무생채",
+   "en": "Radish julienne salad (Mu-saengchae)",
+   "main": false
+  },
+  {
+   "ko": "열무나물",
+   "en": "Young radish greens seasoned vegetable (Yeolmu-namul)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned bean sprouts (Kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 쌈 짜",
+   "en": "Lettuce wraps & dipping sauce (Ssam-chaeso & ssam)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve instant ramen (Hangang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic napa cabbage kimchi (Kimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "숭능 & 음료",
+   "en": "Dessert & beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

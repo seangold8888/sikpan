@@ -1,0 +1,74 @@
+{
+ "date_shown": "09월30일(수요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "목살김치찌개",
+   "en": "Pork neck kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "바베큐닭봉조림",
+   "en": "BBQ chicken drumstick braised",
+   "main": true
+  },
+  {
+   "ko": "팽이버섯볶음고기",
+   "en": "Enoki mushroom stir-fried with meat",
+   "main": true
+  },
+  {
+   "ko": "생선까스*콩마요S",
+   "en": "Fish cutlet * bean mayo small",
+   "main": false
+  },
+  {
+   "ko": "모듬튀김강정",
+   "en": "Mixed fried and crispy snacks",
+   "main": false
+  },
+  {
+   "ko": "열무비빔국수",
+   "en": "Young radish bibim noodles",
+   "main": false
+  },
+  {
+   "ko": "치커리겨절이",
+   "en": "Chicory pickled side dish",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Labeled kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럼드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-service Hangang ramyeon * self-service toast",
+   "main": false
+  },
+  {
+   "ko": "쌀채소*쌀고추*쌀장",
+   "en": "Rice vegetables * rice chili pepper * soybean paste",
+   "main": false
+  },
+  {
+   "ko": "느룻지*탕사은묘*매실차",
+   "en": "Seaweed snack * sour plum drink * various items",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner indicated with asterisks (*). Origin labels noted on some items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

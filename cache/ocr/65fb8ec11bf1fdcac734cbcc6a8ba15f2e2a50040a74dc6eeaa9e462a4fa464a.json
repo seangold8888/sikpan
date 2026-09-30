@@ -1,0 +1,59 @@
+{
+ "date_shown": "9월30일 (수) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훼쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice and grain rice",
+   "main": false
+  },
+  {
+   "ko": "짠치국수",
+   "en": "Jjamchi guksu (Cold noodle soup)",
+   "main": true
+  },
+  {
+   "ko": "오징어두부두루치기",
+   "en": "Stir-fried squid and tofu (Ohjingeuh dubu duruchigi)",
+   "main": true
+  },
+  {
+   "ko": "샤드롱밥스테이크",
+   "en": "Charolais steak",
+   "main": true
+  },
+  {
+   "ko": "브로콜리맛살우육",
+   "en": "Broccoli flavored beef",
+   "main": false
+  },
+  {
+   "ko": "바삭우육김치전",
+   "en": "Crispy beef and kimchi pancake",
+   "main": false
+  },
+  {
+   "ko": "고추장깻잎두기오이무침",
+   "en": "Red chili paste perilla leaf and cucumber side dish",
+   "main": false
+  },
+  {
+   "ko": "공나물두침",
+   "en": "Seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김치",
+   "en": "Napa cabbage quick kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/호박죽",
+   "en": "Cabbage salad / Pumpkin porridge",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

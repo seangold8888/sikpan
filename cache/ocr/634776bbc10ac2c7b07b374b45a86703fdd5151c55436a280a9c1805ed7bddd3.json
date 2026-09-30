@@ -1,0 +1,69 @@
+{
+ "date_shown": "9월 30일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "깻잎닭무우탕",
+   "en": "Perilla leaf chicken soup (Kkaetnip-dak-muu-tang)",
+   "main": true
+  },
+  {
+   "ko": "우르츠탕수육",
+   "en": "Sweet and sour pork (Tangsuyuk)",
+   "main": true
+  },
+  {
+   "ko": "비빔버터메추리알",
+   "en": "Butter mixed quail eggs (Bibimbutter-mchu-ri-al)",
+   "main": false
+  },
+  {
+   "ko": "김말이맛두강정",
+   "en": "Seasoned laver roll (Kimmali-mat-du-gangjeong)",
+   "main": false
+  },
+  {
+   "ko": "미역줄기양파볶음",
+   "en": "Stir-fried seaweed stems and onions (Miyeok-julgi-yangpa-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "부추애저정무침",
+   "en": "Korean leek and radish seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "양념고추지/포기김치",
+   "en": "Seasoned red pepper/napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "숭도부빵탕",
+   "en": "Tofu bread soup (Sungdo-bu-bbang-tang)",
+   "main": false
+  },
+  {
+   "ko": "현미볼강정&요구르트",
+   "en": "Brown rice ball gangjeong & yogurt",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/완강작먼 & 달콤한 쌈 토스트 / 그스한 슭음 & 시원한 단샤음료",
+   "en": "Vegetable wraps, sweet sauce wrap toast, and beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

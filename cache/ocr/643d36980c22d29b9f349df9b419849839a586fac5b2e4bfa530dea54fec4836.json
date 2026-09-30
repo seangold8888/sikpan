@@ -1,0 +1,79 @@
+{
+ "date_shown": "9월 30일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "날치알깻묵뭉밥",
+   "en": "Flying fish roe and perilla seed rice bowl",
+   "main": true
+  },
+  {
+   "ko": "땅초어묵국",
+   "en": "Sweet potato cake and fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "바베큐묵참스테이크",
+   "en": "BBQ jelly beef steak",
+   "main": true
+  },
+  {
+   "ko": "매콤달콤닭강정",
+   "en": "Sweet and spicy chicken candy",
+   "main": false
+  },
+  {
+   "ko": "수제두부커틀릿&참깨S.",
+   "en": "Homemade tofu cutlet with sesame",
+   "main": true
+  },
+  {
+   "ko": "떡국떡볶이",
+   "en": "Tteokguk tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "콘치즈옥수수우이",
+   "en": "Corn cheese and cucumber",
+   "main": false
+  },
+  {
+   "ko": "크래미미역초무침",
+   "en": "Crab stick and seaweed seasoned salad",
+   "main": false
+  },
+  {
+   "ko": "매실간장깻잎무지",
+   "en": "Plum soy sauce perilla leaf radish",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili peppers, vegetable wraps and dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&키워드레싱",
+   "en": "Garden salad with keyword dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Pine beverage and carbonated drinks",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date. Self-serve items and condiment stations noted in menu items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

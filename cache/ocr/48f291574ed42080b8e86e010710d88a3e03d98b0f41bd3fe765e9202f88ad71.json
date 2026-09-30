@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 9월 30일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "김치궁나물국",
+   "en": "Kimchi and vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "바싹데지불고기",
+   "en": "Crispy pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "치킨탕수육",
+   "en": "Chicken in sweet and sour sauce",
+   "main": true
+  },
+  {
+   "ko": "미트볼펜네브룩음",
+   "en": "Meatball penne broccoli",
+   "main": true
+  },
+  {
+   "ko": "제밤짜장면",
+   "en": "Jjajangmyeon noodles",
+   "main": true
+  },
+  {
+   "ko": "청양오복지무침",
+   "en": "Spicy green pepper side dish",
+   "main": false
+  },
+  {
+   "ko": "생야채겔절이",
+   "en": "Fresh vegetable pickle",
+   "main": false
+  },
+  {
+   "ko": "멕시카샐러드",
+   "en": "Mexican salad",
+   "main": false
+  },
+  {
+   "ko": "한갓라면",
+   "en": "Hankat ramen",
+   "main": true
+  },
+  {
+   "ko": "가는쌀러드 / 포기김치",
+   "en": "Fine salad / Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 숭능",
+   "en": "Carbonated beverage / Plum tea / Drink",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

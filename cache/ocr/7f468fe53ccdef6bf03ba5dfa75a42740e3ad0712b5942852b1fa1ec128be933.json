@@ -1,0 +1,54 @@
+{
+ "date_shown": "9월30일 수요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "직화뽕파닭",
+   "en": "Grilled mulberry leaf chicken (Jik-hwa-bbong-pa-dak)",
+   "main": true
+  },
+  {
+   "ko": "통등심참쌀밥 바로우",
+   "en": "Whole sirloin rice bowl (Tong-deung-sim-cham-ssal-bap)",
+   "main": false
+  },
+  {
+   "ko": "즉석우니 짜장면",
+   "en": "Instant jjajangmyeon noodles (Jja-jang-myeon)",
+   "main": false
+  },
+  {
+   "ko": "우제미나리 바지락전",
+   "en": "Clam and dropwort pancake (Ba-ji-rak-jeon)",
+   "main": false
+  },
+  {
+   "ko": "닭무치 무침",
+   "en": "Seasoned radish (Mu-chim)",
+   "main": false
+  },
+  {
+   "ko": "식식샘 쌈류드",
+   "en": "Fresh vegetables and ssam (Ssam-ryudo)",
+   "main": false
+  },
+  {
+   "ko": "직접담은 걸절절이",
+   "en": "House-made kimchi (Geol-jeol-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "유우국",
+   "en": "Soup (Yu-u-guk)",
+   "main": false
+  },
+  {
+   "ko": "비빔밥,탄산음료,셀프라면",
+   "en": "Bibimbap, carbonated beverages, self-serve ramen (Bi-bim-bap)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 9월30일 수요일 (September 30, Wednesday); target date format differs. Instagram handle 'urbanworkdasbom' and text about self-service corner and opening hours shown at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월30(수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우거지원장국",
+   "en": "Ugoji (Vegetable greens) soup",
+   "main": false
+  },
+  {
+   "ko": "삼겹살수급구이(feat.고사리/버섯)",
+   "en": "Grilled pork belly with bracken fern and mushrooms",
+   "main": true
+  },
+  {
+   "ko": "안심치킨텐더*크림어니언s",
+   "en": "Tenderloin chicken tenders with cream onion",
+   "main": true
+  },
+  {
+   "ko": "궁중떡갈비",
+   "en": "Gung-joong tteokgalbi (Royal-style beef patties)",
+   "main": true
+  },
+  {
+   "ko": "아웃백st두음바파스타",
+   "en": "Outback-style two-color pasta",
+   "main": true
+  },
+  {
+   "ko": "애호박&자지게란전*양념간장",
+   "en": "Zucchini and zucchini blossom egg pan with seasoned soy sauce",
+   "main": false
+  },
+  {
+   "ko": "고구마센드위치",
+   "en": "Sweet potato sandwich",
+   "main": false
+  },
+  {
+   "ko": "미역줄기볶음",
+   "en": "Stir-fried seaweed stems",
+   "main": false
+  },
+  {
+   "ko": "콩나물파절이무침",
+   "en": "Bean sprouts and radish salad",
+   "main": false
+  },
+  {
+   "ko": "깻잎추삼*쌈장",
+   "en": "Perilla leaves with ssamjang",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi/self-serve ramen/toast/beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

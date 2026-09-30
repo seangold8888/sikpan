@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 9월 30일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "나가사키깡뽕국",
+   "en": "Nagasaki-style spicy soup (Nagasaki-kkang-ppong-guk)",
+   "main": true
+  },
+  {
+   "ko": "불맛제육볶음",
+   "en": "Fire-flavored stir-fried pork (Bul-mat je-yuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "훼오리감자샐러드",
+   "en": "Potato salad (Hwae-o-ri gamja-salleodeu)",
+   "main": false
+  },
+  {
+   "ko": "옥린황밥스테이크",
+   "en": "Rice with steak (Ok-rin hwang-bap seuteikeu)",
+   "main": true
+  },
+  {
+   "ko": "콜소스어묵볶음",
+   "en": "Fish cake stir-fry with sauce (Kol-soseu eomuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "김지밥이비빔국수",
+   "en": "Kimchi rice and bibim noodles (Kim-ji-bap i-bibim guk-su)",
+   "main": true
+  },
+  {
+   "ko": "매운콩나물무침",
+   "en": "Spicy seasoned bean sprouts (Maeun kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "상추쌈&쌈장",
+   "en": "Lettuce wraps & sauce (Sangchu-ssam & ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River ramen (Han-gang ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi (Geurin-salleodeu / Baechu-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated beverages / Cold tea (Tansan-eumryo / Siwonhan-ja)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items and origin labels noted on board. Breakfast (아침밥) and dinner (빡미밥) menus listed at top.",
+ "_model": "claude-haiku-4-5-20251001"
+}

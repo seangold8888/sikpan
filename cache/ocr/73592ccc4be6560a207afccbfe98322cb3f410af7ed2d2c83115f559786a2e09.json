@@ -1,0 +1,44 @@
+{
+ "date_shown": "9/30(수,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "콩나물국",
+   "en": "Bean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "카레라이스",
+   "en": "Curry rice",
+   "main": true
+  },
+  {
+   "ko": "저킨텐더",
+   "en": "Chicken tender",
+   "main": true
+  },
+  {
+   "ko": "쭈뼈야채볶음",
+   "en": "Stir-fried squid with vegetables",
+   "main": true
+  },
+  {
+   "ko": "게절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 9/30, not the target date 2026년 09월 30일 (수). Menu is for lunch (점심).",
+ "_model": "claude-haiku-4-5-20251001"
+}

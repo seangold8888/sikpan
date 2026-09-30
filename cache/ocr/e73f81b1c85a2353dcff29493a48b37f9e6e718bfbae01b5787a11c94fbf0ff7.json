@@ -1,0 +1,19 @@
+{
+ "date_shown": "26년 9월 28 ~ 26년 10월 2일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "오징어카츠&에너지존",
+   "en": "Squid cutlet & energy zone",
+   "main": true
+  },
+  {
+   "ko": "영양현국",
+   "en": "Nutritious soup",
+   "main": false
+  }
+ ],
+ "notes": "The target date 2026년 09월 30일 (수) is not shown on this board. The board displays dates from September 28 to October 2, 2026. Transcribed the Wednesday (수요일) column which shows September 29.",
+ "_model": "claude-haiku-4-5-20251001"
+}

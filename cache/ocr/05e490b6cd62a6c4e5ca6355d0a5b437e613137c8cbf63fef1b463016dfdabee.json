@@ -1,0 +1,59 @@
+{
+ "date_shown": "수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥/백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "불고기전유중닭",
+   "en": "Bulgogi, beef, and chicken",
+   "main": true
+  },
+  {
+   "ko": "룽나름긴치국",
+   "en": "Long radish kimchi soup",
+   "main": false
+  },
+  {
+   "ko": "치즈톤까스",
+   "en": "Cheese tonkatsu",
+   "main": true
+  },
+  {
+   "ko": "자들쌈쌌봉덮밥",
+   "en": "Wrapped rice bowl",
+   "main": true
+  },
+  {
+   "ko": "미제소박",
+   "en": "American-style side dish",
+   "main": false
+  },
+  {
+   "ko": "매콤엄근칠",
+   "en": "Spicy stir-fried vegetables",
+   "main": false
+  },
+  {
+   "ko": "야채볶음의",
+   "en": "Vegetable stir-fry",
+   "main": false
+  },
+  {
+   "ko": "가른셀러크&치워D",
+   "en": "Garden salad & cheese D",
+   "main": false
+  },
+  {
+   "ko": "�쿠기깜치",
+   "en": "Cookie kimchi",
+   "main": false
+  }
+ ],
+ "notes": "The target date is 2026년 09월 30일 (수), but the board only shows '수요일' (Wednesday) without a specific date. Several menu item transcriptions are approximate due to image clarity issues.",
+ "_model": "claude-haiku-4-5-20251001"
+}

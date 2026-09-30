@@ -1,0 +1,64 @@
+{
+ "date_shown": "9월 30일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우거지깨해장국",
+   "en": "Vegetable and sesame soup (Ugeoji-kkaehae-jang-guk)",
+   "main": false
+  },
+  {
+   "ko": "양념계장",
+   "en": "Seasoned chicken (Yangnyeom-gyejang)",
+   "main": true
+  },
+  {
+   "ko": "비엔나머스타드볶음",
+   "en": "Vienna sausage with mustard stir-fry (Bi-enna-meoseutadeu-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "수제김치장떡",
+   "en": "Homemade kimchi rice cake (Sujae-kimchi-jang-tteok)",
+   "main": true
+  },
+  {
+   "ko": "오이고추쌈장무침",
+   "en": "Cucumber and chili paste seasoned vegetables (Oi-gochu-ssam-jang-muChim)",
+   "main": false
+  },
+  {
+   "ko": "부추굴절이",
+   "en": "Chinese chives and oyster side dish (Buchu-gul-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "가드샐러드&요거트D",
+   "en": "Garden salad & yogurt D (Gadeu-salleodeu & yogeoteu D)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice (Baekmi-bap / Heukmi-bap)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한걸라면 / 탄산음료",
+   "en": "Self-service bibimbap / Korean instant noodles / Carbonated beverages (Selpeubibimbap / Han-geol-ramen / Tansan-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "간편식:쉐플로셀러드",
+   "en": "Convenience meal: Chef Plate salad (Ganpyeonsik: Shwepel-lo-selleodeu)",
+   "main": false
+  }
+ ],
+ "notes": "Origin labels printed at bottom: 저 사장정은 한국산, 콩류/쌀은/콩류/고추가 중국산, 육류 양념제(채 고추가중국산) 두류 당뇨중국산",
+ "_model": "claude-haiku-4-5-20251001"
+}

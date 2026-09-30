@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (9/30 수요일)",
+ "price": null,
+ "hours": "11시 10분 ~1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "후리까께 북응밥",
+   "en": "Furikake seasoned rice bowl",
+   "main": true
+  },
+  {
+   "ko": "삼겹살 오징어 볶음",
+   "en": "Stir-fried pork belly and squid",
+   "main": true
+  },
+  {
+   "ko": "함박 스테이크 & 소스",
+   "en": "Hamburg steak & sauce",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 고구마 맛탕",
+   "en": "Crispy rice / Sweet potato candy",
+   "main": false
+  },
+  {
+   "ko": "군만두, 교자만두",
+   "en": "Grilled dumplings, Pan-fried dumplings",
+   "main": false
+  },
+  {
+   "ko": "북어 순두부국",
+   "en": "Dried pollack soft tofu soup",
+   "main": false
+  },
+  {
+   "ko": "돈까 묵은지 볶음 / 숙주나물 무침",
+   "en": "Stir-fried pork with aged kimchi / Bean sprout seasoning",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "아삭이 고추무침 / 백 김 지",
+   "en": "Crunchy pepper radish / White seaweed",
+   "main": false
+  },
+  {
+   "ko": "\"단산 음료\"",
+   "en": "Tansan beverage",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve drinks and side vegetables available. Notice about allergen information at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}
