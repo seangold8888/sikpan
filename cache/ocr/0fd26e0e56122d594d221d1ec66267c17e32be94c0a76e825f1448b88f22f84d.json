@@ -1,0 +1,79 @@
+{
+ "date_shown": "10월 1일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "사골 된칼이국",
+   "en": "Beef bone broth (Sagol Doen-kal-iguk)",
+   "main": false
+  },
+  {
+   "ko": "고추장삼겹살도라지구이",
+   "en": "Gochujang marinated pork belly and bell flower grilled (Gochujang Samgyeopsal Doraji-gui)",
+   "main": true
+  },
+  {
+   "ko": "황당멘츠카츠&지콜레s.",
+   "en": "Mysterious katsu & chocolate",
+   "main": false
+  },
+  {
+   "ko": "일식하이스카레",
+   "en": "Japanese-style high curry",
+   "main": false
+  },
+  {
+   "ko": "팽이버섯계란전",
+   "en": "Enoki mushroom and egg pancake (Paengi-beoseot Gyeran-jeon)",
+   "main": false
+  },
+  {
+   "ko": "숭대어떡앤",
+   "en": "Tteok with fish",
+   "main": false
+  },
+  {
+   "ko": "자색고구마쌍크림버터롤",
+   "en": "Purple sweet potato double cream butter roll",
+   "main": false
+  },
+  {
+   "ko": "딩콩우양제초럼",
+   "en": "Ding kong wu yang",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Poggi kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "쪽고추/앤배추싸&싸장",
+   "en": "Jjok gochugaru / Napa cabbage wrap & dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "가득샐러드&요거트드레싱",
+   "en": "Abundant salad & yogurt dressing",
+   "main": false
+  },
+  {
+   "ko": "숭능/탄산음료",
+   "en": "Juice / Carbonated beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (2026년 10월 01일 목요일). Self-serve corner notice at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

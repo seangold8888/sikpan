@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 1일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "훈탁장국밥",
+   "en": "Smoked chicken soup rice",
+   "main": true
+  },
+  {
+   "ko": "조갯살미역국",
+   "en": "Clam and seaweed soup",
+   "main": false
+  },
+  {
+   "ko": "한방돼지갈비찜",
+   "en": "Herbal braised pork ribs",
+   "main": true
+  },
+  {
+   "ko": "치즈돈까스/경양식S",
+   "en": "Cheese tonkatsu/Western style",
+   "main": true
+  },
+  {
+   "ko": "케란말이/계찜",
+   "en": "Egg roll/Steamed egg",
+   "main": false
+  },
+  {
+   "ko": "곱빵이비빔쫄면",
+   "en": "Crispy bread bibimbap jjolmyeon",
+   "main": true
+  },
+  {
+   "ko": "깡자조림",
+   "en": "Braised dried squid",
+   "main": false
+  },
+  {
+   "ko": "도토리묵무침",
+   "en": "Acorn jelly seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "가지나물",
+   "en": "Seasoned eggplant",
+   "main": false
+  },
+  {
+   "ko": "바락떡",
+   "en": "Barack tteok (rice cake)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드/드레싱",
+   "en": "Garden salad/dressing",
+   "main": false
+  },
+  {
+   "ko": "배숭귀정이/음료",
+   "en": "Pear drink/beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월 1일 목요일 (October 1st, Thursday), not the target date of 2026년 10월 01일 (목). The board appears to be for October 1st but the year is not clearly specified.",
+ "_model": "claude-haiku-4-5-20251001"
+}

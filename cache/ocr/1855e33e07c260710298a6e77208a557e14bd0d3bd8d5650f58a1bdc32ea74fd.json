@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 1일 (목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "예날식소불고기",
+   "en": "Yenal-style beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "우징어당면까스&궁채",
+   "en": "Squid glass noodles cutlet & pickled radish",
+   "main": true
+  },
+  {
+   "ko": "탄두1st 치킨카레",
+   "en": "Tandoori-style chicken curry",
+   "main": true
+  },
+  {
+   "ko": "보르네세우양념두부조림",
+   "en": "Borneo-style seasoned tofu braise",
+   "main": true
+  },
+  {
+   "ko": "파채떡갈비조림",
+   "en": "Shredded radish tteokgalbi braise",
+   "main": false
+  },
+  {
+   "ko": "미니오이소박이",
+   "en": "Mini cucumber kimchi",
+   "main": false
+  },
+  {
+   "ko": "우말쌍이우뭇/김치걸절이",
+   "en": "Rice/Kimchi and pickled radish",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "얼깐이된장국",
+   "en": "Soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "순권튀김&칠리소스",
+   "en": "Spring roll tempura & chili sauce",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소·한장작먹·딜곁한 팜 토스트·우우안 승능·시정먹 단선음은",
+   "en": "Lettuce wraps, complimentary side vegetables, palm toast, and beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월 1일 (목요일), which corresponds to October 1st, Thursday. The target date requested was 2026년 10월 01일 (목), which matches. Some menu items have unclear or potentially misspelled Korean text due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

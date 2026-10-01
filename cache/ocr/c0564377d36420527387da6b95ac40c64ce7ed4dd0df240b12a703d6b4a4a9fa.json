@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월01일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "지리샨족돼지갈치제육",
+   "en": "Stir-fried pork with cutlassfish",
+   "main": true
+  },
+  {
+   "ko": "은둔부/앙념간장",
+   "en": "Seasoned side dish/sauce",
+   "main": false
+  },
+  {
+   "ko": "생선까스/타르소스",
+   "en": "Fish cutlet with tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "양송이버섯볶음",
+   "en": "Sautéed mushrooms",
+   "main": false
+  },
+  {
+   "ko": "브로콜리흑임자소스무침",
+   "en": "Broccoli with black sesame sauce",
+   "main": false
+  },
+  {
+   "ko": "얼큰왕태궁나물국",
+   "en": "Spicy vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "양배추/육수수콘,견포도",
+   "en": "Cabbage/corn broth, grapes",
+   "main": false
+  },
+  {
+   "ko": "상추,고추/쳇갈류",
+   "en": "Lettuce, chili peppers/pickled vegetables",
+   "main": false
+  },
+  {
+   "ko": "족석라면코너",
+   "en": "Ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차.아쿠르트",
+   "en": "Beverages/plum tea, yogurt",
+   "main": false
+  },
+  {
+   "ko": "재료공금에따메뉴버뀜수있습니다",
+   "en": "Menu may change based on ingredient availability",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월01일 (October 1st), year not specified on board. Target date was 2026년 10월 01일 (목).",
+ "_model": "claude-haiku-4-5-20251001"
+}

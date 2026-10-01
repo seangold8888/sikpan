@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 1일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "땅초떨치밥",
+   "en": "Spicy radish rice bowl",
+   "main": true
+  },
+  {
+   "ko": "피홍합탕",
+   "en": "Clam soup",
+   "main": true
+  },
+  {
+   "ko": "순살등심돈까스&소스",
+   "en": "Pork loin cutlet with sauce",
+   "main": true
+  },
+  {
+   "ko": "국물떡볶이",
+   "en": "Tteokbokki in broth",
+   "main": true
+  },
+  {
+   "ko": "오징어우침",
+   "en": "Seasoned squid",
+   "main": false
+  },
+  {
+   "ko": "조미김",
+   "en": "Seasoned seaweed",
+   "main": false
+  },
+  {
+   "ko": "어묵무침",
+   "en": "Seasoned fish cake",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&우리엔탈D",
+   "en": "Garden salad with oriental dressing",
+   "main": false
+  },
+  {
+   "ko": "석박지",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한칼라면 / 탄산음료",
+   "en": "Self-serve bibimbap / Han-kal ramen / Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "간편식·훈제오리 셀프드 (Self-serve corner for convenience foods and smoked duck). Origin labels for ingredients printed at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

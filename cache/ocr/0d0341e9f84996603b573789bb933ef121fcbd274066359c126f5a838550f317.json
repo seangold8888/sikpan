@@ -1,0 +1,64 @@
+{
+ "date_shown": "정 심 (10/1 목요일)",
+ "price": 10,
+ "hours": "11시 10분 ~ 1시 30분",
+ "items": [
+  {
+   "ko": "잡 곡밥 / 흰쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "목살 양념 갈비 구이",
+   "en": "Marinated pork neck galbi",
+   "main": true
+  },
+  {
+   "ko": "닭가슴살 후라이드 & 매운소스",
+   "en": "Fried chicken breast & spicy sauce",
+   "main": true
+  },
+  {
+   "ko": "꼬마 김말이 & 간장",
+   "en": "Mini kimbap & soy sauce",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 상추쌈",
+   "en": "Nutty scorched rice / Lettuce wraps",
+   "main": false
+  },
+  {
+   "ko": "부산 어묵 떡볶이",
+   "en": "Busan fish cake tteokbokki",
+   "main": false
+  },
+  {
+   "ko": "얼갈이 두부 된장국",
+   "en": "Mizuna and tofu doenjang-guk soup",
+   "main": false
+  },
+  {
+   "ko": "들깨 무나물 뷔페 / 부추 겉절이",
+   "en": "Perilla seed radish banchan / Chive geotjeori",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 포 기 김 치",
+   "en": "Local country style kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 탄 산 음 료 \"",
+   "en": "Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available (◇ 맛깔 드세요 ♡). Contains notices about ingredient sourcing and allergen information at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "철판계란볶음밥/백미밥",
+   "en": "Teppanyaki egg fried rice / white rice",
+   "main": true
+  },
+  {
+   "ko": "북어해장국",
+   "en": "Dried pollack hangover soup (Bugeeo-haejangguk)",
+   "main": false
+  },
+  {
+   "ko": "직화닭불고기",
+   "en": "Chargrilled chicken bulgogi (Jikwhwa-dak-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "등심돈까스★유린기소스",
+   "en": "Pork tenderloin cutlet with yuringi sauce (Deungsim-don-katsu)",
+   "main": true
+  },
+  {
+   "ko": "유니�쌀장소스",
+   "en": "Uni ssal sauce",
+   "main": false
+  },
+  {
+   "ko": "&중화면사리",
+   "en": "& Chinese noodles",
+   "main": false
+  },
+  {
+   "ko": "햅소세지계란우중&새조개완자전",
+   "en": "Ham sausage egg & shellfish meatball jeon",
+   "main": false
+  },
+  {
+   "ko": "왕고기,김치말두�쌈",
+   "en": "King meat, kimchi wrap ssam",
+   "main": false
+  },
+  {
+   "ko": "오징어새콤달콤초우원",
+   "en": "Squid sweet and sour",
+   "main": false
+  },
+  {
+   "ko": "얌강이쌌장나물",
+   "en": "Yam seasoned vegetable",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드★과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi / self-serve ramen / toast / beverages",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Menu appears to be for a single day but target date 2026년 10월 01일 (목) was not found on the board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

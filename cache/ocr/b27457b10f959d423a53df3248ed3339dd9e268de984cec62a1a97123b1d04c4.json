@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월1일 (목) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Mixed grain black rice",
+   "main": false
+  },
+  {
+   "ko": "동한삼미여국",
+   "en": "Donghan sammi yeoguk soup",
+   "main": false
+  },
+  {
+   "ko": "돼지고기수육보쌈",
+   "en": "Boiled pork belly with lettuce wraps (Dwaeji-gogi-suyu-bosam)",
+   "main": true
+  },
+  {
+   "ko": "한입치킨까스쁘띠스타트S",
+   "en": "One-bite chicken cutlet petit starter S",
+   "main": true
+  },
+  {
+   "ko": "비빔메밀묵국수",
+   "en": "Mixed buckwheat jelly noodles (Bibim-memil-meok-guksu)",
+   "main": true
+  },
+  {
+   "ko": "묵은지감자차돌박이",
+   "en": "Aged kimchi with potato and beef brisket (Muk-eun-ji-gamja-chadol-bak-i)",
+   "main": true
+  },
+  {
+   "ko": "간장쥐여쥬움",
+   "en": "Soy sauce preparation",
+   "main": false
+  },
+  {
+   "ko": "청명채널정의",
+   "en": "Cheongmyeong channel seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "짙정달은배추 난성이김치",
+   "en": "Rich napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/무순상추쌈",
+   "en": "Cabbage salad / Radish sprouts and lettuce wraps",
+   "main": false
+  }
+ ],
+ "notes": "The target date is 2026년 10월 01일 (목), but the board shows 10월1일 (목) without the year. Transcribed as shown. Some menu item text is difficult to read clearly and may contain transcription uncertainties.",
+ "_model": "claude-haiku-4-5-20251001"
+}

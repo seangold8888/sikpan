@@ -1,0 +1,64 @@
+{
+ "date_shown": "목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "베이컨새우튀김우동밥",
+   "en": "Bacon shrimp fried udon rice",
+   "main": true
+  },
+  {
+   "ko": "백미밥",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "루제체우동볶음",
+   "en": "Rouge-style stir-fried udon",
+   "main": true
+  },
+  {
+   "ko": "귀지자치국",
+   "en": "Gui-ji ja-chi soup",
+   "main": false
+  },
+  {
+   "ko": "통닭기승숨팀깅",
+   "en": "Whole chicken steam dish",
+   "main": true
+  },
+  {
+   "ko": "& 크리마마론",
+   "en": "& Cream marron",
+   "main": false
+  },
+  {
+   "ko": "파인애플킬바사스센지폭음",
+   "en": "Pineapple kielbasa sausage",
+   "main": true
+  },
+  {
+   "ko": "도톡로밥우찬 묵칠",
+   "en": "Do-tok lo rice with side dishes",
+   "main": false
+  },
+  {
+   "ko": "유·생정·야생정이",
+   "en": "Yu-saeng-jeong wild greens",
+   "main": false
+  },
+  {
+   "ko": "가른쌀러드·음료·음이자D",
+   "en": "Garden salad·Beverage·Drink D",
+   "main": false
+  },
+  {
+   "ko": "포기김지",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows '목요일' (Thursday) but target date requested is 2026년 10월 01일 (목). Some menu item text appears unclear or possibly misprinted in source image; transcribed as printed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

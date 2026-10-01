@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 1일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "곤드레밥 / 백미밥",
+   "en": "Gondre rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "돌깨미역국",
+   "en": "Stone-ground seaweed soup (Dolkkae-miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "소불고기숯주복음",
+   "en": "Beef bulgogi with charcoal (Sobul-gogi-sut-jubogeum)",
+   "main": true
+  },
+  {
+   "ko": "한입치킨카츠",
+   "en": "Bite-sized chicken cutlet (Hanip-chikin-katseu)",
+   "main": true
+  },
+  {
+   "ko": "참치김지전",
+   "en": "Tuna kimchi pancake (Chamchi-gimji-jeon)",
+   "main": false
+  },
+  {
+   "ko": "블맛우릉크소세지북음",
+   "en": "Sausage with blue taste (Blmat-uring-keu-sosiji-bogeum)",
+   "main": true
+  },
+  {
+   "ko": "비빔냉면",
+   "en": "Mixed cold noodles (Bibim-naengmyeon)",
+   "main": true
+  },
+  {
+   "ko": "�쭈파웅년장",
+   "en": "Squid with spicy sauce (Jjufa-ung-nyeon-jang)",
+   "main": false
+  },
+  {
+   "ko": "생야채걸정이",
+   "en": "Fresh vegetable salad (Saeng-yachae-geol-jeong-i)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen (Hangang-ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "가는쌀러드 / 포기김치",
+   "en": "Fine salad / Kimchi portions (Ganeun-ssal-leodeu / Pogi-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 매실차 / 승농",
+   "en": "Carbonated beverages / Plum tea / Seungnong (Tansan-eumryo / Maesil-cha / Seungnong)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Some menu items have unclear or non-standard characters that may indicate transcription errors on the original board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

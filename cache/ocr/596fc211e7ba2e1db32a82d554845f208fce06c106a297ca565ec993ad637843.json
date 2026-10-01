@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 10월 1일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "쌍고기김치지게",
+   "en": "Beef and kimchi",
+   "main": true
+  },
+  {
+   "ko": "수제등치킨바비큐",
+   "en": "Homemade chicken barbecue",
+   "main": true
+  },
+  {
+   "ko": "우삼불고기",
+   "en": "Beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "소고기미나리파스타",
+   "en": "Beef and minari pasta",
+   "main": true
+  },
+  {
+   "ko": "고추마카레",
+   "en": "Chili curry",
+   "main": true
+  },
+  {
+   "ko": "에그마요샌드우이치",
+   "en": "Egg mayonnaise sandwich",
+   "main": true
+  },
+  {
+   "ko": "동근우이무화",
+   "en": "Round radish dish",
+   "main": true
+  },
+  {
+   "ko": "쌀제소 & 쌀 깍",
+   "en": "Rice and side dishes",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve instant noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "송중 & 음료",
+   "en": "Dessert & beverages",
+   "main": false
+  },
+  {
+   "ko": "백미밥 & 잡곡밥",
+   "en": "White rice & mixed grain rice",
+   "main": false
+  }
+ ],
+ "notes": "Menu board shows the date as 2026년 10월 1일. Some text on the board is difficult to read with certainty due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

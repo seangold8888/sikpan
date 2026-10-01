@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월1일 목요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "통삼겹한방보쌈",
+   "en": "Whole pork belly wraps with herbal sauce",
+   "main": true
+  },
+  {
+   "ko": "바삭쉬커플렛",
+   "en": "Crispy chicken cutlet",
+   "main": true
+  },
+  {
+   "ko": "부대떡볶이",
+   "en": "Budae tteokbokki (army base stir-fried rice cakes)",
+   "main": true
+  },
+  {
+   "ko": "칠판구마드",
+   "en": "Sweet potato dish",
+   "main": false
+  },
+  {
+   "ko": "쭉파새콩무침",
+   "en": "Bean sprout seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "직접담은걸굴이",
+   "en": "House-made oyster dish",
+   "main": false
+  },
+  {
+   "ko": "성성쌤러드",
+   "en": "Fresh salad",
+   "main": false
+  },
+  {
+   "ko": "된장국",
+   "en": "Soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "모든쌈•쌈장",
+   "en": "All wraps and sauce",
+   "main": false
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "셀프라면",
+   "en": "Self-serve ramen",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Instagram handle: urbanworkdasbom. Operating location and time: 메뉴공지 - 오전10시 (Menu notice - 10AM opening)",
+ "_model": "claude-haiku-4-5-20251001"
+}

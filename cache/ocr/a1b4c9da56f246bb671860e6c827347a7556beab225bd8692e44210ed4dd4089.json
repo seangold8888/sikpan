@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 1일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "시금치국",
+   "en": "Spinach soup",
+   "main": false
+  },
+  {
+   "ko": "고추장볼고기",
+   "en": "Gochujang beef (Gochujang-vol-googi)",
+   "main": true
+  },
+  {
+   "ko": "알새우튀김",
+   "en": "Shrimp roe tempura (Al-saewoo-twigim)",
+   "main": false
+  },
+  {
+   "ko": "햄.김지볶음덮밥",
+   "en": "Ham and kimchi stir-fried rice bowl (Ham-kimchi-bokkeum-deopbap)",
+   "main": true
+  },
+  {
+   "ko": "양깻잣초롱",
+   "en": "Sesame-perilla leaf dish (Yang-kkaet-jat-cholong)",
+   "main": false
+  },
+  {
+   "ko": "매운스테이 크봄음",
+   "en": "Spicy steak (Maeun-seutei)",
+   "main": true
+  },
+  {
+   "ko": "침니돌컬젤이",
+   "en": "Stone-grilled item (Chimni-dol-cul-jel-i)",
+   "main": false
+  },
+  {
+   "ko": "무*박채 *냉깲인지",
+   "en": "Radish and vegetables (Mu-bak-chae)",
+   "main": false
+  },
+  {
+   "ko": "가쓰오우동 / 그린샐러드",
+   "en": "Bonito udon / Green salad (Gasseuo-udon / Green-salad)",
+   "main": false
+  },
+  {
+   "ko": "게란후라이 / 탁심음로",
+   "en": "Fried egg / Beverage (Gaeran-hura-i)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han-gang ramen (Han-gang-ramen)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown (10월 1일) does not match target date (2026년 10월 01일). Some characters are difficult to read and marked with *. This appears to be the correct menu board for the date shown.",
+ "_model": "claude-haiku-4-5-20251001"
+}

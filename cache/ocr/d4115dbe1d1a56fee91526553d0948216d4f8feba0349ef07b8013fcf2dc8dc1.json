@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 1일(목요일)에는",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너강냉이&솜라과자",
+   "en": "Plus corner: corn & cotton candy",
+   "main": false
+  },
+  {
+   "ko": "얏날식소불고기",
+   "en": "Yesteryear-style beef bulgogi (Yatnal-sik sobulgogi)",
+   "main": true
+  },
+  {
+   "ko": "오징어당면까스&케잡",
+   "en": "Squid dangmyeon cutlet & ketchup",
+   "main": true
+  },
+  {
+   "ko": "탄두린st치킨카레",
+   "en": "Tandoori-style chicken curry",
+   "main": true
+  },
+  {
+   "ko": "보리새우양념두부조림",
+   "en": "Barley shrimp seasoned tofu braised",
+   "main": false
+  },
+  {
+   "ko": "파채떡갈비조림",
+   "en": "Shredded radish tteok-galbi braised",
+   "main": false
+  },
+  {
+   "ko": "미니오이숙박이",
+   "en": "Mini cucumber pickle",
+   "main": false
+  },
+  {
+   "ko": "무말랭이무침/김치겉절이",
+   "en": "Radish dried strips seasoned & kimchi",
+   "main": false
+  },
+  {
+   "ko": "열깔이원장국",
+   "en": "Yeolkkal-i original soup",
+   "main": false
+  },
+  {
+   "ko": "플러스 코너 (무료)",
+   "en": "Plus corner (free)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 10월 1일(목요일)에는 which translates to October 1st (Thursday). Target date requested was 2026년 10월 01일 (목) - board date matches target date. Additional text at bottom lists sourcing: 정성 쌀/자숙김/된 도수/밥상풀품",
+ "_model": "claude-haiku-4-5-20251001"
+}

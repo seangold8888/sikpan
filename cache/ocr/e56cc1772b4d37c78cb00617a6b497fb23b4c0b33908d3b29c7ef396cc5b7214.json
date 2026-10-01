@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 1일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "우육경숭드분찌개",
+   "en": "Beef soup with vegetables",
+   "main": false
+  },
+  {
+   "ko": "데리야끼순살닭뜸음",
+   "en": "Teriyaki chicken",
+   "main": true
+  },
+  {
+   "ko": "새우깜지고로꺼",
+   "en": "Shrimp with kimchi",
+   "main": true
+  },
+  {
+   "ko": "불닭소소응랑크목음",
+   "en": "Spicy chicken",
+   "main": true
+  },
+  {
+   "ko": "유니짜장묘밥",
+   "en": "Jjajang-myeon noodles",
+   "main": true
+  },
+  {
+   "ko": "한식집채",
+   "en": "Korean side dishes",
+   "main": false
+  },
+  {
+   "ko": "맛살숭중겨자냉채",
+   "en": "Mustard cold salad",
+   "main": false
+  },
+  {
+   "ko": "지커러유자정우침",
+   "en": "Yuzu citrus side",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 사원한자",
+   "en": "Carbonated beverages / Employee beverages",
+   "main": false
+  }
+ ],
+ "notes": "Some menu items are difficult to read with certainty due to image quality. The text at bottom indicates this is a self-serve cafeteria with marked items and employee provisions.",
+ "_model": "claude-haiku-4-5-20251001"
+}
