@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월2일 금요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "불금미소불고기",
+   "en": "Miso beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "�까르보불닭파스타",
+   "en": "Carbonara spicy chicken pasta",
+   "main": true
+  },
+  {
+   "ko": "수제코구마아채튀김",
+   "en": "Homemade sweet potato and vegetable tempura",
+   "main": false
+  },
+  {
+   "ko": "해묵땅닭강보충",
+   "en": "Seasoned chicken",
+   "main": false
+  },
+  {
+   "ko": "항국미나리묵충",
+   "en": "Korean watercress jelly",
+   "main": false
+  },
+  {
+   "ko": "직접담은깍두기",
+   "en": "Homemade radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "상승쌀렉트드",
+   "en": "Selection salad",
+   "main": false
+  },
+  {
+   "ko": "어묵국",
+   "en": "Fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥",
+   "en": "Self-serve bibimbap",
+   "main": true
+  },
+  {
+   "ko": "탄산음료",
+   "en": "Carbonated beverage",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve bibimbap corner available. Date shown is 10월2일 (October 2), matching target date. Operating hours show 오전10시 (10 AM). Instagram handle: urbanworkdasbomo",
+ "_model": "claude-haiku-4-5-20251001"
+}

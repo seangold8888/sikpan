@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (10/2 금요일)",
+ "price": null,
+ "hours": "점심.11시 10분 ~ 1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "유부잔지국수",
+   "en": "Tofu pockets kalguksu soup",
+   "main": true
+  },
+  {
+   "ko": "도웅 불고기 볶음",
+   "en": "Stir-fried bulgogi",
+   "main": true
+  },
+  {
+   "ko": "등심 탕수육, 탕수만두",
+   "en": "Sweet and sour pork loin, sweet and sour dumplings",
+   "main": true
+  },
+  {
+   "ko": "구수한 눈통지 / 당콩한 식혜",
+   "en": "Savory sikhye / Sweet sikhye",
+   "main": false
+  },
+  {
+   "ko": "해물 완자전 & 케찹",
+   "en": "Seafood meatballs & ketchup",
+   "main": false
+  },
+  {
+   "ko": "매콤 두부 양념 조림",
+   "en": "Spicy seasoned tofu braise",
+   "main": false
+  },
+  {
+   "ko": "단배추 나물 무침 / 깍가루 무침",
+   "en": "Seasoned cabbage / seasoned radish",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 포기 김 지",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 탄산 음료 \"",
+   "en": "Carbonated beverage",
+   "main": false
+  }
+ ],
+ "notes": "⊙맛있게 드세요 ♡",
+ "_model": "claude-haiku-4-5-20251001"
+}

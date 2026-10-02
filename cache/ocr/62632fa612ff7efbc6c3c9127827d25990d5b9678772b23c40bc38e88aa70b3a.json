@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 2일 (금요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "치즈칼초네*상각콘치즈고로케",
+   "en": "Cheese calzone with corn cheese croquette",
+   "main": true
+  },
+  {
+   "ko": "칠리소스",
+   "en": "Chili sauce",
+   "main": false
+  },
+  {
+   "ko": "김치비빔국수",
+   "en": "Kimchi mixed noodles (Kimchi-bibim-guksu)",
+   "main": true
+  },
+  {
+   "ko": "아몬드단호박밥짜",
+   "en": "Almond sweet pumpkin rice",
+   "main": false
+  },
+  {
+   "ko": "매콤어묵채볶음",
+   "en": "Spicy stir-fried fish cake (Eomuk-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "들깨고사리나물",
+   "en": "Perilla seed seasoned bracken",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쫑앗나물지/딱두기",
+   "en": "Seasoned garlic scallion/pickled radish",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "맑은미역국",
+   "en": "Clear seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "삼색깻덕",
+   "en": "Tri-colored seasoned perilla leaves",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/완강쇠면&닭콩쌀 토스트/구수한 숭늉&시원한 단산음료",
+   "en": "Lettuce wrap vegetables / stir-fried noodles & chicken bean rice toast / savory rice drink & refreshing sweet beverage",
+   "main": false
+  }
+ ],
+ "notes": "The date shown on the board (10월 2일) differs from the target date (2026년 10월 02일), but the day of week matches (금요일/Friday). Menu transcribed as printed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

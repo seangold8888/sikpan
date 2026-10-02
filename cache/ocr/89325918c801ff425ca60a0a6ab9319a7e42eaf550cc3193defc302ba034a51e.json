@@ -1,0 +1,74 @@
+{
+ "date_shown": "10월02일(금요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/나/베미밥",
+   "en": "White rice with mixed grains / Nasi / Barley rice",
+   "main": false
+  },
+  {
+   "ko": "얼큰순두부찌개",
+   "en": "Spicy soft tofu stew (Eolkeun sundubu jjigae)",
+   "main": false
+  },
+  {
+   "ko": "앙동찜닭*닭몬사리",
+   "en": "Braised chicken with soy sauce (Anjung jjim dak) * Chicken montage (Dak mon sari)",
+   "main": true
+  },
+  {
+   "ko": "통살돈까스*머스터드S",
+   "en": "Whole pork cutlet (Tongssal don-kkas) * Mustard sauce",
+   "main": true
+  },
+  {
+   "ko": "찹치김치볶밥",
+   "en": "Chapchi kimchi fried rice",
+   "main": true
+  },
+  {
+   "ko": "고구마치즈그라탕",
+   "en": "Sweet potato cheese gratin (Gogumachi cheese gratan)",
+   "main": false
+  },
+  {
+   "ko": "검은깨연근무침",
+   "en": "Black sesame and lotus root side dish (Geomeun-kkae yeonggeun muchiim)",
+   "main": false
+  },
+  {
+   "ko": "야채겉절이",
+   "en": "Fresh vegetable kimchi (Yachae geotjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi (Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럿드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * Self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*쌍고추*쌍장",
+   "en": "Vegetables * Hot peppers * Sauces",
+   "main": false
+  },
+  {
+   "ko": "느릉지*탕사은료*매실차",
+   "en": "Roasted grain drink * Soup/broth drink * Plum tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items included. Some characters may be unclear (느릉지, 탕사은료 are uncertain transcriptions).",
+ "_model": "claude-haiku-4-5-20251001"
+}

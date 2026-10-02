@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월2일 (금)",
+ "price": null,
+ "hours": "점심",
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "김지궁나물국",
+   "en": "Kimchi and vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "붉마오징어제육볶음",
+   "en": "Red squid and beef stir-fry",
+   "main": true
+  },
+  {
+   "ko": "톤살새우까츠/싸우전S",
+   "en": "Tonkatsu shrimp cutlet / Sauce",
+   "main": true
+  },
+  {
+   "ko": "낙지닭땅떨붕이",
+   "en": "Octopus and chicken pancake",
+   "main": false
+  },
+  {
+   "ko": "쌀팬하이중떨만구이",
+   "en": "Rice pan-fried with middle cut grilled",
+   "main": false
+  },
+  {
+   "ko": "오이미역초무침",
+   "en": "Cucumber and seaweed salad",
+   "main": false
+  },
+  {
+   "ko": "열무♦열깃이겉정이",
+   "en": "Young radish leaf kimchi",
+   "main": false
+  },
+  {
+   "ko": "배추겉정이깻지",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad",
+   "main": false
+  },
+  {
+   "ko": "열음식혜/우식과자",
+   "en": "Sikhye sweet drink / Snacks",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월2일 (금) which appears to be October 2nd (Friday), not matching the target date of 2026년 10월 02일 (금). However, the month and day match; year is not shown on board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 10월 2일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "햄김치볶음밥",
+   "en": "Ham and kimchi fried rice",
+   "main": true
+  },
+  {
+   "ko": "진국설렁탕/다대기",
+   "en": "Beef bone broth soup (Seolleongtang) with condiments",
+   "main": true
+  },
+  {
+   "ko": "칼비양념목살구이",
+   "en": "Marinated pork neck ribs",
+   "main": false
+  },
+  {
+   "ko": "치킨스틱&치즈스틱",
+   "en": "Chicken sticks & cheese sticks",
+   "main": false
+  },
+  {
+   "ko": "불닭마요아이트볼",
+   "en": "Spicy chicken mayo meatballs",
+   "main": false
+  },
+  {
+   "ko": "어묵채볶음",
+   "en": "Stir-fried fish cake strips",
+   "main": false
+  },
+  {
+   "ko": "톨깨파래자반구이",
+   "en": "Sesame and seaweed side dish",
+   "main": false
+  },
+  {
+   "ko": "무말랭이고추옷무침",
+   "en": "Seasoned radish strips with red pepper",
+   "main": false
+  },
+  {
+   "ko": "쌜프한강라면",
+   "en": "Soup Hangang instant noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "송송 & 음료",
+   "en": "Fruit & beverages",
+   "main": false
+  },
+  {
+   "ko": "각색경단 & 방울토마토",
+   "en": "Colorful dumplings & cherry tomatoes",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

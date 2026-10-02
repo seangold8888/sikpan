@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 2일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "쿠이 몽구",
+   "en": "Kui Monggu",
+   "main": false
+  },
+  {
+   "ko": "기사식당돼지불백",
+   "en": "Gisa restaurant pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "반반주제치킨",
+   "en": "Half-and-half sauced chicken",
+   "main": true
+  },
+  {
+   "ko": "겉새우해물젓&양념장",
+   "en": "Crispy shrimp seafood jeot & seasoning sauce",
+   "main": false
+  },
+  {
+   "ko": "블릿비산적매콤조밈",
+   "en": "Bullet bee skewered spicy mix",
+   "main": false
+  },
+  {
+   "ko": "애오악새우젓북음",
+   "en": "Ae-o-ak shrimp jeot pickled radish",
+   "main": false
+  },
+  {
+   "ko": "쥐어채북음",
+   "en": "Mouse radish pickled greens",
+   "main": false
+  },
+  {
+   "ko": "쇠우숨료",
+   "en": "Shrimp drink",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramyeon noodles",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated beverages / Chilled drinks",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date. Some menu items contain characters that are difficult to read with certainty; transcribed as accurately as possible from the image.",
+ "_model": "claude-haiku-4-5-20251001"
+}

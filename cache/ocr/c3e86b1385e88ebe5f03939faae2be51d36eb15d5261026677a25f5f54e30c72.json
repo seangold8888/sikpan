@@ -1,0 +1,44 @@
+{
+ "date_shown": "10/2(금,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "가쯔우동",
+   "en": "Katsu udon",
+   "main": true
+  },
+  {
+   "ko": "두툼떡갈비구이",
+   "en": "Thick grilled galbi ribs (Ttuteok-galbi-gui)",
+   "main": true
+  },
+  {
+   "ko": "아채튀김",
+   "en": "Vegetable tempura (Achae-twigim)",
+   "main": false
+  },
+  {
+   "ko": "꼬막살야채무침",
+   "en": "Seasoned cockle with vegetables (Kkomak-sal-yachae-muchim)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables (Gyejeol-namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi (Guk-nae-san-baechoo-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "영업일 식사 위생점수",
+ "_model": "claude-haiku-4-5-20251001"
+}

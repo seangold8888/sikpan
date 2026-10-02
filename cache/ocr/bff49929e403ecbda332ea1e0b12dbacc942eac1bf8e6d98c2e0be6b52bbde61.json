@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월02일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "날치알동신치즉도까스/소스",
+   "en": "Flying fish roe cutlet (Nalchi-al dongshinchi cutlet) with sauce",
+   "main": true
+  },
+  {
+   "ko": "국물오댕덕볶이",
+   "en": "Broth-based odeng and tteok stir-fry",
+   "main": false
+  },
+  {
+   "ko": "순대/내장모듬/소금장",
+   "en": "Sundae, organ assortment with salt sauce",
+   "main": false
+  },
+  {
+   "ko": "분홍소세지계란란전",
+   "en": "Pink sausage and egg pancake",
+   "main": false
+  },
+  {
+   "ko": "오이부추무침",
+   "en": "Cucumber and chive seasoned vegetables",
+   "main": false
+  },
+  {
+   "ko": "지리산쪽돼지김치찌개",
+   "en": "Jirisan pork and kimchi stew",
+   "main": true
+  },
+  {
+   "ko": "양배추/옥수수콘.견포도",
+   "en": "Cabbage, corn, and grape",
+   "main": false
+  },
+  {
+   "ko": "상추.고추/젓갈류",
+   "en": "Lettuce, red pepper, and fermented fish sauce",
+   "main": false
+  },
+  {
+   "ko": "즉석마면코너",
+   "en": "Instant noodle corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차.아쿠르트",
+   "en": "Beverages: plum tea and yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "자료공금이마떄매뉴바필수있습니다 (Self-service corner notice regarding menu availability)",
+ "_model": "claude-haiku-4-5-20251001"
+}

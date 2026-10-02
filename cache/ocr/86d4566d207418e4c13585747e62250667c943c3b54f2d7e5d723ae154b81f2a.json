@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 2일 (금요일)에",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너)바지락죽",
+   "en": "Plus corner - Littleneck clam porridge",
+   "main": false
+  },
+  {
+   "ko": "매콤두사태찜",
+   "en": "Spicy braised beef brisket (Dusan-tae-jjim)",
+   "main": true
+  },
+  {
+   "ko": "삼각꾼치즈고로케 8살리소스",
+   "en": "Triangle mackerel cheese croquette with sauce",
+   "main": false
+  },
+  {
+   "ko": "김치비빔국수",
+   "en": "Kimchi bibim noodles",
+   "main": true
+  },
+  {
+   "ko": "야무드닭증박쌈",
+   "en": "Tender chicken with wrap",
+   "main": false
+  },
+  {
+   "ko": "매콤어묵채볶음",
+   "en": "Spicy stir-fried fish cake vegetables",
+   "main": false
+  },
+  {
+   "ko": "청겨채 건정이",
+   "en": "Green vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "양념마늘쌍양알 아들지 / 깍두기",
+   "en": "Seasoned garlic / Radish kimchi (Kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "맑은미역국",
+   "en": "Clear seaweed soup (Miyeok-guk)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 10월 2일 (금요일)에 which appears to match target date 2026년 10월 02일 (금). Restaurant: 플러스 코너 (우롱). Origin labels shown: 성심 쌀버섯 / 양정관팀 / 팀 도수테 / 방상웅룸",
+ "_model": "claude-haiku-4-5-20251001"
+}

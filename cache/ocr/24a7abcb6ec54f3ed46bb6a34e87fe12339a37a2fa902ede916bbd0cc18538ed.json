@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월2일금",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김치어묵당",
+   "en": "Kimchi and fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "과일속성묵설탕범갈비",
+   "en": "Fruit-sweetened cold jelly with galbi",
+   "main": true
+  },
+  {
+   "ko": "감자모짜치즈핫도그*치짐/머스터드/설탕",
+   "en": "Potato mozzarella cheese hot dog with mustard/ketchup/sugar",
+   "main": true
+  },
+  {
+   "ko": "메추리알락묵이",
+   "en": "Quail egg and cold jelly",
+   "main": false
+  },
+  {
+   "ko": "맛살링&김말이&완두튀김",
+   "en": "Imitation crab stick & seaweed roll & pea shoots",
+   "main": false
+  },
+  {
+   "ko": "☆셀프비빔밥☆",
+   "en": "Self-serve bibimbap",
+   "main": true
+  },
+  {
+   "ko": "계란후라이",
+   "en": "Fried egg",
+   "main": false
+  },
+  {
+   "ko": "무생채/콩나물/고사리/상추*참기름고추장",
+   "en": "Radish salad, bean sprouts, bracken fern, lettuce with sesame oil and gochujang",
+   "main": false
+  },
+  {
+   "ko": "파래구이김",
+   "en": "Roasted seaweed",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프김/토스트/음료",
+   "en": "Napa kimchi, self-serve seaweed, toast, beverage",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

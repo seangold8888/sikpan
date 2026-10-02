@@ -1,0 +1,59 @@
+{
+ "date_shown": "금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/볶음밥",
+   "en": "White rice / Fried rice",
+   "main": false
+  },
+  {
+   "ko": "바베큐돈까스",
+   "en": "Barbecue pork cutlet (Barbeque donkkaseu)",
+   "main": true
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef seaweed soup (Sogoogi miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "새우오징어명태볶음S",
+   "en": "Stir-fried shrimp, squid, and pollock (Saeu ojingeo myeongtae bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "메추리알쌈쌈이",
+   "en": "Quail eggs wrap (Metcuri al ssam-ssam-i)",
+   "main": false
+  },
+  {
+   "ko": "깻잎양념중추",
+   "en": "Seasoned perilla leaves (Kkaetnip yangnyeom chungchu)",
+   "main": false
+  },
+  {
+   "ko": "건파래탁우동",
+   "en": "Kelp noodles in cold broth (Geon parrae tak udon)",
+   "main": false
+  },
+  {
+   "ko": "정정재사과껍질이",
+   "en": "Apple peel (Jeong jeong jae sagwa kkobjil i)",
+   "main": false
+  },
+  {
+   "ko": "가는쌀러드&곡입자D",
+   "en": "Fine salad & grain bits D (Ganeun ssallodeu & gok-ip ja D)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi (Pogi kimchi)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 금요일 (Friday) instead of the target date 2026년 10월 02일 (금). Some text appears unclear or possibly misprinted in the original menu board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

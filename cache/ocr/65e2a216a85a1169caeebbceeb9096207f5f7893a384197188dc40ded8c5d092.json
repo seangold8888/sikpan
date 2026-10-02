@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 2일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "꼿게튀튼장찌개",
+   "en": "Braised crab with soy sauce stew",
+   "main": true
+  },
+  {
+   "ko": "숙제치킨&칼럭디핑소스",
+   "en": "Roasted chicken with garlic dipping sauce",
+   "main": true
+  },
+  {
+   "ko": "골뱅이쭈면야채무침",
+   "en": "Spicy sea snail and noodles with vegetable seasoning",
+   "main": false
+  },
+  {
+   "ko": "시즈닝웨지감자",
+   "en": "Seasoned wedge potatoes",
+   "main": false
+  },
+  {
+   "ko": "미역줄기볶음",
+   "en": "Stir-fried seaweed stems",
+   "main": false
+  },
+  {
+   "ko": "상추겉절이 / 요구르트",
+   "en": "Fresh lettuce kimchi / Yogurt",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&사인더스켓D",
+   "en": "Garden salad with dressing D",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한각라면 / 탄산음료",
+   "en": "Self-serve bibimbap / Korean instant noodles / Carbonated beverages",
+   "main": false
+  },
+  {
+   "ko": "간편식:킬바사쏘세지셀러드",
+   "en": "Convenience meal: Kielbasa sausage salad",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner and beverage station indicated on board",
+ "_model": "claude-haiku-4-5-20251001"
+}

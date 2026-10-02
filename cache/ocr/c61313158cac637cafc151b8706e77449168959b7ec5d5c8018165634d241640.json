@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 2일 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "대패묵날소금구이",
+   "en": "Sliced seasoned soft-shell clam",
+   "main": true
+  },
+  {
+   "ko": "후라이드치킨.치킨무",
+   "en": "Fried chicken with pickled radish",
+   "main": true
+  },
+  {
+   "ko": "추루톡떡볶음이",
+   "en": "Spicy stir-fried rice cakes",
+   "main": true
+  },
+  {
+   "ko": "침리항반스테이크",
+   "en": "Steamed pork steak",
+   "main": true
+  },
+  {
+   "ko": "컵새우마늘쫑조림",
+   "en": "Shrimp and garlic stem braised",
+   "main": false
+  },
+  {
+   "ko": "숙주나물",
+   "en": "Seasoned mung bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "깍두기.냉김치",
+   "en": "Cubed radish kimchi, cold kimchi",
+   "main": false
+  },
+  {
+   "ko": "잔치국수 / 그린샐러드",
+   "en": "Festival noodle soup, green salad",
+   "main": false
+  },
+  {
+   "ko": "계란우라이 / 탄산음료",
+   "en": "Fried egg, carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "항강라면",
+   "en": "Ramen noodles",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (2026년 10월 2일 금요일). Some menu item names appear to have transcription irregularities in the original board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

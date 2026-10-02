@@ -1,0 +1,79 @@
+{
+ "date_shown": "10월 2일 금요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/쌀미밥",
+   "en": "Mixed grain rice/White rice",
+   "main": false
+  },
+  {
+   "ko": "소고기미역국",
+   "en": "Beef and seaweed soup (Sogogi miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "돌맛쭈꾸미제육볶음",
+   "en": "Spicy stir-fried baby octopus and beef (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "청양타르트생선까스",
+   "en": "Cheongyang tart fish cutlet (Saengseon-kkas)",
+   "main": true
+  },
+  {
+   "ko": "훈제오리길바사소세지볶음",
+   "en": "Smoked duck sausage stir-fry (Soseji-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "열무깔비빔면",
+   "en": "Yeolmu kalguksu noodles",
+   "main": true
+  },
+  {
+   "ko": "자색고구마생크림버터롤",
+   "en": "Purple sweet potato cream butter roll",
+   "main": false
+  },
+  {
+   "ko": "당평채",
+   "en": "Dang-pyeong vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "우거지된장지짐",
+   "en": "Spinach miso pancake (Ugeoji jjim)",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi (Pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "쫏고추/채소쌌&쌌장",
+   "en": "Perilla leaves/Vegetables&sauce",
+   "main": false
+  },
+  {
+   "ko": "가튼셀러드&참깨드레싱",
+   "en": "Garden salad & sesame dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Fruit/Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date on board matches target date. Last line contains notice about dietary information availability.",
+ "_model": "claude-haiku-4-5-20251001"
+}
