@@ -1,0 +1,14 @@
+{
+ "date_shown": "10월 5일 (월요일)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "내채우밥",
+   "en": "Naechae-ui Rice Bowl",
+   "main": true
+  }
+ ],
+ "notes": "Board shows October 2026 calendar. Target date 10월 5일 (월) corresponds to Monday the 5th. Only one menu item is legibly identifiable on this date. The board indicates 10월 5일 (월요일): 내채 유명은 인안 유무 and 10월 9일 (금요일): 한금산 공용인 유무, suggesting different menus for different dates.",
+ "_model": "claude-haiku-4-5-20251001"
+}

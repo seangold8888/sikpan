@@ -1,0 +1,14 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": "영업 마감",
+ "items": [
+  {
+   "ko": "금일 영업을 종료하였습니다.",
+   "en": "Closed for the day",
+   "main": false
+  }
+ ],
+ "notes": "This is not a regular menu board. The sign indicates '영업 마감' (closed) and states '금일 영업을 종료하였습니다' (We have closed for the day). No menu items or operating hours are displayed. The target date (2026년 10월 05일) does not appear on the board.",
+ "_model": "claude-haiku-4-5-20251001"
+}
