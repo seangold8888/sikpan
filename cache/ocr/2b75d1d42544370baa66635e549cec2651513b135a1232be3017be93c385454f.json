@@ -1,0 +1,39 @@
+{
+ "date_shown": "26년 10월 06일 ~ 26년10월08일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀",
+   "en": "White rice",
+   "main": false
+  },
+  {
+   "ko": "간장돼지불고기·쫄깨우동·두부조림",
+   "en": "Soy-braised pork, Chewy udon noodles, Braised tofu",
+   "main": true
+  },
+  {
+   "ko": "오징어깨스",
+   "en": "Squid stir-fry",
+   "main": false
+  },
+  {
+   "ko": "고기국수",
+   "en": "Meat noodle soup",
+   "main": true
+  },
+  {
+   "ko": "보쌈글장",
+   "en": "Bossam sauce",
+   "main": false
+  },
+  {
+   "ko": "크림파스타",
+   "en": "Cream pasta",
+   "main": true
+  }
+ ],
+ "notes": "Board shows week of 26년 10월 06일 ~ 26년 10월 08일; transcribed column for 화 (Tuesday, 06일). Layout shows Main 1, Main 2, Main 3 with multiple dishes listed per category.",
+ "_model": "claude-haiku-4-5-20251001"
+}

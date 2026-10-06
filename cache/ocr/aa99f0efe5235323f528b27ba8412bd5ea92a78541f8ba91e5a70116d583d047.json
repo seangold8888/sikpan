@@ -1,0 +1,44 @@
+{
+ "date_shown": "10/6(화,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "날지않고지뜨밥&미소국",
+   "en": "Soft rice & miso soup",
+   "main": false
+  },
+  {
+   "ko": "계란우러이",
+   "en": "Egg dish (Gyeran-ureui)",
+   "main": false
+  },
+  {
+   "ko": "쇠고기표묵우",
+   "en": "Beef with muk",
+   "main": true
+  },
+  {
+   "ko": "소고기표묵우음",
+   "en": "Beef with muk",
+   "main": false
+  },
+  {
+   "ko": "구이김",
+   "en": "Roasted seaweed (Guigim)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김지",
+   "en": "Domestic cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "영원인 식사 위점옭△△ printed at bottom",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월06일 화요일메뉴",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "순살숙제닭강정",
+   "en": "Boneless chicken karaage",
+   "main": true
+  },
+  {
+   "ko": "칼집조정이류움",
+   "en": "Sliced seasoned preparation",
+   "main": false
+  },
+  {
+   "ko": "새콤달콤비빔쌀떡",
+   "en": "Sweet and sour rice cake",
+   "main": false
+  },
+  {
+   "ko": "맛살오댕볶음",
+   "en": "Stir-fried imitation crab and fish cake",
+   "main": false
+  },
+  {
+   "ko": "애호박건치유볶음",
+   "en": "Stir-fried dried zucchini",
+   "main": false
+  },
+  {
+   "ko": "아욕된장국",
+   "en": "Soybean paste soup",
+   "main": false
+  },
+  {
+   "ko": "앙배추/옥수수콘·견포도",
+   "en": "Cabbage/corn·raisin salad",
+   "main": false
+  },
+  {
+   "ko": "상추·고추/깻잎류",
+   "en": "Lettuce, red pepper, perilla leaves",
+   "main": false
+  },
+  {
+   "ko": "족석라면코너",
+   "en": "Instant noodle corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차·아쿠르트",
+   "en": "Beverages/plum tea, yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "제료공금이따메뉴바뀔수있습니다 (Materials may change the menu)",
+ "_model": "claude-haiku-4-5-20251001"
+}

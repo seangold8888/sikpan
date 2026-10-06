@@ -1,0 +1,54 @@
+{
+ "date_shown": "10월6일 (화) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀밥구",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "배추맑은된장국",
+   "en": "Clear soybean soup with cabbage",
+   "main": false
+  },
+  {
+   "ko": "돼지곡단호박도우삼겹",
+   "en": "Pork belly with pumpkin",
+   "main": true
+  },
+  {
+   "ko": "수삼가지우위기",
+   "en": "Three ginseng sides",
+   "main": false
+  },
+  {
+   "ko": "중화유승차상면",
+   "en": "Chinese stir-fried noodles",
+   "main": false
+  },
+  {
+   "ko": "세우정에효박부옆",
+   "en": "Shrimp with pumpkin side",
+   "main": false
+  },
+  {
+   "ko": "비타미아채겻정이",
+   "en": "Vitamin vegetable side",
+   "main": false
+  },
+  {
+   "ko": "배추겻정이깍지",
+   "en": "Cabbage pickled vegetables",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드/깻자센드위치",
+   "en": "Cabbage salad / Sesame sandwich",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date 2026년 10월 6일 (화). Some Korean text appears unclear or may contain OCR errors in the original menu board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

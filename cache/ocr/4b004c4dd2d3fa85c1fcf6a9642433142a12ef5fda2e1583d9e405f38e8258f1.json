@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 10월 6일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우삼겹고추장찌개",
+   "en": "Pork belly and red chili paste stew (Gochujang-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "목살겹살허브소금구이",
+   "en": "Herb-salted grilled pork neck (Herb-salt grilled pork)",
+   "main": true
+  },
+  {
+   "ko": "왕돈투라이트치킨",
+   "en": "King-sized fried chicken (Wang-don fried chicken)",
+   "main": true
+  },
+  {
+   "ko": "미트볼스파게티",
+   "en": "Meatball spaghetti",
+   "main": true
+  },
+  {
+   "ko": "청양동그란쌤탕강능묵",
+   "en": "Spicy soup with vegetables",
+   "main": true
+  },
+  {
+   "ko": "파채궁나물우침",
+   "en": "Seasoned vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "쌈채소/쌈장",
+   "en": "Lettuce wraps and ssamjang sauce",
+   "main": false
+  },
+  {
+   "ko": "쫄떡쫄떡",
+   "en": "Rice cakes",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve instant noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "송능 & 음료",
+   "en": "Beverages & drinks",
+   "main": false
+  },
+  {
+   "ko": "백미밥 & 잡곡밥",
+   "en": "White rice & mixed grain rice",
+   "main": false
+  }
+ ],
+ "notes": "Menu board dated 2026년 10월 6일 (Tuesday), matching target date",
+ "_model": "claude-haiku-4-5-20251001"
+}

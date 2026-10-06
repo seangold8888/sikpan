@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 6일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "우거지된장국",
+   "en": "Vegetable soybean paste soup (Ugeoji-doenjang-guk)",
+   "main": false
+  },
+  {
+   "ko": "토제찜닭",
+   "en": "Earthenware braised chicken (Toje-jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "돈육김치두루치기",
+   "en": "Stir-fried pork with kimchi (Donuk-kimchi-duruchigi)",
+   "main": true
+  },
+  {
+   "ko": "온두부",
+   "en": "Soft tofu (Ondubu)",
+   "main": false
+  },
+  {
+   "ko": "열대과일샐러드",
+   "en": "Tropical fruit salad (Yeoldae-gwail-saelleodeu)",
+   "main": false
+  },
+  {
+   "ko": "콩나물파채무침",
+   "en": "Bean sprout and julienned radish seasoning (Kong-namul-pachae-muchim)",
+   "main": false
+  },
+  {
+   "ko": "요이양파무침",
+   "en": "Seasoned onion (Yoi-yangpa-muchim)",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&오리엔탈D",
+   "en": "Garden salad & Oriental dressing (Gaduen-saelleodeu & Orien-tal-D)",
+   "main": false
+  },
+  {
+   "ko": "깜두기",
+   "en": "Diced radish kimchi (Kkamduki)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Brown rice (Baekmi-bap / Heukmi-bap)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 탄산음료",
+   "en": "Self-serve bibimbap / Hangang ramen / Carbonated beverage (Selfi-bibim-bap / Hangang-ramyeon / Tansan-eumryo)",
+   "main": false
+  }
+ ],
+ "notes": "가뭔식: 훈제닭가슴살셀러드 (Self-serve corner note: Smoked chicken breast salad). Origin labels and allergen information printed at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

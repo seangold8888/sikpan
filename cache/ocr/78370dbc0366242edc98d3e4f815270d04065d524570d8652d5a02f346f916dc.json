@@ -1,0 +1,54 @@
+{
+ "date_shown": "10월6일 화요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "직화삼겹고주불고기",
+   "en": "Grilled pork belly (Jikwha samgyeop gochu bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "통다리살치킨",
+   "en": "Whole leg chicken (Tongdari salchicken)",
+   "main": true
+  },
+  {
+   "ko": "너비아니육전",
+   "en": "Beef ribeye pan-fried (Nebi-ani yuk-jeon)",
+   "main": true
+  },
+  {
+   "ko": "화권짐",
+   "en": "Spring rolls (Hwa-kwon-jim)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵야채무침",
+   "en": "Acorn jelly vegetable mix (Dotori-muk yachae-muchim)",
+   "main": false
+  },
+  {
+   "ko": "직접담은마김치",
+   "en": "House-made kimchi (Jikjeop dameun ma-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "신신쌤러드",
+   "en": "Salad (Shin-shin ssaem-leud)",
+   "main": false
+  },
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi bean sprout soup (Kimchi-kong-namul-guk)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥,탄산음료,셀프라면",
+   "en": "Self-serve bibimbap, carbonated beverage, self-serve ramen (Selpheu-bibimbap, tansan-eumryo, selpheu-ramyeon)",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Instagram: urbanworkdasbom. Delivery available via Coupang Eats. Menu hours: 10AM opening",
+ "_model": "claude-haiku-4-5-20251001"
+}

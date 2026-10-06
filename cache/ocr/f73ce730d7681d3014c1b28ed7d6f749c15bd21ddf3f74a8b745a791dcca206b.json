@@ -1,0 +1,64 @@
+{
+ "date_shown": "점 심 (10/6 화요일)",
+ "price": null,
+ "hours": "점 심.11시 10분～1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡 곡 밥 / 햅 쌀 밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "삼겹살 보쌈 & 새우젓 소스",
+   "en": "Pork belly wraps with shrimp sauce (Samgyeopsal bossam)",
+   "main": true
+  },
+  {
+   "ko": "오징어 해물깎스 & 타르타르",
+   "en": "Squid seafood cutlet with tartare sauce",
+   "main": true
+  },
+  {
+   "ko": "새콤달콤 비빔 국수",
+   "en": "Sweet and sour bibim noodles",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 상추쌈 & 쌈장",
+   "en": "Crispy rice / Lettuce wraps & ssamjang",
+   "main": false
+  },
+  {
+   "ko": "불어묵 고추장 조림",
+   "en": "Braised fish cake with gochujang",
+   "main": false
+  },
+  {
+   "ko": "얼큰한 콩나물국",
+   "en": "Spicy soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "감자채 피망 볶음 / 부추 무생채",
+   "en": "Stir-fried potato and bell pepper / Garlic chive salad",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 샐러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 표 기 김 지",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 탄 산 음 료 \"",
+   "en": "Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "맛있게 드세요 ♡",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 6일 (화)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "바지락미역국",
+   "en": "Clam and seaweed soup (Bajirak miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "소고기쌈밥사발",
+   "en": "Beef with lettuce wraps rice bowl (소고기쌈밥)",
+   "main": true
+  },
+  {
+   "ko": "톳살치킨까스",
+   "en": "Seaweed chicken cutlet (Tott-sal chicken kkas)",
+   "main": true
+  },
+  {
+   "ko": "매콤오징어두루투지기",
+   "en": "Spicy stir-fried squid (Maekkeom ojingeeo duru-tuji-gi)",
+   "main": true
+  },
+  {
+   "ko": "궁중오색찬재, 묵시란사라다",
+   "en": "Royal five-color side dishes, jelly and egg salad (Gungjoong osaek chan-jae, Muk-siran salada)",
+   "main": false
+  },
+  {
+   "ko": "사각어묵조림",
+   "en": "Braised square fish cake (Sagak eomuk jorim)",
+   "main": false
+  },
+  {
+   "ko": "참나물 곁걸음 !",
+   "en": "Seasoned fatsia shoot (Chamnamul byeol-georeumm)",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi (Baechu kimchi)",
+   "main": false
+  },
+  {
+   "ko": "김치우동 / 그린샐러드",
+   "en": "Kimchi udon / Green salad",
+   "main": false
+  },
+  {
+   "ko": "게란후라이 / 탄신음료",
+   "en": "Fried egg / Carbonated beverage (Gaeran-furai / Tansin-eumryo)",
+   "main": false
+  },
+  {
+   "ko": "한깡라면",
+   "en": "Han-kkang ramen (한깡라면)",
+   "main": false
+  }
+ ],
+ "notes": "보르 메뉴는 조기 수정 시 다른 메뉴로 대체될 수 있습니다.",
+ "_model": "claude-haiku-4-5-20251001"
+}

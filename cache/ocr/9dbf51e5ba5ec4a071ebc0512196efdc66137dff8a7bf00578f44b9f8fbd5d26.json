@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 6일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "데리야끼돈까츠불고기",
+   "en": "Teriyaki pork cutlet bulgogi",
+   "main": true
+  },
+  {
+   "ko": "새우까스&허니머스터드",
+   "en": "Shrimp cutlet & honey mustard",
+   "main": true
+  },
+  {
+   "ko": "열무김밥면",
+   "en": "Young radish kimbap noodles",
+   "main": true
+  },
+  {
+   "ko": "깐쇼해물완자조림",
+   "en": "Cashew seafood meatball stew",
+   "main": true
+  },
+  {
+   "ko": "오색냉장채",
+   "en": "Five-color cold vegetables",
+   "main": false
+  },
+  {
+   "ko": "오이깍두무침",
+   "en": "Cucumber radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "양념고추지/포기김치",
+   "en": "Seasoned chili/whole napa kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "열근쇡갓어묵탕",
+   "en": "Spicy fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "전북내장숙",
+   "en": "Jeonbuk-style offal soup",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / white rice",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 / 한장라면 & 닭곰한 웰 토스트 / 구수한 숭늉 & 시원한 환산음료",
+   "en": "Ssam vegetables / instant noodles & chicken & toast / barley tea & refreshing beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (10월 6일/화요일 = October 6/Wednesday). Some menu items appear to have OCR errors or unclear text (e.g., '열근쇡갓어묵탕', '전북내장숙' may not be transcribed correctly from the image).",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 6일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "사골김치찌개",
+   "en": "Beef bone kimchi stew (Sagol-kimchi-jjigae)",
+   "main": true
+  },
+  {
+   "ko": "허브록살구이",
+   "en": "Herb-marinated beef roast (Herb-rok-sal-gui)",
+   "main": true
+  },
+  {
+   "ko": "오징어까스&치우전S",
+   "en": "Squid cutlet & cheese pancake (Ohjingeeo-kkas & chi-u-jeon)",
+   "main": true
+  },
+  {
+   "ko": "궁중떡갈비초림",
+   "en": "Royal-style tteok galbi with sauce (Gungjung-tteok-galbi-chorim)",
+   "main": true
+  },
+  {
+   "ko": "일본치킨카레",
+   "en": "Japanese chicken curry (Ilbon-chikin-kare)",
+   "main": true
+  },
+  {
+   "ko": "애콩칼비빙면",
+   "en": "Sweet bean galbi bibim-myeon (Aekong-kalbi-bingmyeon)",
+   "main": true
+  },
+  {
+   "ko": "오이부추소박이",
+   "en": "Cucumber and chive pickles (Oi-buchu-sobaki)",
+   "main": false
+  },
+  {
+   "ko": "건과류떡칩음",
+   "en": "Dried fruit & rice chip (Gon-gwa-ryu-tteok-chip-eum)",
+   "main": false
+  },
+  {
+   "ko": "완강라면",
+   "en": "Wan-gang ramen (Wan-gang-ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi (Geurin-saelleodeu / baechu-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탑산음료 / 시원안자",
+   "en": "Top-san beverage / Cool drink (Tap-san-eumryo / siwon-anja)",
+   "main": false
+  }
+ ],
+ "notes": "(자기 먹는 당 입자료 수급 된 실제 메뉴 변경 수 있습니다)",
+ "_model": "claude-haiku-4-5-20251001"
+}

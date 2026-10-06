@@ -1,0 +1,74 @@
+{
+ "date_shown": "10월 6일 화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합집곡밥/깻미밥",
+   "en": "Mixed grain rice / Perilla seed rice",
+   "main": false
+  },
+  {
+   "ko": "김지두부국",
+   "en": "Kimchi tofu soup",
+   "main": false
+  },
+  {
+   "ko": "단짜�깔비양념목살구이",
+   "en": "Spicy galbi-style marinated pork neck",
+   "main": true
+  },
+  {
+   "ko": "크런치튀밥지즈치킨까스",
+   "en": "Crunchy fried rice cheese chicken cutlet",
+   "main": true
+  },
+  {
+   "ko": "한돈윤전&수세지계란전",
+   "en": "Korean pork scallion pancake & vegetable egg pancake",
+   "main": false
+  },
+  {
+   "ko": "오지치즈우롱이",
+   "en": "Oolong tea with cheese",
+   "main": false
+  },
+  {
+   "ko": "쫄면무침",
+   "en": "Chewy noodle salad",
+   "main": false
+  },
+  {
+   "ko": "수제건파래자반볶음",
+   "en": "Homemade seasoned seaweed side dish",
+   "main": false
+  },
+  {
+   "ko": "오이생채",
+   "en": "Fresh cucumber salad",
+   "main": false
+  },
+  {
+   "ko": "쌀프한강라면",
+   "en": "Self-made Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "풋고추/양배추쌈&쌈장",
+   "en": "Green pepper / cabbage wraps & sauce",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&블루베리드레싱",
+   "en": "Garden salad & blueberry dressing",
+   "main": false
+  },
+  {
+   "ko": "충충/단산음료",
+   "en": "Seasonal / sweet beverages",
+   "main": false
+  }
+ ],
+ "notes": "쌀기 메뉴는 회사 식정에 따라 입맛 및 변경 수 있습니다.",
+ "_model": "claude-haiku-4-5-20251001"
+}

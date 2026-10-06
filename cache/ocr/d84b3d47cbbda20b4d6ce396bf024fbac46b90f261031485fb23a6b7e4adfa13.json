@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 6일 (화요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "데리아기 강장볶고기",
+   "en": "Deli-style spicy stir-fried meat",
+   "main": true
+  },
+  {
+   "ko": "새우까스&허니머스타드",
+   "en": "Shrimp cutlet with honey mustard",
+   "main": true
+  },
+  {
+   "ko": "열무국비빔면",
+   "en": "Spicy mixed noodles with young radish soup",
+   "main": true
+  },
+  {
+   "ko": "깐쇼해물완자조림",
+   "en": "Kung Pao seafood meatball stew",
+   "main": true
+  },
+  {
+   "ko": "오색탕평채",
+   "en": "Five-color sweet and sour soup",
+   "main": false
+  },
+  {
+   "ko": "오이깍두무침",
+   "en": "Seasoned cucumber kimchi",
+   "main": false
+  },
+  {
+   "ko": "앗념고추지 / 포기김치",
+   "en": "Seasoned red pepper / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "얼큰쏙갓어묵탕",
+   "en": "Spicy broth fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "쌀제소 / 압청하면 / 토스트 / 중농&단산음료",
+   "en": "Rice / pressed barley / toast / dairy and soft drinks",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 10월 6일 (화요일) which matches target date 2026년 10월 06일 (화). 'plus 코너' (plus corner) self-serve section indicated at top.",
+ "_model": "claude-haiku-4-5-20251001"
+}

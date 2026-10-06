@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월6일화",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김치콩나물국",
+   "en": "Kimchi soybean sprout soup",
+   "main": false
+  },
+  {
+   "ko": "열탕불고기",
+   "en": "Boiled bulgogi",
+   "main": true
+  },
+  {
+   "ko": "간장허니콩보치킨",
+   "en": "Soy sauce honey bean popcorn chicken",
+   "main": true
+  },
+  {
+   "ko": "맛살게랑말이*쌔채",
+   "en": "Imitation crab leg roll with pickled vegetables",
+   "main": false
+  },
+  {
+   "ko": "무공함밥스테이크",
+   "en": "Radish rice steak",
+   "main": true
+  },
+  {
+   "ko": "봉골레알리오올리오파스타",
+   "en": "Aglio e olio pasta with clams",
+   "main": true
+  },
+  {
+   "ko": "어향가지나물",
+   "en": "Fish-flavored eggplant vegetables",
+   "main": false
+  },
+  {
+   "ko": "상추겹절이/무말랭이무침",
+   "en": "Layered lettuce pickle / dried radish seasoning",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프리면/토스트/음료",
+   "en": "Packaged kimchi / self-serve ramen / toast / beverage",
+   "main": false
+  }
+ ],
+ "notes": "Breakfast and dinner menu (백미밥/잡곡밥 - white rice/mixed grain rice options available)",
+ "_model": "claude-haiku-4-5-20251001"
+}

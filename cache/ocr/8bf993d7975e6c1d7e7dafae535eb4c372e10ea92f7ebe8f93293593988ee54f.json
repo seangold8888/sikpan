@@ -1,0 +1,59 @@
+{
+ "date_shown": "화요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥/백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "느룹치종닭다리탕",
+   "en": "?",
+   "main": true
+  },
+  {
+   "ko": "돼지딱금*닭구루",
+   "en": "?",
+   "main": true
+  },
+  {
+   "ko": "곽인탕*묵은",
+   "en": "?",
+   "main": false
+  },
+  {
+   "ko": "블막짜장만",
+   "en": "?",
+   "main": false
+  },
+  {
+   "ko": "깐돈솔색방이금",
+   "en": "?",
+   "main": false
+  },
+  {
+   "ko": "베이버링구나기",
+   "en": "?",
+   "main": false
+  },
+  {
+   "ko": "야채단무",
+   "en": "Vegetable pickled radish",
+   "main": false
+  },
+  {
+   "ko": "가든살러드&숨을자ID",
+   "en": "Garden salad & ?",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 화요일 (Tuesday) but target date was 2026년 10월 06일 (화). Several menu items are illegible or unclear in transcription. Attribution text lists various origins of ingredients.",
+ "_model": "claude-haiku-4-5-20251001"
+}
