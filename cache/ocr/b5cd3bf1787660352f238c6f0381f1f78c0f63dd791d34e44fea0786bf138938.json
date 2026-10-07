@@ -1,0 +1,74 @@
+{
+ "date_shown": "10월 7일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "따뜻는김밥볶음밥",
+   "en": "Warm kimbap fried rice",
+   "main": true
+  },
+  {
+   "ko": "일콘한짬봉국",
+   "en": "Ilkon champon soup",
+   "main": true
+  },
+  {
+   "ko": "동마늘제육볶기",
+   "en": "Stir-fried pork with young garlic",
+   "main": true
+  },
+  {
+   "ko": "버터갈릭소스치킨",
+   "en": "Butter garlic sauce chicken",
+   "main": true
+  },
+  {
+   "ko": "익식계란찜",
+   "en": "Western-style steamed eggs",
+   "main": false
+  },
+  {
+   "ko": "파채떡갈비구이",
+   "en": "Grilled tteokgalbi with green onions",
+   "main": true
+  },
+  {
+   "ko": "눈꽃치즈토마토리가토니",
+   "en": "Snow cheese tomato rigatoni",
+   "main": true
+  },
+  {
+   "ko": "브로콜리숙회",
+   "en": "Broccoli suk回 (blanched broccoli)",
+   "main": false
+  },
+  {
+   "ko": "가지나물",
+   "en": "Seasoned eggplant",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Whole kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramyeon",
+   "main": false
+  },
+  {
+   "ko": "풋고추/채소쌈&쌈장",
+   "en": "Green chili/vegetable wraps & dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Song-neung/carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월 7일 수요일 (October 7, Wednesday), which corresponds to 2026년 10월 07일 (수) as requested. Bottom text indicates self-serve options and sauce availability.",
+ "_model": "claude-haiku-4-5-20251001"
+}

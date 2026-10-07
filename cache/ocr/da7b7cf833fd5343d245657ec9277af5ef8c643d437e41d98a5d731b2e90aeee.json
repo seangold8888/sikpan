@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 7일 (수요일)메뉴",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "개나리콩&마카로니",
+   "en": "Forsythia beans & macaroni",
+   "main": false
+  },
+  {
+   "ko": "가마솥닭볶음탕",
+   "en": "Spicy stir-fried chicken soup (Gama-sot dakbokkeumtang)",
+   "main": true
+  },
+  {
+   "ko": "만두카츠&칠리소스",
+   "en": "Dumpling cutlet & chili sauce (Mandu katsu)",
+   "main": false
+  },
+  {
+   "ko": "해물참깨볶음밥",
+   "en": "Seafood sesame fried rice (Haemul sesame bokkeum-bap)",
+   "main": true
+  },
+  {
+   "ko": "꿀마늘떡강냉이",
+   "en": "Honey garlic rice cake with corn (Kkeul maneul tteok kangnyeong-i)",
+   "main": false
+  },
+  {
+   "ko": "오징오미역묵음음",
+   "en": "Squid seaweed jelly drink (O-jing-o miyeok muk-eum)",
+   "main": false
+  },
+  {
+   "ko": "쇠어채마늘쫑고추장무침",
+   "en": "Beef vegetable & garlic stem with gochujang (Soe-eo chae maneul jjong gochujang muchim)",
+   "main": false
+  },
+  {
+   "ko": "땅콩중조림/포기김치",
+   "en": "Peanut braised dish / kimchi portions (Ttang-kong jung jorim / pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "우교동북영국",
+   "en": "Wugyo-dong North England",
+   "main": true
+  }
+ ],
+ "notes": "Board shows 10월 7일 (수요일)메뉴, which matches target date 2026년 10월 07일 (수). Plus Corona (무료) noted at bottom. Items listed: 쌍성 쌍채소 / 양금김면 / 별 도축 / 방상용품.",
+ "_model": "claude-haiku-4-5-20251001"
+}

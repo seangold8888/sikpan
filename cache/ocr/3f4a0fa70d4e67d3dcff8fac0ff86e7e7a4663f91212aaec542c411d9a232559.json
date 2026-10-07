@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 7일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "황태해장국",
+   "en": "Dried pollack soup (Hwangtae-haejangguk)",
+   "main": true
+  },
+  {
+   "ko": "제육볶음",
+   "en": "Spicy stir-fried pork (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치킨까스&머스타드소스",
+   "en": "Chicken cutlet with mustard sauce",
+   "main": true
+  },
+  {
+   "ko": "바삭부추야채전&초간장",
+   "en": "Crispy leek vegetable pancake with soy dipping sauce",
+   "main": true
+  },
+  {
+   "ko": "모둠버섯볶음",
+   "en": "Mixed mushroom stir-fry",
+   "main": false
+  },
+  {
+   "ko": "매콤콩어묵조림",
+   "en": "Spicy seasoned fish cake braised",
+   "main": false
+  },
+  {
+   "ko": "미나리무생채",
+   "en": "Water dropwort salad",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&매실D",
+   "en": "Garden salad with plum dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 단식음료",
+   "en": "Self-service bibimbap / Hangang ramen / Fasting beverage",
+   "main": false
+  },
+  {
+   "ko": "카페식:쉬릭프 샐러드",
+   "en": "Cafe-style shrimp salad",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner available. Origin labels and notices printed at bottom of board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

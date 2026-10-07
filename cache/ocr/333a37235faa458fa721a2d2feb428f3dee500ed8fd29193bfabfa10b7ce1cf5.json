@@ -1,0 +1,74 @@
+{
+ "date_shown": "10월07일(수요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice / cold mixed rice",
+   "main": false
+  },
+  {
+   "ko": "꼿계튼장찌개",
+   "en": "Braised soybean paste stew",
+   "main": false
+  },
+  {
+   "ko": "치즈떡닭강비",
+   "en": "Cheese tteokdak gangbi",
+   "main": true
+  },
+  {
+   "ko": "참돔해물링*콘타르트S",
+   "en": "Sea bream seafood ring * corn tart S",
+   "main": false
+  },
+  {
+   "ko": "불닭오이스터칠떡궁합",
+   "en": "Spicy chicken oyster sauce chil-tteok",
+   "main": false
+  },
+  {
+   "ko": "잡봉비르트샌드",
+   "en": "Mixed vegetable virtue sandwich",
+   "main": false
+  },
+  {
+   "ko": "김가루궁나물무쳡",
+   "en": "Seaweed powder seasoned greens",
+   "main": false
+  },
+  {
+   "ko": "부추겹정이",
+   "en": "Layered garlic chives",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Marked kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐러드&느레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "쌍채소*풍고추*쌍장",
+   "en": "Twin vegetables * pung chili * twin sauce",
+   "main": false
+  },
+  {
+   "ko": "느릅지*탁사은료*매실찾",
+   "en": "Various side dishes and beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner items marked with asterisks. Origin labels noted for some items.",
+ "_model": "claude-haiku-4-5-20251001"
+}

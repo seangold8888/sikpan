@@ -1,0 +1,44 @@
+{
+ "date_shown": "10/7(수,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "떡만둣국",
+   "en": "Tteokmandutt-guk (Korean soup with rice cakes and dumplings)",
+   "main": false
+  },
+  {
+   "ko": "소고기불고기",
+   "en": "Beef bulgogi (grilled marinated beef)",
+   "main": true
+  },
+  {
+   "ko": "헤블파스",
+   "en": "Herb pasta",
+   "main": true
+  },
+  {
+   "ko": "'당평제'",
+   "en": "Dangpyeong-je (sweet rice cake)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal vegetables",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage",
+   "main": false
+  }
+ ],
+ "notes": "Menu board shows both 10/7(수,점심) and 10/8(목,점심). Transcribed only the 10/7 column as requested. Small text at bottom indicates vegetarian options ('정통의 식사 퇴정ㅅㅅ').",
+ "_model": "claude-haiku-4-5-20251001"
+}

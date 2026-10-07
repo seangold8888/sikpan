@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 7일 수요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "떠먹는우육초밥",
+   "en": "Spoon-eaten beef sushi",
+   "main": true
+  },
+  {
+   "ko": "된장국",
+   "en": "Soybean paste soup (Doenjang-guk)",
+   "main": false
+  },
+  {
+   "ko": "직화제육볶음",
+   "en": "Direct flame grilled meat stir-fry",
+   "main": true
+  },
+  {
+   "ko": "고구마고로케&계침",
+   "en": "Sweet potato croquette & pickled radish",
+   "main": false
+  },
+  {
+   "ko": "매콤숨다복음",
+   "en": "Spicy mixed rice",
+   "main": false
+  },
+  {
+   "ko": "중화물만두",
+   "en": "Chinese style dumplings",
+   "main": false
+  },
+  {
+   "ko": "구운김&양념장",
+   "en": "Roasted seaweed & seasoning sauce",
+   "main": false
+  },
+  {
+   "ko": "청경채숙주나물무침",
+   "en": "Stir-fried bok choy and bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "옥수수밥",
+   "en": "Corn rice",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang instant noodles",
+   "main": true
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한차",
+   "en": "Carbonated beverages / Refreshing tea",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner information at bottom (자기 먹는 당 식자료 우궁 알 상태에 떠던 변경 수 있습니다)",
+ "_model": "claude-haiku-4-5-20251001"
+}

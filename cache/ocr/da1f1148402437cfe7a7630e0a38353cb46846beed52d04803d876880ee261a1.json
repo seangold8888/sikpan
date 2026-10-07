@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 7일 (수)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "얌�깡이된장국",
+   "en": "Yam seasoned soybean soup",
+   "main": false
+  },
+  {
+   "ko": "수육.보쌀",
+   "en": "Braised pork belly with rice",
+   "main": true
+  },
+  {
+   "ko": "경양식듬침톤까스",
+   "en": "Western-style breaded cutlet",
+   "main": true
+  },
+  {
+   "ko": "웰킹햄수육",
+   "en": "Welk ham pork",
+   "main": true
+  },
+  {
+   "ko": "포장마차까지어묵",
+   "en": "Street stall fish cake",
+   "main": false
+  },
+  {
+   "ko": "도토리묵.앙남장",
+   "en": "Acorn jelly with sauce",
+   "main": false
+  },
+  {
+   "ko": "부추무생채",
+   "en": "Korean chive and radish salad",
+   "main": false
+  },
+  {
+   "ko": "숙주나물",
+   "en": "Bean sprout side dish",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이 / 그린살러드",
+   "en": "Napa cabbage kimchi / Green salad",
+   "main": false
+  },
+  {
+   "ko": "계란후라이/탄산음료",
+   "en": "Fried egg / Carbonated beverage",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  }
+ ],
+ "notes": "Menu is for 10월 7일 (수), not the target date of 2026년 10월 07일 (수). Red text indicates items marked with an asterisk. Bottom text indicates menu may vary based on availability.",
+ "_model": "claude-haiku-4-5-20251001"
+}

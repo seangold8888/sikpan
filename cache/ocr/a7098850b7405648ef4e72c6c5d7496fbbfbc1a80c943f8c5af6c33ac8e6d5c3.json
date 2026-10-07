@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월7일 (수) 점심",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "휘쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice mixed grain rice",
+   "main": false
+  },
+  {
+   "ko": "소고기유게장",
+   "en": "Beef marinated in soy sauce (Yukhoe-jangachi)",
+   "main": true
+  },
+  {
+   "ko": "닭다리살버터카레즈 김",
+   "en": "Chicken leg butter curry with kim",
+   "main": true
+  },
+  {
+   "ko": "매콤 봄고기차오면",
+   "en": "Spicy pork chow mein",
+   "main": true
+  },
+  {
+   "ko": "야채비빔맛두",
+   "en": "Vegetable bibimbap",
+   "main": false
+  },
+  {
+   "ko": "홍상상미나리부초절",
+   "en": "Korean watercress seasoned side dish",
+   "main": false
+  },
+  {
+   "ko": "모둠어묵야채볶음",
+   "en": "Mixed fish cake and vegetable stir-fry",
+   "main": false
+  },
+  {
+   "ko": "치커리결정이",
+   "en": "Chicory side dish",
+   "main": false
+  },
+  {
+   "ko": "배추겉절이김치",
+   "en": "Napa cabbage quick kimchi",
+   "main": false
+  },
+  {
+   "ko": "양배추생러드/미니쯔빵",
+   "en": "Cabbage salad / Mini bread",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

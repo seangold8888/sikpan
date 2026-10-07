@@ -1,0 +1,59 @@
+{
+ "date_shown": "26년 10월 06일 ~ 26년 10월 08일",
+ "price": 7,
+ "hours": null,
+ "items": [
+  {
+   "ko": "강화돼지불고기",
+   "en": "Gangwha pork bulgogi",
+   "main": true
+  },
+  {
+   "ko": "콩나물",
+   "en": "Bean sprouts",
+   "main": false
+  },
+  {
+   "ko": "돈까스",
+   "en": "Tonkatsu (breaded pork cutlet)",
+   "main": true
+  },
+  {
+   "ko": "우엉초절임",
+   "en": "Pickled burdock root",
+   "main": false
+  },
+  {
+   "ko": "탕육옥탕해물전골",
+   "en": "Tang yuk with seafood hotpot",
+   "main": true
+  },
+  {
+   "ko": "팡파스테이크",
+   "en": "Pampas steak",
+   "main": true
+  },
+  {
+   "ko": "쌀무",
+   "en": "Rice and radish",
+   "main": false
+  },
+  {
+   "ko": "고기국수",
+   "en": "Meat noodle soup",
+   "main": true
+  },
+  {
+   "ko": "보쌈장곱창",
+   "en": "Bossam jang with intestines",
+   "main": true
+  },
+  {
+   "ko": "크림파스타",
+   "en": "Cream pasta",
+   "main": true
+  }
+ ],
+ "notes": "Board shows week 10/06-10/08; target date 10/07 (Wednesday) menu transcribed. Menu items displayed in grid format with Main 1, Main 2, Main 3 sections.",
+ "_model": "claude-haiku-4-5-20251001"
+}

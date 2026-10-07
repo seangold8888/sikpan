@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월07일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "지리산흑돼지우육/제우셋",
+   "en": "Jirisan black pork beef",
+   "main": true
+  },
+  {
+   "ko": "오징어,생선까스/타르소스",
+   "en": "Squid, fish cutlet with tartar sauce",
+   "main": true
+  },
+  {
+   "ko": "육수우콘깁치전",
+   "en": "Broth with corn and kimchi pancake",
+   "main": false
+  },
+  {
+   "ko": "표고버섯볶음",
+   "en": "Stir-fried shiitake mushrooms",
+   "main": false
+  },
+  {
+   "ko": "오이부추무침",
+   "en": "Seasoned cucumber and Chinese chives",
+   "main": false
+  },
+  {
+   "ko": "땡초콩나물국",
+   "en": "Bean sprout soup with peppers",
+   "main": false
+  },
+  {
+   "ko": "양배추/육수수콘깁포도",
+   "en": "Cabbage, broth with corn and grapes",
+   "main": false
+  },
+  {
+   "ko": "상추,고추/셋깔릅",
+   "en": "Lettuce, peppers with sauce",
+   "main": false
+  },
+  {
+   "ko": "즉석라면코너",
+   "en": "Instant ramen corner",
+   "main": false
+  },
+  {
+   "ko": "음료/매실차.아쿠르트",
+   "en": "Beverages - plum tea, yogurt drink",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner (자료공급에따메뉴바뀔수있습니다)",
+ "_model": "claude-haiku-4-5-20251001"
+}

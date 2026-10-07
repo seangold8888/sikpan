@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 7일 수요일",
+ "price": null,
+ "hours": "10시 이전 주문 가능",
+ "items": [
+  {
+   "ko": "혼향집국밥",
+   "en": "Mixed flavor soup rice bowl",
+   "main": true
+  },
+  {
+   "ko": "황태해장국",
+   "en": "Pollack hangover soup",
+   "main": true
+  },
+  {
+   "ko": "훈제오리배추찜",
+   "en": "Smoked duck with cabbage steamed dish",
+   "main": true
+  },
+  {
+   "ko": "불카츠 / 사우징 소스",
+   "en": "Pork cutlet / sausage with sauce",
+   "main": true
+  },
+  {
+   "ko": "깡자전",
+   "en": "Kkang jeon (pancake)",
+   "main": false
+  },
+  {
+   "ko": "청양떡갈비",
+   "en": "Cheongyang tteokgalbi (spicy beef patty)",
+   "main": true
+  },
+  {
+   "ko": "스팸 드브우즈림",
+   "en": "Spam with side dish",
+   "main": false
+  },
+  {
+   "ko": "견과류열치부음",
+   "en": "Nuts and dried fruit",
+   "main": false
+  },
+  {
+   "ko": "유자청 치커리",
+   "en": "Yuzu tea chicory",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드 / 오렌지드레싱",
+   "en": "Garden salad / orange dressing",
+   "main": false
+  },
+  {
+   "ko": "배추김장이 / 과일",
+   "en": "Kimchi / fruit",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월 7일 수요일 (October 7, Wednesday) which matches target date. Contact number: 010.3993.8203. Mentions self-serve corner (샌드위치·샐러드도레·김밥 주문은) and origin labels/notices at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

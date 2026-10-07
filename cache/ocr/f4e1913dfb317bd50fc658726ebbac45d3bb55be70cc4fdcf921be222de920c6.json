@@ -1,0 +1,54 @@
+{
+ "date_shown": "10월7일 수요일",
+ "price": null,
+ "hours": "매뉴공지-오전10시",
+ "items": [
+  {
+   "ko": "직항닭소금구이",
+   "en": "Grilled chicken with salt",
+   "main": true
+  },
+  {
+   "ko": "고구마치즈돈까스",
+   "en": "Sweet potato cheese pork cutlet",
+   "main": true
+  },
+  {
+   "ko": "철판베이컨김치전",
+   "en": "Griddle-fried bacon kimchi pancake",
+   "main": true
+  },
+  {
+   "ko": "새콤맛국수",
+   "en": "Tangy noodle soup",
+   "main": false
+  },
+  {
+   "ko": "우제생깟잎지",
+   "en": "Perilla leaf kimchi",
+   "main": false
+  },
+  {
+   "ko": "직접담은깍두기",
+   "en": "House-made radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "싱싱샐러드",
+   "en": "Fresh salad",
+   "main": false
+  },
+  {
+   "ko": "쌀깥어묵탕",
+   "en": "Rice cake and fish cake soup",
+   "main": false
+  },
+  {
+   "ko": "셀프 비비밥 탄산음료 쌀프터빈",
+   "en": "Self-serve bibimbap, carbonated beverages, rice",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월7일 수요일 (October 7, Wednesday), which matches target date 2026년 10월 07일 (수). Instagram handle: urbanworkdasbom. Additional operating hours note at bottom: 매뉴공지-오전10시 (Menu notice - 10am)",
+ "_model": "claude-haiku-4-5-20251001"
+}

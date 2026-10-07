@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 7일 (수요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "만두카츠&쌀리소스",
+   "en": "Dumpling cutlet with rice sauce (Mandu katsu)",
+   "main": true
+  },
+  {
+   "ko": "해물찜뱅 표법",
+   "en": "Steamed seafood (Haemul-jjim)",
+   "main": true
+  },
+  {
+   "ko": "꿀마늘떡갈비",
+   "en": "Honey garlic tteokgalbi",
+   "main": true
+  },
+  {
+   "ko": "오쌀노미어묵북음",
+   "en": "Rice noodle and vegetable soup",
+   "main": false
+  },
+  {
+   "ko": "쥐어채마늘쯍고추장무침",
+   "en": "Bean sprout salad with garlic and red chili paste",
+   "main": false
+  },
+  {
+   "ko": "땅콩콩조림/포기김치",
+   "en": "Peanut side dish / Kimchi (Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad with dressing",
+   "main": false
+  },
+  {
+   "ko": "무교동북엇국",
+   "en": "Radish and fish cake soup (Mugyo-dong-buk-eot-guk)",
+   "main": false
+  },
+  {
+   "ko": "미니촌빵튀김",
+   "en": "Mini fried bread",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥 / 백미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "쌀채소 / 환장라면 & 달콤한 쌤 토스트 / 구수한 숭늉 & 시원한 탄산음료",
+   "en": "Rice vegetables / Spicy ramen and sweet jam toast / Roasted grain drink and refreshing carbonated beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date on board is 10월 7일 (수요일) which corresponds to October 7, but the year is not specified on the menu board. Menu items transcribed as printed; some Korean text may be unclear or contain non-standard characters.",
+ "_model": "claude-haiku-4-5-20251001"
+}

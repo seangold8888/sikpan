@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 10월 7일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김치어묵탕",
+   "en": "Kimchi and fish cake soup (Kimchi-eomuk-tang)",
+   "main": false
+  },
+  {
+   "ko": "자돈박이샤브샤브/칠리s",
+   "en": "Pork shabu shabu with chili (Jadon-bak-i shabu-shabu/Chili)",
+   "main": true
+  },
+  {
+   "ko": "통등심돈까스/알식s",
+   "en": "Whole pork loin cutlet with egg (Tong-deungsim don-ggas/Egg)",
+   "main": true
+  },
+  {
+   "ko": "철판숯대북음",
+   "en": "Iron plate charcoal-grilled dish (Cheolpan-sut-dae-bok-eum)",
+   "main": true
+  },
+  {
+   "ko": "매콤두부조림",
+   "en": "Spicy braised tofu (Maekkom du-bu-jorim)",
+   "main": true
+  },
+  {
+   "ko": "마카로니장치마요",
+   "en": "Macaroni with mayo (Makaoroni-jang-chi-mayo)",
+   "main": false
+  },
+  {
+   "ko": "미역줄기맛살볶음",
+   "en": "Seaweed stem and imitation crab stir-fry (Miyeok-julgi-mat-sal-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "흰식요구르트",
+   "en": "Plain yogurt (Huin-sik yogurt)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hanggang ramyeon (Selp-eu han-gang ramyeon)",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic-grown Napa kimchi (Gungnaessan-pogi kimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드 & 드레싱",
+   "en": "Salad & dressing (Saelleodeu & deuressing)",
+   "main": false
+  },
+  {
+   "ko": "숭 늉 & 흰 료",
+   "en": "Soup & white rice (Sung neung & huin ryo)",
+   "main": false
+  },
+  {
+   "ko": "쌕미밥 & 잡곡밥",
+   "en": "Barley rice & mixed grain rice (Ssaek-mi-bap & jap-gok-bap)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

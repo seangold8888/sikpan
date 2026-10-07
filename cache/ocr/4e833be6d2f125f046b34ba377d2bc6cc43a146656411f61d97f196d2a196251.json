@@ -1,0 +1,59 @@
+{
+ "date_shown": "2.9.일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥/백미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "절란쫑우미불고기",
+   "en": "Seasoned beef bulgogi",
+   "main": true
+  },
+  {
+   "ko": "북살깡지짜개",
+   "en": "Spicy squid (Ojingeochim)",
+   "main": false
+  },
+  {
+   "ko": "제탄말이",
+   "en": "Rolled preparation",
+   "main": false
+  },
+  {
+   "ko": "지린블코기고로케",
+   "en": "Croquette",
+   "main": false
+  },
+  {
+   "ko": "순대야채볶음",
+   "en": "Sundae with vegetable stir-fry",
+   "main": false
+  },
+  {
+   "ko": "당양비빔국수",
+   "en": "Mixed noodles",
+   "main": false
+  },
+  {
+   "ko": "알마늘마늘쫑우침",
+   "en": "Garlic preparation",
+   "main": false
+  },
+  {
+   "ko": "가른샐러드&키위D",
+   "en": "Salad & Kiwi dressing",
+   "main": false
+  },
+  {
+   "ko": "포키김치",
+   "en": "Kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 2.9.일, not the target date 2026년 10월 07일 (수). Korean text contains several characters that are difficult to read with certainty due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

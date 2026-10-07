@@ -1,0 +1,69 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "맛살야채볶음밥/백미밥",
+   "en": "Imitation crab and vegetable fried rice / white rice",
+   "main": true
+  },
+  {
+   "ko": "파송송계란국",
+   "en": "Egg soup with scallions (Pa-songsong gyeran-guk)",
+   "main": false
+  },
+  {
+   "ko": "우삼겹숙주볶고기",
+   "en": "Stir-fried beef with bean sprouts (U-samgyeop sukju-bokkogi)",
+   "main": true
+  },
+  {
+   "ko": "궤바로우",
+   "en": "Guiba-rou",
+   "main": false
+  },
+  {
+   "ko": "애호박계란전+양념간장",
+   "en": "Zucchini and egg pancake with seasoned soy sauce",
+   "main": false
+  },
+  {
+   "ko": "중화가지마파두부",
+   "en": "Chinese-style eggplant and mapo tofu",
+   "main": true
+  },
+  {
+   "ko": "치즈킬바사소세지구이*쌈,머스터드",
+   "en": "Cheese kielbasa sausage grilled with lettuce wrap and mustard",
+   "main": true
+  },
+  {
+   "ko": "짜파게티(feat.떡사리)",
+   "en": "Jjapagetti instant noodles with rice cake (Jjapagetti feat. Tteok-sari)",
+   "main": true
+  },
+  {
+   "ko": "고추군만두&새콤달콤비빔채소",
+   "en": "Pan-fried dumplings and sweet and sour mixed vegetables",
+   "main": false
+  },
+  {
+   "ko": "청경채나물",
+   "en": "Seasoned bok choy",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드*과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi/self-serve ramen/toast/beverage",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Target date 2026년 10월 07일 (수) not visible. Board appears to be a single day menu without date label.",
+ "_model": "claude-haiku-4-5-20251001"
+}

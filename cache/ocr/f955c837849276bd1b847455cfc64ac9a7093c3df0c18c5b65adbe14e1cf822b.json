@@ -1,0 +1,64 @@
+{
+ "date_shown": "정심 (10/7 수요일)",
+ "price": null,
+ "hours": "정심.11시 10분~1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "매운 닭볶음탕 (닭도리탕)",
+   "en": "Spicy chicken stew (Dak-dori-tang)",
+   "main": true
+  },
+  {
+   "ko": "소시지 계란말이 & 케찹",
+   "en": "Sausage and egg roll with ketchup",
+   "main": false
+  },
+  {
+   "ko": "가리비맛 오징어 스틱",
+   "en": "Scallop-flavored squid stick",
+   "main": false
+  },
+  {
+   "ko": "구수한 누룽지 / 단팥 도넛츠",
+   "en": "Crispy rice snack / Red bean donut",
+   "main": false
+  },
+  {
+   "ko": "가지지 풋고추 조림",
+   "en": "Braised eggplant and green chili",
+   "main": false
+  },
+  {
+   "ko": "열큼한 소고기 육개장",
+   "en": "Spicy beef soup (Yukgaejang)",
+   "main": false
+  },
+  {
+   "ko": "새콤달콤 오이 무침",
+   "en": "Sweet and sour cucumber side dish",
+   "main": false
+  },
+  {
+   "ko": "양배추 야채 쌀러드",
+   "en": "Cabbage vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "샘깻잎지 / 깍 두 기",
+   "en": "Perilla leaf kimchi / Radish kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 다 사 음 료 \"",
+   "en": "All beverages",
+   "main": false
+  }
+ ],
+ "notes": "Board shows date 10/7 (Wednesday). Text indicates 'Taste at the cafe ♥' at bottom. Some Korean text appears to have spacing or formatting issues as printed on the original board.",
+ "_model": "claude-haiku-4-5-20251001"
+}
