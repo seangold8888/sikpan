@@ -1,0 +1,19 @@
+{
+ "date_shown": "26년 10월 08일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "유무",
+   "en": "Rice",
+   "main": false
+  },
+  {
+   "ko": "크림파스타",
+   "en": "Cream pasta",
+   "main": true
+  }
+ ],
+ "notes": "Board shows weekly menu (26년 10월 05일~26년 10월 09일). Target date is Thursday (목), October 8th. Main 1, Main 2, and Main 3 rows visible but only Main 2 and Main 3 have legible entries for this date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

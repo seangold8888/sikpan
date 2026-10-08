@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월8일 (목)",
+ "price": null,
+ "hours": "점심",
+ "items": [
+  {
+   "ko": "흰쌀밥/검은쌀잡곡밥",
+   "en": "White rice / Black rice multigrain rice",
+   "main": false
+  },
+  {
+   "ko": "유부미역장국",
+   "en": "Tofu and seaweed soup (Yubu-miyeok-jang-guk)",
+   "main": false
+  },
+  {
+   "ko": "간장돼지 불비침",
+   "en": "Soy-marinated pork (Ganjang-dwae-ji bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "통살중화탕수육계란S",
+   "en": "Whole piece sweet and sour pork with egg (Tongssal joonghwa tang-su-yuk gae-ran)",
+   "main": true
+  },
+  {
+   "ko": "소시지김치볶음밥",
+   "en": "Sausage kimchi fried rice (Sosiji gimchi bokkeum-bap)",
+   "main": true
+  },
+  {
+   "ko": "매추리알마요샐러드",
+   "en": "Quail egg mayo salad (Maechuri-al mayo salad)",
+   "main": false
+  },
+  {
+   "ko": "오이부추무침",
+   "en": "Cucumber and garlic chive seasoned vegetables (Oi buchu muchiim)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned soybean sprouts (Kong namul muchiim)",
+   "main": false
+  },
+  {
+   "ko": "배추김정이김치",
+   "en": "Napa cabbage kimchi (Baechoo kim-jeong-i gimchi)",
+   "main": false
+  },
+  {
+   "ko": "양배추샐러드",
+   "en": "Cabbage salad (Yangbae-chu salad)",
+   "main": false
+  },
+  {
+   "ko": "단호박식혜/우육과자",
+   "en": "Sweet pumpkin sikhye / Beef pastry (Danho-bak sikhye / oo-yuk gwaja)",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

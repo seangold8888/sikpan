@@ -1,0 +1,64 @@
+{
+ "date_shown": "2026년 10월 8일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "소고기우깨장",
+   "en": "Beef with sesame sauce (Sogogiukkae-jang)",
+   "main": true
+  },
+  {
+   "ko": "순살닭깅미복음",
+   "en": "Pure chicken meat (Sunsaldak-kkingmibok-eum)",
+   "main": true
+  },
+  {
+   "ko": "오징어까스",
+   "en": "Squid cutlet (Ojingeokkas)",
+   "main": true
+  },
+  {
+   "ko": "김떡만장정",
+   "en": "Seaweed and rice cake (Kimtteok-manjang-jeong)",
+   "main": true
+  },
+  {
+   "ko": "어묵파프리카볶음",
+   "en": "Fish cake and paprika stir-fry (Eomuk-paprika-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "곽리떡치복음",
+   "en": "Rice cake side dish (Gwal-ritteoktchi-bok-eum)",
+   "main": false
+  },
+  {
+   "ko": "콩나물무침",
+   "en": "Seasoned bean sprouts (Kong-namul-muchim)",
+   "main": false
+  },
+  {
+   "ko": "간장고추지",
+   "en": "Soy sauce green chili (Ganjang-gochu-ji)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Han River ramen (Hangang-ramyeon)",
+   "main": true
+  },
+  {
+   "ko": "카드셀러드 / 포기김치",
+   "en": "Garden salad / Napa cabbage kimchi (Kardeu-selleodeu / Pogi-kimchi)",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 메실차 / 승능",
+   "en": "Carbonated drinks / Plum tea / Seungneung (Tansan-eumryo / Mesil-cha / Seungneung)",
+   "main": false
+  }
+ ],
+ "notes": "Some menu item names appear to contain transcription errors or unclear characters in the original board; transcribed as printed.",
+ "_model": "claude-haiku-4-5-20251001"
+}

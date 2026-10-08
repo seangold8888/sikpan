@@ -1,0 +1,74 @@
+{
+ "date_shown": "2026년 10월 8일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "스팸게된둥음밥",
+   "en": "Spam fried rice",
+   "main": true
+  },
+  {
+   "ko": "순살우거지깍두기",
+   "en": "Korean radish kimchi (Kkakdugi)",
+   "main": false
+  },
+  {
+   "ko": "우제닭강정/허니머스s",
+   "en": "Soy-glazed chicken / Honey mustard",
+   "main": true
+  },
+  {
+   "ko": "제육고추찹볶고기",
+   "en": "Spicy stir-fried pork (Jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "부추중먹완자전/계절",
+   "en": "Vegetable pancake / seasonal",
+   "main": false
+  },
+  {
+   "ko": "김치바링국수",
+   "en": "Kimchi noodles",
+   "main": true
+  },
+  {
+   "ko": "도시락김",
+   "en": "Seasoned seaweed",
+   "main": false
+  },
+  {
+   "ko": "숙주나물무침",
+   "en": "Bean sprout seasoning (Sukju-namul)",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve instant noodles",
+   "main": false
+  },
+  {
+   "ko": "국내산포기김치",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀러드 & 드레싱",
+   "en": "Salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "송 동 & 음 료",
+   "en": "Drinks & beverages",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 쌈 장",
+   "en": "Lettuce & ssamjang (dipping sauce)",
+   "main": false
+  }
+ ],
+ "notes": "Board shows 2026년 10월 8일 (Thursday); target date was 2026년 10월 08일 (same day). Some menu items have unclear or potentially misspelled Korean text due to image quality.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,69 @@
+{
+ "date_shown": "10월 8일 (목요일)",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "김치제육볶음",
+   "en": "Kimchi stir-fried pork (Kimchi-jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치킨새우카츠&계랍",
+   "en": "Chicken shrimp cutlet & egg (Chikin-saeu-katsu & gyeran)",
+   "main": true
+  },
+  {
+   "ko": "봉골레오일파스타",
+   "en": "Spaghetti alle vongole (Bonggole-oil-pasta)",
+   "main": true
+  },
+  {
+   "ko": "온두부&양념장",
+   "en": "Soft tofu & sauce (Ondu-bu & yangnyeom-jang)",
+   "main": true
+  },
+  {
+   "ko": "비에나쇼.야",
+   "en": "Vienna sausage & side (Biena-sho.ya)",
+   "main": false
+  },
+  {
+   "ko": "얼갈이열무겯절이",
+   "en": "Seasoned mustard greens (Eol-gal-i-yeolmu-geot-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "오이지무침/깍두기",
+   "en": "Cucumber pickle & radish cube (Oi-ji-muchim / Kkak-du-gi)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing (Green-salad & dressing)",
+   "main": false
+  },
+  {
+   "ko": "감자수제비국",
+   "en": "Potato dumpling soup (Gamja-suje-bi-guk)",
+   "main": false
+  },
+  {
+   "ko": "마카로니강냉이&옥수르트",
+   "en": "Macaroni corn & corn smoothie (Makaoni-gang-naeng-i & ok-su-rt)",
+   "main": false
+  },
+  {
+   "ko": "잡곡밥/백미밥",
+   "en": "Mixed grain rice / White rice (Jap-gok-bap / Baek-mi-bap)",
+   "main": false
+  },
+  {
+   "ko": "쌈채소 & 쌋다주 / 완장야편 & 달콤한 팥 토스트 / 구수한 승듭 & 시원한 탄산음료",
+   "en": "Lettuce sides & pickles / Sweet red bean toast / Grain drink & soft drink (Ssam-chae-so & ssit-da-ju / Wan-jang-ya-pyeon & dal-kkom-han-pat-toast / Gu-su-han-seung-deup & si-won-han-tan-san-eum-ryo)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown is 10월 8일 (목요일) which corresponds to October 8th (Thursday), not the target date of 2026년 10월 8일. The board appears to be from 2024 or earlier.",
+ "_model": "claude-haiku-4-5-20251001"
+}

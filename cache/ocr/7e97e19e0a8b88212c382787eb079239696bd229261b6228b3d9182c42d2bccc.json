@@ -1,0 +1,79 @@
+{
+ "date_shown": "10월 8일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼합잡곡밥/쌀미밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "대파소고기육개장",
+   "en": "Beef soup with scallions (Daeppa sogoogi yukgaejang)",
+   "main": false
+  },
+  {
+   "ko": "대파상겹소금구이",
+   "en": "Grilled meat with scallions and salt",
+   "main": true
+  },
+  {
+   "ko": "마일드볼카츠&치즈플레이s.",
+   "en": "Mild ball cutlet & cheese plate",
+   "main": true
+  },
+  {
+   "ko": "치즈라볶이",
+   "en": "Cheese tteokbokki (spicy rice cakes)",
+   "main": false
+  },
+  {
+   "ko": "케이준비엔나강정",
+   "en": "Cajun vienna sausage (Gangjeong)",
+   "main": true
+  },
+  {
+   "ko": "두부김치",
+   "en": "Tofu with kimchi",
+   "main": false
+  },
+  {
+   "ko": "애호박계란전",
+   "en": "Zucchini and egg pancake (Jeon)",
+   "main": false
+  },
+  {
+   "ko": "들기름취나물볶음",
+   "en": "Seasoned vegetables with perilla oil",
+   "main": false
+  },
+  {
+   "ko": "포기김치",
+   "en": "Kimchi",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면",
+   "en": "Self-serve Hangang ramyeon",
+   "main": false
+  },
+  {
+   "ko": "쌋고추/채소쌈&쌈장",
+   "en": "Fresh peppers / Vegetable wraps & dipping sauce",
+   "main": false
+  },
+  {
+   "ko": "가튼샐러드&키위드레싱",
+   "en": "Mixed salad & kiwi dressing",
+   "main": false
+  },
+  {
+   "ko": "송능/탄산음료",
+   "en": "Juice / Carbonated beverages",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date (2026년 10월 8일 목요일). Self-serve area indicated for ramyeon.",
+ "_model": "claude-haiku-4-5-20251001"
+}

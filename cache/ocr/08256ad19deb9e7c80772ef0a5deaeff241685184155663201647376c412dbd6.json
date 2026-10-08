@@ -1,0 +1,69 @@
+{
+ "date_shown": "2026년 10월 8일 목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흑미밥 / 쌀미밥",
+   "en": "Black rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "소고기해장국",
+   "en": "Beef soup (Haejangguk)",
+   "main": false
+  },
+  {
+   "ko": "직화돼지불백",
+   "en": "Grilled pork belly (Dwaeji-bulgogi)",
+   "main": true
+  },
+  {
+   "ko": "김말이교자강정",
+   "en": "Fried kimbap rolls and dumplings (Kimmalyi-gyoja-gangjeong)",
+   "main": true
+  },
+  {
+   "ko": "우생채라쌈",
+   "en": "Beef sprouts salad with lettuce wrap",
+   "main": false
+  },
+  {
+   "ko": "해물앙장피냉채",
+   "en": "Seafood with spicy sauce cold dish",
+   "main": false
+  },
+  {
+   "ko": "매콤야끼소바",
+   "en": "Spicy yakisoba noodles",
+   "main": false
+  },
+  {
+   "ko": "새우정육박보음",
+   "en": "Shrimp and rice bowl",
+   "main": false
+  },
+  {
+   "ko": "상추쌈&쌈장",
+   "en": "Lettuce wraps & sauce (Sangchu-ssam & ssam-jang)",
+   "main": false
+  },
+  {
+   "ko": "한강라면",
+   "en": "Hangang ramen",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드 / 배추김치",
+   "en": "Green salad / Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "탄산음료 / 시원한자",
+   "en": "Carbonated drinks / Chilled beverages",
+   "main": false
+  }
+ ],
+ "notes": null,
+ "_model": "claude-haiku-4-5-20251001"
+}

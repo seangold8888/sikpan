@@ -1,0 +1,59 @@
+{
+ "date_shown": "10월 8일(목요일)에",
+ "price": 7500,
+ "hours": null,
+ "items": [
+  {
+   "ko": "plus 코너야쌀이크림스프",
+   "en": "Plus corner yakssalick rim soup",
+   "main": false
+  },
+  {
+   "ko": "김치제육볶음",
+   "en": "Kimchi pork stir-fry (Kimchi-jeyuk-bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "치킨새우카츠&케찹",
+   "en": "Chicken shrimp cutlet & ketchup (Chicken-saewu-katsu & ketchup)",
+   "main": true
+  },
+  {
+   "ko": "봉골레오일파스타",
+   "en": "Spaghetti alle vongole (Bonggol-re-oil pasta)",
+   "main": true
+  },
+  {
+   "ko": "우드부&양념장",
+   "en": "Udeubu & sauce (Udeubu & yangnyeom-jang)",
+   "main": false
+  },
+  {
+   "ko": "비엔나쇠세지야채볶음",
+   "en": "Vienna sausage stir-fry with vegetables (Bienna-swoe-seji-yachae-bokkeum)",
+   "main": false
+  },
+  {
+   "ko": "얼갈이열무건절이",
+   "en": "Young radish kimchi (Eolgal-i-yeolmu-geonjeol-i)",
+   "main": false
+  },
+  {
+   "ko": "요이지우침/깍두기",
+   "en": "Seasoned vegetables / Cubed radish kimchi (Yo-iji-ucim / Kkakduki)",
+   "main": false
+  },
+  {
+   "ko": "그린샐러드&드레싱",
+   "en": "Green salad & dressing (Geurin-saelleodeu & deulesing)",
+   "main": false
+  },
+  {
+   "ko": "흰만두국",
+   "en": "Dumpling soup (Huin-mandu-guk)",
+   "main": false
+  }
+ ],
+ "notes": "Date shown matches target date. Operator: 플러스 코너 (무료). Staff: 상심, 쌤비소, 방강팀, 팀 도소, 방상용문",
+ "_model": "claude-haiku-4-5-20251001"
+}

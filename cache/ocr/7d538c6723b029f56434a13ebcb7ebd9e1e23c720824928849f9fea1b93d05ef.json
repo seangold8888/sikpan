@@ -1,0 +1,54 @@
+{
+ "date_shown": "10월8일 목요일",
+ "price": null,
+ "hours": "오전10시",
+ "items": [
+  {
+   "ko": "연육엔제육",
+   "en": "Braised beef (Yeon-yuk enjeyu-k)",
+   "main": true
+  },
+  {
+   "ko": "바삭해물링튀김",
+   "en": "Crispy seafood fried rings (Basak haemul ring twigim)",
+   "main": true
+  },
+  {
+   "ko": "수제두부완자",
+   "en": "Homemade tofu meatballs (Suje dubu wanja)",
+   "main": true
+  },
+  {
+   "ko": "프랑크케잠북음",
+   "en": "Frankfruter with bacon (Peurangkeu kesam pok-eum)",
+   "main": true
+  },
+  {
+   "ko": "새콤청양피클",
+   "en": "Sweet and spicy pickled vegetables (Saekkom cheongyang pikul)",
+   "main": false
+  },
+  {
+   "ko": "싱싱쌀러드",
+   "en": "Fresh salad (Singsung ssal-reodeu)",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi (Baechu kimchi)",
+   "main": false
+  },
+  {
+   "ko": "미역국",
+   "en": "Seaweed soup (Miyeok-guk)",
+   "main": false
+  },
+  {
+   "ko": "모든쌀쌀장 오렌지 탄산음료·셀프라면",
+   "en": "All rice, seasoning sauce, orange soda, self-serve ramen (Modeun ssal ssaljang orenjji tansaneumryo selpeullamyeon)",
+   "main": false
+  }
+ ],
+ "notes": "Date on board is 10월8일 목요일 (October 8, Thursday), matching target date 2026년 10월 08일 (목). Additional text: 'urbanworkdasbom' (Instagram/social media handle) and operating hours 오전10시 (10 AM). Self-serve corner (셀프라면) noted.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+ "date_shown": "10/8(목,점심)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "베트남쌀국수",
+   "en": "Vietnamese pho (Beteunam-ssal-guksu)",
+   "main": true
+  },
+  {
+   "ko": "소시지구이",
+   "en": "Grilled sausage (Sosiji-gui)",
+   "main": false
+  },
+  {
+   "ko": "점보야채춘권&쌀러소스",
+   "en": "Vegetable spring rolls with sauce (Jeombo-yachae-chunggwon)",
+   "main": false
+  },
+  {
+   "ko": "도라지우이생채",
+   "en": "Seasoned bellflower root (Doraji-ui-saengchae)",
+   "main": false
+  },
+  {
+   "ko": "계절나물",
+   "en": "Seasonal greens (Gyejeol-namul)",
+   "main": false
+  },
+  {
+   "ko": "국내산배추김치",
+   "en": "Domestic napa cabbage kimchi (Gungnaesang-baechukimchi)",
+   "main": false
+  },
+  {
+   "ko": "샐러드,과일,음료",
+   "en": "Salad, fruit, beverage (Saelreodeu, gwail, eumlyo)",
+   "main": false
+  }
+ ],
+ "notes": "유소드☆115J28",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 8일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "파송송계란탕",
+   "en": "Egg soup with green onions (Pasongsonggeyran-tang)",
+   "main": false
+  },
+  {
+   "ko": "카레라이스",
+   "en": "Curry rice (Kareyraicu)",
+   "main": true
+  },
+  {
+   "ko": "후르츠탕수육",
+   "en": "Sweet and sour pork with fruit (Hureucheu-tangsuyuk)",
+   "main": true
+  },
+  {
+   "ko": "양장피",
+   "en": "Cold jellyfish appetizer (Yangjangpi)",
+   "main": false
+  },
+  {
+   "ko": "묵만두&조간장",
+   "en": "Arrowroot dumplings & dipping sauce (Muk-mandu & jogan-jang)",
+   "main": false
+  },
+  {
+   "ko": "치커리겟절이",
+   "en": "Pickled chicory (Chikkeori-get-jeol-i)",
+   "main": false
+  },
+  {
+   "ko": "단무지무천",
+   "en": "Pickled radish (Danmuji-muchen)",
+   "main": false
+  },
+  {
+   "ko": "카든셀러드&딸기요거트D",
+   "en": "Garden salad & strawberry yogurt D (Kadeun-sellodeu & ttalgi-yogeoteu D)",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Kimchi (Pyogi-gimchi)",
+   "main": false
+  },
+  {
+   "ko": "백미밥 / 흑미밥",
+   "en": "White rice / Black rice (Baekmi-bap / Heukmi-bap)",
+   "main": false
+  },
+  {
+   "ko": "셀프비빔밥 / 한강라면 / 닭산음료",
+   "en": "Self-serve bibimbap / Han River ramen / Daksan beverage (Selpeubibimbap / Hangang-ramyeon / Daksan-umryo)",
+   "main": false
+  }
+ ],
+ "notes": "간편식: 김바사쏘시지셀러드 (Self-serve corner: Kimbap, sausage, sausage salad)",
+ "_model": "claude-haiku-4-5-20251001"
+}

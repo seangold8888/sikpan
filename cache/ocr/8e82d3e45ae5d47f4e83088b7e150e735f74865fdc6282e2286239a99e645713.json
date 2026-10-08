@@ -1,0 +1,69 @@
+{
+ "date_shown": null,
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "버섯콩나물밥★부추깨장/쌤미밥",
+   "en": "Mushroom and soybean sprout rice with leek ssamjang / Ssam rice",
+   "main": true
+  },
+  {
+   "ko": "조갯살닭장찌개",
+   "en": "Clam and chicken stew (Jogae-sal dakjang jjigae)",
+   "main": true
+  },
+  {
+   "ko": "안동찜닭",
+   "en": "Braised chicken with vegetables (Andong jjim-dak)",
+   "main": true
+  },
+  {
+   "ko": "김�쭉한치즉둔까스★데미소스",
+   "en": "Squid cutlet with demi-glace sauce",
+   "main": true
+  },
+  {
+   "ko": "직화볼오징어볶음",
+   "en": "Grilled squid stir-fry (Jikwha bol ohjinuh bokkeum)",
+   "main": true
+  },
+  {
+   "ko": "가�쏘우보시타코야키",
+   "en": "Gasso obosia takoyaki",
+   "main": true
+  },
+  {
+   "ko": "청양감지전",
+   "en": "Cheongyang red pepper pancake (Cheongyang-gamji jeon)",
+   "main": false
+  },
+  {
+   "ko": "도토리묵채소무침",
+   "en": "Acorn jelly with vegetables (Dotori-muk chae sobumim)",
+   "main": false
+  },
+  {
+   "ko": "건파래자반",
+   "en": "Seasoned dried seaweed (Geon-pparae jaban)",
+   "main": false
+  },
+  {
+   "ko": "크랜베리고구마법법",
+   "en": "Cranberry sweet potato",
+   "main": false
+  },
+  {
+   "ko": "가든셀러드★과일드레싱",
+   "en": "Garden salad with fruit dressing",
+   "main": false
+  },
+  {
+   "ko": "포기김치/셀프라면/토스트/음료",
+   "en": "Kimchi / Self-service ramen / Toast / Beverages",
+   "main": false
+  }
+ ],
+ "notes": "No date shown on board. Target date requested was 2026년 10월 08일 (목).",
+ "_model": "claude-haiku-4-5-20251001"
+}

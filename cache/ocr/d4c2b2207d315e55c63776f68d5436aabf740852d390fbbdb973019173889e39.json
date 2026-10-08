@@ -1,0 +1,64 @@
+{
+ "date_shown": "10월 8일 목요일",
+ "price": 9993,
+ "hours": "10시 이전 주문가능",
+ "items": [
+  {
+   "ko": "훈항장공밥",
+   "en": "Smoked soy sauce rice bowl",
+   "main": true
+  },
+  {
+   "ko": "소고기장터국밥",
+   "en": "Beef broth rice soup",
+   "main": true
+  },
+  {
+   "ko": "데리야끼소스닭뭉음",
+   "en": "Teriyaki sauce chicken",
+   "main": true
+  },
+  {
+   "ko": "오징어튀김",
+   "en": "Fried squid",
+   "main": true
+  },
+  {
+   "ko": "토마토라구파스타",
+   "en": "Tomato ragù pasta",
+   "main": true
+  },
+  {
+   "ko": "오코노미야키전",
+   "en": "Okonomiyaki pancake",
+   "main": true
+  },
+  {
+   "ko": "야채볶음",
+   "en": "Stir-fried vegetables",
+   "main": false
+  },
+  {
+   "ko": "돼지고기김자짜글이",
+   "en": "Pork and kimchi stir-fry",
+   "main": false
+  },
+  {
+   "ko": "청정채상추김장이",
+   "en": "Fresh lettuce kimchi",
+   "main": false
+  },
+  {
+   "ko": "가드샐러드/샤과드레싱",
+   "en": "Garden salad / vinaigrette dressing",
+   "main": false
+  },
+  {
+   "ko": "배추김장이/음료",
+   "en": "Napa kimchi / Beverage",
+   "main": false
+  }
+ ],
+ "notes": "Date shown (10월 8일) does not match target date (2026년 10월 08일 목). Self-serve corner (샐드위치·쌈과도래·김밥 주문은) and contact number (010.3993.8203) printed on board.",
+ "_model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,64 @@
+{
+ "date_shown": "점심 (10/8 목요일)",
+ "price": null,
+ "hours": "점심.11시 10분~1시 30분 까지",
+ "items": [
+  {
+   "ko": "잡곡밥 / 햅쌀밥",
+   "en": "Mixed grain rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "불고기 김치 두루치기",
+   "en": "Bulgogi with kimchi (Duruchiigi)",
+   "main": true
+  },
+  {
+   "ko": "순살 치킨 탕수육, 탕수만두",
+   "en": "Pure chicken sweet and sour with sauce, sweet and sour dumplings",
+   "main": true
+  },
+  {
+   "ko": "된육 짜장 덮밥 & 짜장면",
+   "en": "Braised pork with black bean sauce rice bowl & noodles",
+   "main": true
+  },
+  {
+   "ko": "구수한 누룽지 / 삼색 꿀떡",
+   "en": "Savory scorched rice / Tri-color honey rice cake",
+   "main": false
+  },
+  {
+   "ko": "너비아니. 갈비산적",
+   "en": "Beef bulgogi (Neobiani) & galbi skewers",
+   "main": false
+  },
+  {
+   "ko": "근대 두부 된장국",
+   "en": "Chard and tofu doenjang soup",
+   "main": false
+  },
+  {
+   "ko": "상추 쌈야채 결절이 / 반달 단무지",
+   "en": "Lettuce wrap vegetables / Half-moon pickled radish",
+   "main": false
+  },
+  {
+   "ko": "왕배추 야채 쌀러드",
+   "en": "Cabbage and vegetable salad",
+   "main": false
+  },
+  {
+   "ko": "국 산 포 기 김 지",
+   "en": "Domestic kimchi",
+   "main": false
+  },
+  {
+   "ko": "\" 단 산 음 료 \"",
+   "en": "Sweet beverages",
+   "main": false
+  }
+ ],
+ "notes": "Self-serve corner indicated (맛있게 드세요). Origin labels and food safety notices printed at bottom.",
+ "_model": "claude-haiku-4-5-20251001"
+}

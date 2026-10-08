@@ -1,0 +1,59 @@
+{
+ "date_shown": "목요일",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "혼미밥/백미밥",
+   "en": "Mixed rice / White rice",
+   "main": false
+  },
+  {
+   "ko": "매콘소시지국",
+   "en": "Corn sausage soup",
+   "main": false
+  },
+  {
+   "ko": "우깨장",
+   "en": "Sesame seed soup",
+   "main": false
+  },
+  {
+   "ko": "새우김말이",
+   "en": "Shrimp seaweed roll",
+   "main": false
+  },
+  {
+   "ko": "미트볼카레라이스",
+   "en": "Meatball curry rice",
+   "main": true
+  },
+  {
+   "ko": "매콘특곡우동",
+   "en": "Corn special udon",
+   "main": true
+  },
+  {
+   "ko": "우이양파우육",
+   "en": "Cucumber and onion beef",
+   "main": false
+  },
+  {
+   "ko": "우자깨철이",
+   "en": "Sesame vegetable side",
+   "main": false
+  },
+  {
+   "ko": "가든샐러드&쌀인자IP",
+   "en": "Garden salad & rice protein",
+   "main": false
+  },
+  {
+   "ko": "쏘기김치",
+   "en": "Sso-gi kimchi",
+   "main": false
+  }
+ ],
+ "notes": "Board shows '목요일' (Thursday) but target date was 2026년 10월 08일 (목). The specific date year/month/day is not printed on the board, only the day of week.",
+ "_model": "claude-haiku-4-5-20251001"
+}

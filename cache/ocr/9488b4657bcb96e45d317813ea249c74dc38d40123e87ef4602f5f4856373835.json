@@ -1,0 +1,74 @@
+{
+ "date_shown": "10월08일(목요일)",
+ "price": 8000,
+ "hours": null,
+ "items": [
+  {
+   "ko": "흰쌀잡곡밥/냉미밥",
+   "en": "White rice with mixed grains / Cold rice",
+   "main": false
+  },
+  {
+   "ko": "쇠고기못국",
+   "en": "Beef soup",
+   "main": false
+  },
+  {
+   "ko": "봉추짐닭",
+   "en": "Braised chicken (Bongchu-jim-dak)",
+   "main": true
+  },
+  {
+   "ko": "불맛오징어수제비묵음",
+   "en": "Spicy squid kalguksu noodles with muk",
+   "main": false
+  },
+  {
+   "ko": "유니짜장*딘사리",
+   "en": "Uni jjajang * Din sari",
+   "main": false
+  },
+  {
+   "ko": "갈릭김맛이닭두강정",
+   "en": "Garlic and seaweed flavored chicken gangjeong",
+   "main": true
+  },
+  {
+   "ko": "단무지유자무천",
+   "en": "Pickled radish with yuzu",
+   "main": false
+  },
+  {
+   "ko": "열무김절정이",
+   "en": "Young radish leaf kimchi",
+   "main": false
+  },
+  {
+   "ko": "표기김치",
+   "en": "Labeled kimchi",
+   "main": false
+  },
+  {
+   "ko": "그릭샐럿드&드레싱",
+   "en": "Greek salad & dressing",
+   "main": false
+  },
+  {
+   "ko": "셀프한강라면*셀프토스트",
+   "en": "Self-serve Hangang ramen * Self-serve toast",
+   "main": false
+  },
+  {
+   "ko": "싹채소*풋고추*싹장",
+   "en": "Bean sprouts * Green chili * Ssamjang",
+   "main": false
+  },
+  {
+   "ko": "느릉지*탑사음료*매실차",
+   "en": "Grains * Tap water/beverage * Plum tea",
+   "main": false
+  }
+ ],
+ "notes": "Date matches target date (10월08일 목요일). Self-serve items noted: ramen, toast, vegetables, and beverages available.",
+ "_model": "claude-haiku-4-5-20251001"
+}

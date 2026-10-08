@@ -1,0 +1,54 @@
+{
+ "date_shown": "10월8일 (목)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "황태코나물국",
+   "en": "Dried pollock soup with vegetables (Hwangtae-konamul-guk)",
+   "main": true
+  },
+  {
+   "ko": "갈비뼈브릿 고추",
+   "en": "Braised short ribs with gochugaru",
+   "main": true
+  },
+  {
+   "ko": "수제 닭똥쿠킹",
+   "en": "Homemade chicken cooking",
+   "main": true
+  },
+  {
+   "ko": "밀엽떡볶 ㅣ",
+   "en": "Rice cake stir-fry",
+   "main": false
+  },
+  {
+   "ko": "찹쌀대브릿음",
+   "en": "Sticky rice side dish",
+   "main": false
+  },
+  {
+   "ko": "쉬어자채 우·여초임",
+   "en": "Vegetable side dish",
+   "main": false
+  },
+  {
+   "ko": "요이초무침",
+   "en": "Seasoned vegetable side",
+   "main": false
+  },
+  {
+   "ko": "배추김치",
+   "en": "Napa cabbage kimchi",
+   "main": false
+  },
+  {
+   "ko": "잔치국수 / 그린샐러드 계란후라이/탄산음료 합강라면",
+   "en": "Celebration noodles / Green salad, fried egg / Carbonated beverages, ramyeon",
+   "main": false
+  }
+ ],
+ "notes": "모든 메뉴는 조기 소진 시도에 메뉴 대체될 수 있습니다 (All menus may be substituted if sold out early)",
+ "_model": "claude-haiku-4-5-20251001"
+}
