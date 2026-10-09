@@ -1,0 +1,19 @@
+{
+ "date_shown": "10월 9일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "한글날",
+   "en": "Hangul Day",
+   "main": false
+  },
+  {
+   "ko": "휴무입니다",
+   "en": "Closed",
+   "main": false
+  }
+ ],
+ "notes": "The board indicates the restaurant is closed on October 9th (Friday) for Hangul Day, a Korean national holiday. The date shown matches the target date of 2026년 10월 09일 (금).",
+ "_model": "claude-haiku-4-5-20251001"
+}

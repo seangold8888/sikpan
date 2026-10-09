@@ -1,0 +1,14 @@
+{
+ "date_shown": "10월 9일(금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "한글날",
+   "en": "Hangul Day",
+   "main": false
+  }
+ ],
+ "notes": "This is not a cafeteria menu board. The image is a commemorative poster for Hangul Day (Korean Alphabet Day) on October 9th with traditional Korean aesthetic elements. No menu items or food information is displayed. The target date matches the poster date.",
+ "_model": "claude-haiku-4-5-20251001"
+}

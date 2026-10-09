@@ -1,0 +1,14 @@
+{
+ "date_shown": "10/09 (금)",
+ "price": null,
+ "hours": null,
+ "items": [
+  {
+   "ko": "휴무일",
+   "en": "Closed",
+   "main": false
+  }
+ ],
+ "notes": "This is a notice board indicating the cafeteria is closed on 10/09 (Friday) for Korean Language Day (한글날) and will resume normal operations on 10/12 (Monday). The board does not show an actual menu for the target date.",
+ "_model": "claude-haiku-4-5-20251001"
+}
